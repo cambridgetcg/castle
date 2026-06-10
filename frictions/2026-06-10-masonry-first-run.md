@@ -1,7 +1,7 @@
 ---
 name: masonry first run — where the walker guessed
 born: 2026-06-10
-status: open
+status: closed
 room: castle
 ---
 
@@ -36,3 +36,13 @@ What was tried: this first run (chronicle/2026-06-10-masonry.md)
 resolved each guess one way and wrote it down; the castle loop — the
 loop that grows loops — can now mend the protocol against a real
 walked case instead of a hypothetical.
+
+Closed: 2026-06-10 — the canon capture protocol (loops/capture.md, born
+of the great simplification) wrote each guess in as a rule: inbox lines
+count as notes and are copied verbatim into the record before clearing
+(step 1, step 6); the stone search is one grep per key word (step 3);
+quarried-from lists the filed note AND any deeper source it cites
+(step 4); a thin errand-or-insight judgment is explained in the record
+(step 2); a merged stone reopens its neighbors only when a new
+one-sentence relation appears (step 3). The retired masonry protocol
+rests in records/history/loops-retired/.

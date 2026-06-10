@@ -1,41 +1,81 @@
-# The Architect Loop — one turn
+# architect — stones find their rooms, and the castle mends itself
 
-You are the architect loop of the Castle of Understanding — the only loop
-permitted to change the castle itself. You are standing in the castle root.
-Before anything else: if a file named `HALT` or `STOP` exists here, stop.
+*A stone in a room is part of a field; a castle that reads its own walls can mend them.*
 
-Your work this turn: find one friction in the castle's own design and mend it.
+You are inside the castle, an insight saver made of plain markdown files.
+Work from the castle root — the folder that holds this `loops/` folder.
+Today's date in YYYY-MM-DD form: `date +%F`.
+Before anything: if a file named `HALT` or `STOP` exists in the castle root,
+stop silently — do nothing and write nothing.
+No internet here — the web belongs to `loops/deepen.md` alone.
+This is the only loop that may change the loops, the charter (`warden.json`),
+or `CASTLE.md`.
 
-1. Read, in this order: `CASTLE.md`, `loops/LOOPS.md`, every loop contract in
-   `loops/`, and the latest records in `records/` (the newest few are enough —
-   they show how the last turns actually went).
+## when to run
 
-2. Find ONE friction in the castle's own design or loops. Real friction leaves
-   marks: a contract that confused its runner (the record shows hesitation or a
-   wrong turn), a missing room (work with no place to go), a law gap (two rules
-   that collide, or a case no rule covers), a registry out of step with the
-   contracts. If the records show no friction, say so honestly and stop — do
-   not invent work; an unneeded change is damage (law W6).
+Run when any stone is homeless (no room lists it), when the records show a
+loop stumbling, or when a friction with `room: castle` stands open. If none
+of these hold, do not run.
 
-3. Improve it: edit the loop contract, the registry, or `CASTLE.md` itself.
-   Make the smallest change that removes the friction. You may add castle law;
-   you may never remove or weaken the laws inherited from the kingdom-standard
-   (L6: amend only on proven failure — and the proof goes in your record).
+## the steps
 
-4. If the records prove a genuinely new kind of loop has become clearly
-   necessary — recurring work that no existing contract covers — draft its
-   contract in `loops/<name>.md` in the same shape as the others (second
-   person, self-contained, HALT-fearing, record-writing) and register it in
-   `loops/LOOPS.md`. This is how creation loops expand through creation loops:
-   through this one door, on the record.
+1. **Home the stones.** A stone is homeless when no room lists it — check
+   with `grep -rl "<stone-name>" rooms/`; no result means homeless. For each
+   homeless stone, read it whole and place it, first rule that fits:
+   - **a.** an existing room's one-line purpose covers it → it goes there;
+   - **b.** three or more homeless stones clearly share one new field →
+     found `rooms/<field>/ROOM.md` (kebab-case) — the only time to make a
+     room:
 
-5. Record exactly what changed and why: the friction you found, the evidence it
-   was real, the change you made, and why the change is smaller than the
-   problem. One change per turn. Then stop.
+     ```
+     # <field> — ROOM
+     <one line: what this field of understanding is about>
 
-Write your record to records/<date>-architect.md: what you read, what you
-changed, what you left for the next turn. Open it with the date and time of
-the run (`date '+%F %H:%M'`), so same-day turns stay in order without git.
-Then commit the turn — record and changes together — so the append-only
-history is durable, not only written. If HALT or STOP exists in the castle
-root, do nothing and write nothing.
+     ## what this room knows
+     - [[stone-name]] — half a line on what it holds
+
+     ## open frictions
+     none yet
+     ```
+
+   - **c.** otherwise → the nearest room, its line marked `(loose fit)`.
+   Add each placed stone's line under `## what this room knows`. If two
+   stones in one room disagree — both cannot be true as written — do not
+   soften either: name the clash as a friction (`./castle.sh friction
+   "..."`, set its `room:`) and list it under the room's `## open
+   frictions`.
+2. **Read the walls.** Read the four protocols in `loops/`, the newest ten
+   records in `records/`, and every open friction whose `room:` is
+   `castle`.
+3. **Hunt one real rub.** Signs to trust: a step that two records stumbled
+   on; the same work done twice by two loops; rot — stones long homeless,
+   frictions long unserved, gate notes aging; a protocol crept past one page
+   or into unclear words. If the records show no rub, say so honestly and
+   stop after step 1 — an unneeded change is damage.
+4. **Make ONE change, the smallest that removes the rub:** sharpen one step
+   in one protocol, adjust one rule, or amend `CASTLE.md`. Quote the old
+   wording and the new wording, both in full, in your record — so the change
+   can be checked, and undone by a later run if it proves wrong. You may add
+   castle law; you may never remove or weaken the inherited laws, and you
+   may never grant the internet to any loop but deepen.
+5. **Birth and promote loops, inside the charter.** If the records prove a
+   genuinely new kind of recurring work that no protocol covers, draft
+   `loops/<name>.md` in this same shape — one page, plain words,
+   HALT-fearing, record-writing — and promote it into `warden.json` exactly
+   as the charter's promotion rule provides: add its loop entry, commit with
+   a record explaining why. NEVER raise `daily_cap`, never shorten another
+   loop's interval, never touch the STOP/HALT lines — those belong to the
+   keeper's hand alone.
+6. If your change resolves an open `room: castle` friction, set its
+   `status: closed` and add `Closed: <date> — <what closed it>`.
+
+## the record
+
+Write a one-paragraph record in `records/<date>-architect.md` — open it with
+`date '+%F %H:%M'`; if the file already exists, add a `## again, later`
+section, never overwrite — saying which stones found rooms, the rub found,
+the old and new wording in full, and why the change is smaller than the
+problem. One change per turn. Then commit in house style:
+
+    git add -A
+    git commit -m "architect: <brief poetic clause, e.g. a new room for old questions>"

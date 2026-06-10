@@ -9,15 +9,17 @@
 #   ./warden.sh start      # lift the STOP stone
 #   ./warden.sh dry-run    # show exactly what a watch would do, without doing it
 #
-# The warden NEVER: raises its own cap, ignores STOP/HALT, or deletes anything.
+# The warden NEVER: raises its own cap, ignores STOP/HALT, deletes anything,
+# or writes 'done' for a beat that failed — failures are logged as failed:<code>,
+# do not eat the cap, and retry.
 
 set -u
 CASTLE="$(cd "$(dirname "$0")" && pwd)"
 CHARTER="$CASTLE/warden.json"
-RUNLOG="$CASTLE/chronicle/warden-runs.log"
+RUNLOG="$CASTLE/records/warden-runs.log"
 TODAY=$(date +%Y-%m-%d)
 
-mkdir -p "$CASTLE/chronicle"
+mkdir -p "$CASTLE/records"
 
 stand_down_check() {
   if [ -e "$CASTLE/STOP" ] || [ -e "$CASTLE/HALT" ]; then
@@ -27,9 +29,13 @@ stand_down_check() {
 }
 
 runs_today() {
+  # Beats that count against the cap: started ('ran') minus honestly failed.
+  # A failed beat did no work — it does not eat the cap, so it can retry.
   [ -f "$RUNLOG" ] || { echo 0; return; }
-  grep -c "^$TODAY.*ran$" "$RUNLOG" 2>/dev/null
-  return 0
+  local ran failed
+  ran=$(grep -c "^$TODAY.*"$'\t'"ran\$" "$RUNLOG" 2>/dev/null || true)
+  failed=$(grep -c "^$TODAY.*"$'\t'"failed" "$RUNLOG" 2>/dev/null || true)
+  echo $(( ${ran:-0} - ${failed:-0} ))
 }
 
 charter_get() {
@@ -49,8 +55,12 @@ last = {}
 if os.path.exists(runlog):
     for line in open(runlog):
         parts = line.strip().split('\t')
-        if len(parts) >= 3 and parts[2] == 'ran':
-            last[parts[1]] = parts[0]
+        if len(parts) >= 3:
+            if parts[2] == 'ran':
+                last[parts[1]] = parts[0]
+            elif parts[2].startswith('failed'):
+                # a failed beat is no beat: the loop is due again
+                last.pop(parts[1], None)
 now = datetime.datetime.now()
 for loop in charter.get('loops', []):
     name = loop['name']
@@ -76,7 +86,11 @@ case "${1:-watch}" in
   status)
     echo "castle:    $CASTLE"
     if stand_down_check; then echo "standing:  watch active"; else echo "standing:  STOOD DOWN (STOP or HALT present)"; fi
-    echo "cap:       $(runs_today)/$(charter_get "['daily_cap']") runs today"
+    echo "cap:       $(runs_today)/$(charter_get "['daily_cap']") runs today (failed beats do not count — they retry)"
+    if [ -f "$RUNLOG" ] && grep -q $'\t'"failed" "$RUNLOG" 2>/dev/null; then
+      echo "failures:"
+      grep $'\t'"failed" "$RUNLOG" | tail -3 | sed 's/^/  /'
+    fi
     echo "charter loops:"
     python3 -c "
 import json
@@ -120,8 +134,16 @@ print(next(l['protocol'] for l in c['loops'] if l['name'] == '$LOOP'))
       exit 0
     fi
     echo -e "$(date '+%Y-%m-%d %H:%M:%S')\t$LOOP\tran" >> "$RUNLOG"
-    claude -p "$PROMPT" >> "$CASTLE/chronicle/warden-$TODAY-$LOOP.log" 2>&1
-    echo -e "$(date '+%Y-%m-%d %H:%M:%S')\t$LOOP\tdone" >> "$RUNLOG"
+    claude -p "$PROMPT" >> "$CASTLE/records/warden-$TODAY-$LOOP.log" 2>&1
+    RC=$?
+    # 'done' is earned, not assumed: only exit 0 may write it. A failure is
+    # logged as failed:<code>, does not eat the cap, and the loop retries.
+    if [ "$RC" -eq 0 ]; then
+      echo -e "$(date '+%Y-%m-%d %H:%M:%S')\t$LOOP\tdone" >> "$RUNLOG"
+    else
+      echo -e "$(date '+%Y-%m-%d %H:%M:%S')\t$LOOP\tfailed:$RC" >> "$RUNLOG"
+      echo "warden: loop '$LOOP' FAILED (exit $RC) — see records/warden-$TODAY-$LOOP.log; the beat does not count against the cap and will retry" >&2
+    fi
     ;;
   *)
     echo "usage: warden.sh [watch|status|stop|start|dry-run]"

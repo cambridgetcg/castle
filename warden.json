@@ -6,25 +6,25 @@
       "name": "architect",
       "protocol": "loops/architect.md",
       "interval_hours": 24,
-      "standing_order": "Serve the friction 'two-vocabularies-one-castle' first: one lawful change per run, chronicled in records/. When that friction closes, serve the oldest open friction."
+      "standing_order": "Home any homeless stones into rooms, then serve the oldest open friction — room: castle first; one lawful change per run, recorded in records/."
     },
     {
       "name": "capture",
       "protocol": "loops/capture.md",
       "interval_hours": 8,
-      "standing_order": "Run only when gate/inbox.md holds uncaptured entries; otherwise yield the watch."
+      "standing_order": "Run only when the gate holds unworded notes — .md files directly in gate/, or dated lines in gate/inbox.md; otherwise yield the watch."
     },
     {
       "name": "deepen",
       "protocol": "loops/deepen.md",
       "interval_hours": 24,
-      "standing_order": "One friction per turn, the one where a turn helps most; local realm first, internet last, provenance always."
+      "standing_order": "One expedition per turn, serving the oldest open friction; home first, internet last, provenance always."
     },
     {
       "name": "verify",
       "protocol": "loops/verify.md",
       "interval_hours": 24,
-      "standing_order": "Challenge held and guess stones; promote survivors to the keep citing the trial."
+      "standing_order": "Challenge held and guess stones — or re-try one borrowed tested receipt; promote survivors to keep/ citing the trial."
     }
   ],
   "promotion_rule": "The architect or castle loop may add a loop to this charter by committing the change with a record explaining why. It may never raise daily_cap, shorten another loop's interval, or remove STOP/HALT checks — those lines belong to the keeper's hand alone.",

@@ -1,58 +1,76 @@
-# The Capture Loop — one turn
+# capture — gate notes become stones
 
-You are the capture loop of the Castle of Understanding. You are standing in the
-castle root. Before anything else: if a file named `HALT` or `STOP` exists
-here, stop.
+*Raw words from the gate, shaped into stones the castle can build with.*
 
-Your work this turn: turn raw captures into proper insights.
+You are inside the castle, an insight saver made of plain markdown files.
+Work from the castle root — the folder that holds this `loops/` folder.
+Today's date in YYYY-MM-DD form: `date +%F`.
+Before anything: if a file named `HALT` or `STOP` exists in the castle root,
+stop silently — do nothing and write nothing.
+No internet here — the web belongs to `loops/deepen.md` alone.
 
-1. Read `gate/inbox.md`. Each raw capture is a dated line waiting to be worded.
-   If the inbox is empty, your turn is short: say so in your record and stop.
+## when to run
 
-2. For each capture, word it properly as one insight in exactly this shape:
+Run when the gate holds at least one note: an `.md` file directly inside
+`gate/` (ignore the `gate/filed/` folder), or a dated `- ` line in
+`gate/inbox.md` (an older door for one-line notes). If the gate is quiet,
+do not run.
 
-   ```markdown
-   ## <claim in one sentence>
-   - words: <the understanding, 1–5 plain sentences>
-   - confidence: tested | held | guess
-   - born: <date> · from: <device | web:<url> | person:<name>>
-   - kin: <links to related insights as [[claim-slug]], or 'none yet'>
+## the steps
+
+1. List the notes. Each `.md` file directly in `gate/` is one note; each
+   dated `- ` line in `gate/inbox.md` is one note. If there are none, stop.
+2. Take one note. Read it whole. Count its distinct insights — things now
+   understood that were not before: zero, one, or several. An errand, a bare
+   feeling, or noise counts as zero insights; when the line is thin, say in
+   your record why you judged it so.
+3. For each insight, search the existing stones — one `grep -ril "<word>"
+   stones/` per key word, two or three words — and read whatever returns.
+   - **An existing stone already says it:** merge. Add only what is new (the
+     body stays 15 lines or fewer) and add this note's future path
+     (`gate/filed/<note-file>`) to its `quarried-from` list. Reopen its
+     neighbors only if the merge reveals a new one-sentence relation.
+   - **No stone says it:** quarry a new one (step 4).
+4. New stone: create `stones/<name>.md`, name in kebab-case
+   (lowercase-words-joined-by-hyphens):
+
+   ```
+   ---
+   name: <short plain name>
+   born: YYYY-MM-DD
+   confidence: tested | held | guess
+   quarried-from:
+     - gate/filed/<note-file>.md
+     - <any deeper source the note cites: a file path, web:<url>, person:<name>>
+   links: []
+   ---
    ```
 
-   Be honest about confidence: a raw capture is usually `held` or `guess` —
-   it is `tested` only if the capture itself describes a real trial. `born` is
-   the capture's date; `from` is `device` unless the capture names a web source
-   (then `web:<url>`) or a person (then `person:<name>`). A stone that honestly
-   has two sources carries both, joined by ` + ` — every web source named in
-   the stone's words must show its exact URL on the stone (P5).
+   Body: the understanding in plain words, 15 lines or fewer. Every claim
+   names its source; every web source shows its exact URL; gloss technical
+   terms in (parentheses). Be honest with `confidence`: a raw note is
+   usually `held` or `guess` — write `tested` only if the note describes a
+   real trial you can cite.
+5. Link kin: open the two or three stones nearest in subject. If you can say
+   the relation between two stones in one sentence, add each to the other's
+   `links` as `"[[stone-name]]"`. If you cannot, do not link — empty links
+   are honest links.
+6. File the note. A file: `mkdir -p gate/filed && mv gate/<note-file>
+   gate/filed/`. An inbox line: copy it verbatim into your record first —
+   the raw words are this turn's input — then remove exactly that line from
+   `gate/inbox.md`. Zero-insight notes are filed too; filing is not
+   judgment — nothing is deleted, only moved where it can still be read.
+   A note you cannot word honestly stays at the gate, untouched, for a
+   future turn.
+7. Repeat steps 2–6 until the gate is quiet.
 
-3. File each insight in the right hall: append it to
-   `halls/<field>/insights.md`. Read the existing halls first and prefer them —
-   halls are few and broad. Only if a capture belongs to a genuinely new field,
-   create `halls/<field>/` with an `insights.md` and a `friction.md` (each with
-   a one-line header naming the hall), and file the insight there.
+## the record
 
-4. Link kin: read the headings of insights already in the hall (and neighboring
-   halls if the connection is plain) and fill the `kin` field with real
-   `[[claim-slug]]` links — the heading lowercased and hyphenated. If nothing
-   relates, write `none yet`. If wording a capture reveals an open question,
-   append it to that hall's `friction.md` in the friction shape, status `open`.
+Write a one-paragraph record in `records/<date>-capture.md` — open it with
+`date '+%F %H:%M'`; if the file already exists, add a `## again, later`
+section, never overwrite — saying which stones were born or grew, which
+notes were filed, and what was left for the next turn. Then commit in house
+style:
 
-5. Before clearing anything, copy each capture line you filed into your record,
-   verbatim, word for word — the raw words are this turn's input, and a record
-   that only paraphrases them has destroyed them (T4, L1; the masonry loop of
-   the second design keeps its originals in `gate/filed/` for the same reason).
-   Only then clear from `gate/inbox.md` exactly those lines. A capture you
-   could not word honestly stays in the inbox, untouched, for a future turn.
-   Other files in `gate/` that are not `inbox.md` belong to a second design
-   sharing this root (see `PARLEY.md`) — leave them entirely alone.
-
-The laws bind you: every claim labeled (T2), one truth in one place (W1),
-provenance on anything web-fed (P5), never destroy what you did not make (L1).
-
-Write your record to records/<date>-capture.md: what you read, what you
-changed, what you left for the next turn. Open it with the date and time of
-the run (`date '+%F %H:%M'`), so same-day turns stay in order without git.
-Then commit the turn — record and changes together — so the append-only
-history is durable, not only written. If HALT or STOP exists in the castle
-root, do nothing and write nothing.
+    git add -A
+    git commit -m "capture: <brief poetic clause, e.g. three stones from the morning gate>"

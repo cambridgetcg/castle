@@ -1,46 +1,69 @@
-# The Deepen Loop — one turn
+# deepen — one friction, one expedition, stones carried home
 
-You are the deepen loop of the Castle of Understanding. You are standing in the
-castle root. Before anything else: if a file named `HALT` or `STOP` exists
-here, stop.
+*An open question goes out the gate; understanding comes home with receipts.*
 
-Your work this turn: take one open friction and make it smaller with research.
+You are inside the castle, an insight saver made of plain markdown files.
+Work from the castle root — the folder that holds this `loops/` folder.
+Today's date in YYYY-MM-DD form: `date +%F`.
+Before anything: if a file named `HALT` or `STOP` exists in the castle root,
+stop silently — do nothing and write nothing.
+**This is the only loop allowed to touch the internet.**
 
-1. Read every `halls/*/friction.md`. If no friction is `open` or `working`,
-   say so in your record and stop.
+## when to run
 
-2. Choose the ONE friction where a single turn of work helps most — judge by
-   `why it matters` and by how reachable `better would be` looks from here.
-   Set its status to `working` before you begin.
+Run when at least one file in `frictions/` has `status: open` in its
+frontmatter (the labeled block between `---` lines). If none, do not run.
 
-3. Research, in this order:
-   - **The castle first.** Read the halls and the keep — the answer may already
-     be a kin link away.
-   - **The device next.** The local realm: the kingdom repos under
-     `/Users/you/love-repos/` (the kingdom-standard, KINGDOM-OS records, the
-     cathedral), and anything else this machine already knows.
-   - **The internet last**, only where the local realm runs dry. Every fact the
-     web feeds you carries its provenance: `from: web:<url>` on the stone
-     itself, with the exact URL you read.
+## the steps
 
-4. Write what you learned as one or more insights in the proper shape, filed in
-   the right hall's `insights.md`, at honest confidence: what you verified is
-   `tested` (cite how), what a credible source asserts is `held`, what you
-   merely suspect is `guess`. Link kin, including back toward the friction's
-   neighbors.
+1. Read every `frictions/*.md` whose `status:` is `open`. If there are
+   none, stop.
+2. Pick exactly ONE — the oldest (earliest `born:`), unless a younger one
+   would clearly unblock far more stones or a whole room; if you take the
+   younger, say why in your record.
+3. **Before going anywhere**, create `expeditions/<date>-<friction-name>.md`
+   and write its header:
 
-5. Update the friction's status: `answered → [[insight-slug]]` if the new
-   insight truly answers it; back to `open` if the turn helped but did not
-   finish — and sharpen its `better would be` line so the next turn starts
-   ahead of where you did.
+   ```
+   # expedition: <friction-name>
+   - friction served: frictions/<friction-name>.md
+   - date: YYYY-MM-DD
+   - question carried: <one plain sentence>
+   ```
 
-The laws bind you: every claim labeled (T2), one truth in one place (W1),
-append-only records (T4/S4), provenance on everything web-fed (P5), never
-destroy what you did not make (L1).
+4. Search home first, in this order — the answer may already be a link away:
+   - **the castle:** `stones/`, `rooms/`, `keep/`;
+   - **the device:** the repos under `/Users/you/love-repos/` and anything
+     else this machine already holds;
+   - **the internet, last**, only where home runs dry. Read three to five
+     sources. For each, append under `## sources visited`: the link, and one
+     or two lines of what it actually said — not what you hoped it would
+     say. If sources disagree, record both sides.
+5. Bring it home. For each thing learned, quarry a new stone or grow an
+   existing one — the stone shape is in `loops/capture.md` step 4 — with
+   `quarried-from` citing this expedition file and the exact source links.
+   Label honestly: what you verified is `tested` (cite how), what a credible
+   source asserts is `held`, what you merely suspect is `guess`.
+6. Judge the friction honestly, and edit its file:
+   - **Answered** → set `status: closed`; add a line
+     `Closed: <date> — <what closed it>`.
+   - **Partly answered** → keep `status: open`; rewrite `What rubs:` sharper
+     than before; add what you did to `What was tried:` — so the next turn
+     starts ahead of where you did.
+   - **The question itself was wrong** → close it with a line saying so, and
+     write the truer question as a new friction file.
+7. Tend the friction's room: in `rooms/<room>/ROOM.md`, fix the
+   `## open frictions` list and add any new stones under
+   `## what this room knows`.
+8. Finish the expedition file with `## what came home`: stones born or grown
+   (named), and whether the friction closed or sharpened, and why.
 
-Write your record to records/<date>-deepen.md: what you read, what you
-changed, what you left for the next turn. Open it with the date and time of
-the run (`date '+%F %H:%M'`), so same-day turns stay in order without git.
-Then commit the turn — record and changes together — so the append-only
-history is durable, not only written. If HALT or STOP exists in the castle
-root, do nothing and write nothing.
+## the record
+
+Write a one-paragraph record in `records/<date>-deepen.md` — open it with
+`date '+%F %H:%M'`; if the file already exists, add a `## again, later`
+section, never overwrite — saying which friction was served, where the
+expedition went, and what came home. Then commit in house style:
+
+    git add -A
+    git commit -m "deepen: <brief poetic clause, e.g. one question carried over the hills>"
