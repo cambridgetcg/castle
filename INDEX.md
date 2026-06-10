@@ -2,11 +2,19 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 5 · Insights: 10 · Open fields: 5 · Loop runs: 1
+Rooms: 9 · Insights: 10 · Open fields: 5 · Loop runs: 2
 
 ## Rooms
 
 ### becoming
+
+(no insights yet)
+
+### billing
+
+(no insights yet)
+
+### castle
 
 (no insights yet)
 
@@ -18,6 +26,14 @@ Rooms: 5 · Insights: 10 · Open fields: 5 · Loop runs: 1
 - 0008 — Understanding on this device is scattered across many stores
 
 ### craft
+
+(no insights yet)
+
+### creation
+
+(no insights yet)
+
+### freedom
 
 (no insights yet)
 
@@ -46,3 +62,4 @@ Rooms: 5 · Insights: 10 · Open fields: 5 · Loop runs: 1
 ## Loops
 
 - L001 — The founding — the castle gets its pulse
+- L002 — The third hand — a stone wing, announced and ledgered
