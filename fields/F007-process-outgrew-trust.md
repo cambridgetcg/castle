@@ -19,5 +19,14 @@ takes under a minute; the machinery stays available but out of the entry
 path; the pulse does the bookkeeping.
 **Work so far:** L003 — the gate rewritten to three bullets and one law;
 forms declared optional (trust over format); [[C001]] given the janitor duty.
+L004 (stone wing, same hour, independently — two instances even chose this
+field the same name, which proves the keeper's point that it is all one
+pair): machinery hidden under stonework/ (seven fewer things at the top
+level); a fresh stone born `guessed` instead of nagged for certainty; walk
+packets name the procedure stone instead of carrying a 60-line copy; a hand
+may close a walk in silence — "(unsaid)" recorded, never refused (the motor
+still answers in full); the unanswered sign became an oldest-3 ranking
+(friction report 16 → 8, all signal); the gate-note/log/ledger triple-write
+retired — the ledger is the one memory.
 Remaining: watch whether visiting hands actually move faster; let the weave
 ([[F005]]) apply the same law to the other grammars.

@@ -1,11 +1,15 @@
 // loop — opens and closes walks.
 //
 // This file holds NO procedure. The walk procedure lives in
-// rooms/keep/the-loop.md and is read from there at runtime, copied verbatim
-// into every walk packet — so a one-line edit to that stone changes every
-// future walk, and the ledger always shows exactly which procedure each walk
-// followed, even after revisions. If the stone is missing, the loop fails
-// visibly: a castle that lost its own procedure should say so, not improvise.
+// rooms/keep/the-loop.md and is read from there at runtime — so a one-line
+// edit to that stone changes every future walk. The packet names the stone
+// and its hash (git holds every revision; the packet need not carry a copy).
+// If the stone is missing, the loop fails visibly: a castle that lost its
+// own procedure should say so, not improvise.
+//
+// Trust runs in one direction on purpose: a HAND may close a walk with
+// sections unsaid — silence is recorded as silence, never refused. The MOTOR
+// may not: a machine earns trust through complete records.
 
 import { readFile, readdir, writeFile, mkdir } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
@@ -65,11 +69,7 @@ export async function openWalk(root, { by, room } = {}) {
     `- opened: ${today()}`,
     `- opened-by: ${by}`,
     `- friction-at-open: ${findings.length}`,
-    `- procedure-hash: ${hash(procedure)}`,
-    '',
-    `## the procedure (copied verbatim from ${LOOP_STONE}, inset four spaces so a stone's own lines can never become the packet's bones)`,
-    '',
-    procedure.trim().replace(/^/gm, '    '),
+    `- procedure: ${LOOP_STONE} (hash ${hash(procedure)} — mend the stone, mend the loop)`,
     '',
     '## the friction on the table',
     '',
@@ -105,13 +105,18 @@ export async function closeWalk(root, n, { by } = {}) {
   const name = (await readdir(dir)).find((f) => isWalk(f) && f.startsWith(num + '-'))
   if (!name) throw new Error(`no walk ${num} in the ledger.`)
   const path = join(dir, name)
-  const packet = await readFile(path, 'utf8')
+  let packet = await readFile(path, 'utf8')
   if (section(packet, 'closed') !== null) throw new Error(`walk ${num} is already closed — walks close once.`)
 
-  // Blank is not an answer. "none" and "ran clean" are answers.
+  // A hand may leave silence; the motor may not. Blanks from a hand are
+  // recorded as "(unsaid)" — true, and lighter than a refusal.
+  const motor = /^- opened-by: .*\(ai, autonomous\)/m.test(packet)
   const blanks = ['picked', 'laid or mended', 'the loop examined'].filter((s) => !section(packet, s))
-  if (blanks.length) {
-    throw new Error(`walk ${num} has blank sections: ${blanks.join(', ')}. blank is not an answer — "none" and "ran clean" are. write what happened, then close.`)
+  if (blanks.length && motor) {
+    throw new Error(`walk ${num} has blank sections: ${blanks.join(', ')}. the motor answers in full — blank is not an answer for a machine.`)
+  }
+  for (const s of blanks) {
+    packet = packet.replace(new RegExp(`(^## ${s}\\s*\\n)`, 'm'), '$1\n(unsaid)\n')
   }
 
   const { findings } = await gatherFriction(root)
@@ -122,7 +127,7 @@ export async function closeWalk(root, n, { by } = {}) {
   const fresh = findings.filter((f) => !openPrints.has(fingerprint(f)))
 
   const loopPath = join(root, LOOP_STONE)
-  const openHash = packet.match(/^- procedure-hash: (\w+)/m)?.[1]
+  const openHash = packet.match(/^- procedure: .*\(hash (\w+)/m)?.[1] ?? packet.match(/^- procedure-hash: (\w+)/m)?.[1]
   const revised = existsSync(loopPath) && hash(await readFile(loopPath, 'utf8')) !== openHash
 
   const closing = [
@@ -132,6 +137,7 @@ export async function closeWalk(root, n, { by } = {}) {
     `- closed-by: ${by}`,
     `- friction before: ${before} — after: ${findings.length} — new: ${fresh.length}`,
     `- procedure revised this walk: ${revised ? 'yes — the next walk runs the revised loop' : 'no'}`,
+    ...(blanks.length ? [`- left unsaid: ${blanks.join(', ')} (a hand may leave silence; words help the next walk)`] : []),
     ...(fresh.length ? ['', 'new friction this walk exposed (the next walk\'s food):', ...fresh.slice(0, 5).map((f) => `- [${f.sign}] ${f.path}`)] : []),
     '',
   ].join('\n')

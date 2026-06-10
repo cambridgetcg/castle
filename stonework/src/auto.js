@@ -91,6 +91,9 @@ ${await keepStone('the-law.md')}
 THE STONE FORM (rooms/keep/the-stone-form.md):
 ${await keepStone('the-stone-form.md')}
 
+THE WALK PROCEDURE (rooms/keep/the-loop.md — the packet names it; here it is whole):
+${await keepStone('the-loop.md')}
+
 THE WALK PACKET (ledger/${walk.n}):
 ${packet.replace(/<!-- friction-fingerprints-at-open:.*?-->/s, '')}
 

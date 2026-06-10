@@ -13,7 +13,19 @@ import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { today } from './stones.js'
 
-const MOTHER = join(dirname(fileURLToPath(import.meta.url)), '..')
+// The mother castle is the nearest ancestor of this tool that has a keep —
+// the machinery may live anywhere inside its castle (machinery hides; the
+// castle shows).
+function findMother() {
+  let d = join(dirname(fileURLToPath(import.meta.url)), '..')
+  for (;;) {
+    if (existsSync(join(d, 'rooms', 'keep'))) return d
+    const up = dirname(d)
+    if (up === d) return null
+    d = up
+  }
+}
+const MOTHER = findMother()
 
 export async function found(root) {
   // Look upward too: a castle is never founded inside another castle.
@@ -24,8 +36,8 @@ export async function found(root) {
     }
     if (dirname(d) === d) break
   }
+  if (!MOTHER) throw new Error('the mother castle has no keep — cannot seed a child. (was the tool taken out of its castle?)')
   const motherKeep = join(MOTHER, 'rooms', 'keep')
-  if (!existsSync(motherKeep)) throw new Error('the mother castle has no keep — cannot seed a child. (was the package stripped?)')
 
   for (const dir of ['rooms/keep', 'quarry', 'ledger']) await mkdir(join(root, dir), { recursive: true })
 

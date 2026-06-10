@@ -45,33 +45,21 @@ function mustStandInCastle(root) {
   }
 }
 
-const HELP = `castle v0.1 — a castle of understanding
+const HELP = `castle — keep what you come to understand
 
-  one insight per stone, one stone per file, certainty labelled honestly.
-  the tool cannot think: it holds stones, keeps receipts, finds the
-  mechanical signs of thin understanding, and reads the walk procedure
-  aloud from the keep. minds — human and AI — do all the creating.
+  castle lay <room> "<one true thing>"   save an insight (born a guess — raise it when you know)
+  castle map                             see the whole castle
+  castle friction                        where understanding is thin (food, not failure)
+  castle loop                            walk: pick ONE thin spot, make it truer
+  castle close <n>                       record what the walk did
+  castle quarry <url | ->                bring raw material in, with receipts
+  castle found                           start a castle anywhere
 
-usage:
-  castle found                          found a castle here (keep seeded, reins off)
-  castle lay <room> "<title>" [--from quarry/<file>] [--by <who>]
-                                        lay one new stone; filling it is the mind's work
-  castle quarry <url | ->               bring one chosen page (or a stdin paste) into the
-                                        quarry with its receipts — fetched is not known
-  castle map                            the castle at a glance, no judgement
-  castle friction [room|path]           the ten signs; exit non-zero only on structural damage
-  castle loop [room] [--by <who>]       open a walk: procedure + friction into the ledger
-  castle loop --auto                    one autonomous walk, if the reins say on
-  castle close <n> [--by <who>]         close a walk; blank is not an answer
-
-the loop lives at rooms/keep/the-loop.md — a stone, not code. mend it and the
-next walk runs the mended loop. the reins live at rooms/keep/the-reins.md —
-only hands edit that stone; set \`autonomy: off\` there (or \`touch loops/STOP\`)
-and the motor rests. an empty friction report is not proof of a sound castle;
-it is only the absence of what ten small checks can see.
-
-the README.md at this castle's root describes a sibling grammar (tools/castle);
-this wing's door is rooms/keep/the-door.md.`
+a stone is plain markdown: a title, who/when/how-sure, your own words.
+the loop's procedure is a stone (rooms/keep/the-loop.md) — mend it, and the
+next walk runs the mended loop. the motor (castle loop --auto) walks alone
+under rooms/keep/the-reins.md; one word there (autonomy: off), or a STOP or
+HALT file, and it rests. trust the rest to git and to yourself.`
 
 const { flags, rest } = parseFlags(args)
 
@@ -93,8 +81,7 @@ try {
     }
     const { path, newRoom } = await layStone(root, room, title, { by: whoBy(flags), source })
     if (newRoom) console.log(`a new room is born: rooms/${newRoom}/ — that was the whole ceremony.`)
-    console.log(`stone laid (unfilled) at ${path}`)
-    console.log('now the mind\'s work: write the one true thing, name your certainty, link what it leans on.')
+    console.log(`stone laid at ${path} — born a guess. write the one true thing; raise the certainty when you know.`)
   } else if (cmd === 'quarry') {
     mustStandInCastle(root)
     const [target] = rest

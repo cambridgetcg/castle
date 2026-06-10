@@ -27,8 +27,9 @@ In priority order, with each sign's confidence and its known ways of lying:
 - `rub` (medium-high) — a declared dispute. Cannot see undeclared disputes;
   two contradicting stones that never linked are invisible.
 - `unsourced` (medium-high) — told, with no teller named.
-- `unanswered` (medium-high) — a non-empty still-unknown. Fires constantly
-  and should: it is the castle's work-queue, not its shame.
+- `unanswered` (medium-high) — a non-empty still-unknown. A ranking of the
+  three oldest, not a flood: every good stone keeps an open edge by design,
+  and naming all of them forever would cry wolf and bury the signal.
 - `unshaped` (medium-high) — a capture older than 14 days cited by no stone.
   14 days is stated policy, not truth; mend this stone to change it… and
   note the runner reads the number from code, so mending it is a proposal

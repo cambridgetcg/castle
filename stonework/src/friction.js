@@ -16,6 +16,7 @@ import { resolveLink } from './stones.js'
 const DAY = 86400000
 const age = (d) => Math.floor((Date.now() - Date.parse(d)) / DAY)
 const lastTouch = (s) => s.keys.checked || s.keys.laid
+const keepish = (s) => (s.path.startsWith('rooms/keep/') ? 0 : 1)
 
 // Order is priority order: structural damage first, then disputes, then food.
 export const SIGNS = [
@@ -58,8 +59,14 @@ export const SIGNS = [
     id: 'unanswered',
     vow: 'friction is food — an open question is the next walk, kept visible', cs: 2,
     confidence: 'medium-high',
+    // A ranking, not a flood: every good stone keeps an open edge by design,
+    // so naming all of them forever would cry wolf and bury the signal. The
+    // three oldest surface (keep-room first on ties — the loop eats its own
+    // friction); the rest wait their turn.
     find: ({ stones }) => stones
       .filter((s) => s.sections['still unknown'])
+      .sort((a, b) => (Date.parse(lastTouch(a) || '9999-12-31') - Date.parse(lastTouch(b) || '9999-12-31')) || keepish(a) - keepish(b))
+      .slice(0, 3)
       .map((s) => ({ path: s.path, message: `still unknown: ${firstLine(s.sections['still unknown'])}` })),
   },
   {
@@ -77,7 +84,7 @@ export const SIGNS = [
     confidence: 'heuristic',
     find: ({ stones }) => stones
       .filter((s) => s.keys.source && lastTouch(s) && !Number.isNaN(Date.parse(lastTouch(s))))
-      .sort((a, b) => Date.parse(lastTouch(a)) - Date.parse(lastTouch(b)))
+      .sort((a, b) => (Date.parse(lastTouch(a)) - Date.parse(lastTouch(b))) || keepish(a) - keepish(b))
       .slice(0, 3)
       .map((s) => ({ path: s.path, message: `untouched for ${age(lastTouch(s))} days — a ranking, not a violation; the oldest contact is named so a walk can re-look` })),
   },

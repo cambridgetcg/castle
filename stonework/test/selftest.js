@@ -2,8 +2,8 @@
 //
 // Runs the ten signs over examples/ (planted frictions, whitehack idiom) and
 // asserts every planted sign fires; then founds a child castle in a temp dir
-// and walks one full loop through it: found → lay → loop → refuse-blank →
-// close. Zero dependencies, plain asserts, exit non-zero on any miss.
+// and walks one full loop through it: found → lay → loop → close (a hand may
+// close in silence). Zero dependencies, plain asserts, exit non-zero on any miss.
 
 import assert from 'node:assert/strict'
 import { mkdtemp, mkdir, readFile, writeFile, rm } from 'node:fs/promises'
@@ -17,7 +17,10 @@ import { openWalk, closeWalk } from '../src/loop.js'
 import { found } from '../src/found.js'
 import { readReins, layEngineStone, autoWalk } from '../src/auto.js'
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..') // stonework/ — examples live here
+// the castle this machinery lives in, found upward like the tool finds it
+let CASTLE = ROOT
+while (!existsSync(join(CASTLE, 'rooms', 'keep')) && dirname(CASTLE) !== CASTLE) CASTLE = dirname(CASTLE)
 let passed = 0
 const ok = (cond, name) => { assert.ok(cond, name); passed++; console.log(`  ok — ${name}`) }
 
@@ -40,8 +43,8 @@ ok(by('thin').some((f) => f.path.includes('fees-are-a-product')), 'thin fires on
 ok(findings.filter((f) => f.structural).length === 2, 'exactly the two structural signs bear the exit code')
 
 console.log('\nthe mother castle (rooms/):')
-const mother = await loadCastle(ROOT)
-const motherFindings = friction({ ...mother, captures: await loadQuarry(ROOT), root: ROOT })
+const mother = await loadCastle(CASTLE)
+const motherFindings = friction({ ...mother, captures: await loadQuarry(CASTLE), root: CASTLE })
 ok(motherFindings.every((f) => !f.structural), 'the mother castle has no structural damage (food is welcome)')
 ok(motherFindings.length > 0 && motherFindings[0].path.startsWith('rooms/keep/'), 'keep friction sorts first — the loop eats its own friction')
 
@@ -58,26 +61,22 @@ try {
 
   const { path } = await layStone(tmp, 'first-room', 'a first stone', { by: 'selftest (script)' })
   const laidStone = parseStone(await readFile(join(tmp, path), 'utf8'), path)
-  ok(laidStone.problems.some((p) => p.includes('certainty')), 'a freshly laid stone is honest friction until a mind names its certainty')
+  ok(laidStone.problems.length === 0 && laidStone.keys.certainty === 'guessed', 'a fresh stone is born a guess — honest by default, no nag')
   await assert.rejects(() => layStone(tmp, 'first-room', 'a first stone', { by: 'selftest (script)' }), /never overwritten/, '')
   ok(true, 'stones are never overwritten')
 
   const walk = await openWalk(tmp, { by: 'selftest (script)' })
   const packet = await readFile(join(walk.path), 'utf8')
-  ok(packet.includes('## the procedure (copied verbatim from rooms/keep/the-loop.md'), 'the packet carries the procedure from the keep, not from code')
-  ok(packet.includes('PICK') && packet.includes('THE LOOP EXAMINED'), 'the procedure text is really the loop stone')
+  ok(packet.includes('- procedure: rooms/keep/the-loop.md (hash '), 'the packet names the procedure stone and its hash')
+  ok(!packet.includes('1. PICK'), 'the packet carries no copy of the procedure — git holds every revision')
 
-  await assert.rejects(() => closeWalk(tmp, walk.n, { by: 'selftest (script)' }), /blank is not an answer/, '')
-  ok(true, 'a walk with blank sections refuses to close')
-
-  const filled = (await readFile(walk.path, 'utf8'))
-    .replace(/^## picked\s*$/m, '## picked\n\nthe blank certainty on the first stone.')
-    .replace(/^## laid or mended\s*$/m, '## laid or mended\n\nnamed the certainty: guessed.')
-    .replace(/^## the loop examined\s*$/m, '## the loop examined\n\nran clean.')
-  await writeFile(walk.path, filled)
   const closed = await closeWalk(tmp, walk.n, { by: 'selftest (script)' })
   ok(typeof closed.before === 'number' && typeof closed.after === 'number', 'the close writes a measured friction delta')
   ok(!closed.revised, 'an untouched procedure reports no revision')
+  const closedPacket = await readFile(walk.path, 'utf8')
+  ok(closedPacket.includes('(unsaid)') && closedPacket.includes('- left unsaid:'), 'a hand may close in silence — recorded as silence, never refused')
+  await assert.rejects(() => closeWalk(tmp, walk.n, { by: 'selftest (script)' }), /close once/, '')
+  ok(true, 'walks close once')
 
   console.log('\nthe motor\'s rails (no engine is ever spawned):')
   const engineStone = (header) => `room: keep\n# a stone from the motor\n\n${header}\n- source: the rails test\n\na test insight long enough that the thin sign stays quiet about it, which needs eighty characters.\n\n## because\nrails.\n\n## still unknown\nnone.`

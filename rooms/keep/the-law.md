@@ -16,8 +16,9 @@ Nine vows. Each is checkable by eye, and most are checked by the signs.
    (CS#5 — honest names)
 4. nothing from the net enters without its url and its fetched date.
    (CS#4 — stated freshness)
-5. friction is food, not shame — and blank is not an answer.
-   (CS#2 — visible failure)
+5. friction is food, not shame. the motor answers in full — blank is not an
+   answer for a machine; a hand's silence is recorded as silence, never
+   faked and never refused. (CS#2 — visible failure)
 6. lowering certainty is as honorable as raising it; nothing is razed in the
    dark — reasons are written down. (CS#1 — truth of state)
 7. the loop lives as a stone, so the loop can mend the loop; every walk

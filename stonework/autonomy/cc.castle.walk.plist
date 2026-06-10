@@ -9,7 +9,7 @@
   <key>ProgramArguments</key>
   <array>
     <string>/opt/homebrew/bin/node</string>
-    <string>/Users/you/Desktop/castle/bin/castle.js</string>
+    <string>/Users/you/Desktop/castle/stonework/bin/castle.js</string>
     <string>loop</string>
     <string>--auto</string>
   </array>

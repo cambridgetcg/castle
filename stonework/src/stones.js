@@ -130,9 +130,9 @@ export async function loadQuarry(root) {
   return captures
 }
 
-// Lay a stone file. Prefills only what the tool can honestly know (laid, by,
-// and a source when one is handed over) — certainty stays blank because the
-// tool refuses to invent how sure a mind is.
+// Lay a stone file. A fresh thought is born a guess — honest by default, and
+// no nag: raise it when you know more, lower it without shame. The tool
+// prefills what it honestly can (laid, by, a source when handed one).
 export async function layStone(root, room, title, { by, source } = {}) {
   const dir = join(root, 'rooms', room)
   const path = join(dir, slug(title) + '.md')
@@ -144,7 +144,7 @@ export async function layStone(root, room, title, { by, source } = {}) {
     '',
     `- laid: ${today()}`,
     `- by: ${by}`,
-    '- certainty: ',
+    '- certainty: guessed',
     ...(source ? [`- source: ${source}`] : []),
   ]
   const body = [

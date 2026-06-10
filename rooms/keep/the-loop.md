@@ -24,10 +24,10 @@ reach it.
    still-unknown, link a leans-on, declare a rubs-against, update checked: —
    or raze it, with the reason written in your walk packet. Nothing is razed
    in the dark.
-4. THE LOOP EXAMINED — mandatory. Did any step of this procedure mislead,
-   block, or bore you? If yes, mend THIS stone (it is an ordinary stone under
-   the same law) or lay a keep stone about it. If no, write "ran clean".
-   Blank is not an answer.
+4. THE LOOP EXAMINED — did any step of this procedure mislead, block, or
+   bore you? If yes, mend THIS stone (it is an ordinary stone under the same
+   law) or lay a keep stone about it. If no, "ran clean" is enough. A hand
+   may leave it unsaid; the motor must answer.
 5. CLOSE — `castle close <n>`. The tool re-runs the signs and writes the
    friction delta into the ledger, so whether a procedure change helped is
    measured, not vibed.
