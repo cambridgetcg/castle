@@ -7,7 +7,7 @@ work, writes its record, and stops. Loops never delete; they append and promote.
 | --------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------- |
 | capture   | Words raw captures into proper insights and files them in the right halls.    | When `gate/inbox.md` holds captures.                                        | `loops/capture.md`   |
 | deepen    | Works the one open friction where a turn of research helps most.              | When any `friction.md` holds an open entry and the gate is quiet.           | `loops/deepen.md`    |
-| verify    | Challenges held and guess insights; survivors are promoted to the keep.       | When unverified insights accumulate, or before trusting a hall.             | `loops/verify.md`    |
+| verify    | Challenges held and guess insights, and re-tries borrowed `tested` receipts; survivors are promoted to the keep. | When unverified insights accumulate, or before trusting a hall.             | `loops/verify.md`    |
 | architect | Mends one friction in the castle's own design, loops, or laws — on record.    | Rarely; when records show a loop stumbling, or when the keeper asks.        | `loops/architect.md` |
 
 Only the architect loop may change this registry, the contracts, or `CASTLE.md`

@@ -41,7 +41,7 @@ Stones about making software honestly. One claim per stone; loops challenge, no 
 - kin: [[the-verifier-must-not-be-the-maker]], [[report-the-wall-you-hit]]
 
 ## name what you lack before claiming what you know
-- words: The castle's three founding halls were seeded with friction first — eight open problems stood in building, words, and trust before any stone claimed knowledge (records/2026-06-10-friction-seeding.md). Starting from the gaps gives every later claim something honest to answer to, instead of retrofitting doubt onto a finished story. One founding is one data point, not a trial, so this stays held.
+- words: The castle's three founding halls were seeded with friction first — eight open problems stood in building, words, and trust before any stone claimed knowledge (tested 2026-06-10: the friction-seeding and insight-seeding records cross-confirm each other and match the halls as they stand). But gaps-first did not give every later claim a gap to answer: of the eighteen stones seeded after, at most half speak to any seeded gap, and the gap of finding one word among 204 drew no stone at all (tested 2026-06-10, by count). Naming the gaps first still gives the claims that do answer one something honest to answer to, and one founding is one data point, so the advice stays held. Broken by the verify loop of 2026-06-10: the word "every" died on a count.
 - confidence: held
 - born: 2026-06-10 · from: device
 - kin: [[a-word-needs-a-real-gap]], [[an-audit-that-finds-nothing-to-mend-was-not-an-audit]], [[report-the-wall-you-hit]]

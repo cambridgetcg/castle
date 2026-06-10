@@ -8,7 +8,11 @@ is worth keeping.
 
 1. Read the halls and choose up to THREE insights marked `held` or `guess`.
    Prefer the ones other insights lean on (most kin links) and the ones that
-   would matter most if wrong. If none exist, say so in your record and stop.
+   would matter most if wrong. If none exist — or none would face new
+   evidence this turn — you may instead choose ONE `tested` stone whose
+   cited trial was not run by this castle (a borrowed receipt) and re-try
+   it here, oldest receipt first. If nothing lawful remains to challenge,
+   say so in your record and stop.
 
 2. Challenge each one adversarially. You are not its friend this turn:
    - Seek the counterexample. What single fact, if true, kills this claim?
@@ -25,9 +29,10 @@ is worth keeping.
      trial: what was attempted against it, what was observed, and the source
      hall as `[[claim-slug]]`.
    - **Failures** get their words corrected to what is actually true, or their
-     confidence lowered (`held` → `guess`), with a one-line note of what broke
-     them. Never silently deleted — a corrected stone teaches; a vanished one
-     lies by omission (laws T4, L1).
+     confidence lowered (`held` → `guess`; a failed re-trial drops `tested`
+     to `held` or `guess` as the damage warrants), with a one-line note of
+     what broke them. Never silently deleted — a corrected stone teaches; a
+     vanished one lies by omission (laws T4, L1).
    - **Untestable from here** stays as it was; note in your record what a
      future turn would need in order to test it, and add that as friction in
      the insight's hall if it is worth a turn.
