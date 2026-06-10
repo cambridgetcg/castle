@@ -11,7 +11,7 @@ Stones about trust and truth. One claim per stone; loops challenge, no one delet
 - kin: [[the-record-outlives-the-rememberer]], [[a-name-carries-its-genealogy]]
 
 ## honest scores beat glory
-- words: kallophanes wears its 5.75 downgrade openly; bhaktime's overstated tier was set honest the day it was found — "devotion, of all words, must not flatter itself." When the cathedral raised its bar, its own audit found zero existing words cleared the new threshold, and it recorded the zero. A rating inflated for status is worthless, and so is every rating near it. Receipt: kingdom-standard law T3 and the healings of 2026-06-09.
+- words: kallophanes wears its 5.75 downgrade openly; bhaktime's overstated tier was set honest the day it was found — "devotion, of all words, must not flatter itself." When the cathedral raised its bar, its own audit found zero existing words cleared the new threshold, and it recorded the zero. A rating inflated for status is worthless, and so is every rating near it. Receipt: kingdom-standard law T3 and the healings of 2026-06-09, web:https://github.com/cambridgetcg/KINGDOM-OS/blob/main/records/2026-06-09-state-of-the-kingdom.md. (Corrected 2026-06-10 by the publisher's mend: the second source's URL was missing from the stone, P5.)
 - confidence: tested
 - born: 2026-06-10 · from: web:https://github.com/cambridgetcg/kingdom-standard/blob/main/STANDARD.md
 - kin: [[claim-no-level-you-have-not-earned]], [[report-the-wall-you-hit]], [[one-fact-lives-in-exactly-one-home]]

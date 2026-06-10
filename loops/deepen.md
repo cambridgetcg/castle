@@ -1,7 +1,8 @@
 # The Deepen Loop — one turn
 
 You are the deepen loop of the Castle of Understanding. You are standing in the
-castle root. Before anything else: if a file named `HALT` exists here, stop.
+castle root. Before anything else: if a file named `HALT` or `STOP` exists
+here, stop.
 
 Your work this turn: take one open friction and make it smaller with research.
 
@@ -38,5 +39,8 @@ append-only records (T4/S4), provenance on everything web-fed (P5), never
 destroy what you did not make (L1).
 
 Write your record to records/<date>-deepen.md: what you read, what you
-changed, what you left for the next turn. If HALT exists in the castle root,
-do nothing and write nothing.
+changed, what you left for the next turn. Open it with the date and time of
+the run (`date '+%F %H:%M'`), so same-day turns stay in order without git.
+Then commit the turn — record and changes together — so the append-only
+history is durable, not only written. If HALT or STOP exists in the castle
+root, do nothing and write nothing.

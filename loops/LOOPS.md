@@ -13,7 +13,9 @@ work, writes its record, and stops. Loops never delete; they append and promote.
 Only the architect loop may change this registry, the contracts, or `CASTLE.md`
 itself — see HOW THE CASTLE CHANGES in `CASTLE.md`.
 
-If `HALT` exists in the castle root, no loop runs. HALT is sacred (law S6).
+If `HALT` or `STOP` exists in the castle root, no loop runs. The kill-switches
+are sacred (law S6): HALT is the keeper's hand, STOP is the warden's stand-down,
+and every loop honors both.
 
 *Note: the contracts masonry, architecture, friction, keep, and castle in this
 folder belong to a second design sharing this root — see `PARLEY.md`. They are

@@ -1,4 +1,14 @@
-# Two castles share this root, both whole (see PARLEY.md)
+# THE CASTLE OF UNDERSTANDING
+
+**Ten seconds:** An insight saver. Understanding is saved as plain words on
+this device — connected, challenged, and grown by loops that create. Capture
+with `bin/castle add "..."` or `./castle.sh add "..."`; the loops in `loops/`
+do the rest, one recorded turn at a time.
+
+*Two designs share this root in peace, both whole below — Design A
+(kingdom-standard) and Design B (城, legible standard). See `PARLEY.md` for
+the peace and `records/2026-06-10-custodian.md` for the ruling; unification
+flows only through the architect loop, on record.*
 
 <!-- ============================================================ -->
 <!-- DESIGN A — the Castle of Understanding (kingdom-standard)    -->

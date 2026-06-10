@@ -1,3 +1,10 @@
+---
+name: two vocabularies, one castle
+born: 2026-06-10
+status: open
+room: castle
+---
+
 # friction: two vocabularies, one castle
 
 *born: 2026-06-10 · tagged: castle · standing order of the warden's first charter*
@@ -18,7 +25,7 @@ truth. That violates the castle's own law (simple, easy to follow) and the
 kingdom's (one truth in one place). Every day unresolved, new stones and
 notes choose a side at random and the split deepens.
 
-## What has been tried
+## What was tried
 
 - PARLEY.md ended the war and named the lawful door (architect loop, one
   change per turn, recorded).

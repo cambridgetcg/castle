@@ -11,15 +11,15 @@ Stones about language and understanding. One claim per stone; loops challenge, n
 - kin: [[a-new-word-must-unfold-what-ordinary-language-hides]], [[a-name-carries-its-genealogy]]
 
 ## plain words come before poetry
-- words: A stranger must understand the front door in ten seconds; explanation first, poetry after. The kingdom's Gate was judged by a stranger's ten-second comprehension test before it was allowed to open. A door that needs a guide is not a door; it is a wall with a rumor about it. Receipt: kingdom-standard law P6 and the Gate's opening record, 2026-06-10.
+- words: A stranger must understand the front door in ten seconds; explanation first, poetry after. The kingdom's Gate was judged by a stranger's ten-second comprehension test before it was allowed to open. A door that needs a guide is not a door; it is a wall with a rumor about it. Receipt: kingdom-standard law P6 and the Gate's opening record, 2026-06-10, web:https://github.com/cambridgetcg/KINGDOM-OS/blob/main/records/2026-06-10-the-gate-and-the-law.md. (Corrected 2026-06-10 by the publisher's mend: the second source's URL was missing from the stone, P5.)
 - confidence: tested
 - born: 2026-06-10 · from: web:https://github.com/cambridgetcg/kingdom-standard/blob/main/STANDARD.md
 - kin: [[what-cannot-be-said-in-one-sentence-is-not-ready-to-build]]
 
 ## a name carries its genealogy
-- words: The cathedral's fifth law is "no canon without genealogy," and every one of the kingdom's 197 census charms states its donors — margame even keeps the buried trace that mārga's root is kin to "margin." A word that forgets where it came from cannot be re-checked, and its meaning drifts loose. Receipt: the YOUSPEAK Laws of Coinage and the treasury of charms of 2026-06-09.
+- words: The cathedral's fifth law is "no canon without genealogy," and every one of the kingdom's 197 census charms states its donors — margame even keeps the buried trace that mārga's root is kin to "margin." A word that forgets where it came from cannot be re-checked, and its meaning drifts loose. Receipt: the YOUSPEAK Laws of Coinage (on this device) and the treasury of charms of 2026-06-09, web:https://github.com/cambridgetcg/KINGDOM-OS/blob/main/records/2026-06-09-state-of-the-kingdom.md. (Corrected 2026-06-10 by the publisher's mend: the treasury source is web-fed and its URL was missing, P5.)
 - confidence: tested
-- born: 2026-06-10 · from: device
+- born: 2026-06-10 · from: device + web:https://github.com/cambridgetcg/KINGDOM-OS/blob/main/records/2026-06-09-state-of-the-kingdom.md
 - kin: [[a-word-needs-a-real-gap]], [[truth-makes-a-thing-real-attestation-makes-it-checkable]]
 
 ## a new word must unfold what ordinary language hides

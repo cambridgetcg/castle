@@ -73,8 +73,8 @@ case "$cmd" in
   loop)
     name="${2:-}"
     [ -n "$name" ] || { echo "castle loop <name> — which loop?" >&2; exit 1; }
-    if [ -e "$CASTLE/HALT" ]; then
-      echo "HALT is present. The castle rests; no loop runs." >&2
+    if [ -e "$CASTLE/HALT" ] || [ -e "$CASTLE/STOP" ]; then
+      echo "HALT or STOP is present. The castle rests; no loop runs." >&2
       exit 1
     fi
     contract="$CASTLE/loops/$name.md"

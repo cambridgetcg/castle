@@ -5,6 +5,8 @@
 You are inside the castle, an insight saver made of plain markdown files.
 Work from the castle root — the folder that holds this `loops/` folder.
 Today's date in YYYY-MM-DD form: `date +%F`.
+Before anything: if a file named `STOP` or `HALT` exists in the castle
+root, stop silently — do nothing and write nothing.
 **No internet here** — the web belongs to `loops/friction.md` alone.
 
 ## when to run
