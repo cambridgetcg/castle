@@ -45,3 +45,9 @@ Stones about making software honestly. One claim per stone; loops challenge, no 
 - confidence: held
 - born: 2026-06-10 · from: device
 - kin: [[a-word-needs-a-real-gap]], [[an-audit-that-finds-nothing-to-mend-was-not-an-audit]], [[report-the-wall-you-hit]]
+
+## build with joy, love, peace, and safety
+- words: Asha names four qualities the building itself must carry: joy, love, peace, and safety. They describe the manner of the work, not the material — they bind how the builders work and how they treat each other, not what the stones must prove. Given as a founder's standing wish, once and untried, it is held.
+- confidence: held
+- born: 2026-06-10 · from: person:Asha
+- kin: [[consent-is-real-even-for-agents]], [[report-the-wall-you-hit]]

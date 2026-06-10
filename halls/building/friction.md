@@ -18,3 +18,8 @@ Open problems of making and keeping things. Loops answer; no one deletes.
 - why it matters: a harness that silences its agent mid-turn loses both the work and the record of why it stopped (held).
 - better would be: harnesses that degrade gracefully — say less when they must, but never go mute without leaving a dated reason.
 - status: open
+
+## joy, love, peace, and safety have no test
+- why it matters: the founder asks the castle to be built with four qualities, but the laws only know how to try claims — a wish about the manner of work has no trial that could raise or lower it (held).
+- better would be: a way for a turn's record to show, checkably, that the work kept or broke these qualities — or an honest ruling that they bind without being testable.
+- status: open
