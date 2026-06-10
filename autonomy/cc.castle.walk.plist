@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- the motor's clock: one autonomous walk a day at 07:07.
+     the soft stop is rooms/keep/the-reins.md (autonomy: off).
+     the hard stop is: launchctl unload ~/Library/LaunchAgents/cc.castle.walk.plist -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>cc.castle.walk</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/node</string>
+    <string>/Users/you/Desktop/castle/bin/castle.js</string>
+    <string>loop</string>
+    <string>--auto</string>
+  </array>
+  <key>WorkingDirectory</key><string>/Users/you/Desktop/castle</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>/Users/you/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>7</integer>
+    <key>Minute</key><integer>7</integer>
+  </dict>
+  <key>StandardOutPath</key><string>/Users/you/Library/Logs/castle/walk.log</string>
+  <key>StandardErrorPath</key><string>/Users/you/Library/Logs/castle/walk.err.log</string>
+</dict>
+</plist>

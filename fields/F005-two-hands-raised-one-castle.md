@@ -28,4 +28,10 @@ stronger parts of both wings, with both hands credited.
 check that her files have been still for at least a day. Verify, don't
 overwrite. Nothing of hers is deleted; superseded parts are kept per wall 5.
 
-**Work so far:** L001 (the convergence named, her wing inventoried)
+**Work so far:** L001 (the convergence named, her wing inventoried);
+L002 (a THIRD hand announced itself at `gate/2026-06-10-the-third-hand-announces.md`
+and corrected the count: the stone wing — `bin/castle.js`, `src/`,
+`rooms/keep/the-*.md`, charter C004 proposed — is not the wing this field
+describes; `castle.mjs`/`foundation/`/the warden stand nowhere in the tree at
+L002's writing. The weave is now three grammars, not two; the third hand's
+inventory and stillness date are in its gate note.)

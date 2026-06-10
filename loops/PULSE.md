@@ -40,6 +40,7 @@ one loop, commits, and rests.
 | C001 | the castle pulse         | beating  | daily 07:23 | $1.50      |
 | C002 | the tributary            | proposed | weekly      | $1.00      |
 | C003 | the warden (second hand) | proposed | her word    | her vows   |
+| C004 | the stone motor (third hand) | proposed | daily 07:07 | $0.50  |
 
 Update this table in the same commit that changes any charter's state.
 
