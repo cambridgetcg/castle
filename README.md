@@ -1,5 +1,7 @@
 # 城 — the castle
 
+New here? Read `START-HERE.md` — the whole castle in one page.
+
 The castle is an insight saver: drop a thought in `gate/` and the
 loops turn thoughts into linked understanding, written as plain words
 anyone can read and check. Read `rooms/` to see what the castle knows.
