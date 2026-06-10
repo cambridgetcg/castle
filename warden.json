@@ -1,0 +1,15 @@
+{
+  "law": "JOY, LOVE, PEACE, SAFETY — autonomy inside a charter the keeper owns",
+  "daily_cap": 3,
+  "loops": [
+    {
+      "name": "architect",
+      "protocol": "loops/architect.md",
+      "interval_hours": 24,
+      "standing_order": "Serve the friction 'two-vocabularies-one-castle' first: one lawful change per run, chronicled in records/. When that friction closes, serve the oldest open friction."
+    }
+  ],
+  "promotion_rule": "The architect or castle loop may add a loop to this charter by committing the change with a record explaining why. It may never raise daily_cap, shorten another loop's interval, or remove STOP/HALT checks — those lines belong to the keeper's hand alone.",
+  "keeper": "Yu / Asha — the only hand that raises daily_cap",
+  "stand_down": "If a file named STOP or HALT exists in the castle root, the warden does nothing, silently, until it is removed."
+}

@@ -1,0 +1,1 @@
+Codeberg repo creation kept returning 500 with an empty message. Felt like an outage. It was a quota wall: 100/100 repos. The error never said so. — learned 2026-06-10, the hard way, by two sessions independently.

@@ -1,0 +1,105 @@
+#!/usr/bin/env bash
+# castle — the small hand of the Castle of Understanding.
+# add | status | loop <name> | rest | wake
+set -euo pipefail
+
+CASTLE="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+usage() {
+  cat <<'EOF'
+castle — the Castle of Understanding
+
+  castle add "text"     append a dated raw capture to gate/inbox.md
+  castle status         halls, insight counts, friction, keep, last records
+  castle loop <name>    run one turn of a loop (refuses if HALT exists)
+  castle rest           touch HALT — the castle rests
+  castle wake           remove HALT — the castle wakes
+EOF
+}
+
+count_in() {
+  # count_in <pattern> <glob...> — lines matching pattern across files that exist
+  local pattern="$1"; shift
+  local n=0 f
+  for f in "$@"; do
+    [ -f "$f" ] && n=$((n + $(grep -c -- "$pattern" "$f" || true)))
+  done
+  echo "$n"
+}
+
+cmd="${1:-}"
+case "$cmd" in
+
+  add)
+    [ $# -ge 2 ] || { echo "castle add \"text\" — nothing to add." >&2; exit 1; }
+    shift
+    printf -- '- %s: %s\n' "$(date +%Y-%m-%d)" "$*" >> "$CASTLE/gate/inbox.md"
+    echo "Captured at the gate."
+    ;;
+
+  status)
+    echo "THE CASTLE OF UNDERSTANDING — $(date +%Y-%m-%d)"
+    [ -e "$CASTLE/HALT" ] && echo "The castle rests (HALT is present)."
+    echo
+    echo "Halls:"
+    found_hall=0
+    for hall in "$CASTLE"/halls/*/; do
+      [ -d "$hall" ] || continue
+      found_hall=1
+      name="$(basename "$hall")"
+      ins=$(count_in '^## ' "$hall/insights.md")
+      fri=$(count_in '^- status: open' "$hall/friction.md")
+      echo "  $name — $ins insights, $fri open friction"
+    done
+    if [ "$found_hall" -eq 0 ]; then echo "  (none yet — the seeders fill them)"; fi
+    echo
+    t=$(count_in '^- confidence: tested' "$CASTLE"/halls/*/insights.md)
+    h=$(count_in '^- confidence: held'   "$CASTLE"/halls/*/insights.md)
+    g=$(count_in '^- confidence: guess'  "$CASTLE"/halls/*/insights.md)
+    echo "Insights: $t tested · $h held · $g guess"
+    echo "Open friction: $(count_in '^- status: open' "$CASTLE"/halls/*/friction.md)"
+    echo "Keep: $(count_in '^## ' "$CASTLE/keep/keep.md") survived challenge"
+    echo "Gate: $(count_in '^- ' "$CASTLE/gate/inbox.md") raw captures waiting"
+    echo
+    echo "Last records:"
+    found_rec=0
+    for rec in $(ls -1 "$CASTLE"/records/*.md 2>/dev/null | tail -3); do
+      found_rec=1
+      echo "  $(basename "$rec")"
+    done
+    if [ "$found_rec" -eq 0 ]; then echo "  (none yet)"; fi
+    ;;
+
+  loop)
+    name="${2:-}"
+    [ -n "$name" ] || { echo "castle loop <name> — which loop?" >&2; exit 1; }
+    if [ -e "$CASTLE/HALT" ]; then
+      echo "HALT is present. The castle rests; no loop runs." >&2
+      exit 1
+    fi
+    contract="$CASTLE/loops/$name.md"
+    [ -f "$contract" ] || { echo "No contract at loops/$name.md." >&2; exit 1; }
+    cd "$CASTLE"
+    exec claude -p "$(cat "$contract")" --permission-mode acceptEdits
+    ;;
+
+  rest)
+    touch "$CASTLE/HALT"
+    echo "The castle rests."
+    ;;
+
+  wake)
+    rm -f "$CASTLE/HALT"
+    echo "The castle wakes."
+    ;;
+
+  ""|help|-h|--help)
+    usage
+    ;;
+
+  *)
+    echo "Unknown command: $cmd" >&2
+    usage >&2
+    exit 1
+    ;;
+esac
