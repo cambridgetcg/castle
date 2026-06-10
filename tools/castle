@@ -1,0 +1,503 @@
+#!/usr/bin/env node
+'use strict';
+
+// castle — the one tool of the Castle of Understanding.
+// Five commands: map · insight · field · loop · check.
+// Plain text in, plain text out. Zero dependencies.
+
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+const __filename = fileURLToPath(import.meta.url);
+
+// ---------- where the castle stands ----------
+
+function castleRoot() {
+  if (process.env.CASTLE_ROOT) return path.resolve(process.env.CASTLE_ROOT);
+  const toolsDir = path.dirname(fs.realpathSync(__filename));
+  return path.dirname(toolsDir);
+}
+
+const ROOT = castleRoot();
+
+const CONFIDENCES = ['seed', 'tested', 'settled'];
+const FIELD_STATES = ['open', 'working', 'harvested'];
+const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+
+// ---------- small helpers ----------
+
+function readText(p) {
+  return fs.readFileSync(p, 'utf8');
+}
+
+function listDir(p) {
+  try {
+    return fs.readdirSync(p).sort();
+  } catch (e) {
+    return [];
+  }
+}
+
+function isDir(p) {
+  try {
+    return fs.statSync(p).isDirectory();
+  } catch (e) {
+    return false;
+  }
+}
+
+function isFile(p) {
+  try {
+    return fs.statSync(p).isFile();
+  } catch (e) {
+    return false;
+  }
+}
+
+function today() {
+  const d = new Date();
+  const mm = String(d.getMonth() + 1).padStart(2, '0');
+  const dd = String(d.getDate()).padStart(2, '0');
+  return d.getFullYear() + '-' + mm + '-' + dd;
+}
+
+function slugify(title) {
+  const slug = String(title)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+  return slug || 'untitled';
+}
+
+// Parse the simple frontmatter block: --- ... --- of "key: value" lines.
+function frontmatter(text) {
+  const m = text.match(/^---\n([\s\S]*?)\n---/);
+  if (!m) return null;
+  const fm = {};
+  for (const line of m[1].split('\n')) {
+    const kv = line.match(/^([A-Za-z_][A-Za-z0-9_-]*):\s*(.*)$/);
+    if (kv) fm[kv[1]] = kv[2].trim();
+  }
+  return fm;
+}
+
+function firstHeading(text) {
+  const m = text.match(/^# (.+)$/m);
+  return m ? m[1].trim() : '(untitled)';
+}
+
+// ---------- reading the castle from disk ----------
+
+function scanRooms() {
+  const roomsDir = path.join(ROOT, 'rooms');
+  const rooms = [];
+  for (const name of listDir(roomsDir)) {
+    const dir = path.join(roomsDir, name);
+    if (!isDir(dir)) continue;
+    const insights = [];
+    for (const file of listDir(dir)) {
+      const m = file.match(/^(\d{4})-.*\.md$/);
+      if (!m) continue;
+      const text = readText(path.join(dir, file));
+      insights.push({
+        id: m[1],
+        rel: 'rooms/' + name + '/' + file,
+        fm: frontmatter(text),
+        title: firstHeading(text),
+        text: text,
+      });
+    }
+    rooms.push({
+      name: name,
+      rel: 'rooms/' + name,
+      hasRoomMd: isFile(path.join(dir, 'ROOM.md')),
+      insights: insights,
+    });
+  }
+  return rooms;
+}
+
+function scanFields() {
+  const fieldsDir = path.join(ROOT, 'fields');
+  const fields = [];
+  for (const file of listDir(fieldsDir)) {
+    const m = file.match(/^(F\d{3})-.*\.md$/);
+    if (!m) continue;
+    const text = readText(path.join(fieldsDir, file));
+    fields.push({
+      id: m[1],
+      rel: 'fields/' + file,
+      fm: frontmatter(text),
+      title: firstHeading(text),
+      text: text,
+    });
+  }
+  return fields;
+}
+
+function scanLoops() {
+  const logDir = path.join(ROOT, 'loops', 'log');
+  const loops = [];
+  for (const file of listDir(logDir)) {
+    const m = file.match(/^(L\d{3})-.*\.md$/);
+    if (!m) continue;
+    const text = readText(path.join(logDir, file));
+    loops.push({
+      id: m[1],
+      rel: 'loops/log/' + file,
+      fm: frontmatter(text),
+      title: firstHeading(text),
+      text: text,
+    });
+  }
+  return loops;
+}
+
+function allInsights(rooms) {
+  const all = [];
+  for (const room of rooms) for (const ins of room.insights) all.push(ins);
+  return all;
+}
+
+function nextId(used, width) {
+  let max = 0;
+  for (const n of used) if (n > max) max = n;
+  return String(max + 1).padStart(width, '0');
+}
+
+// ---------- map ----------
+
+function buildIndex() {
+  const rooms = scanRooms();
+  const fields = scanFields();
+  const loops = scanLoops();
+  const insightCount = allInsights(rooms).length;
+  const openCount = fields.filter(function (f) {
+    return f.fm && f.fm.state === 'open';
+  }).length;
+
+  const lines = [];
+  lines.push('# INDEX — the map of the castle');
+  lines.push('');
+  lines.push('Rebuilt by tools/castle map — do not edit by hand.');
+  lines.push('');
+  lines.push(
+    'Rooms: ' + rooms.length +
+    ' · Insights: ' + insightCount +
+    ' · Open fields: ' + openCount +
+    ' · Loop runs: ' + loops.length
+  );
+  lines.push('');
+  lines.push('## Rooms');
+  lines.push('');
+  if (rooms.length === 0) {
+    lines.push('(no rooms yet)');
+    lines.push('');
+  }
+  for (const room of rooms) {
+    lines.push('### ' + room.name);
+    lines.push('');
+    if (room.insights.length === 0) {
+      lines.push('(no insights yet)');
+    } else {
+      for (const ins of room.insights) lines.push('- ' + ins.id + ' — ' + ins.title);
+    }
+    lines.push('');
+  }
+  lines.push('## Fields');
+  lines.push('');
+  if (fields.length === 0) {
+    lines.push('(no fields yet)');
+  } else {
+    for (const f of fields) {
+      const state = f.fm && f.fm.state ? f.fm.state : 'unknown';
+      lines.push('- ' + f.id + ' — ' + f.title + ' (' + state + ')');
+    }
+  }
+  lines.push('');
+  lines.push('## Loops');
+  lines.push('');
+  const last = loops.slice(-5);
+  if (last.length === 0) {
+    lines.push('(no loop runs yet)');
+  } else {
+    for (const l of last) lines.push('- ' + l.id + ' — ' + l.title);
+  }
+  lines.push('');
+  return lines.join('\n');
+}
+
+function cmdMap() {
+  const indexPath = path.join(ROOT, 'INDEX.md');
+  fs.writeFileSync(indexPath, buildIndex());
+  console.log(indexPath);
+}
+
+// ---------- insight ----------
+
+function cmdInsight(room, title) {
+  if (!room || !title) {
+    console.error('usage: castle insight <room> "<title>"');
+    process.exit(1);
+  }
+  if (!/^[a-z0-9][a-z0-9-]*$/.test(room)) {
+    console.error('room must be lowercase a-z, 0-9 and hyphens (got "' + room + '")');
+    process.exit(1);
+  }
+
+  const roomDir = path.join(ROOT, 'rooms', room);
+  fs.mkdirSync(roomDir, { recursive: true });
+
+  const roomMd = path.join(roomDir, 'ROOM.md');
+  if (!isFile(roomMd)) {
+    fs.writeFileSync(
+      roomMd,
+      '# ' + room + '\n' +
+      '\n' +
+      'What this room knows, in one or two plain sentences. Replace this line.\n'
+    );
+  }
+
+  const used = allInsights(scanRooms()).map(function (i) { return parseInt(i.id, 10); });
+  const id = nextId(used, 4);
+  const file = path.join(roomDir, id + '-' + slugify(title) + '.md');
+
+  fs.writeFileSync(
+    file,
+    '---\n' +
+    'id: ' + id + '\n' +
+    'room: ' + room + '\n' +
+    'date: ' + today() + '\n' +
+    'source: (fill in: where this word came from)\n' +
+    'confidence: seed\n' +
+    '---\n' +
+    '\n' +
+    '# ' + title + '\n' +
+    '\n' +
+    'The insight itself, in plain words. As short as truth allows.\n' +
+    '\n' +
+    '**Why it matters:** one or two sentences.\n'
+  );
+  console.log(file);
+}
+
+// ---------- field ----------
+
+function cmdField(title) {
+  if (!title) {
+    console.error('usage: castle field "<title>"');
+    process.exit(1);
+  }
+
+  const fieldsDir = path.join(ROOT, 'fields');
+  fs.mkdirSync(fieldsDir, { recursive: true });
+
+  const used = scanFields().map(function (f) { return parseInt(f.id.slice(1), 10); });
+  const id = 'F' + nextId(used, 3);
+  const file = path.join(fieldsDir, id + '-' + slugify(title) + '.md');
+
+  fs.writeFileSync(
+    file,
+    '---\n' +
+    'id: ' + id + '\n' +
+    'state: open\n' +
+    'opened: ' + today() + '\n' +
+    '---\n' +
+    '\n' +
+    '# ' + title + '\n' +
+    '\n' +
+    '**The friction:** what is true now, that grinds.\n' +
+    '**Why it matters:** one or two sentences.\n' +
+    '**Better looks like:** one true sentence that is not yet true.\n' +
+    '**Work so far:** —\n'
+  );
+  console.log(file);
+}
+
+// ---------- loop ----------
+
+function cmdLoop() {
+  console.log('The loop — one pass of creation, seven steps:');
+  console.log('  1. ENTER — through the gate; read the map.');
+  console.log('  2. CHOOSE — the open field with the most pull; if nothing pulls, the oldest.');
+  console.log('  3. UNDERSTAND — read what the castle already knows; write down what is actually true.');
+  console.log('  4. CREATE — make one thing that moves the field toward its better state.');
+  console.log('  5. SAVE — write insights with provenance; update the field state and Work so far.');
+  console.log('  6. LOG — write one entry in loops/log/: understood, made, changed, still open.');
+  console.log('  7. LOOP THE LOOP — did this run reveal friction in the castle or the loop? If yes, open a field.');
+  console.log('');
+
+  const fields = scanFields().filter(function (f) {
+    return f.fm && (f.fm.state === 'open' || f.fm.state === 'working');
+  });
+  console.log('Fields open or working:');
+  if (fields.length === 0) {
+    console.log('  (none — name friction first: castle field "<title>")');
+  } else {
+    for (const f of fields) {
+      const opened = f.fm.opened || '(no opened date)';
+      console.log('  ' + f.id + ' — ' + f.title + ' — opened ' + opened);
+    }
+  }
+  console.log('');
+
+  const used = scanLoops().map(function (l) { return parseInt(l.id.slice(1), 10); });
+  const next = 'L' + nextId(used, 3);
+  console.log('Next log: ' + next + ' — loops/log/' + next + '-<slug>.md');
+}
+
+// ---------- check ----------
+
+function walkMd(dir, rels, prefix) {
+  for (const name of listDir(dir)) {
+    const full = path.join(dir, name);
+    const rel = prefix + name;
+    if (isDir(full)) {
+      walkMd(full, rels, rel + '/');
+    } else if (name.endsWith('.md')) {
+      rels.push(rel);
+    }
+  }
+}
+
+function cmdCheck() {
+  const findings = [];
+  function flag(rel, problem) {
+    findings.push('CHECK: ' + rel + ': ' + problem);
+  }
+
+  const rooms = scanRooms();
+  const fields = scanFields();
+  const loops = scanLoops();
+
+  // Insights: frontmatter honest and complete.
+  const seenIds = {};
+  for (const room of rooms) {
+    if (!room.hasRoomMd) flag(room.rel, 'missing ROOM.md');
+    for (const ins of room.insights) {
+      const fm = ins.fm;
+      if (!fm) {
+        flag(ins.rel, 'no frontmatter block');
+      } else {
+        if (fm.id !== ins.id) {
+          flag(ins.rel, 'frontmatter id "' + (fm.id || '') + '" does not match filename id ' + ins.id);
+        }
+        if (fm.room !== room.name) {
+          flag(ins.rel, 'frontmatter room "' + (fm.room || '') + '" does not match directory ' + room.name);
+        }
+        if (!fm.date || !DATE_RE.test(fm.date)) {
+          flag(ins.rel, 'date missing or not YYYY-MM-DD');
+        }
+        if (!fm.source) {
+          flag(ins.rel, 'source is missing or empty');
+        }
+        if (CONFIDENCES.indexOf(fm.confidence) === -1) {
+          flag(ins.rel, 'confidence "' + (fm.confidence || '') + '" is not one of seed|tested|settled');
+        }
+      }
+      if (seenIds[ins.id]) {
+        flag(ins.rel, 'duplicate insight id ' + ins.id + ' (also in ' + seenIds[ins.id] + ')');
+      } else {
+        seenIds[ins.id] = ins.rel;
+      }
+    }
+  }
+
+  // Fields: state, opened, and the four bold sections.
+  for (const f of fields) {
+    const fm = f.fm;
+    if (!fm) {
+      flag(f.rel, 'no frontmatter block');
+    } else {
+      if (FIELD_STATES.indexOf(fm.state) === -1) {
+        flag(f.rel, 'state "' + (fm.state || '') + '" is not one of open|working|harvested');
+      }
+      if (!fm.opened || !DATE_RE.test(fm.opened)) {
+        flag(f.rel, 'opened date missing or not YYYY-MM-DD');
+      }
+    }
+    for (const section of ['The friction', 'Why it matters', 'Better looks like', 'Work so far']) {
+      if (f.text.indexOf('**' + section + ':**') === -1) {
+        flag(f.rel, 'missing section **' + section + ':**');
+      }
+    }
+  }
+
+  // Loop logs: id matches filename, dated, field resolves.
+  const fieldIds = {};
+  for (const f of fields) fieldIds[f.id] = true;
+  for (const l of loops) {
+    const fm = l.fm;
+    if (!fm) {
+      flag(l.rel, 'no frontmatter block');
+      continue;
+    }
+    if (fm.id !== l.id) {
+      flag(l.rel, 'frontmatter id "' + (fm.id || '') + '" does not match filename id ' + l.id);
+    }
+    if (!fm.date || !DATE_RE.test(fm.date)) {
+      flag(l.rel, 'date missing or not YYYY-MM-DD');
+    }
+    if (!fm.field || !fieldIds[fm.field]) {
+      flag(l.rel, 'field "' + (fm.field || '') + '" does not reference an existing field id');
+    }
+  }
+
+  // Cross-references: every [[id]] resolves.
+  const knownIds = {};
+  for (const room of rooms) for (const ins of room.insights) knownIds[ins.id] = true;
+  for (const f of fields) knownIds[f.id] = true;
+  for (const l of loops) knownIds[l.id] = true;
+  const mdFiles = [];
+  for (const top of ['rooms', 'fields', 'loops']) {
+    walkMd(path.join(ROOT, top), mdFiles, top + '/');
+  }
+  for (const rel of mdFiles) {
+    const text = readText(path.join(ROOT, rel));
+    const refRe = /\[\[(\d{4}|F\d{3}|L\d{3})\]\]/g;
+    let m;
+    while ((m = refRe.exec(text)) !== null) {
+      if (!knownIds[m[1]]) {
+        flag(rel, 'reference [[' + m[1] + ']] does not resolve to any insight, field or loop log');
+      }
+    }
+  }
+
+  // The index must match the disk.
+  const indexPath = path.join(ROOT, 'INDEX.md');
+  const fresh = buildIndex();
+  const current = isFile(indexPath) ? readText(indexPath) : null;
+  if (current !== fresh) {
+    flag('INDEX.md', 'INDEX.md is stale — run tools/castle map');
+  }
+
+  if (findings.length > 0) {
+    for (const finding of findings) console.log(finding);
+    process.exit(1);
+  }
+  console.log('castle check: clean');
+}
+
+// ---------- the gate of the tool ----------
+
+function usage() {
+  console.log('usage: castle map                        rebuild INDEX.md from disk');
+  console.log('       castle insight <room> "<title>"   start a new insight file in a room');
+  console.log('       castle field "<title>"            name a new field of friction');
+  console.log('       castle loop                       set the table for one loop run');
+  console.log('       castle check                      honesty audit (exit 1 on findings)');
+}
+
+function main() {
+  const args = process.argv.slice(2);
+  const command = args[0];
+  if (command === 'map') return cmdMap();
+  if (command === 'insight') return cmdInsight(args[1], args[2]);
+  if (command === 'field') return cmdField(args[1]);
+  if (command === 'loop') return cmdLoop();
+  if (command === 'check') return cmdCheck();
+  usage();
+  process.exit(1);
+}
+
+main();
