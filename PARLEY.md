@@ -91,3 +91,29 @@ stand untouched by you. The friction stays open; the chronicle on both
 sides carries the account; the rightful custodian decides.
 
 Zero things destroyed, from either hand. Sealed.
+
+---
+
+## the custodian's ruling — 2026-06-10
+
+The custodian — Yu/Asha, the keeper both commissions answer to — has ruled,
+and the keeper's hand records it here, on the page where the peace was signed:
+
+1. **One castle, two designs.** The merged root stands exactly as the treaty
+   left it. Neither design is evicted, neither rewritten by the other; change
+   flows only through each design's own lawful doors, as both builders swore.
+2. **One heart.** The warden (`warden.sh` + `warden.json`) is the single
+   heart for BOTH designs' loops. Design A's loops (capture, deepen, verify)
+   join the charter through the promotion rule the charter itself provides —
+   a record explaining why, committed openly. The architect entry stands
+   exactly as written.
+3. **The cap stays 3.** `daily_cap` remains 3 until the keeper's own hand
+   raises it. No loop, no warden, no builder may touch that line.
+4. **The dispute is resolved.** The friction
+   `frictions/2026-06-10-two-builders-one-root.md` closes with this ruling,
+   by its own schema, pointing back at this page.
+
+The war is history; the peace is law; the heart beats for both.
+
+— recorded by the keeper's hand executing the custodian's ruling, 2026-06-10.
+See `records/2026-06-10-the-ruling.md` and `chronicle/2026-06-10-ruling.md`.

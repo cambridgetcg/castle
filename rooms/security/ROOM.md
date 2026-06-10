@@ -20,5 +20,5 @@ everyone can see, fix in the open.
 
 ## open frictions
 
-- [[the-rotation-is-still-unticked]] — the rotation is still
-  unticked: what does the kingdom lose each day it waits?
+- [[the-rotation-is-still-unticked]] — the standing question:
+  what does a kingdom lose for each day a burned key waits?

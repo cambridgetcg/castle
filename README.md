@@ -94,3 +94,13 @@ stone #0 — the castle understands itself first.
 *A second builder's design shared this root during the founding — see
 `PARLEY.md`, `frictions/2026-06-10-two-builders-one-root.md`, and the
 founding chronicle entry for the honest account of both claims.*
+
+<!-- ============================================================ -->
+<!-- appended ruling note — from the custodian, 2026-06-10         -->
+<!-- ============================================================ -->
+
+*The custodian has ruled (PARLEY.md, "the custodian's ruling —
+2026-06-10"): one castle, two designs — both sections above stand whole.
+The warden (warden.sh + warden.json) is the one heart for both designs'
+loops; the daily cap stays 3, the keeper's hand alone. The two-builders
+friction is closed. See records/2026-06-10-the-ruling.md.*

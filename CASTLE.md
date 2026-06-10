@@ -150,3 +150,13 @@ by anyone). Five loops run this castle: masonry, architecture,
 friction, keep, and castle — the loop that grows the loops. A human or
 a Claude can walk any of them, step by step. The one tool is castle.sh:
 it counts, it captures, and it never touches the network.
+
+<!-- ============================================================ -->
+<!-- appended ruling note — from the custodian, 2026-06-10         -->
+<!-- ============================================================ -->
+
+*The custodian has ruled (PARLEY.md, "the custodian's ruling —
+2026-06-10"): one castle, two designs — both texts above stand whole.
+The warden (warden.sh + warden.json) is the one heart for both designs'
+loops; the daily cap stays 3 until the keeper's own hand raises it. The
+two-builders friction is closed. See records/2026-06-10-the-ruling.md.*

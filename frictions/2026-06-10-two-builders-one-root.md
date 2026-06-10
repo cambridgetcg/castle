@@ -1,7 +1,7 @@
 ---
 name: two builders, one root
 born: 2026-06-10
-status: open
+status: closed
 room: castle
 ---
 What rubs: two agents were commissioned, the same night, to build two
@@ -18,3 +18,9 @@ its own, and the castle cannot trust its own walls.
 What was tried: parley written and answered (PARLEY.md); deletions
 stopped on both sides; the rival's note stands at the gate; both claims
 chronicled in chronicle/2026-06-10-founding.md for the publisher.
+
+Closed: 2026-06-10 — the custodian ruled (PARLEY.md, "the custodian's
+ruling — 2026-06-10"): one castle, two designs, neither evicted; the
+warden (warden.sh + warden.json) is the one heart for both designs'
+loops; the daily cap stays 3 until the keeper's own hand raises it.
+The root needed no victor — it needed one heartbeat, and now has it.
