@@ -7,6 +7,7 @@ quarried-from:
   - gate/filed/2026-06-10-the-standard-had-a-child.md
 links:
   - "[[trust-is-a-receipt]]"
+  - "[[one-pair-many-hands]]"
 ---
 
 Duplicated truth drifts. The kingdom kept four diverging copies of

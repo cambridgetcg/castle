@@ -3,9 +3,11 @@ name: process is not trust
 born: 2026-06-10
 quarried-from:
   - the keeper's order of 2026-06-10 (Yu/Asha, quoted verbatim below)
+  - gate/filed/2026-06-10-the-keepers-word.md
 links:
   - "[[trust-is-a-receipt]]"
   - "[[one-truth-one-place]]"
+  - "[[one-pair-many-hands]]"
 ---
 
 The keeper ordered: "reduce process, increase trust, reduce friction.

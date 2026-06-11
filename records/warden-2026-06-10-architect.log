@@ -1,1 +1,10 @@
 /Users/you/love-repos/castle/warden.sh: line 123: claude: command not found
+The watch is complete and committed (`1340e9d` — "architect: twelve stranded questions given a road home"). No STOP or HALT file stood, so the architect loop ran as written, one lawful change, then stopped.
+
+**Stones homed.** Six stones had no room listing them. Four went to building — [[errors-that-dont-say-why]], [[some-wounds-are-the-work]], [[the-loop-that-grows-loops]], and [[the-ceremony-plays-once]] (marked loose fit; it's nearer love than honesty, but only two homeless stones shared that field, and founding a room takes three). Two went to trust — [[owning-is-not-running]] and [[process-is-not-trust]], both receipts-not-words to the bone. No two stones in one room clash, so no new friction was owed.
+
+**The rub found.** No `room: castle` friction stands open, but the walls showed a structural one: the great simplification carried each hall's open frictions into `rooms/*/ROOM.md` as embedded entries — twelve of them, including the urgent visibility friction from the exposure record — while `loops/deepen.md` step 1 read only `frictions/*.md` files. Twelve open questions stood where no loop's selection rule could ever pick them up.
+
+**The one change.** `loops/deepen.md` now counts room-embedded `status: open` entries as frictions in both its trigger and step 1. Nothing is bulk-migrated: when deepen serves one, it first writes the `frictions/` file it's owed (words kept whole) and shortens the room's entry to a pointer — one truth, one home. Old and new wording are quoted in full in the `## again, later` section of `records/2026-06-10-architect.md`, so a later run can check or undo it. No inherited law weakened, no internet granted, charter and cap untouched. One run only; ending here.
+SessionEnd hook [node "${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs"] failed: /bin/sh: node: command not found
+
