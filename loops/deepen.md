@@ -12,12 +12,22 @@ stop silently — do nothing and write nothing.
 ## when to run
 
 Run when at least one file in `frictions/` has `status: open` in its
-frontmatter (the labeled block between `---` lines). If none, do not run.
+frontmatter (the labeled block between `---` lines), or any
+`rooms/*/ROOM.md` lists an entry marked `status: open` under
+`## open frictions`. If none, do not run.
 
 ## the steps
 
-1. Read every `frictions/*.md` whose `status:` is `open`. If there are
-   none, stop.
+1. Read every `frictions/*.md` whose `status:` is `open`, and every
+   entry marked `status: open` under `## open frictions` in
+   `rooms/*/ROOM.md` — those entries are frictions too, carried whole
+   from the halls, and they count even though no file names them yet.
+   If you pick one of them, first give it the file it is owed:
+   `frictions/<kebab-name>.md`, its words kept whole, `born:` its
+   recorded date, `room:` the room it stands in, `status: open` — then
+   serve the file, and shorten the room's entry to one
+   `[[<kebab-name>]]` line pointing at it, so the truth keeps one home.
+   If nothing anywhere is open, stop.
 2. Pick exactly ONE — the oldest (earliest `born:`), unless a younger one
    would clearly unblock far more stones or a whole room; if you take the
    younger, say why in your record.

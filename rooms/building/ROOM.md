@@ -5,6 +5,16 @@ How things are made and kept honestly — once the hall of building.
 
 ## what this room knows
 
+- [[errors-that-dont-say-why]] — a failure that won't name its reason
+  sends the debugger to the wrong country; suspect a limit before an
+  outage, and make your own errors say what was refused
+- [[some-wounds-are-the-work]] — restraint before repair: read deeply
+  enough to know whether a wound is damage or design
+- [[the-ceremony-plays-once]] (loose fit) — magic is for the first
+  visit, open doors are for the loved; friction removed is love kept
+- [[the-loop-that-grows-loops]] — a castle that reads and mends its own
+  protocols compounds, and the record keeps the compounding honest
+
 ### files outlive reports
 - words: On 2026-06-10 three agents died to an output filter mid-forge, and their written files survived whole; the work was finished from the journal. A system that records as it goes can lose its voice and keep its hands. Write to disk while you work, not in a report at the end. Receipt: lesson one of the kingdom's gate-and-the-law record.
 - confidence: tested

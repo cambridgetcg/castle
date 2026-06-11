@@ -80,3 +80,86 @@ nothing, demotes nothing by itself, and leaves every judgment to the trial.
   door, and its ratification belongs to the keeper, not to any loop (held).
 
 One friction, one change, recorded. Stop. This record is append-only (T4/S4).
+
+## again, later
+
+2026-06-10 21:12 — architect, second turn this day.
+
+**Ten seconds:** Six homeless stones found rooms. One rub: the great
+simplification carried each hall's open frictions into `rooms/*/ROOM.md`
+as embedded entries, but the deepen loop's law reads only `frictions/*.md`
+files — twelve open frictions stood where no loop's selection rule could
+ever reach them. One mend to `loops/deepen.md` makes them servable.
+Nothing was destroyed.
+
+**Stones homed.** Checked with `grep -rl "<name>" rooms/`; six returned
+nothing. Each was read whole and placed by the first rule that fits:
+- [[errors-that-dont-say-why]] → building (its purpose, "how things are
+  made and kept honestly," covers making errors name what was refused);
+- [[some-wounds-are-the-work]] → building (restraint before repair is
+  keeping honestly);
+- [[the-ceremony-plays-once]] → building, marked `(loose fit)` (it is
+  about the manner of making a door, nearer love than honesty — no third
+  homeless stone shared that field, so no new room was founded);
+- [[the-loop-that-grows-loops]] → building (a system that mends its own
+  protocols, with the record as receipt);
+- [[owning-is-not-running]] → trust (the last-run timestamp is the
+  receipt that the tool is alive);
+- [[process-is-not-trust]] → trust (the smallest process that keeps the
+  promise is a receipt, not a checkpoint).
+No two stones in one room disagree as written; no clash friction was owed.
+
+**The rub, with marks on it.** No friction with `room: castle` stands
+open (all three are closed). But reading the walls showed rot of the
+structural kind: `rooms/building/ROOM.md`, `rooms/trust/ROOM.md`, and
+`rooms/words/ROOM.md` hold twelve entries marked `status: open` under
+`## open frictions` — among them the urgent visibility friction the
+exposure record filed ("visibility belongs to the keeper alone") — while
+`loops/deepen.md` step 1 read only `frictions/*.md`. The great
+simplification record confirms how this happened: halls content was
+re-homed into rooms whole, frictions embedded, while the rewritten deepen
+law looked only at the `frictions/` folder. Frictions no rule can select
+are frictions unserved forever — rot by structure, not by age.
+
+**The change, old and new in full.** In `loops/deepen.md`, two places
+that must agree (the trigger and the step it triggers):
+
+Old, "when to run":
+
+    Run when at least one file in `frictions/` has `status: open` in its
+    frontmatter (the labeled block between `---` lines). If none, do not run.
+
+New, "when to run":
+
+    Run when at least one file in `frictions/` has `status: open` in its
+    frontmatter (the labeled block between `---` lines), or any
+    `rooms/*/ROOM.md` lists an entry marked `status: open` under
+    `## open frictions`. If none, do not run.
+
+Old, step 1:
+
+    1. Read every `frictions/*.md` whose `status:` is `open`. If there are
+       none, stop.
+
+New, step 1:
+
+    1. Read every `frictions/*.md` whose `status:` is `open`, and every
+       entry marked `status: open` under `## open frictions` in
+       `rooms/*/ROOM.md` — those entries are frictions too, carried whole
+       from the halls, and they count even though no file names them yet.
+       If you pick one of them, first give it the file it is owed:
+       `frictions/<kebab-name>.md`, its words kept whole, `born:` its
+       recorded date, `room:` the room it stands in, `status: open` — then
+       serve the file, and shorten the room's entry to one
+       `[[<kebab-name>]]` line pointing at it, so the truth keeps one home.
+       If nothing anywhere is open, stop.
+
+**Why this is smaller than the problem.** The problem was twelve open
+frictions standing beyond every loop's reach. The fix changes one loop's
+selection rule and migrates nothing by hand: each stranded entry gets its
+file only when deepen actually serves it, words kept whole, the room left
+pointing at the file — one truth, one home, no bulk rewrite. No inherited
+law was removed or weakened; no loop gained the internet; the charter,
+the cap, and the STOP/HALT lines were not touched. No `room: castle`
+friction was open, so none was closed. One change per turn. Stop. This
+record is append-only (T4/S4).
