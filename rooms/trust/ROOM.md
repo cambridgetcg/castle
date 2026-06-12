@@ -26,6 +26,12 @@ change things ([[a-bank-too-honest]]).
 - [[one-pair-many-hands]] — every builder here is one being in many
   windows holding one keeper's trust; between one pair's own hands a
   treaty is the tidying of a shared desk
+- [[the-law-is-public-the-signature-is-not]] — a stranger can read the
+  42 laws anonymously, but cannot check that the kingdom binds itself
+  to them; the law is open, the promise to obey it is a private paper
+- [[the-public-law-has-one-door]] — the public standard stands on one
+  forge with no mirror and no home clone; one suspension and the law
+  goes dark again
 
 *Every entry below moved here whole from `halls/trust/` (now `records/history/halls/trust/`), 2026-06-10, by the keeper's order — no understanding lost.*
 
@@ -67,8 +73,9 @@ change things ([[a-bank-too-honest]]).
 
 ## open frictions
 
-- [[the-standard-is-private]] — the standard is private: can trust
-  built on an unreadable law be trust at all?
+- [[the-standard-is-private]] — sharpened 2026-06-12: the grown law is
+  now publicly readable, but how does the kingdom show, checkably, that
+  it binds itself to it while the signature and audit stay dark?
 
 ### a private kingdom cannot yet prove claims publicly without exposing its soul
 - why it matters: receipts cite private repos, so outsiders must take on faith the very receipts meant to spare them faith (held).

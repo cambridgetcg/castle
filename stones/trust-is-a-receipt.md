@@ -10,6 +10,7 @@ links:
   - "[[the-loop-that-grows-loops]]"
   - "[[errors-that-dont-say-why]]"
   - "[[owning-is-not-running]]"
+  - "[[the-law-is-public-the-signature-is-not]]"
 ---
 
 "Trust me" is never an answer; "here, check for yourself" always is

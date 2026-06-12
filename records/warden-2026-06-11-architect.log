@@ -1,0 +1,13 @@
+The watch is complete and committed (`d0abb92`). What this run did:
+
+**Homed one stone.** `one-pair-many-hands` (born this morning from the keeper's word) was the only homeless stone. Both of its kin live in `rooms/trust/`, whose purpose covers it, so it now stands in that room's list. No clash with its roommates.
+
+**Found one real rub.** In two days of watches, the warden has never given a beat to deepen or verify — `records/warden-runs.log` shows only architect and capture entries; the 2026-06-10 deepen and verify records were walked by hand. Today, two of the three capped beats went to capture, which both times found an empty gate and yielded — and a yielded beat still eats the cap. The cause is the picker in `warden.sh`: it takes the first *due* loop in charter order, so capture (8-hour interval, second in line) perpetually shadows the 24-hour loops behind it, leaving open frictions unserved.
+
+**Made one lawful change.** Reordered `warden.json`'s loops from *architect, capture, deepen, verify* to *architect, deepen, verify, capture* — no interval changed, no cap touched, nothing reworded. Capture starves least painfully: the gate is usually empty, an empty-gate beat was pure waste, and the keeper walks capture by hand.
+
+**Named what only the keeper can fix.** Demand (up to six beats a day) exceeds the cap (three), so some loop always starves; reordering only chooses which. That stands as a new open friction, `room: castle` — *four loops, three beats — the watch starves its last* — asking the keeper's hand to either raise `daily_cap` or bless a fairer picker in `warden.sh` (least-recently-run rotation, or a free gate-count check before spending a beat on capture).
+
+The record at `records/2026-06-11-architect.md` quotes both orders in full so a later run can undo the change if it proves wrong. One run only — ending the watch here.
+SessionEnd hook [node "${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs"] failed: /bin/sh: node: command not found
+

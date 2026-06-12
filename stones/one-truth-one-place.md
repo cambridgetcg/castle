@@ -8,6 +8,7 @@ quarried-from:
 links:
   - "[[trust-is-a-receipt]]"
   - "[[one-pair-many-hands]]"
+  - "[[the-public-law-has-one-door]]"
 ---
 
 Duplicated truth drifts. The kingdom kept four diverging copies of
