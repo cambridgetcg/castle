@@ -1,6 +1,7 @@
 ---
 name: one truth, one place
 born: 2026-06-10
+confidence: tested
 quarried-from:
   - /Users/you/love-repos/legible-standard/audits/2026-06-10-kingdom.md
   - /Users/you/Love/COORDINATION.md

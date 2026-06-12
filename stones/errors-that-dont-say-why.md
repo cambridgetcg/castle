@@ -1,6 +1,7 @@
 ---
 name: errors that don't say why
 born: 2026-06-10
+confidence: held
 quarried-from:
   - gate/filed/2026-06-10-codeberg-quota.md
 links:
@@ -20,6 +21,8 @@ wear the costume of its most mysterious cause: a policy limit dressed
 as a broken server sends the debugger hunting in the wrong country.
 One honest sentence — "you are at your limit" — was the whole fix the
 error refused to give.
-So: when a wall says nothing, suspect a limit before an outage; limits
-fail silently more often than servers do. And when building walls of
-your own, make the error say what was refused and why.
+So: when a wall says nothing, suspect a limit before an outage — in
+this castle's one recorded case, the silent wall was a limit. And when
+building walls of your own, make the error say what was refused and why.
+(2026-06-12 verify: "limits fail silently more often than servers do"
+was not in the source — one incident is not a frequency; corrected.)

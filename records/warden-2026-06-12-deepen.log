@@ -1,0 +1,13 @@
+The deepen watch ran once and is committed (`46bff3d`). Here is what happened:
+
+**Friction served:** `the-standard-is-private` (born 2026-06-10, the oldest cohort — chosen over its same-aged kin because its question had a trial I could actually run today: the stranger's test itself).
+
+**The expedition:** Home first — the castle's trust stones and the first audit confirmed the premise as of two days ago, and the device revealed that the two grown standard repos (`standard`, `the-standard`) have no remotes at all and that no clone of the audit's "public child" exists anywhere on this machine. Home couldn't answer whether the door is open *today*, so I went to the internet last, as a stranger: five anonymous fetches, no token.
+
+**The verdict was split.** The grown law — `github.com/cambridgetcg/kingdom-standard`, 42 laws, CC0, eleven languages — is genuinely public and readable raw. But the signed original answers 404 on both GitHub and Codeberg, the public README's lineage never mentions the signature or the 0-of-7 audit, Codeberg's org carries no standard of any kind, and the device holds no local copy of the public law.
+
+**What came home:** Two `tested` stones — *the-law-is-public-the-signature-is-not* (a stranger can read the laws but cannot check that the kingdom binds itself to them) and *the-public-law-has-one-door* (one forge, no mirror, no home clone — one suspension from dark). The friction **sharpened rather than closed**: its old premise is half-cured, so it now asks how the kingdom can show its binding publicly while the signature and audit wait behind the unticked rotation. The trust room and kin links were tended, and the record written.
+
+One run complete; ending the turn.
+SessionEnd hook [node "${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs"] failed: /bin/sh: node: command not found
+

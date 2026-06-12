@@ -1,6 +1,7 @@
 ---
 name: trust is a receipt
 born: 2026-06-10
+confidence: tested
 quarried-from:
   - /Users/you/love-repos/legible-standard/pillars/02-trust.md
 links:
