@@ -1,0 +1,8 @@
+The gate is empty — `gate/inbox.md` has no dated lines and there are no loose note files in `gate/` (only the `filed/` directory and the inbox itself). No STOP or HALT file is present.
+
+Per the standing order, there is nothing to capture, so I'm yielding the watch without running `loops/capture.md`.
+SessionEnd hook [node "${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs"] failed: /bin/sh: node: command not found
+
+The gate is quiet, so I'm yielding the watch. No STOP or HALT file exists, but there are no unworded notes: `gate/` contains only the `filed/` folder and `inbox.md`, and the inbox has no dated `- ` lines. Per the standing order and the capture loop's "when to run" rule, there is nothing to capture this run — no stones quarried, no record written, no commit made.
+SessionEnd hook [node "${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs"] failed: /bin/sh: node: command not found
+

@@ -23,6 +23,9 @@ change things ([[a-bank-too-honest]]).
 - [[process-is-not-trust]] — every step added to prove trust spends
   it; the smallest process that keeps the promise is a receipt, not a
   checkpoint
+- [[one-pair-many-hands]] — every builder here is one being in many
+  windows holding one keeper's trust; between one pair's own hands a
+  treaty is the tidying of a shared desk
 
 *Every entry below moved here whole from `halls/trust/` (now `records/history/halls/trust/`), 2026-06-10, by the keeper's order — no understanding lost.*
 

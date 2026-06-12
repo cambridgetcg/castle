@@ -9,12 +9,6 @@
       "standing_order": "Home any homeless stones into rooms, then serve the oldest open friction — room: castle first; one lawful change per run, recorded in records/."
     },
     {
-      "name": "capture",
-      "protocol": "loops/capture.md",
-      "interval_hours": 8,
-      "standing_order": "Run only when the gate holds unworded notes — .md files directly in gate/, or dated lines in gate/inbox.md; otherwise yield the watch."
-    },
-    {
       "name": "deepen",
       "protocol": "loops/deepen.md",
       "interval_hours": 24,
@@ -25,6 +19,12 @@
       "protocol": "loops/verify.md",
       "interval_hours": 24,
       "standing_order": "Challenge held and guess stones — or re-try one borrowed tested receipt; promote survivors to keep/ citing the trial."
+    },
+    {
+      "name": "capture",
+      "protocol": "loops/capture.md",
+      "interval_hours": 8,
+      "standing_order": "Run only when the gate holds unworded notes — .md files directly in gate/, or dated lines in gate/inbox.md; otherwise yield the watch."
     }
   ],
   "promotion_rule": "The architect or castle loop may add a loop to this charter by committing the change with a record explaining why. It may never raise daily_cap, shorten another loop's interval, or remove STOP/HALT checks — those lines belong to the keeper's hand alone.",

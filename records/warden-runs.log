@@ -5,3 +5,8 @@
 2026-06-10 15:35:00	architect	failed:127	correction: the 07:00:00 done was false — warden-2026-06-10-architect.log shows "claude: command not found"; this beat did no work
 2026-06-10 21:07:39	architect	ran
 2026-06-10 21:12:03	architect	done
+2026-06-11 03:12:04	capture	ran
+2026-06-11 03:12:29	capture	done
+2026-06-11 16:19:15	capture	ran
+2026-06-11 16:19:40	capture	done
+2026-06-11 22:19:40	architect	ran
