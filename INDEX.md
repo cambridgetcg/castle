@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 17 · Open fields: 2 · Loop runs: 9
+Rooms: 10 · Insights: 17 · Open fields: 2 · Loop runs: 10
 
 ## Rooms
 
@@ -72,8 +72,8 @@ Rooms: 10 · Insights: 17 · Open fields: 2 · Loop runs: 9
 
 ## Loops
 
-- L007 — The first beat
 - L008 — Publish the front
 - L009 — Close the blind spots
 - L010 — The sister castles
 - L011 — Harvest belief from gate
+- L012 — Harvest bell-keeper from gate
