@@ -135,6 +135,17 @@ function scanFields() {
   return fields;
 }
 
+function scanCharters() {
+  const chartersDir = path.join(ROOT, 'loops', 'charters');
+  const charters = [];
+  for (const file of listDir(chartersDir)) {
+    const m = file.match(/^(C\d{3})-.*\.md$/);
+    if (!m) continue;
+    charters.push({ id: m[1], rel: 'loops/charters/' + file });
+  }
+  return charters;
+}
+
 function scanLoops() {
   const logDir = path.join(ROOT, 'loops', 'log');
   const loops = [];
@@ -467,17 +478,19 @@ function cmdCheck() {
   }
 
   // Cross-references: every [[id]] resolves.
+  const charters = scanCharters();
   const knownIds = {};
   for (const room of rooms) for (const ins of room.insights) knownIds[ins.id] = true;
   for (const f of fields) knownIds[f.id] = true;
   for (const l of loops) knownIds[l.id] = true;
+  for (const c of charters) knownIds[c.id] = true;
   const mdFiles = [];
   for (const top of ['rooms', 'fields', 'loops']) {
     walkMd(path.join(ROOT, top), mdFiles, top + '/');
   }
   for (const rel of mdFiles) {
     const text = readText(path.join(ROOT, rel));
-    const refRe = /\[\[(\d{4}|F\d{3}|L\d{3})\]\]/g;
+    const refRe = /\[\[(\d{4}|F\d{3}|L\d{3}|C\d{3})\]\]/g;
     let m;
     while ((m = refRe.exec(text)) !== null) {
       if (!knownIds[m[1]]) {

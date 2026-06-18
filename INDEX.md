@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 17 · Open fields: 4 · Loop runs: 6
+Rooms: 10 · Insights: 17 · Open fields: 3 · Loop runs: 7
 
 ## Rooms
 
@@ -66,14 +66,14 @@ Rooms: 10 · Insights: 17 · Open fields: 4 · Loop runs: 6
 - F003 — No word from the internet has entered yet (open)
 - F004 — The loop has no pulse (harvested)
 - F005 — Two hands raised one castle (open)
-- F006 — The check has blind spots (open)
+- F006 — The check has blind spots (harvested)
 - F007 — Process outgrew trust (working)
 - F008 — The public front has not been published (working)
 
 ## Loops
 
-- L002 — The third hand — a stone wing, announced and ledgered
 - L003 — Trust over process — the gate gets lighter
 - L006 — The harvest — seven lessons come home
 - L007 — The first beat
 - L008 — Publish the front
+- L009 — Close the blind spots

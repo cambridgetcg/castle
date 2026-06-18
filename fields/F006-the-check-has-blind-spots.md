@@ -1,6 +1,6 @@
 ---
 id: F006
-state: open
+state: harvested
 opened: 2026-06-10
 ---
 
@@ -20,4 +20,4 @@ gaps slowly teaches minds to trust a green light that is not entirely earned.
 undeclared top-level paths, and flags a field whose body is the verbatim
 unfilled template.
 
-**Work so far:** —
+**Work so far:** L009 (2026-06-18) — the three named blind spots (`links:` ids, undeclared top-level paths, unfilled template stubs) were already in the code by the time this loop ran. The fourth (date formats in `source:`) was found not to warrant mechanical checking — source fields are prose, not dates. A genuine remaining gap — `[[C###]]` charter references slipping through the cross-reference regex — was closed by extending the pattern and scanning `loops/charters/`. Understanding moved to rooms/castle/a-named-blind-spot-is-its-own-first-repair.md.
