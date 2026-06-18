@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 17 · Open fields: 4 · Loop runs: 4
+Rooms: 10 · Insights: 17 · Open fields: 4 · Loop runs: 5
 
 ## Rooms
 
@@ -64,7 +64,7 @@ Rooms: 10 · Insights: 17 · Open fields: 4 · Loop runs: 4
 - F001 — Understanding on this device is scattered (working)
 - F002 — The castle is newborn (open)
 - F003 — No word from the internet has entered yet (open)
-- F004 — The loop has no pulse (working)
+- F004 — The loop has no pulse (harvested)
 - F005 — Two hands raised one castle (open)
 - F006 — The check has blind spots (open)
 - F007 — Process outgrew trust (working)
@@ -75,3 +75,4 @@ Rooms: 10 · Insights: 17 · Open fields: 4 · Loop runs: 4
 - L002 — The third hand — a stone wing, announced and ledgered
 - L003 — Trust over process — the gate gets lighter
 - L006 — The harvest — seven lessons come home
+- L007 — The first beat

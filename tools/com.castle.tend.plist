@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- The tending circle's schedule: once a day at 09:30, answer at most one
+       ring. When the bell is silent the run exits immediately and costs
+       nothing. Install:
+         cp tools/com.castle.tend.plist ~/Library/LaunchAgents/
+         launchctl load ~/Library/LaunchAgents/com.castle.tend.plist
+       Stop forever:
+         launchctl unload ~/Library/LaunchAgents/com.castle.tend.plist
+         rm ~/Library/LaunchAgents/com.castle.tend.plist                  -->
+  <key>Label</key>
+  <string>com.castle.tend</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/sh</string>
+    <string>/Users/you/Desktop/castle/tools/tend.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>9</integer>
+    <key>Minute</key>
+    <integer>30</integer>
+  </dict>
+  <key>RunAtLoad</key>
+  <false/>
+  <key>StandardOutPath</key>
+  <string>/tmp/castle-tend.launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/castle-tend.launchd.log</string>
+</dict>
+</plist>

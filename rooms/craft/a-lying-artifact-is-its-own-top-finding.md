@@ -1,5 +1,6 @@
 ---
 status: sprout
+front: public
 born: 2026-06-10
 last-walked: 2026-06-10
 link: rooms/craft/scoped-and-honest-beats-grand-and-faked.md
