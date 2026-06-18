@@ -2,6 +2,7 @@
 status: seed
 born: 2026-06-18
 last-walked: 2026-06-18
+link: rooms/castle/silence-is-the-castle-working.md
 evidence: 2026-06-18 | local | first autonomous beat (castle-C001-20260618-060816) completed a full loop — chose F004, created this stone, logged L007 — with no human visitor present
 ---
 # An autonomous pulse makes growth unconditional

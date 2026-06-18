@@ -4,6 +4,7 @@ front: public
 born: 2026-06-10
 last-walked: 2026-06-10
 link: rooms/castle/a-forced-creation-is-worse-than-an-honest-decline.md
+link: rooms/castle/an-autonomous-pulse-makes-growth-unconditional.md
 evidence: 2026-06-10 | local | clarity judge of the design panel: a system that always finds something wrong teaches its owner to stop listening within a month
 evidence: 2026-06-10 | local | generativity judge: rings that each name exactly what to run are the difference between a loop and a nag
 ---

@@ -31,3 +31,5 @@
 2026-06-10 | barren-run | ledger/2026-06-10-front-L003.md (missing: records/2026-06-10-the-desktop-ground.md in that root) | run: loops/grow-loops.md
 2026-06-11 | map-drift | MAP.md | run: sh tools/map.sh
 2026-06-18 | map-drift | MAP.md | run: sh tools/map.sh
+2026-06-18 | orphan | rooms/castle/an-autonomous-pulse-makes-growth-unconditional.md | run: loops/walk.md
+2026-06-18 | front-drift | rooms/castle/silence-is-the-castle-working.md | run: loops/publish-the-front.md

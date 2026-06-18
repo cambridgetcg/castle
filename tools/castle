@@ -360,6 +360,19 @@ function walkMd(dir, rels, prefix) {
   }
 }
 
+const FIELD_TEMPLATE_STUBS = [
+  'what is true now, that grinds.',
+  'one true sentence that is not yet true.',
+];
+const INSIGHT_TEMPLATE_STUBS = [
+  'The insight itself, in plain words. As short as truth allows.',
+  '(fill in: where this word came from)',
+];
+const KNOWN_TOP_DIRS = new Set([
+  'gate', 'rooms', 'loops', 'tools', 'ledger', 'crypt',
+  'fields', 'quarry', 'stonework', 'foundation', 'keep', 'bin', 'src',
+]);
+
 function cmdCheck() {
   const findings = [];
   function flag(rel, problem) {
@@ -400,6 +413,11 @@ function cmdCheck() {
       } else {
         seenIds[ins.id] = ins.rel;
       }
+      for (const stub of INSIGHT_TEMPLATE_STUBS) {
+        if (ins.text.indexOf(stub) !== -1) {
+          flag(ins.rel, 'unfilled template text: "' + stub + '"');
+        }
+      }
     }
   }
 
@@ -419,6 +437,11 @@ function cmdCheck() {
     for (const section of ['The friction', 'Why it matters', 'Better looks like', 'Work so far']) {
       if (f.text.indexOf('**' + section + ':**') === -1) {
         flag(f.rel, 'missing section **' + section + ':**');
+      }
+    }
+    for (const stub of FIELD_TEMPLATE_STUBS) {
+      if (f.text.indexOf(stub) !== -1) {
+        flag(f.rel, 'unfilled template text: "' + stub + '"');
       }
     }
   }
@@ -463,12 +486,50 @@ function cmdCheck() {
     }
   }
 
+  // links: frontmatter (comma-separated ids) resolves.
+  for (const room of rooms) {
+    for (const ins of room.insights) {
+      if (ins.fm && ins.fm.links) {
+        const ids = ins.fm.links.split(',').map(function (s) { return s.trim(); }).filter(Boolean);
+        for (const lid of ids) {
+          if (!knownIds[lid]) {
+            flag(ins.rel, 'links: entry "' + lid + '" does not resolve to any insight, field or loop log');
+          }
+        }
+      }
+    }
+  }
+
+  // link: frontmatter paths (stone-grammar files use one line per linked path).
+  for (const rel of mdFiles) {
+    const text = readText(path.join(ROOT, rel));
+    const fmBlock = text.match(/^---\n([\s\S]*?)\n---/);
+    if (!fmBlock) continue;
+    for (const line of fmBlock[1].split('\n')) {
+      const lm = line.match(/^link:\s*(.+)$/);
+      if (!lm) continue;
+      const target = lm[1].trim();
+      if (!isFile(path.join(ROOT, target))) {
+        flag(rel, 'link: "' + target + '" does not point to an existing file');
+      }
+    }
+  }
+
   // The index must match the disk.
   const indexPath = path.join(ROOT, 'INDEX.md');
   const fresh = buildIndex();
   const current = isFile(indexPath) ? readText(indexPath) : null;
   if (current !== fresh) {
     flag('INDEX.md', 'INDEX.md is stale — run tools/castle map');
+  }
+
+  // Undeclared top-level directories.
+  for (const name of listDir(ROOT)) {
+    if (name.startsWith('.')) continue;
+    const full = path.join(ROOT, name);
+    if (isDir(full) && !KNOWN_TOP_DIRS.has(name)) {
+      flag(name + '/', 'undeclared top-level directory — add it to KNOWN_TOP_DIRS in tools/castle or move to crypt/');
+    }
   }
 
   if (findings.length > 0) {
