@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 21 · Open fields: 3 · Loop runs: 26
+Rooms: 10 · Insights: 22 · Open fields: 3 · Loop runs: 27
 
 ## Rooms
 
@@ -18,6 +18,7 @@ Rooms: 10 · Insights: 21 · Open fields: 3 · Loop runs: 26
 
 - 0020 — The pulse interval is the castle's self-assessment made visible
 - 0021 — A proposed charter is a promise the first beat keeps
+- 0022 — A loop's cadence is its claim about how fast its corner changes
 
 ### continuity
 
@@ -76,8 +77,8 @@ Rooms: 10 · Insights: 21 · Open fields: 3 · Loop runs: 26
 
 ## Loops
 
-- L024 — L024 — Cambridge-TCG pillow book surveyed; generosity-as-legibility harvested
 - L025 — L025 — harvest F001: scattered stores exhausted by survey
 - L026 — L026 — fix open-field counter; craft insight 0019
 - L027 — L027 — pulse interval as health readout
 - L028 — L028 — C002 (the tributary) instantiated
+- L029 — L029 — cadence as claim: insight 0022
