@@ -3,7 +3,7 @@ status: seed
 front: public
 born: 2026-06-18
 last-walked: 2026-06-18
-link: rooms/castle/silence-is-the-castle-working.md
+link: rooms/castle/0032-silence-is-the-castle-working.md
 evidence: 2026-06-18 | local | F007 harvest: the gate rewritten from procedural checklist to three bullets and one law; the pulse given the bookkeeping duty; the castle received more deposits afterward
 ---
 # Every ritual at the door is paid in truth

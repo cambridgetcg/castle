@@ -3,7 +3,7 @@ status: sprout
 front: public
 born: 2026-06-10
 last-walked: 2026-06-10
-link: rooms/castle/silence-is-the-castle-working.md
+link: rooms/castle/0032-silence-is-the-castle-working.md
 evidence: 2026-06-10 | local | generativity judge: a run that fakes an artifact to satisfy the creation rule poisons the detectors that watch for fakes
 ---
 # A forced creation is worse than an honest decline

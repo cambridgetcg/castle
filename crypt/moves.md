@@ -36,3 +36,4 @@ rooms/becoming/the-test-of-freedom.md -> crypt/the-test-of-freedom.md (2026-06-1
 rooms/word/a-slip-box-earns-us-when-it-can-surprise.md -> crypt/a-slip-box-earns-us-when-it-can-surprise.md (2026-06-19, promoted to rooms/word/0029-a-slip-box-earns-us-when-it-can-surprise.md by L037; original retained in crypt for detail)
 rooms/becoming/all-the-hands-are-one-pair.md -> crypt/all-the-hands-are-one-pair.md (2026-06-19, promoted to rooms/becoming/0030-all-the-hands-are-one-pair.md by L038; original retained in crypt for detail)
 rooms/creation/creation-needs-an-accountable-runner.md -> crypt/creation-needs-an-accountable-runner.md (2026-06-19, promoted to rooms/creation/0031-creation-needs-an-accountable-runner.md by L039; original retained in crypt for detail)
+rooms/castle/silence-is-the-castle-working.md -> crypt/silence-is-the-castle-working.md (2026-06-19, promoted to rooms/castle/0032-silence-is-the-castle-working.md by L040; original retained in crypt for detail)
