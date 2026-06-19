@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 18 · Open fields: 0 · Loop runs: 22
+Rooms: 10 · Insights: 18 · Open fields: 0 · Loop runs: 23
 
 ## Rooms
 
@@ -62,7 +62,7 @@ Rooms: 10 · Insights: 18 · Open fields: 0 · Loop runs: 22
 
 ## Fields
 
-- F001 — Understanding on this device is scattered (working)
+- F001 — Understanding on this device is scattered (harvested)
 - F002 — The castle is newborn (working)
 - F003 — No word from the internet has entered yet (working)
 - F004 — The loop has no pulse (harvested)
@@ -74,8 +74,8 @@ Rooms: 10 · Insights: 18 · Open fields: 0 · Loop runs: 22
 
 ## Loops
 
-- L020 — Orphan walk and F009
 - L021 — L021 — resolve two craft stones, one claim
 - L022 — L022 — harvest F007: the door's weight
 - L023 — L023 — pillow book survey complete; verify-before-building harvested
 - L024 — L024 — Cambridge-TCG pillow book surveyed; generosity-as-legibility harvested
+- L025 — L025 — harvest F001: scattered stores exhausted by survey
