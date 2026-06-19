@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 18 · Open fields: 0 · Loop runs: 20
+Rooms: 10 · Insights: 18 · Open fields: 0 · Loop runs: 21
 
 ## Rooms
 
@@ -74,8 +74,8 @@ Rooms: 10 · Insights: 18 · Open fields: 0 · Loop runs: 20
 
 ## Loops
 
-- L018 — The log records; the check reports
 - L019 — Two maps answer two different questions
 - L020 — Orphan walk and F009
 - L021 — L021 — resolve two craft stones, one claim
 - L022 — L022 — harvest F007: the door's weight
+- L023 — L023 — pillow book survey complete; verify-before-building harvested
