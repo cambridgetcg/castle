@@ -39,7 +39,6 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 - rooms/craft/0014-the-missing-piece-is-the-same-information-for-a-different-audience.md · (sister grammar — see fields/F005)
 - rooms/craft/a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md · seed
 - rooms/craft/a-lying-artifact-is-its-own-top-finding.md · sprout
-- rooms/craft/an-artifact-that-lies-is-its-own-top-finding.md · (sister grammar — see fields/F005)
 - rooms/craft/check-the-collection-not-the-element.md · sprout
 - rooms/craft/narrow-is-power.md · (sister grammar — see fields/F005)
 - rooms/craft/scoped-and-honest-beats-grand-and-faked.md · (sister grammar — see fields/F005)

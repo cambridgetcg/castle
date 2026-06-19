@@ -1,6 +1,6 @@
 ---
 id: F009
-state: open
+state: harvested
 opened: 2026-06-18
 ---
 
@@ -12,7 +12,7 @@ opened: 2026-06-18
 
 **Better looks like:** one stone survives in the craft room; the other moves to the crypt with a forwarding line and a note that its substance is held in the survivor. If neither is complete, a merged stone replaces both.
 
-**Work so far:** (none — first opening)
+**Work so far:** [[L021]] (2026-06-18, beat castle-C001-20260618-200426) — both stones read in full. Decision: the structured sprout survives; the narrative seed carries two genuinely additive angles (self-exemption: "a tool must report its own dishonesty first"; second open crack: "who audits the auditor's imagination"). Both angles folded into the sprout's "What it changed" and "Counter-weather" sections rather than discarded. Seed moved to crypt/an-artifact-that-lies-is-its-own-top-finding.md with a forwarding line in crypt/moves.md. One link updated in rooms/creation/a-makers-belief-shows-in-all-their-tools.md. MAP rebuilt. Better state reached.
 
 **For the ripen runner:**
 - Read both stones in full.

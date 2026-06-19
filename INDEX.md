@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 18 · Open fields: 2 · Loop runs: 18
+Rooms: 10 · Insights: 18 · Open fields: 1 · Loop runs: 19
 
 ## Rooms
 
@@ -70,12 +70,12 @@ Rooms: 10 · Insights: 18 · Open fields: 2 · Loop runs: 18
 - F006 — The check has blind spots (harvested)
 - F007 — Process outgrew trust (working)
 - F008 — The public front has not been published (working)
-- F009 — Two craft stones make the same claim (open)
+- F009 — Two craft stones make the same claim (harvested)
 
 ## Loops
 
-- L016 — Check the collection, not the element
 - L017 — Sweep the gate
 - L018 — The log records; the check reports
 - L019 — Two maps answer two different questions
 - L020 — Orphan walk and F009
+- L021 — L021 — resolve two craft stones, one claim

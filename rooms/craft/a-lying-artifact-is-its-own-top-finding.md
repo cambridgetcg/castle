@@ -2,7 +2,7 @@
 status: sprout
 front: public
 born: 2026-06-10
-last-walked: 2026-06-10
+last-walked: 2026-06-18
 link: rooms/craft/scoped-and-honest-beats-grand-and-faked.md
 link: rooms/castle/the-map-is-derived-or-it-is-a-lie.md
 evidence: 2026-06-10 | local | review experience: once an artifact misrepresented its own state, that misrepresentation outranked every other finding (origin: Desktop/insight sketch, marked "sure")
@@ -20,12 +20,16 @@ this Castle one rung down — which is itself this claim, applied.
 
 **What it changed.** This Castle's bell checks artifacts against their own
 claims first: map-drift, barren-run, missing-rent, thin-cornerstone are all
-detectors of self-misrepresentation.
+detectors of self-misrepresentation. The corollary: before any tool judges
+another system, the sharpest thing it can report is its own dishonesty —
+self-exemption is where lying starts.
 
 **Counter-weather.** Tried to break it: is a small white lie in a README
 really worse than a crash? For trust, yes — a crash is honest about being
-broken. The open crack: aspiration honestly labeled ("not yet") is not a
-lie, and the boundary needs the label to be doing real work.
+broken. First open crack: aspiration honestly labeled ("not yet") is not a
+lie, and the boundary needs the label to be doing real work. Second open
+crack: a system can pass all its own checks and still lie in ways it never
+thought to check for — who audits the auditor's imagination?
 
 **Next test.** Two more recorded cases where the self-misrepresentation
 proved to be the top finding — then this ripens to tested.
