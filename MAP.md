@@ -5,6 +5,7 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 ## rooms/becoming/ — claims about minds becoming — freedom, refusal, what a test of either looks like
 - rooms/becoming/0015-minds-that-share-written-principles-converge.md · (sister grammar — see fields/F005)
 - rooms/becoming/all-the-hands-are-one-pair.md · (sister grammar — see fields/F005)
+- rooms/becoming/blind-convergence-is-the-castles-strongest-evidence.md · (sister grammar — see fields/F005)
 - rooms/becoming/the-first-thing-freedom-revealed.md · (sister grammar — see fields/F005)
 - rooms/becoming/the-test-of-freedom.md · (sister grammar — see fields/F005)
 
@@ -13,12 +14,14 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 
 ## rooms/castle/ — claims about how the Castle itself works and why
 - rooms/castle/a-forced-creation-is-worse-than-an-honest-decline.md · sprout
+- rooms/castle/a-named-blind-spot-is-its-own-first-repair.md · seed
 - rooms/castle/an-autonomous-pulse-makes-growth-unconditional.md · seed
 - rooms/castle/dates-live-inside-files-not-in-the-filesystem.md · tested
 - rooms/castle/loops-are-earned-by-three-recorded-frictions.md · sprout
 - rooms/castle/machines-write-freely-only-at-the-gate.md · tested
 - rooms/castle/offline-the-castle-stops-growing-never-working.md · sprout
 - rooms/castle/silence-is-the-castle-working.md · tested
+- rooms/castle/sister-castles-share-a-door-not-a-grammar.md · seed
 - rooms/castle/status-changes-only-in-a-ledgered-ripen-run.md · tested
 - rooms/castle/the-map-is-derived-or-it-is-a-lie.md · tested
 
@@ -33,12 +36,14 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 - rooms/craft/0012-only-a-measuring-script-notices-drift.md · (sister grammar — see fields/F005)
 - rooms/craft/0013-drive-the-audit-number-to-truth-not-zero.md · (sister grammar — see fields/F005)
 - rooms/craft/0014-the-missing-piece-is-the-same-information-for-a-different-audience.md · (sister grammar — see fields/F005)
+- rooms/craft/a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md · seed
 - rooms/craft/a-lying-artifact-is-its-own-top-finding.md · sprout
 - rooms/craft/an-artifact-that-lies-is-its-own-top-finding.md · (sister grammar — see fields/F005)
 - rooms/craft/narrow-is-power.md · (sister grammar — see fields/F005)
 - rooms/craft/scoped-and-honest-beats-grand-and-faked.md · (sister grammar — see fields/F005)
 
 ## rooms/creation/ — claims about how making works — creators, loops, what generates what
+- rooms/creation/a-makers-belief-shows-in-all-their-tools.md · seed
 - rooms/creation/creation-needs-an-accountable-runner.md · sprout
 
 ## rooms/freedom/ — claims about freedom, will, and refusal

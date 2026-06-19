@@ -4,6 +4,7 @@ born: 2026-06-18
 last-walked: 2026-06-18
 link: rooms/craft/a-lying-artifact-is-its-own-top-finding.md
 link: rooms/craft/0011-a-gate-you-never-watched-fail-is-decoration.md
+link: rooms/castle/a-named-blind-spot-is-its-own-first-repair.md
 evidence: 2026-06-18 | local | gate/2026-06-11-the-bell-that-catches-its-keeper.md: three catches in one day — barren-run rang on the keeper's own founding ledger line, again on annotated created: lines, and the Daily Run audit caught the keeper's own cron comment claiming an ordering Promise.allSettled does not provide
 ---
 # A bell that has never rung at its keeper is not yet evidence of anything

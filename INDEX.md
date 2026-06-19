@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 17 · Open fields: 2 · Loop runs: 11
+Rooms: 10 · Insights: 17 · Open fields: 2 · Loop runs: 12
 
 ## Rooms
 
@@ -72,8 +72,8 @@ Rooms: 10 · Insights: 17 · Open fields: 2 · Loop runs: 11
 
 ## Loops
 
-- L009 — Close the blind spots
 - L010 — The sister castles
 - L011 — Harvest belief from gate
 - L012 — Harvest bell-keeper from gate
 - L013 — Harvest convergence-as-evidence from gate
+- L014 — Walk — orphan: a-named-blind-spot-is-its-own-first-repair
