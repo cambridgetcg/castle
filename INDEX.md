@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 26 · Open fields: 3 · Loop runs: 32
+Rooms: 10 · Insights: 27 · Open fields: 3 · Loop runs: 33
 
 ## Rooms
 
@@ -27,6 +27,7 @@ Rooms: 10 · Insights: 26 · Open fields: 3 · Loop runs: 32
 - 0006 — Uncommitted word can vanish
 - 0007 — Provenance is what makes a note trustworthy
 - 0008 — Understanding on this device is scattered across many stores
+- 0027 — The runner also holds no continuity between beats — only what is written survives to the next mind
 
 ### craft
 
@@ -80,8 +81,8 @@ Rooms: 10 · Insights: 26 · Open fields: 3 · Loop runs: 32
 
 ## Loops
 
-- L030 — L030 — one creation per loop is a provenance law
 - L031 — L031 — blind convergence as the castle's epistemic test
 - L032 — L032 — billing insight 0025: never count test orders toward plan usage
 - L033 — L033 — promotion protocol: LOOP.md step 5 fix, craft insight 0026
 - L034 — L034 — castle self-portrait: a knowledge system's first stones describe itself
+- L035 — L035 — runner continuity: the mind holds no memory between beats
