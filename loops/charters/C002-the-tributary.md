@@ -1,6 +1,6 @@
 ---
 id: C002
-state: proposed
+state: beating
 cadence: weekly, Sundays at 08:41
 budget_usd_per_run: 1.00
 opened: 2026-06-10

@@ -52,7 +52,7 @@ is the heartbeat now. The 15-minute tick is the pulse check, not the beat.
 | id   | name                     | state    | cadence     | budget/run |
 |------|--------------------------|----------|-------------|------------|
 | C001 | the castle pulse         | beating  | daily 07:23 | $1.50      |
-| C002 | the tributary            | proposed | weekly      | $1.00      |
+| C002 | the tributary            | beating  | weekly Sun  | $1.00      |
 | C003 | the warden (second hand) | proposed | her word    | her vows   |
 | C004 | the stone motor (third hand) | proposed | daily 07:07 | $0.50  |
 
