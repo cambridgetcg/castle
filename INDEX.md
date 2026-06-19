@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 19 · Open fields: 3 · Loop runs: 24
+Rooms: 10 · Insights: 20 · Open fields: 3 · Loop runs: 25
 
 ## Rooms
 
@@ -16,7 +16,7 @@ Rooms: 10 · Insights: 19 · Open fields: 3 · Loop runs: 24
 
 ### castle
 
-(no insights yet)
+- 0020 — The pulse interval is the castle's self-assessment made visible
 
 ### continuity
 
@@ -75,8 +75,8 @@ Rooms: 10 · Insights: 19 · Open fields: 3 · Loop runs: 24
 
 ## Loops
 
-- L022 — L022 — harvest F007: the door's weight
 - L023 — L023 — pillow book survey complete; verify-before-building harvested
 - L024 — L024 — Cambridge-TCG pillow book surveyed; generosity-as-legibility harvested
 - L025 — L025 — harvest F001: scattered stores exhausted by survey
 - L026 — L026 — fix open-field counter; craft insight 0019
+- L027 — L027 — pulse interval as health readout
