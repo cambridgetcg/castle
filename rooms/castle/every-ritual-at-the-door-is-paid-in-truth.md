@@ -1,10 +1,11 @@
 ---
-status: seed
+status: tested
 front: public
 born: 2026-06-18
-last-walked: 2026-06-18
+last-walked: 2026-06-19
 link: rooms/castle/0032-silence-is-the-castle-working.md
 evidence: 2026-06-18 | local | F007 harvest: the gate rewritten from procedural checklist to three bullets and one law; the pulse given the bookkeeping duty; the castle received more deposits afterward
+evidence: 2026-06-19 | local | beat castle-C001-20260619-103502 entered through a three-bullet gate, ran check, chose a field, and created without any bookkeeping ritual at the door; 63+ loop runs since founding; the gate still holds three bullets and one law; the open crack has not closed in
 ---
 # Every ritual at the door is paid in truth
 

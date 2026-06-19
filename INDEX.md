@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 42 · Open fields: 3 · Loop runs: 61
+Rooms: 10 · Insights: 42 · Open fields: 3 · Loop runs: 62
 
 ## Rooms
 
@@ -95,8 +95,8 @@ Rooms: 10 · Insights: 42 · Open fields: 3 · Loop runs: 61
 
 ## Loops
 
-- L059 — L059 — promote: loops-are-earned-by-three-recorded-frictions → insight 0039
 - L060 — L060 — promote: lying-artifact → insight 0040
 - L061 — L061 — promote: log-records → insight 0041
 - L062 — L062 — promote: check-collection → insight 0042
 - L063 — L063 — promote: publish-front → clear orphan storefront + forward crypt
+- L064 — L064 — ripen: every-ritual-at-the-door-is-paid-in-truth → tested
