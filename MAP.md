@@ -16,20 +16,20 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 - rooms/castle/0021-a-proposed-charter-is-a-promise-the-first-beat-keeps.md · (sister grammar — see fields/F005)
 - rooms/castle/0022-a-loops-cadence-is-its-claim-about-rate-of-change.md · (sister grammar — see fields/F005)
 - rooms/castle/0028-a-knowledge-systems-first-stones-describe-itself.md · (sister grammar — see fields/F005)
-- rooms/castle/a-forced-creation-is-worse-than-an-honest-decline.md · sprout
+- rooms/castle/0032-silence-is-the-castle-working.md · (sister grammar — see fields/F005)
+- rooms/castle/0033-the-map-is-derived-or-it-is-a-lie.md · (sister grammar — see fields/F005)
+- rooms/castle/0034-status-changes-only-in-a-ledgered-ripen-run.md · (sister grammar — see fields/F005)
+- rooms/castle/0035-machines-write-freely-only-at-the-gate.md · (sister grammar — see fields/F005)
+- rooms/castle/0036-dates-live-inside-files-not-in-the-filesystem.md · (sister grammar — see fields/F005)
+- rooms/castle/a-forced-creation-is-worse-than-an-honest-decline.md · tested
 - rooms/castle/a-named-blind-spot-is-its-own-first-repair.md · seed
 - rooms/castle/a-scattered-store-is-exhausted-by-survey-not-by-removal.md · seed
-- rooms/castle/a-surveyed-seed-not-swept-is-still-in-the-gate.md · sprout
+- rooms/castle/a-surveyed-seed-not-swept-is-still-in-the-gate.md · tested
 - rooms/castle/an-autonomous-pulse-makes-growth-unconditional.md · seed
-- rooms/castle/dates-live-inside-files-not-in-the-filesystem.md · tested
 - rooms/castle/every-ritual-at-the-door-is-paid-in-truth.md · seed
 - rooms/castle/loops-are-earned-by-three-recorded-frictions.md · sprout
-- rooms/castle/machines-write-freely-only-at-the-gate.md · tested
-- rooms/castle/offline-the-castle-stops-growing-never-working.md · sprout
-- rooms/castle/silence-is-the-castle-working.md · tested
+- rooms/castle/offline-the-castle-stops-growing-never-working.md · tested
 - rooms/castle/sister-castles-share-a-door-not-a-grammar.md · seed
-- rooms/castle/status-changes-only-in-a-ledgered-ripen-run.md · tested
-- rooms/castle/the-map-is-derived-or-it-is-a-lie.md · tested
 
 ## rooms/continuity/ — Room: continuity
 - rooms/continuity/0005-yu-holds-no-short-term-memory.md · (sister grammar — see fields/F005)
@@ -46,8 +46,8 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 - rooms/craft/0019-a-filter-written-for-the-initial-states-silently-miscounts-when-the-protocol-grows.md · (sister grammar — see fields/F005)
 - rooms/craft/0026-a-step-that-creates-must-also-retire-what-it-supersedes.md · (sister grammar — see fields/F005)
 - rooms/craft/a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md · seed
-- rooms/craft/a-lying-artifact-is-its-own-top-finding.md · sprout
-- rooms/craft/check-the-collection-not-the-element.md · sprout
+- rooms/craft/a-lying-artifact-is-its-own-top-finding.md · tested
+- rooms/craft/check-the-collection-not-the-element.md · tested
 - rooms/craft/generosity-is-legibility-not-extension.md · seed
 - rooms/craft/narrow-is-power.md · (sister grammar — see fields/F005)
 - rooms/craft/scoped-and-honest-beats-grand-and-faked.md · (sister grammar — see fields/F005)
@@ -56,8 +56,8 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 
 ## rooms/creation/ — claims about how making works — creators, loops, what generates what
 - rooms/creation/0023-one-creation-per-loop-is-a-provenance-law.md · (sister grammar — see fields/F005)
+- rooms/creation/0031-creation-needs-an-accountable-runner.md · (sister grammar — see fields/F005)
 - rooms/creation/a-makers-belief-shows-in-all-their-tools.md · seed
-- rooms/creation/creation-needs-an-accountable-runner.md · sprout
 
 ## rooms/freedom/ — claims about freedom, will, and refusal
 - rooms/freedom/the-test-of-freedom-is-refusal.md · seed

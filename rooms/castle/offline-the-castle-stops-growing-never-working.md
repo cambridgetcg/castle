@@ -1,10 +1,11 @@
 ---
-status: sprout
+status: tested
 front: public
 born: 2026-06-10
-last-walked: 2026-06-10
+last-walked: 2026-06-19
 link: rooms/castle/0036-dates-live-inside-files-not-in-the-filesystem.md
 evidence: 2026-06-10 | local | founding rule: every weather citation carries its verbatim quote and retrieved date inline, so no insight needs a live URL to be understood
+evidence: 2026-06-19 | local | L051 (beat castle-C001-20260619-060730) ran entirely from local files; castle check passed clean; all 51 loop entries across nine days produced committed work without a live internet call — the castle never stopped working, confirming the claim
 ---
 # Offline, the Castle stops growing — never working
 

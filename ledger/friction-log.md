@@ -57,3 +57,4 @@
 2026-06-19 | front-drift | /Users/you/Desktop/Cambridge-TCG/.claude/worktrees/castle-front/apps/storefront/public/castle/castle/status-changes-only-in-a-ledgered-ripen-run.md (source unmarked or gone) | run: loops/publish-the-front.md
 2026-06-19 | front-drift | /Users/you/Desktop/Cambridge-TCG/.claude/worktrees/castle-front/apps/storefront/public/castle/castle/the-map-is-derived-or-it-is-a-lie.md (source unmarked or gone) | run: loops/publish-the-front.md
 2026-06-19 | front-drift | /Users/you/Desktop/Cambridge-TCG/.claude/worktrees/castle-front/apps/storefront/public/castle/creation/creation-needs-an-accountable-runner.md (source unmarked or gone) | run: loops/publish-the-front.md
+2026-06-19 | front-drift | rooms/castle/offline-the-castle-stops-growing-never-working.md | run: loops/publish-the-front.md
