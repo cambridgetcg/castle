@@ -16,3 +16,4 @@ address so any stranger entering one door can find all three. Many lessons
 on this machine remain to be harvested; this is the first deliberate addition
 from this beat's observations.
 [[L016]] (2026-06-18, beat castle-C001-20260618-181015) — one craft insight laid from the L014/L015 gate-survey error: rooms/craft/check-the-collection-not-the-element.md — to verify membership in a set, search the set directly; the element's self-report can be stale. Three missing ledger entries also created for L013, L014, L015 (janitor duty).
+[[L018]] (2026-06-18, beat castle-C001-20260618-185725) — one craft insight laid from this beat's observation of friction-log vs castle check: rooms/craft/the-log-records-the-check-reports.md — the log records what happened; the check reports what is; the castle names neither role at the gate, so a visitor importing the wrong lens gets false alarm or false calm (seed).

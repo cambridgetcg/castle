@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 17 · Open fields: 1 · Loop runs: 15
+Rooms: 10 · Insights: 17 · Open fields: 1 · Loop runs: 16
 
 ## Rooms
 
@@ -72,8 +72,8 @@ Rooms: 10 · Insights: 17 · Open fields: 1 · Loop runs: 15
 
 ## Loops
 
-- L013 — Harvest convergence-as-evidence from gate
 - L014 — Walk — orphan: a-named-blind-spot-is-its-own-first-repair
 - L015 — Survey correction and F005 harvest
 - L016 — Check the collection, not the element
 - L017 — Sweep the gate
+- L018 — The log records; the check reports
