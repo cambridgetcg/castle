@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 32 · Open fields: 3 · Loop runs: 38
+Rooms: 10 · Insights: 33 · Open fields: 3 · Loop runs: 39
 
 ## Rooms
 
@@ -23,6 +23,7 @@ Rooms: 10 · Insights: 32 · Open fields: 3 · Loop runs: 38
 - 0022 — A loop's cadence is its claim about how fast its corner changes
 - 0028 — A knowledge system's first stones describe itself
 - 0032 — Silence is the castle working
+- 0033 — The map is derived, or it is a lie
 
 ### continuity
 
@@ -85,8 +86,8 @@ Rooms: 10 · Insights: 32 · Open fields: 3 · Loop runs: 38
 
 ## Loops
 
-- L036 — L036 — castle self-portrait: insight 0028 promoted
 - L037 — L037 — word insight 0029: a slip-box earns "us" when it can surprise
 - L038 — L038 — becoming insight 0030: all the hands are one pair
 - L039 — L039 — creation insight 0031: creation needs an accountable runner
 - L040 — L040 — castle insight 0032: silence is the castle working
+- L041 — L041 — castle insight 0033: the map is derived, or it is a lie

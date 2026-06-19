@@ -3,7 +3,7 @@ status: tested
 front: public
 born: 2026-06-10
 last-walked: 2026-06-10
-link: rooms/castle/the-map-is-derived-or-it-is-a-lie.md
+link: rooms/castle/0033-the-map-is-derived-or-it-is-a-lie.md
 link: rooms/castle/offline-the-castle-stops-growing-never-working.md
 evidence: 2026-06-10 | local | engineer design: find -mtime and find -newer break silently on the first git clone — detectors keep running and simply stop telling the truth
 evidence: 2026-06-10 | local | founding build: every detector in tools/friction.sh was written against filename dates and frontmatter dates; none reads an mtime

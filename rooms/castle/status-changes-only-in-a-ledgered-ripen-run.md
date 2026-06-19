@@ -3,7 +3,7 @@ status: tested
 front: public
 born: 2026-06-10
 last-walked: 2026-06-10
-link: rooms/castle/the-map-is-derived-or-it-is-a-lie.md
+link: rooms/castle/0033-the-map-is-derived-or-it-is-a-lie.md
 link: rooms/castle/machines-write-freely-only-at-the-gate.md
 evidence: 2026-06-10 | local | gardener design: a file's confidence status is the most sacred thing in it; the moment one file lies about its label, every file is suspect
 evidence: 2026-06-10 | local | engineer design: protected canon requires that promotion is always a recorded, deliberate act

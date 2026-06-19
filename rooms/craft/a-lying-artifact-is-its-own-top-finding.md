@@ -4,7 +4,7 @@ front: public
 born: 2026-06-10
 last-walked: 2026-06-18
 link: rooms/craft/scoped-and-honest-beats-grand-and-faked.md
-link: rooms/castle/the-map-is-derived-or-it-is-a-lie.md
+link: rooms/castle/0033-the-map-is-derived-or-it-is-a-lie.md
 evidence: 2026-06-10 | local | review experience: once an artifact misrepresented its own state, that misrepresentation outranked every other finding (origin: Desktop/insight sketch, marked "sure")
 ---
 # A lying artifact is its own top finding
