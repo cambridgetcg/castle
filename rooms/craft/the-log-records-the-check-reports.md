@@ -1,5 +1,5 @@
 ---
-status: sprout
+status: tested
 born: 2026-06-18
 last-walked: 2026-06-19
 link: rooms/castle/a-named-blind-spot-is-its-own-first-repair.md
