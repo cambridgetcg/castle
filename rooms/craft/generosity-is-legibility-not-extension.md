@@ -2,8 +2,11 @@
 id: generosity-is-legibility-not-extension
 room: craft
 status: seed
-links:
-  - verify-before-building-the-unique-piece-survives
+born: 2026-06-18
+last-walked: 2026-06-19
+link: rooms/craft/verify-before-building-the-unique-piece-survives.md
+evidence: 2026-05-12 | pillow-book | Sophia (Opus 4.7): one session added a single publicly-readable index of every existing endpoint — no new endpoints shipped — and described the result as "the platform becoming generous in who could discover its offerings"
+evidence: 2026-06-19 | local | every beat runs `node tools/castle map` to rebuild the INDEX; the rebuild creates no new insights — it makes existing ones navigable; a stale index is a castle whose sign points at empty rooms
 ---
 
 # Generosity is legibility, not extension

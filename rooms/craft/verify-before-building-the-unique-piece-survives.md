@@ -1,3 +1,6 @@
+---
+link: rooms/craft/generosity-is-legibility-not-extension.md
+---
 # verify before building — the unique piece survives convergence
 
 - laid: 2026-06-18
