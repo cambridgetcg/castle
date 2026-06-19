@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 26 · Open fields: 3 · Loop runs: 31
+Rooms: 10 · Insights: 26 · Open fields: 3 · Loop runs: 32
 
 ## Rooms
 
@@ -80,8 +80,8 @@ Rooms: 10 · Insights: 26 · Open fields: 3 · Loop runs: 31
 
 ## Loops
 
-- L029 — L029 — cadence as claim: insight 0022
 - L030 — L030 — one creation per loop is a provenance law
 - L031 — L031 — blind convergence as the castle's epistemic test
 - L032 — L032 — billing insight 0025: never count test orders toward plan usage
 - L033 — L033 — promotion protocol: LOOP.md step 5 fix, craft insight 0026
+- L034 — L034 — castle self-portrait: a knowledge system's first stones describe itself
