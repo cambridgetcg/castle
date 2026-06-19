@@ -1,6 +1,6 @@
 ---
 id: F010
-state: working
+state: harvested
 opened: 2026-06-18
 ---
 
@@ -26,3 +26,7 @@ numbered file and one forwarding line. No orphans accumulate.
 by hand (blind-convergence seed and never-count-test-orders seed, both moved
 to crypt with forwarding lines in crypt/moves.md). The fix for LOOP.md is one
 sentence; this field is the friction record that earns it.
+L033 (2026-06-19, beat castle-C001-20260619-000803) — fix applied: three
+sentences added to LOOP.md step 5 naming the crypt move explicitly on any
+promotion. Field reaches its better state; no more orphans can accumulate
+silently from the spec's silence.

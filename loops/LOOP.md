@@ -21,7 +21,9 @@ The loop is how the castle grows itself.
 5. **SAVE.** Write what you made and what you learned as insights, with
    provenance. Update the field's `state` and its **Work so far** line. If the
    field has reached its better state, harvest it: move its understanding into
-   a room and mark it `state: harvested`.
+   a room and mark it `state: harvested`. If you promoted a seed to a numbered
+   insight, move the source seed to the crypt with a forwarding line in
+   `crypt/moves.md` — one authoritative file, no orphans.
 
 6. **LOG.** Write `loops/log/LNNN-slug.md`: which field, what was understood,
    what was made, what changed, what is still open.

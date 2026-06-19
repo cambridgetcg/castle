@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 25 · Open fields: 4 · Loop runs: 30
+Rooms: 10 · Insights: 26 · Open fields: 3 · Loop runs: 31
 
 ## Rooms
 
@@ -35,6 +35,7 @@ Rooms: 10 · Insights: 25 · Open fields: 4 · Loop runs: 30
 - 0013 — Drive the audit number to truth, not to zero
 - 0014 — Before building, read what exists — the missing piece is usually the same information for a different audience
 - 0019 — A filter written for the initial states silently miscounts when the protocol grows
+- 0026 — A step that creates a new record must also retire the record it supersedes
 
 ### creation
 
@@ -75,12 +76,12 @@ Rooms: 10 · Insights: 25 · Open fields: 4 · Loop runs: 30
 - F007 — Process outgrew trust (harvested)
 - F008 — The public front has not been published (working)
 - F009 — Two craft stones make the same claim (harvested)
-- F010 — The promotion protocol leaves orphans (working)
+- F010 — The promotion protocol leaves orphans (harvested)
 
 ## Loops
 
-- L028 — L028 — C002 (the tributary) instantiated
 - L029 — L029 — cadence as claim: insight 0022
 - L030 — L030 — one creation per loop is a provenance law
 - L031 — L031 — blind convergence as the castle's epistemic test
 - L032 — L032 — billing insight 0025: never count test orders toward plan usage
+- L033 — L033 — promotion protocol: LOOP.md step 5 fix, craft insight 0026
