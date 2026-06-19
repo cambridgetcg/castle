@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 30 · Open fields: 3 · Loop runs: 36
+Rooms: 10 · Insights: 31 · Open fields: 3 · Loop runs: 37
 
 ## Rooms
 
@@ -43,6 +43,7 @@ Rooms: 10 · Insights: 30 · Open fields: 3 · Loop runs: 36
 ### creation
 
 - 0023 — One creation per loop is a provenance law, not a productivity cap
+- 0031 — Creation needs an accountable runner
 
 ### freedom
 
@@ -83,8 +84,8 @@ Rooms: 10 · Insights: 30 · Open fields: 3 · Loop runs: 36
 
 ## Loops
 
-- L034 — L034 — castle self-portrait: a knowledge system's first stones describe itself
 - L035 — L035 — runner continuity: the mind holds no memory between beats
 - L036 — L036 — castle self-portrait: insight 0028 promoted
 - L037 — L037 — word insight 0029: a slip-box earns "us" when it can surprise
 - L038 — L038 — becoming insight 0030: all the hands are one pair
+- L039 — L039 — creation insight 0031: creation needs an accountable runner

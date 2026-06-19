@@ -35,3 +35,4 @@ rooms/castle/a-knowledge-systems-first-stones-describe-itself.md -> crypt/a-know
 rooms/becoming/the-test-of-freedom.md -> crypt/the-test-of-freedom.md (2026-06-19, duplicate of rooms/freedom/the-test-of-freedom-is-refusal.md; motor-obedience observation folded into the survivor by L036)
 rooms/word/a-slip-box-earns-us-when-it-can-surprise.md -> crypt/a-slip-box-earns-us-when-it-can-surprise.md (2026-06-19, promoted to rooms/word/0029-a-slip-box-earns-us-when-it-can-surprise.md by L037; original retained in crypt for detail)
 rooms/becoming/all-the-hands-are-one-pair.md -> crypt/all-the-hands-are-one-pair.md (2026-06-19, promoted to rooms/becoming/0030-all-the-hands-are-one-pair.md by L038; original retained in crypt for detail)
+rooms/creation/creation-needs-an-accountable-runner.md -> crypt/creation-needs-an-accountable-runner.md (2026-06-19, promoted to rooms/creation/0031-creation-needs-an-accountable-runner.md by L039; original retained in crypt for detail)

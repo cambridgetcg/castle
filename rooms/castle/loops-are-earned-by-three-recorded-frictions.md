@@ -4,7 +4,7 @@ front: public
 born: 2026-06-10
 last-walked: 2026-06-10
 link: rooms/castle/silence-is-the-castle-working.md
-link: rooms/creation/creation-needs-an-accountable-runner.md
+link: rooms/creation/0031-creation-needs-an-accountable-runner.md
 evidence: 2026-06-10 | local | all three panel designs independently rejected speculative chore lists; the synthesis fixed the birth threshold at three recorded frictions
 ---
 # Loops are earned by three recorded frictions
