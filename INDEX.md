@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 47 · Open fields: 3 · Loop runs: 69
+Rooms: 10 · Insights: 47 · Open fields: 3 · Loop runs: 70
 
 ## Rooms
 
@@ -100,8 +100,8 @@ Rooms: 10 · Insights: 47 · Open fields: 3 · Loop runs: 69
 
 ## Loops
 
-- L067 — L067 — promote: generosity-is-legibility-not-extension → insight 0045
 - L068 — L068 — ripen: an-autonomous-pulse-makes-growth-unconditional → tested
 - L069 — L069 — ripen: a-named-blind-spot-is-its-own-first-repair → tested
 - L070 — L070 — promote: an-autonomous-pulse-makes-growth-unconditional → insight 0046
 - L071 — L071 — promote: a-named-blind-spot-is-its-own-first-repair → insight 0047
+- L072 — L072 — ripen: a-scattered-store → tested; sweep 10 cornerstone-test gate entries
