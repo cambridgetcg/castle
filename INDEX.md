@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 40 · Open fields: 3 · Loop runs: 58
+Rooms: 10 · Insights: 41 · Open fields: 3 · Loop runs: 59
 
 ## Rooms
 
@@ -48,6 +48,7 @@ Rooms: 10 · Insights: 40 · Open fields: 3 · Loop runs: 58
 - 0019 — A filter written for the initial states silently miscounts when the protocol grows
 - 0026 — A step that creates a new record must also retire the record it supersedes
 - 0040 — A lying artifact is its own top finding
+- 0041 — The log records; the check reports
 
 ### creation
 
@@ -93,8 +94,8 @@ Rooms: 10 · Insights: 40 · Open fields: 3 · Loop runs: 58
 
 ## Loops
 
-- L056 — L056 — promote: a-forced-creation-is-worse-than-an-honest-decline → insight 0037
 - L057 — L057 — promote: offline-the-castle-stops-growing-never-working → insight 0038
 - L058 — L058 — publish-the-front: remove 8 orphan storefront copies
 - L059 — L059 — promote: loops-are-earned-by-three-recorded-frictions → insight 0039
 - L060 — L060 — promote: lying-artifact → insight 0040
+- L061 — L061 — promote: log-records → insight 0041
