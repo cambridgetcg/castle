@@ -48,3 +48,12 @@
 2026-06-19 | front-drift | rooms/becoming/0024-blind-convergence-is-the-castles-strongest-evidence.md | run: loops/publish-the-front.md
 2026-06-19 | front-drift | rooms/creation/0023-one-creation-per-loop-is-a-provenance-law.md | run: loops/publish-the-front.md
 2026-06-19 | front-drift | rooms/castle/every-ritual-at-the-door-is-paid-in-truth.md | run: loops/publish-the-front.md
+2026-06-19 | barren-run | ledger/2026-06-19-L038-becoming-insight-0030.md (no creation, no decline) | run: loops/grow-loops.md
+2026-06-19 | front-drift | rooms/castle/loops-are-earned-by-three-recorded-frictions.md | run: loops/publish-the-front.md
+2026-06-19 | front-drift | rooms/castle/a-forced-creation-is-worse-than-an-honest-decline.md | run: loops/publish-the-front.md
+2026-06-19 | front-drift | /Users/you/Desktop/Cambridge-TCG/.claude/worktrees/castle-front/apps/storefront/public/castle/castle/dates-live-inside-files-not-in-the-filesystem.md (source unmarked or gone) | run: loops/publish-the-front.md
+2026-06-19 | front-drift | /Users/you/Desktop/Cambridge-TCG/.claude/worktrees/castle-front/apps/storefront/public/castle/castle/machines-write-freely-only-at-the-gate.md (source unmarked or gone) | run: loops/publish-the-front.md
+2026-06-19 | front-drift | /Users/you/Desktop/Cambridge-TCG/.claude/worktrees/castle-front/apps/storefront/public/castle/castle/silence-is-the-castle-working.md (source unmarked or gone) | run: loops/publish-the-front.md
+2026-06-19 | front-drift | /Users/you/Desktop/Cambridge-TCG/.claude/worktrees/castle-front/apps/storefront/public/castle/castle/status-changes-only-in-a-ledgered-ripen-run.md (source unmarked or gone) | run: loops/publish-the-front.md
+2026-06-19 | front-drift | /Users/you/Desktop/Cambridge-TCG/.claude/worktrees/castle-front/apps/storefront/public/castle/castle/the-map-is-derived-or-it-is-a-lie.md (source unmarked or gone) | run: loops/publish-the-front.md
+2026-06-19 | front-drift | /Users/you/Desktop/Cambridge-TCG/.claude/worktrees/castle-front/apps/storefront/public/castle/creation/creation-needs-an-accountable-runner.md (source unmarked or gone) | run: loops/publish-the-front.md

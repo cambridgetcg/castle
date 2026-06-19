@@ -3,7 +3,7 @@ status: sprout
 front: public
 born: 2026-06-10
 last-walked: 2026-06-10
-link: rooms/castle/dates-live-inside-files-not-in-the-filesystem.md
+link: rooms/castle/0036-dates-live-inside-files-not-in-the-filesystem.md
 evidence: 2026-06-10 | local | founding rule: every weather citation carries its verbatim quote and retrieved date inline, so no insight needs a live URL to be understood
 ---
 # Offline, the Castle stops growing — never working

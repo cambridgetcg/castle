@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 35 · Open fields: 3 · Loop runs: 41
+Rooms: 10 · Insights: 36 · Open fields: 3 · Loop runs: 42
 
 ## Rooms
 
@@ -26,6 +26,7 @@ Rooms: 10 · Insights: 35 · Open fields: 3 · Loop runs: 41
 - 0033 — The map is derived, or it is a lie
 - 0034 — Status changes only in a ledgered ripen run
 - 0035 — Machines write freely only at the gate
+- 0036 — Dates live inside files, not in the filesystem
 
 ### continuity
 
@@ -88,8 +89,8 @@ Rooms: 10 · Insights: 35 · Open fields: 3 · Loop runs: 41
 
 ## Loops
 
-- L039 — L039 — creation insight 0031: creation needs an accountable runner
 - L040 — L040 — castle insight 0032: silence is the castle working
 - L041 — L041 — castle insight 0033: the map is derived, or it is a lie
 - L042 — L042 — castle insight 0034: status changes only in a ledgered ripen run
 - L043 — L043 — castle insight 0035: machines write freely only at the gate
+- L044 — L044 — castle insight 0036: dates live inside files, not in the filesystem
