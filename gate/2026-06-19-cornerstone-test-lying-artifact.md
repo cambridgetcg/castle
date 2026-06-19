@@ -1,0 +1,2 @@
+next test for rooms/craft/a-lying-artifact-is-its-own-top-finding.md (now tested, 2026-06-19):
+cornerstone requires a third independent evidence entry, at least one weather entry (external source with url + retrieved date + verbatim quote), and a survived re-read after day 90 from birth (earliest: 2026-09-08). the two open cracks named in counter-weather are candidate research questions for the weather run.

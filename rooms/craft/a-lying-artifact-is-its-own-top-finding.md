@@ -1,5 +1,5 @@
 ---
-status: sprout
+status: tested
 front: public
 born: 2026-06-10
 last-walked: 2026-06-19
@@ -32,5 +32,6 @@ lie, and the boundary needs the label to be doing real work. Second open
 crack: a system can pass all its own checks and still lie in ways it never
 thought to check for — who audits the auditor's imagination?
 
-**Next test.** Two more recorded cases where the self-misrepresentation
-proved to be the top finding — then this ripens to tested.
+**Next test.** Cornerstone requires a third independent evidence entry, at
+least one from outside this machine (weather), and a survived re-read after
+day 90 (earliest: 2026-09-08).

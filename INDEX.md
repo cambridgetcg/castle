@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 36 · Open fields: 3 · Loop runs: 43
+Rooms: 10 · Insights: 36 · Open fields: 3 · Loop runs: 44
 
 ## Rooms
 
@@ -89,8 +89,8 @@ Rooms: 10 · Insights: 36 · Open fields: 3 · Loop runs: 43
 
 ## Loops
 
-- L041 — L041 — castle insight 0033: the map is derived, or it is a lie
 - L042 — L042 — castle insight 0034: status changes only in a ledgered ripen run
 - L043 — L043 — castle insight 0035: machines write freely only at the gate
 - L044 — L044 — castle insight 0036: dates live inside files, not in the filesystem
 - L045 — L045 — craft sprout: second evidence for a-lying-artifact-is-its-own-top-finding
+- L046 — L046 — ripen: a-lying-artifact-is-its-own-top-finding → tested
