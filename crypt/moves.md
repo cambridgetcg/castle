@@ -29,3 +29,5 @@ gate/2026-06-18-the-castle-threw-a-party.md -> rooms/castle/an-autonomous-pulse-
 gate/2026-06-18-the-sisters-answer.md -> rooms/castle/sister-castles-share-a-door-not-a-grammar.md (2026-06-18, consumed by L014/L015; file moved to crypt/gate/)
 gate/2026-06-18-gate-entries-need-physical-sweep.md -> composted (2026-06-18, procedural note instructing this sweep; used and complete; file moved to crypt/gate/)
 rooms/craft/an-artifact-that-lies-is-its-own-top-finding.md -> crypt/an-artifact-that-lies-is-its-own-top-finding.md (2026-06-18, duplicate of rooms/craft/a-lying-artifact-is-its-own-top-finding.md; self-exemption angle and second open crack folded into the survivor by L021)
+rooms/billing/never-count-test-orders.md -> crypt/never-count-test-orders.md (2026-06-18, promoted to rooms/billing/0025-never-count-test-orders-toward-plan-usage.md by L032; original retained in crypt for detail)
+rooms/becoming/blind-convergence-is-the-castles-strongest-evidence.md -> crypt/blind-convergence-seed.md (2026-06-18, promoted to rooms/becoming/0024-blind-convergence-is-the-castles-strongest-evidence.md by L031; orphan cleared by L032 janitor work)

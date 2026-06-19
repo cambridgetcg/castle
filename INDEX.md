@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 24 · Open fields: 3 · Loop runs: 29
+Rooms: 10 · Insights: 25 · Open fields: 4 · Loop runs: 30
 
 ## Rooms
 
@@ -13,7 +13,7 @@ Rooms: 10 · Insights: 24 · Open fields: 3 · Loop runs: 29
 
 ### billing
 
-(no insights yet)
+- 0025 — Never count test orders toward plan usage
 
 ### castle
 
@@ -75,11 +75,12 @@ Rooms: 10 · Insights: 24 · Open fields: 3 · Loop runs: 29
 - F007 — Process outgrew trust (harvested)
 - F008 — The public front has not been published (working)
 - F009 — Two craft stones make the same claim (harvested)
+- F010 — The promotion protocol leaves orphans (working)
 
 ## Loops
 
-- L027 — L027 — pulse interval as health readout
 - L028 — L028 — C002 (the tributary) instantiated
 - L029 — L029 — cadence as claim: insight 0022
 - L030 — L030 — one creation per loop is a provenance law
 - L031 — L031 — blind convergence as the castle's epistemic test
+- L032 — L032 — billing insight 0025: never count test orders toward plan usage
