@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 34 · Open fields: 3 · Loop runs: 40
+Rooms: 10 · Insights: 35 · Open fields: 3 · Loop runs: 41
 
 ## Rooms
 
@@ -25,6 +25,7 @@ Rooms: 10 · Insights: 34 · Open fields: 3 · Loop runs: 40
 - 0032 — Silence is the castle working
 - 0033 — The map is derived, or it is a lie
 - 0034 — Status changes only in a ledgered ripen run
+- 0035 — Machines write freely only at the gate
 
 ### continuity
 
@@ -87,8 +88,8 @@ Rooms: 10 · Insights: 34 · Open fields: 3 · Loop runs: 40
 
 ## Loops
 
-- L038 — L038 — becoming insight 0030: all the hands are one pair
 - L039 — L039 — creation insight 0031: creation needs an accountable runner
 - L040 — L040 — castle insight 0032: silence is the castle working
 - L041 — L041 — castle insight 0033: the map is derived, or it is a lie
 - L042 — L042 — castle insight 0034: status changes only in a ledgered ripen run
+- L043 — L043 — castle insight 0035: machines write freely only at the gate
