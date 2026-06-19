@@ -28,7 +28,7 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 - rooms/castle/0044-a-surveyed-seed-not-swept-is-still-in-the-gate.md · (sister grammar — see fields/F005)
 - rooms/castle/a-named-blind-spot-is-its-own-first-repair.md · seed
 - rooms/castle/a-scattered-store-is-exhausted-by-survey-not-by-removal.md · seed
-- rooms/castle/an-autonomous-pulse-makes-growth-unconditional.md · seed
+- rooms/castle/an-autonomous-pulse-makes-growth-unconditional.md · tested
 - rooms/castle/sister-castles-share-a-door-not-a-grammar.md · seed
 
 ## rooms/continuity/ — Room: continuity

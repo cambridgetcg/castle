@@ -1,0 +1,2 @@
+next test for rooms/castle/an-autonomous-pulse-makes-growth-unconditional.md (now tested, 2026-06-19):
+cornerstone requires a third independent evidence entry, at least one weather entry (external source with url + retrieved date + verbatim quote), and a survived re-read after day 90 from birth (earliest: 2026-09-17). first checkpoint 2026-07-18 (30 days of beating): does the loop log show meaningful creation in weeks without a human visitor? are autonomous beats distinguishable in quality from human-invited ones?
