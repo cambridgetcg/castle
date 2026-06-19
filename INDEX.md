@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 36 · Open fields: 3 · Loop runs: 46
+Rooms: 10 · Insights: 36 · Open fields: 3 · Loop runs: 47
 
 ## Rooms
 
@@ -89,8 +89,8 @@ Rooms: 10 · Insights: 36 · Open fields: 3 · Loop runs: 46
 
 ## Loops
 
-- L044 — L044 — castle insight 0036: dates live inside files, not in the filesystem
 - L045 — L045 — craft sprout: second evidence for a-lying-artifact-is-its-own-top-finding
 - L046 — L046 — ripen: a-lying-artifact-is-its-own-top-finding → tested
 - L047 — L047 — ripen: check-the-collection-not-the-element → tested
 - L048 — L048 — ripen: a-surveyed-seed-not-swept-is-still-in-the-gate → tested
+- L049 — L049 — ripen: a-forced-creation-is-worse-than-an-honest-decline → tested
