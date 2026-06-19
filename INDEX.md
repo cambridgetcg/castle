@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 46 · Open fields: 3 · Loop runs: 68
+Rooms: 10 · Insights: 47 · Open fields: 3 · Loop runs: 69
 
 ## Rooms
 
@@ -33,6 +33,7 @@ Rooms: 10 · Insights: 46 · Open fields: 3 · Loop runs: 68
 - 0043 — Every ritual at the door is paid in truth
 - 0044 — A surveyed seed not swept is still in the gate
 - 0046 — An autonomous pulse makes growth unconditional
+- 0047 — A named blind spot is its own first repair
 
 ### continuity
 
@@ -99,8 +100,8 @@ Rooms: 10 · Insights: 46 · Open fields: 3 · Loop runs: 68
 
 ## Loops
 
-- L066 — L066 — promote: a-surveyed-seed-not-swept-is-still-in-the-gate → insight 0044
 - L067 — L067 — promote: generosity-is-legibility-not-extension → insight 0045
 - L068 — L068 — ripen: an-autonomous-pulse-makes-growth-unconditional → tested
 - L069 — L069 — ripen: a-named-blind-spot-is-its-own-first-repair → tested
 - L070 — L070 — promote: an-autonomous-pulse-makes-growth-unconditional → insight 0046
+- L071 — L071 — promote: a-named-blind-spot-is-its-own-first-repair → insight 0047

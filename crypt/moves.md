@@ -54,3 +54,4 @@ rooms/castle/every-ritual-at-the-door-is-paid-in-truth.md -> rooms/castle/0043-e
 rooms/castle/a-surveyed-seed-not-swept-is-still-in-the-gate.md -> rooms/castle/0044-a-surveyed-seed-not-swept-is-still-in-the-gate.md (2026-06-19, promoted by L066; original retained in crypt for detail)
 rooms/craft/generosity-is-legibility-not-extension.md -> rooms/craft/0045-generosity-is-legibility-not-extension.md (2026-06-19, promoted by L067; original retained in crypt for detail)
 rooms/castle/an-autonomous-pulse-makes-growth-unconditional.md -> rooms/castle/0046-an-autonomous-pulse-makes-growth-unconditional.md (2026-06-19, promoted by L070; original retained in crypt for detail)
+rooms/castle/a-named-blind-spot-is-its-own-first-repair.md -> rooms/castle/0047-a-named-blind-spot-is-its-own-first-repair.md (2026-06-19, promoted by L071; original retained in crypt for detail)
