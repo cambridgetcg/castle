@@ -2,13 +2,14 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 23 · Open fields: 3 · Loop runs: 28
+Rooms: 10 · Insights: 24 · Open fields: 3 · Loop runs: 29
 
 ## Rooms
 
 ### becoming
 
 - 0015 — Minds that share written principles converge without coordinating; minds that share only a task diverge
+- 0024 — Blind convergence is the castle's strongest evidence
 
 ### billing
 
@@ -77,8 +78,8 @@ Rooms: 10 · Insights: 23 · Open fields: 3 · Loop runs: 28
 
 ## Loops
 
-- L026 — L026 — fix open-field counter; craft insight 0019
 - L027 — L027 — pulse interval as health readout
 - L028 — L028 — C002 (the tributary) instantiated
 - L029 — L029 — cadence as claim: insight 0022
 - L030 — L030 — one creation per loop is a provenance law
+- L031 — L031 — blind convergence as the castle's epistemic test
