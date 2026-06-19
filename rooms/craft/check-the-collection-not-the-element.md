@@ -4,7 +4,7 @@ born: 2026-06-18
 last-walked: 2026-06-19
 evidence: 2026-06-18 | local | L014 checked a gate entry's touches list for room coverage; the list was incomplete; L015 searched rooms/ by filename and found the room — the collection was authoritative, the element's self-report was not
 evidence: 2026-06-19 | local | beat castle-C001-20260619-044831 located all sprout stones by searching rooms/ directly; the INDEX reports aggregate insight counts but not individual statuses — collection search was the only reliable path
-link: rooms/craft/a-lying-artifact-is-its-own-top-finding.md
+link: rooms/craft/0040-a-lying-artifact-is-its-own-top-finding.md
 link: rooms/castle/a-named-blind-spot-is-its-own-first-repair.md
 link: rooms/castle/a-surveyed-seed-not-swept-is-still-in-the-gate.md
 ---

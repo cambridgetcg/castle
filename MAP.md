@@ -23,12 +23,12 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 - rooms/castle/0036-dates-live-inside-files-not-in-the-filesystem.md · (sister grammar — see fields/F005)
 - rooms/castle/0037-a-forced-creation-is-worse-than-an-honest-decline.md · (sister grammar — see fields/F005)
 - rooms/castle/0038-offline-the-castle-stops-growing-never-working.md · (sister grammar — see fields/F005)
+- rooms/castle/0039-loops-are-earned-by-three-recorded-frictions.md · (sister grammar — see fields/F005)
 - rooms/castle/a-named-blind-spot-is-its-own-first-repair.md · seed
 - rooms/castle/a-scattered-store-is-exhausted-by-survey-not-by-removal.md · seed
 - rooms/castle/a-surveyed-seed-not-swept-is-still-in-the-gate.md · tested
 - rooms/castle/an-autonomous-pulse-makes-growth-unconditional.md · seed
 - rooms/castle/every-ritual-at-the-door-is-paid-in-truth.md · seed
-- rooms/castle/loops-are-earned-by-three-recorded-frictions.md · tested
 - rooms/castle/sister-castles-share-a-door-not-a-grammar.md · seed
 
 ## rooms/continuity/ — Room: continuity
@@ -45,8 +45,8 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 - rooms/craft/0014-the-missing-piece-is-the-same-information-for-a-different-audience.md · (sister grammar — see fields/F005)
 - rooms/craft/0019-a-filter-written-for-the-initial-states-silently-miscounts-when-the-protocol-grows.md · (sister grammar — see fields/F005)
 - rooms/craft/0026-a-step-that-creates-must-also-retire-what-it-supersedes.md · (sister grammar — see fields/F005)
+- rooms/craft/0040-a-lying-artifact-is-its-own-top-finding.md · (sister grammar — see fields/F005)
 - rooms/craft/a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md · seed
-- rooms/craft/a-lying-artifact-is-its-own-top-finding.md · tested
 - rooms/craft/check-the-collection-not-the-element.md · tested
 - rooms/craft/generosity-is-legibility-not-extension.md · tested
 - rooms/craft/narrow-is-power.md · (sister grammar — see fields/F005)

@@ -2,7 +2,7 @@
 status: seed
 born: 2026-06-18
 last-walked: 2026-06-18
-link: rooms/craft/a-lying-artifact-is-its-own-top-finding.md
+link: rooms/craft/0040-a-lying-artifact-is-its-own-top-finding.md
 evidence: 2026-06-18 | local | gate/2026-06-18-the-bell-said-nothing-and-that-was-the-welcome.md: "Three systems on one desktop, all built on the same belief: the artifact must tell the truth about its own state."
 ---
 # A maker's core belief appears in every tool they build, without a rule that says so
