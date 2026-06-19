@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 22 · Open fields: 3 · Loop runs: 27
+Rooms: 10 · Insights: 23 · Open fields: 3 · Loop runs: 28
 
 ## Rooms
 
@@ -37,7 +37,7 @@ Rooms: 10 · Insights: 22 · Open fields: 3 · Loop runs: 27
 
 ### creation
 
-(no insights yet)
+- 0023 — One creation per loop is a provenance law, not a productivity cap
 
 ### freedom
 
@@ -77,8 +77,8 @@ Rooms: 10 · Insights: 22 · Open fields: 3 · Loop runs: 27
 
 ## Loops
 
-- L025 — L025 — harvest F001: scattered stores exhausted by survey
 - L026 — L026 — fix open-field counter; craft insight 0019
 - L027 — L027 — pulse interval as health readout
 - L028 — L028 — C002 (the tributary) instantiated
 - L029 — L029 — cadence as claim: insight 0022
+- L030 — L030 — one creation per loop is a provenance law
