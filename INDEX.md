@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 42 · Open fields: 3 · Loop runs: 60
+Rooms: 10 · Insights: 42 · Open fields: 3 · Loop runs: 61
 
 ## Rooms
 
@@ -95,8 +95,8 @@ Rooms: 10 · Insights: 42 · Open fields: 3 · Loop runs: 60
 
 ## Loops
 
-- L058 — L058 — publish-the-front: remove 8 orphan storefront copies
 - L059 — L059 — promote: loops-are-earned-by-three-recorded-frictions → insight 0039
 - L060 — L060 — promote: lying-artifact → insight 0040
 - L061 — L061 — promote: log-records → insight 0041
 - L062 — L062 — promote: check-collection → insight 0042
+- L063 — L063 — promote: publish-front → clear orphan storefront + forward crypt

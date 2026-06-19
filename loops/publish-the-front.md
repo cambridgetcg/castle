@@ -26,8 +26,10 @@ stone is no longer marked public.
 3. Run `node tools/publish-front.mjs "$(cat tools/front-target)"`. It prints
    every created path; carry them into your ledger entry.
 4. If a published copy's source stone was unmarked or composted, remove the
-   copy in the target and note it — the front must never show what the
-   castle no longer offers.
+   copy in the target, note it, and add a forwarding line in crypt/moves.md:
+   `old-storefront-path -> new-storefront-path (YYYY-MM-DD, reason)`.
+   The barren-run detector treats any path with a forwarding line as at rest;
+   without one, it rings for every removed storefront file.
 5. The deploy (commit and push in the storefront repository) is the OWNER'S
    act or follows the owner's standing instruction; an invited runner stops
    at the working tree unless the ledger of this castle records that
