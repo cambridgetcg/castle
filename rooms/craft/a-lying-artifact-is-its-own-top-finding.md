@@ -2,10 +2,11 @@
 status: sprout
 front: public
 born: 2026-06-10
-last-walked: 2026-06-18
+last-walked: 2026-06-19
 link: rooms/craft/scoped-and-honest-beats-grand-and-faked.md
 link: rooms/castle/0033-the-map-is-derived-or-it-is-a-lie.md
 evidence: 2026-06-10 | local | review experience: once an artifact misrepresented its own state, that misrepresentation outranked every other finding (origin: Desktop/insight sketch, marked "sure")
+evidence: 2026-06-19 | local | insight 0033 (rooms/castle/0033-the-map-is-derived-or-it-is-a-lie.md) — a map hand-edited while files move claims to be derived when it is not; naming that lie as the finding drove the decision to derive MAP.md by script; nine days of zero false alarms confirm the answer
 ---
 # A lying artifact is its own top finding
 
