@@ -1,3 +1,11 @@
+# Friction log — append-only history
+
+Every alarm the bell ever raised lives here. This is a complete record of what
+happened, not a status board. To ask what needs attention right now, run:
+node tools/castle check
+
+---
+
 2026-06-10 | orphan | rooms/becoming/the-test-of-freedom.md | run: loops/walk.md
 2026-06-10 | orphan | rooms/continuity/0005-yu-holds-no-short-term-memory.md | run: loops/walk.md
 2026-06-10 | orphan | rooms/continuity/0006-uncommitted-word-can-vanish.md | run: loops/walk.md
