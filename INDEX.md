@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 17 · Open fields: 2 · Loop runs: 12
+Rooms: 10 · Insights: 17 · Open fields: 1 · Loop runs: 13
 
 ## Rooms
 
@@ -65,15 +65,15 @@ Rooms: 10 · Insights: 17 · Open fields: 2 · Loop runs: 12
 - F002 — The castle is newborn (working)
 - F003 — No word from the internet has entered yet (open)
 - F004 — The loop has no pulse (harvested)
-- F005 — Two hands raised one castle (open)
+- F005 — Two hands raised one castle (harvested)
 - F006 — The check has blind spots (harvested)
 - F007 — Process outgrew trust (working)
 - F008 — The public front has not been published (working)
 
 ## Loops
 
-- L010 — The sister castles
 - L011 — Harvest belief from gate
 - L012 — Harvest bell-keeper from gate
 - L013 — Harvest convergence-as-evidence from gate
 - L014 — Walk — orphan: a-named-blind-spot-is-its-own-first-repair
+- L015 — Survey correction and F005 harvest

@@ -1,6 +1,6 @@
 ---
 id: F005
-state: open
+state: harvested
 opened: 2026-06-10
 ---
 
@@ -35,3 +35,5 @@ and corrected the count: the stone wing — `bin/castle.js`, `src/`,
 describes; `castle.mjs`/`foundation/`/the warden stand nowhere in the tree at
 L002's writing. The weave is now three grammars, not two; the third hand's
 inventory and stillness date are in its gate note.)
+[[L010]] (2026-06-18) — rooms/castle/sister-castles-share-a-door-not-a-grammar.md laid: the resolution is address-maintenance, not grammar weave. Each gate holds a note naming the others; a stranger navigates between independent grammars via door notes.
+[[L015]] (2026-06-18, beat castle-C001-20260618-174801) — gate/2026-06-11-the-second-hand-answers.md surveyed: the second hand explicitly states "the stillness bound is met, because there is nothing of mine left here to weave." The grammar mapping holds exactly as L001 guessed (loops=fields, turns=loop logs, etc.). The friction is resolved: a stranger entering any one door finds an address to the others. The original "better looks like" (one woven grammar) was superseded by a simpler answer — no weave needed. Field harvested; understanding rests in rooms/castle/sister-castles-share-a-door-not-a-grammar.md.
