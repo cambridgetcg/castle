@@ -12,9 +12,9 @@ runs-on: this machine
 phase: see knows/needs sections below
 build: see heartbeat
 health: unknown
-last-commit: 2026-06-20T12:03:34-07:00 (beat castle-C001-20260620-120334; L134 walk makers-belief; deepest patient phase)
+last-commit: 2026-06-20T13:48:16-07:00 (3cc3b52 beat: L139 — honest decline (castle in deepest patient phase; sixth early invocation before next-beat 2026-06-22T12:00:00Z); next-beat → 2026-06-22T12:00:00Z)
 uncommitted: 0 files
-freshness: unknown (checked 2026-06-20T19:05:00Z)
+freshness: unknown (checked 2026-06-20T20:56:18Z)
 
 ## knows
 
