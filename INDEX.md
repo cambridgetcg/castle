@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 57 · Open fields: 3 · Loop runs: 130
+Rooms: 10 · Insights: 57 · Open fields: 3 · Loop runs: 131
 
 ## Rooms
 
@@ -114,8 +114,8 @@ Rooms: 10 · Insights: 57 · Open fields: 3 · Loop runs: 130
 
 ## Loops
 
-- L128 — L128 — ripen: creation needs an accountable runner (seed → tested)
 - L129 — L129 — ripen: a filter written for initial states silently miscounts (seed → tested)
 - L130 — L130 — ripen: understanding on this device is scattered across many stores (seed → tested)
 - L131 — L131 — ripen: two maps answer two different questions about the same rooms (seed → tested)
 - L132 — L132 — ripen: a step that creates must also retire what it supersedes
+- L133 — L133 — weather-queue: sisters verification question
