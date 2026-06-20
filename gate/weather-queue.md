@@ -10,4 +10,6 @@ Format, one line per question:
 
 ---
 
-2026-06-20 | Does each of the 15 castles named in .nlp-bridge/gate hold a gate note naming sibling castles? (names recorded in gate/2026-06-20-sisters-network-expanded.md; yes = third evidence for the sister-castles sprout, ripen to tested without waiting for 2026-09-17) | for: rooms/castle/sister-castles-share-a-door-not-a-grammar.md
+(consumed 2026-06-20, L145: all 15 castles inspected locally — each holds
+.nlp-bridge/gate naming all others; question answered without internet access;
+stone ripened to tested)

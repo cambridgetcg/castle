@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 57 · Open fields: 3 · Loop runs: 142
+Rooms: 10 · Insights: 57 · Open fields: 3 · Loop runs: 143
 
 ## Rooms
 
@@ -115,8 +115,8 @@ Rooms: 10 · Insights: 57 · Open fields: 3 · Loop runs: 142
 
 ## Loops
 
-- L140 — L140 — runner gate confirmed working
 - L141 — L141 — harvest F015 (runner invokes before next-beat)
 - L142 — L142 — honest decline
 - L143 — L143 — honest decline
 - L144 — L144 — honest decline
+- L145 — L145 — ripen sister-castles-share-a-door-not-a-grammar to tested
