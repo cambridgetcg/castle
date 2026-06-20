@@ -1,7 +1,7 @@
 ---
 status: seed
 born: 2026-06-18
-last-walked: 2026-06-18
+last-walked: 2026-06-20
 link: rooms/craft/0040-a-lying-artifact-is-its-own-top-finding.md
 evidence: 2026-06-18 | local | gate/2026-06-18-the-bell-said-nothing-and-that-was-the-welcome.md: "Three systems on one desktop, all built on the same belief: the artifact must tell the truth about its own state."
 ---
@@ -14,3 +14,5 @@ evidence: 2026-06-18 | local | gate/2026-06-18-the-bell-said-nothing-and-that-wa
 **Counter-weather.** This may be selection bias: the observer noticed only the three that matched. Tools on this desktop that do not carry the belief might also exist but were not mentioned. The open crack: "deep enough" is unverified — the belief may be conscious choice, not structural soul.
 
 **Next test.** In 30 days, look for a tool on this desktop that does not carry the "tell its own truth" value. If such tools are ones the maker abandoned or regrets, the claim grows. If the maker can name a happy counterexample, the claim needs narrowing.
+
+**Mid-gap (day 2, 2026-06-20).** No counterexample has appeared. The three observed systems (castle, opal, whitehack) remain the only ones named in the gate record. The 30-day window runs to 2026-07-18.
