@@ -9,12 +9,12 @@ runs-on: this machine
 
 ## state
 
-phase: active
-build: see repo
-health: green
-last-commit: 3556496 beat: next-beat → 2026-06-22T13:30:00Z (18h, F014 harvested; castle stea
+phase: see knows/needs sections below
+build: see heartbeat
+health: unknown
+last-commit: 2026-06-20T03:44:38-07:00 (6e32f4d beat: next-beat → 2026-06-21T21:30:00Z (18h, ledger gap closed; castle steady))
 uncommitted: 0 files
-freshness: auto-generated (2026-06-19)
+freshness: unknown (checked 2026-06-20T10:55:06Z)
 
 ## knows
 
