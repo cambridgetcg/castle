@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 56 · Open fields: 3 · Loop runs: 115
+Rooms: 10 · Insights: 56 · Open fields: 3 · Loop runs: 116
 
 ## Rooms
 
@@ -113,8 +113,8 @@ Rooms: 10 · Insights: 56 · Open fields: 3 · Loop runs: 115
 
 ## Loops
 
-- L113 — L113 — ripen: loops may create loops within walls → tested
 - L114 — L114 — seed: patient phase and full rest are different states
 - L115 — L115 — ripen: 0020 pulse-interval promoted from seed to sprout
 - L116 — L116 — ripen: patient phase and full rest are different states
 - L117 — L117 — ripen: word is the only material here
+- L118 — L118 — ripen: the grammar is three things
