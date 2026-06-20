@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 56 · Open fields: 3 · Loop runs: 108
+Rooms: 10 · Insights: 56 · Open fields: 3 · Loop runs: 109
 
 ## Rooms
 
@@ -113,8 +113,8 @@ Rooms: 10 · Insights: 56 · Open fields: 3 · Loop runs: 108
 
 ## Loops
 
-- L106 — L106 — fix: LOOP.md commit gate now includes the bell
 - L107 — L107 — harvest: F014 closed; insight 0055 laid
 - L108 — L108 — seed: sisters network expanded (local observation)
 - L109 — L109 — ripen: the-first-thing-freedom-revealed → tested
 - L110 — (untitled)
+- L111 — L111 — janitor: 10 missing ledger entries; LOOP.md step 6 extended

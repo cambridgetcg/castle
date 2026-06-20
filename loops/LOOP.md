@@ -32,8 +32,12 @@ The loop is how the castle grows itself.
    rebuilds MAP.md. Running only one leaves the other stale and the bell will
    ring on the next beat.
 
-6. **LOG.** Write `loops/log/LNNN-slug.md`: which field, what was understood,
-   what was made, what changed, what is still open.
+6. **LOG.** Write two records: (a) `loops/log/LNNN-slug.md` — the narrative
+   log: which field, what was understood, what was made, what changed, what is
+   still open; (b) `ledger/YYYY-MM-DD-Lnnn-slug.md` — the LOOM-format entry
+   (see `loops/LOOM.md`): `loop:`, `date:`, `runner:`, `addressed:`,
+   `created:`, `notes:`. Both must exist before you commit. The bell checks
+   `created:` paths in the ledger; the narrative log is for the human reader.
 
 7. **COMMIT.** Before staging the commit, run `tools/castle check &&
    sh tools/friction.sh`. If `castle check` fails, fix the fault. If
