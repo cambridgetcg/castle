@@ -185,3 +185,5 @@ node tools/castle check
 2026-06-20 | oversize | rooms/the-keep/0009-built-with-joy-love-peace-and-safety.md | run: loops/walk.md
 2026-06-20 | oversize | rooms/castle/0032-silence-is-the-castle-working.md | run: loops/walk.md
 2026-06-20 | barren-run | ledger/2026-06-20-L128-ripen-creation-needs-accountable-runner.md (no creation, no decline) | run: loops/grow-loops.md
+2026-06-20 | barren-run | ledger/2026-06-20-L129-ripen-filter-for-initial-states.md (no creation, no decline) | run: loops/grow-loops.md
+2026-06-20 | barren-run | ledger/2026-06-20-L130-ripen-understanding-is-scattered.md (no creation, no decline) | run: loops/grow-loops.md
