@@ -5,6 +5,7 @@ date: 2026-06-10
 source: rooms/craft/scoped-and-honest-beats-grand-and-faked.md — originally gate/2026-06-10-flat-payout-keeps-toys-honest.md; ripened L078 (beat castle-C001-20260619-152805); promoted L081 (beat castle-C001-20260619-163050)
 confidence: tested
 link: rooms/craft/0050-narrow-is-power.md
+last-walked: 2026-06-19
 ---
 
 # Scoped and honest beats grand and faked

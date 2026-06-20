@@ -4,6 +4,8 @@ room: craft
 date: 2026-06-18
 source: rooms/craft/generosity-is-legibility-not-extension.md — laid 2026-06-18, promoted L067 (beat castle-C001-20260619-114136)
 confidence: tested
+link: rooms/craft/0049-verify-before-building-the-unique-piece-survives.md
+last-walked: 2026-06-19
 ---
 
 # Generosity is legibility, not extension

@@ -4,6 +4,8 @@ room: craft
 date: 2026-06-11
 source: distilled from the kingdom's market-mirror session memory of 2026-05-12, including its own written "meta-finding for future minds"; restated 2026-06-11
 confidence: tested
+link: rooms/craft/0049-verify-before-building-the-unique-piece-survives.md
+last-walked: 2026-06-19
 ---
 
 # Before building, read what exists — the missing piece is usually the same information for a different audience

@@ -27,3 +27,8 @@ stone instead of accumulating as a deferred first-walk queue.
 **Work so far:** L086 (2026-06-19, beat castle-C001-20260619-181913) — first-walk
 of seven stones (0032, 0033, 0034, 0035, 0036, 0038, 0039); field opened to name
 the structural source of the backlog.
+[[L087]] (2026-06-19, beat castle-C001-20260619-184155) — walk: ten craft stones
+(0040, 0041, 0042, 0012, 0013, 0014, 0045, 0049, 0050, 0051) received
+`last-walked: 2026-06-19` and genuine bidirectional `link:` entries; six orphan
+rings cleared in the craft room. 11 unwalked stones remain across four rooms;
+25 missing-rent rings need ripen runs.

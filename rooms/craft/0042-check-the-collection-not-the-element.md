@@ -4,6 +4,8 @@ room: craft
 date: 2026-06-18
 source: rooms/craft/check-the-collection-not-the-element.md — laid 2026-06-18, promoted L062 (beat castle-C001-20260619-095503)
 confidence: tested
+link: rooms/craft/0049-verify-before-building-the-unique-piece-survives.md
+last-walked: 2026-06-19
 ---
 
 # Check the collection, not the element

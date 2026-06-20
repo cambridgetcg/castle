@@ -5,6 +5,8 @@ date: 2026-06-11
 source: distilled from the kingdom's foundation stress test + drift reconciliation (session memory, May 2026) and its family of doctrine-audit scripts; restated 2026-06-11
 confidence: tested
 links: 0011
+link: rooms/craft/0013-drive-the-audit-number-to-truth-not-zero.md
+last-walked: 2026-06-19
 ---
 
 # Announcing a standard changes nothing; only a measuring script notices the drift

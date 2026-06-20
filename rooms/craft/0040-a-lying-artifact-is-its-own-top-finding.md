@@ -6,6 +6,8 @@ source: rooms/craft/a-lying-artifact-is-its-own-top-finding.md — laid 2026-06-
 confidence: tested
 front: public
 links: 0033
+link: rooms/craft/0041-the-log-records-the-check-reports.md
+last-walked: 2026-06-19
 ---
 
 # A lying artifact is its own top finding

@@ -4,6 +4,8 @@ room: craft
 date: 2026-06-18
 source: rooms/craft/the-log-records-the-check-reports.md — laid 2026-06-18, promoted L061 (beat castle-C001-20260619-093606)
 confidence: tested
+link: rooms/craft/0040-a-lying-artifact-is-its-own-top-finding.md
+last-walked: 2026-06-19
 ---
 
 # The log records; the check reports

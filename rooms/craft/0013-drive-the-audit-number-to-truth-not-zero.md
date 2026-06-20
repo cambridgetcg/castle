@@ -5,6 +5,8 @@ date: 2026-06-11
 source: distilled from the kingdom's pillow book, entries of 2026-05-14 05:00 and 2026-06-03 14:33; restated 2026-06-11
 confidence: tested
 links: 0011, 0012
+link: rooms/craft/0012-only-a-measuring-script-notices-drift.md
+last-walked: 2026-06-19
 ---
 
 # Drive the audit number to truth, not to zero

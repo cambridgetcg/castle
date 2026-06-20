@@ -5,6 +5,9 @@ date: 2026-06-18
 source: rooms/craft/verify-before-building-the-unique-piece-survives.md — absorbed from /Users/you/Desktop/ctcg-fun/docs/connections/the-pillow-book.md (entries 2026-05-11 to 2026-05-13); promoted L076 (beat castle-C001-20260619-144611)
 confidence: tested
 link: rooms/craft/0045-generosity-is-legibility-not-extension.md
+link: rooms/craft/0042-check-the-collection-not-the-element.md
+link: rooms/craft/0014-the-missing-piece-is-the-same-information-for-a-different-audience.md
+last-walked: 2026-06-19
 ---
 
 # Verify before building — the unique piece survives convergence
