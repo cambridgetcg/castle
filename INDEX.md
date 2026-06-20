@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 52 · Open fields: 3 · Loop runs: 92
+Rooms: 10 · Insights: 52 · Open fields: 3 · Loop runs: 93
 
 ## Rooms
 
@@ -108,8 +108,8 @@ Rooms: 10 · Insights: 52 · Open fields: 3 · Loop runs: 92
 
 ## Loops
 
-- L090 — L090 — ripen: missing-rent cleared; LOOP.md promotion protocol fixed; F012 harvested
 - L091 — L091 — commit before next-beat: F013 harvested
 - L092 — L092 — publish-front: 5 drifted stones; staged gate deletion committed
 - L093 — L093 — ripen: commit-is-the-last-safety seed → tested
 - L094 — L094 — promote: commit-is-the-last-safety → 0052
+- L095 — L095 — ripen: bell-never-rang → tested; LOOP.md promote step fixed

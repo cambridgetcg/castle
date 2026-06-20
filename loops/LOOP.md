@@ -26,7 +26,9 @@ The loop is how the castle grows itself.
    `crypt/moves.md` — one authoritative file, no orphans. Also stamp
    `last-walked: <date>` and at least one genuine `link: rooms/path.md` on the
    new numbered file — the promotion run just read both; that reading is the
-   first walk.
+   first walk. If any stone was renamed, moved, or had its status changed,
+   run `sh tools/map.sh` before committing — the map is derived and will lie
+   if not rebuilt.
 
 6. **LOG.** Write `loops/log/LNNN-slug.md`: which field, what was understood,
    what was made, what changed, what is still open.
