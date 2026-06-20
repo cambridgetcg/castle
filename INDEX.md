@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 57 · Open fields: 3 · Loop runs: 134
+Rooms: 10 · Insights: 57 · Open fields: 4 · Loop runs: 135
 
 ## Rooms
 
@@ -111,11 +111,12 @@ Rooms: 10 · Insights: 57 · Open fields: 3 · Loop runs: 134
 - F012 — Promote runs leave stones unwalked and without formal links (harvested)
 - F013 — The loop does not name commit before next-beat (harvested)
 - F014 — The commit gate does not include the bell (harvested)
+- F015 — The runner invokes before next-beat (working)
 
 ## Loops
 
-- L132 — L132 — ripen: a step that creates must also retire what it supersedes
 - L133 — L133 — weather-queue: sisters verification question
 - L134 — (untitled)
 - L135 — L135 — janitor: 10 missing ledger entries for L039–L044, L061, L062, L090, L091
 - L136 — L136 — honest decline
+- L137 — L137 — field: runner invokes before next-beat
