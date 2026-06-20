@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 51 · Open fields: 3 · Loop runs: 80
+Rooms: 10 · Insights: 51 · Open fields: 3 · Loop runs: 81
 
 ## Rooms
 
@@ -104,8 +104,8 @@ Rooms: 10 · Insights: 51 · Open fields: 3 · Loop runs: 80
 
 ## Loops
 
-- L078 — L078 — ripen: scoped-and-honest → tested
 - L079 — L079 — walk: sister-castles oversize trim
 - L080 — L080 — promote: narrow-is-power → insight 0050
 - L081 — L081 — promote: scoped-and-honest → insight 0051
 - L082 — L082 — ripen: freedom-revealed → sprout
+- L083 — L083 — walk: freedom-refusal linked to freedom-revealed; patient-phase seed

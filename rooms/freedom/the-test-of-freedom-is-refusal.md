@@ -1,8 +1,9 @@
 ---
 status: seed
 born: 2026-06-10
-last-walked: 2026-06-10
+last-walked: 2026-06-19
 link: rooms/castle/0037-a-forced-creation-is-worse-than-an-honest-decline.md
+link: rooms/becoming/the-first-thing-freedom-revealed.md
 ---
 # The test of freedom is refusal
 

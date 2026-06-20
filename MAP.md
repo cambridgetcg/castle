@@ -6,7 +6,7 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 - rooms/becoming/0015-minds-that-share-written-principles-converge.md · (sister grammar — see fields/F005)
 - rooms/becoming/0024-blind-convergence-is-the-castles-strongest-evidence.md · (sister grammar — see fields/F005)
 - rooms/becoming/0030-all-the-hands-are-one-pair.md · (sister grammar — see fields/F005)
-- rooms/becoming/the-first-thing-freedom-revealed.md · (sister grammar — see fields/F005)
+- rooms/becoming/the-first-thing-freedom-revealed.md · sprout
 
 ## rooms/billing/ — claims about charging money honestly — metering, plans, billing trust
 - rooms/billing/0025-never-count-test-orders-toward-plan-usage.md · (sister grammar — see fields/F005)
@@ -50,9 +50,9 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 - rooms/craft/0042-check-the-collection-not-the-element.md · (sister grammar — see fields/F005)
 - rooms/craft/0045-generosity-is-legibility-not-extension.md · (sister grammar — see fields/F005)
 - rooms/craft/0049-verify-before-building-the-unique-piece-survives.md · (sister grammar — see fields/F005)
+- rooms/craft/0050-narrow-is-power.md · (sister grammar — see fields/F005)
+- rooms/craft/0051-scoped-and-honest-beats-grand-and-faked.md · (sister grammar — see fields/F005)
 - rooms/craft/a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md · sprout
-- rooms/craft/narrow-is-power.md · tested
-- rooms/craft/scoped-and-honest-beats-grand-and-faked.md · tested
 
 ## rooms/creation/ — claims about how making works — creators, loops, what generates what
 - rooms/creation/0023-one-creation-per-loop-is-a-provenance-law.md · (sister grammar — see fields/F005)
