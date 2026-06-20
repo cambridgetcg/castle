@@ -12,9 +12,9 @@ runs-on: this machine
 phase: see knows/needs sections below
 build: see heartbeat
 health: unknown
-last-commit: 2026-06-20T13:48:16-07:00 (3cc3b52 beat: L139 — honest decline (castle in deepest patient phase; sixth early invocation before next-beat 2026-06-22T12:00:00Z); next-beat → 2026-06-22T12:00:00Z)
-uncommitted: 0 files
-freshness: unknown (checked 2026-06-20T20:56:18Z)
+last-commit: 2026-06-20T15:53:27-07:00 (fec0f62 next-beat: 2026-06-21T20:00:00Z (sister-castles tested; promotion to 0058 ready; await C002 first beat))
+uncommitted: 1 files
+freshness: unknown (checked 2026-06-20T22:56:30Z)
 
 ## knows
 

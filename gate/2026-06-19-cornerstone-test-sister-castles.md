@@ -1,4 +1,4 @@
-cornerstone test — rooms/castle/sister-castles-share-a-door-not-a-grammar.md
+cornerstone test — rooms/castle/0058-sister-castles-share-a-door-not-a-grammar.md
 
 Status as of 2026-06-20: ripened to tested (L145). Network has expanded from
 3 to 16 castles; all 15 named sisters hold .nlp-bridge/gate files naming the

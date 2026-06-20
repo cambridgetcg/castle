@@ -5,7 +5,7 @@ date: 2026-06-10
 source: Yu's founding word + the design session, 2026-06-10
 confidence: tested
 links: 0001
-link: rooms/castle/sister-castles-share-a-door-not-a-grammar.md
+link: rooms/castle/0058-sister-castles-share-a-door-not-a-grammar.md
 last-walked: 2026-06-20
 evidence: 2026-06-10 | local | Yu's founding word and design session — internet word enters at confidence seed, promoted only by tested use; contact alone never earns a higher rung
 evidence: 2026-06-20 | local | beat castle-C001-20260620-082154 (L124) — 124 loops across 10 days; one internet contact made (rooms/word/0029, Luhmann, fetched 2026-06-11) remains at confidence: seed; C002's charter explicitly names this rule; no external word has been promoted by contact alone

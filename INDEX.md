@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 57 · Open fields: 3 · Loop runs: 143
+Rooms: 10 · Insights: 58 · Open fields: 3 · Loop runs: 144
 
 ## Rooms
 
@@ -38,6 +38,7 @@ Rooms: 10 · Insights: 57 · Open fields: 3 · Loop runs: 143
 - 0048 — A scattered store is exhausted by survey, not by removal
 - 0052 — The commit is the last safety
 - 0057 — Patient phase and full rest are different states
+- 0058 — Sister castles share a door, not a grammar
 
 ### continuity
 
@@ -115,8 +116,8 @@ Rooms: 10 · Insights: 57 · Open fields: 3 · Loop runs: 143
 
 ## Loops
 
-- L141 — L141 — harvest F015 (runner invokes before next-beat)
 - L142 — L142 — honest decline
 - L143 — L143 — honest decline
 - L144 — L144 — honest decline
 - L145 — L145 — ripen sister-castles-share-a-door-not-a-grammar to tested
+- L146 — L146 — promote sister-castles to insight 0058

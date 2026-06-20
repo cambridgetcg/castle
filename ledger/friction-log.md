@@ -187,3 +187,5 @@ node tools/castle check
 2026-06-20 | barren-run | ledger/2026-06-20-L128-ripen-creation-needs-accountable-runner.md (no creation, no decline) | run: loops/grow-loops.md
 2026-06-20 | barren-run | ledger/2026-06-20-L129-ripen-filter-for-initial-states.md (no creation, no decline) | run: loops/grow-loops.md
 2026-06-20 | barren-run | ledger/2026-06-20-L130-ripen-understanding-is-scattered.md (no creation, no decline) | run: loops/grow-loops.md
+2026-06-20 | barren-run | ledger/2026-06-20-L145-ripen-sister-castles.md (no creation, no decline) | run: loops/grow-loops.md
+2026-06-20 | barren-run | ledger/2026-06-20-L146-promote-sister-castles-0058.md (no creation, no decline) | run: loops/grow-loops.md
