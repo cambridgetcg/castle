@@ -31,6 +31,7 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 - rooms/castle/0048-a-scattered-store-is-exhausted-by-survey-not-by-removal.md · (sister grammar — see fields/F005)
 - rooms/castle/0052-commit-is-the-last-safety.md · (sister grammar — see fields/F005)
 - rooms/castle/0057-patient-phase-and-full-rest-are-different-states.md · (sister grammar — see fields/F005)
+- rooms/castle/a-bypassed-gate-and-a-broken-gate-look-alike.md · seed
 - rooms/castle/sister-castles-share-a-door-not-a-grammar.md · sprout
 
 ## rooms/continuity/ — Room: continuity

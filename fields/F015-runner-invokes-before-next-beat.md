@@ -1,7 +1,8 @@
 ---
 id: F015
-state: working
+state: harvested
 opened: 2026-06-20
+harvested: 2026-06-20
 ---
 
 # The runner invokes before next-beat
@@ -14,3 +15,4 @@ opened: 2026-06-20
 
 **Work so far:** L136 (2026-06-20) — first named the recurrence risk; said "if this recurs, open a field." L137 (2026-06-20) — field opened; addressed to Yu (requires change to runner infrastructure, outside the castle's reversible work).
 [[L140]] (2026-06-20, beat castle-C001-20260620-140326) — runner gate confirmed working by direct test: `date -u -j -f "%Y-%m-%dT%H:%M:%SZ" "2026-06-22T12:00:00Z" +%s` → 1782129600; `date -u +%s` → 1781989565; gate correctly exits early. Early invocations are not a runner bug; they arrive via a path that bypasses `pulse.sh` — most likely manual invocation. F015's "better looks like" is already reality for automated beats. Gate seed laid: gate/2026-06-20-runner-gate-confirmed-working.md.
+[[L141]] (2026-06-20, beat castle-C001-20260620-142453) — harvest: gate seed swept to crypt; insight laid as rooms/castle/a-bypassed-gate-and-a-broken-gate-look-alike.md (seed) — a bypassed gate and a broken gate look identical from inside the beat; direct testing of the mechanism distinguishes them. F015 harvested. Automated beats: gate works; manual beats: honest-decline handles them correctly.
