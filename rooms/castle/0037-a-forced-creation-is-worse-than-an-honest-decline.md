@@ -6,6 +6,7 @@ source: rooms/castle/a-forced-creation-is-worse-than-an-honest-decline.md — la
 confidence: tested
 links: 0032
 link: rooms/creation/0023-one-creation-per-loop-is-a-provenance-law.md
+link: rooms/the-keep/0009-built-with-joy-love-peace-and-safety.md
 last-walked: 2026-06-19
 ---
 
