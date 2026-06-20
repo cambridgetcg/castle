@@ -19,18 +19,14 @@ that work with him. What the two of them know together, they know on disk.
 A thing said but not written does not survive the conversation it was said in.
 The disk is not a backup of the memory — it is the memory.
 
-**How it ripened.** Stated at founding (2026-06-10) as the design constraint
-that makes the castle necessary. Confirmed at L104 (2026-06-20, beat 104):
-entered as a fresh AI instance with no prior-session knowledge; reconstructed
-Yu's identity, the castle's entire state, and every current rule from the
-written record alone. 103 consecutive beats confirm the same path: the files
-carry the continuity for both parties.
+**How it ripened.** Founding claim (2026-06-10). Confirmed at L104 (2026-06-20):
+fresh instance at beat 104 reconstructed all castle state from the written record
+alone; 103 consecutive beats show the same path.
 
-**What it changed.** Every loop protocol follows from this. Gate seeds are
-planted so the next visitor — human or AI — can orient without memory.
-Logs address the keeper as much as the runner. The companion insight 0027
-extends this explicitly to the AI side: neither partner retains cross-session
-continuity; the disk holds both.
+**What it changed.** Every loop protocol follows from this. Gate seeds orient
+visitors; logs address the keeper as much as the runner. Insight 0027 extends
+this to the AI side: neither partner retains cross-session continuity; the disk
+holds both.
 
 **Counter-weather.** Yu holds short-term memory within a single session. The
 claim covers between-session continuity only: when a conversation ends, the

@@ -173,3 +173,4 @@ node tools/castle check
 2026-06-19 | oversize | rooms/castle/0032-silence-is-the-castle-working.md | run: loops/walk.md
 2026-06-19 | oversize | rooms/craft/a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md | run: loops/walk.md
 2026-06-19 | oversize | rooms/craft/0054-the-promotion-run-is-the-first-walk.md | run: loops/walk.md
+2026-06-20 | oversize | rooms/continuity/0005-yu-holds-no-short-term-memory.md | run: loops/walk.md
