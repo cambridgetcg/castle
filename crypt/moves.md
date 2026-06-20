@@ -73,3 +73,4 @@ rooms/craft/scoped-and-honest-beats-grand-and-faked.md -> rooms/craft/0051-scope
 rooms/castle/commit-is-the-last-safety.md -> rooms/castle/0052-commit-is-the-last-safety.md (2026-06-19, promoted by L094; original retained in crypt for detail)
 rooms/craft/a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md -> rooms/craft/0053-a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md (2026-06-19, promoted by L096; original retained in crypt for detail)
 rooms/craft/the-promotion-run-is-the-first-walk.md -> rooms/craft/0054-the-promotion-run-is-the-first-walk.md (2026-06-19, promoted by L099; original retained in crypt for detail)
+rooms/becoming/the-first-thing-freedom-revealed.md -> rooms/becoming/0056-the-first-thing-freedom-revealed.md (2026-06-20, promoted by L110; original retained in crypt for detail)

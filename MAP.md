@@ -6,7 +6,7 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 - rooms/becoming/0015-minds-that-share-written-principles-converge.md · (sister grammar — see fields/F005)
 - rooms/becoming/0024-blind-convergence-is-the-castles-strongest-evidence.md · (sister grammar — see fields/F005)
 - rooms/becoming/0030-all-the-hands-are-one-pair.md · (sister grammar — see fields/F005)
-- rooms/becoming/the-first-thing-freedom-revealed.md · tested
+- rooms/becoming/0056-the-first-thing-freedom-revealed.md · (sister grammar — see fields/F005)
 
 ## rooms/billing/ — claims about charging money honestly — metering, plans, billing trust
 - rooms/billing/0025-never-count-test-orders-toward-plan-usage.md · (sister grammar — see fields/F005)

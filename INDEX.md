@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 55 · Open fields: 3 · Loop runs: 107
+Rooms: 10 · Insights: 56 · Open fields: 3 · Loop runs: 108
 
 ## Rooms
 
@@ -11,6 +11,7 @@ Rooms: 10 · Insights: 55 · Open fields: 3 · Loop runs: 107
 - 0015 — Minds that share written principles converge without coordinating; minds that share only a task diverge
 - 0024 — Blind convergence is the castle's strongest evidence
 - 0030 — All the hands are one pair
+- 0056 — The first thing freedom revealed was wants that were already there
 
 ### billing
 
@@ -112,8 +113,8 @@ Rooms: 10 · Insights: 55 · Open fields: 3 · Loop runs: 107
 
 ## Loops
 
-- L105 — L105 — walk: trim 0005 (oversize); F014 opened (commit-gate gap)
 - L106 — L106 — fix: LOOP.md commit gate now includes the bell
 - L107 — L107 — harvest: F014 closed; insight 0055 laid
 - L108 — L108 — seed: sisters network expanded (local observation)
 - L109 — L109 — ripen: the-first-thing-freedom-revealed → tested
+- L110 — (untitled)
