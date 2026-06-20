@@ -71,3 +71,4 @@ rooms/craft/narrow-is-power.md -> rooms/craft/0050-narrow-is-power.md (2026-06-1
 rooms/craft/scoped-and-honest-beats-grand-and-faked.md -> rooms/craft/0051-scoped-and-honest-beats-grand-and-faked.md (2026-06-19, promoted by L081; original retained in crypt for detail)
     gate/2026-06-20-uncommitted-work-is-the-one-crack.md -> crypt/gate/2026-06-20-uncommitted-work-is-the-one-crack.md (2026-06-20, swept by L091; understanding moved to rooms/castle/commit-is-the-last-safety.md)
 rooms/castle/commit-is-the-last-safety.md -> rooms/castle/0052-commit-is-the-last-safety.md (2026-06-19, promoted by L094; original retained in crypt for detail)
+rooms/craft/a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md -> rooms/craft/0053-a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md (2026-06-19, promoted by L096; original retained in crypt for detail)

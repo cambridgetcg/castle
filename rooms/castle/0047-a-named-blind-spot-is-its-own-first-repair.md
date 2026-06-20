@@ -4,7 +4,7 @@ room: castle
 date: 2026-06-18
 source: rooms/castle/a-named-blind-spot-is-its-own-first-repair.md — laid L009 (2026-06-18), tested L069 (beat castle-C001-20260619-122239), promoted L071 (beat castle-C001-20260619-130347)
 confidence: tested
-links: a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence
+link: rooms/craft/0053-a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md
 links: 0041
 link: rooms/craft/0041-the-log-records-the-check-reports.md
 last-walked: 2026-06-19

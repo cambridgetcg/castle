@@ -171,3 +171,4 @@ node tools/castle check
 2026-06-19 | front-drift | rooms/castle/0043-every-ritual-at-the-door-is-paid-in-truth.md | run: loops/publish-the-front.md
 2026-06-19 | barren-run | ledger/2026-06-19-L093-ripen-commit-is-the-last-safety.md (no creation, no decline) | run: loops/grow-loops.md
 2026-06-19 | oversize | rooms/castle/0032-silence-is-the-castle-working.md | run: loops/walk.md
+2026-06-19 | oversize | rooms/craft/a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md | run: loops/walk.md
