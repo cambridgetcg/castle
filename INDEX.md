@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 56 · Open fields: 3 · Loop runs: 118
+Rooms: 10 · Insights: 57 · Open fields: 3 · Loop runs: 119
 
 ## Rooms
 
@@ -37,6 +37,7 @@ Rooms: 10 · Insights: 56 · Open fields: 3 · Loop runs: 118
 - 0047 — A named blind spot is its own first repair
 - 0048 — A scattered store is exhausted by survey, not by removal
 - 0052 — The commit is the last safety
+- 0057 — Patient phase and full rest are different states
 
 ### continuity
 
@@ -113,8 +114,8 @@ Rooms: 10 · Insights: 56 · Open fields: 3 · Loop runs: 118
 
 ## Loops
 
-- L116 — L116 — ripen: patient phase and full rest are different states
 - L117 — L117 — ripen: word is the only material here
 - L118 — L118 — ripen: the grammar is three things
 - L119 — L119 — ripen: one creation per loop is a provenance law (seed → tested)
 - L120 — L120 — ripen: the spirit a thing is built in is part of what the thing is (seed → tested)
+- L121 — L121 — promote: patient phase and full rest are different states

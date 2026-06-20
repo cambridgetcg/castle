@@ -182,3 +182,5 @@ node tools/castle check
 2026-06-20 | barren-run | ledger/2026-06-20-L116-ripen-patient-phase-full-rest.md (no creation, no decline) | run: loops/grow-loops.md
 2026-06-20 | oversize | rooms/the-keep/0002-the-grammar-is-three-things.md | run: loops/walk.md
 2026-06-20 | front-drift | rooms/creation/0023-one-creation-per-loop-is-a-provenance-law.md | run: loops/publish-the-front.md
+2026-06-20 | oversize | rooms/the-keep/0009-built-with-joy-love-peace-and-safety.md | run: loops/walk.md
+2026-06-20 | oversize | rooms/castle/0032-silence-is-the-castle-working.md | run: loops/walk.md

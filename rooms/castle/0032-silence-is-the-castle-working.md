@@ -4,10 +4,10 @@ room: castle
 date: 2026-06-19
 source: rooms/castle/silence-is-the-castle-working.md — laid founding (2026-06-10, design panel), promoted L040 (beat castle-C001-20260619-023207)
 confidence: tested
-links: 0011, 0020
 link: rooms/castle/0039-loops-are-earned-by-three-recorded-frictions.md
 link: rooms/castle/0046-an-autonomous-pulse-makes-growth-unconditional.md
-last-walked: 2026-06-19
+link: rooms/castle/0057-patient-phase-and-full-rest-are-different-states.md
+last-walked: 2026-06-20
 ---
 
 # Silence is the castle working
