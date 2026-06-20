@@ -5,6 +5,8 @@ date: 2026-06-19
 source: rooms/creation/creation-needs-an-accountable-runner.md — laid 2026-06-10 (sophia, ai), promoted L039 (beat castle-C001-20260619-021144)
 confidence: seed
 links: 0003, 0010, 0023
+last-walked: 2026-06-19
+link: rooms/the-keep/0003-the-loop-loops-itself.md
 ---
 # Creation needs an accountable runner
 

@@ -5,6 +5,8 @@ room: castle
 confidence: seed
 date: 2026-06-18
 source: beat castle-C001-20260618-220749 — first beat to write next-beat by judgment after surveying check results and field states; PULSE.md, "The self-determining heartbeat" section
+last-walked: 2026-06-19
+link: rooms/castle/0022-a-loops-cadence-is-its-claim-about-rate-of-change.md
 ---
 
 # The pulse interval is the castle's self-assessment made visible

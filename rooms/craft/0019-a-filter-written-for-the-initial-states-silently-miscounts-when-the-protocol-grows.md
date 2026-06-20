@@ -5,6 +5,8 @@ room: craft
 confidence: seed
 date: 2026-06-18
 source: beat castle-C001-20260618-214740, tools/castle line 187 — the openCount filter tested only state === 'open', so it returned 0 while three fields held state: working; repaired in this beat
+last-walked: 2026-06-19
+link: rooms/craft/0026-a-step-that-creates-must-also-retire-what-it-supersedes.md
 ---
 
 # A filter written for the initial states silently miscounts when the protocol grows

@@ -5,6 +5,7 @@ date: 2026-06-10
 source: session memory: the commit-or-vanish lesson, 2026-06
 confidence: seed
 links: 0005
+link: rooms/the-keep/0001-word-is-the-only-material.md
 ---
 
 # Uncommitted word can vanish

@@ -6,6 +6,7 @@ source: rooms/castle/an-autonomous-pulse-makes-growth-unconditional.md — laid 
 confidence: tested
 links: 0032
 link: rooms/castle/0032-silence-is-the-castle-working.md
+link: rooms/castle/0021-a-proposed-charter-is-a-promise-the-first-beat-keeps.md
 last-walked: 2026-06-19
 ---
 

@@ -5,6 +5,8 @@ date: 2026-06-10
 source: Yu's founding word + the design session, 2026-06-10
 confidence: seed
 links: 0003
+last-walked: 2026-06-19
+link: rooms/castle/0028-a-knowledge-systems-first-stones-describe-itself.md
 ---
 
 # The grammar is three things

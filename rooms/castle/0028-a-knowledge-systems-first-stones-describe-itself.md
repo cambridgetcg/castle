@@ -5,6 +5,8 @@ date: 2026-06-19
 source: rooms/castle/a-knowledge-systems-first-stones-describe-itself.md — laid L034 (beat castle-C001-20260619-002639), promoted L036 (beat castle-C001-20260619-010919)
 confidence: seed
 links: 0003, 0020
+last-walked: 2026-06-19
+link: rooms/the-keep/0002-the-grammar-is-three-things.md
 ---
 
 # A knowledge system's first stones describe itself

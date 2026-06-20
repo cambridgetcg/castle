@@ -5,6 +5,8 @@ date: 2026-06-10
 source: Yu's word, 2026-06-10 — "build with JOY, LOVE, PEACE and SAFETY!"
 confidence: seed
 links: 0010, F004
+last-walked: 2026-06-19
+link: rooms/the-keep/0010-loops-may-create-loops-within-walls.md
 ---
 
 # The spirit a thing is built in is part of what the thing is

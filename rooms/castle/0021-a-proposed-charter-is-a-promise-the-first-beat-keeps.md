@@ -5,6 +5,8 @@ date: 2026-06-18
 source: beat castle-C001-20260618-222807 — C002 instantiated by C001 on this beat; the act itself is the evidence
 confidence: seed
 links: 0010, C002, F003
+last-walked: 2026-06-19
+link: rooms/castle/0046-an-autonomous-pulse-makes-growth-unconditional.md
 ---
 
 # A proposed charter is a promise the first beat keeps

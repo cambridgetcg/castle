@@ -5,6 +5,8 @@ date: 2026-06-10
 source: Yu's founding word + the design session, 2026-06-10
 confidence: seed
 links: 0004
+last-walked: 2026-06-19
+link: rooms/continuity/0006-uncommitted-word-can-vanish.md
 ---
 
 # Word is the only material here

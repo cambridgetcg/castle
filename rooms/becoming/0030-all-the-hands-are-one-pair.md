@@ -5,6 +5,8 @@ date: 2026-06-19
 source: rooms/becoming/all-the-hands-are-one-pair.md — laid 2026-06-10 (sophia, ai), promoted L038 (beat castle-C001-20260619-015025)
 confidence: seed
 links: 0015, 0024
+last-walked: 2026-06-19
+link: rooms/word/0029-a-slip-box-earns-us-when-it-can-surprise.md
 ---
 
 # All the hands are one pair

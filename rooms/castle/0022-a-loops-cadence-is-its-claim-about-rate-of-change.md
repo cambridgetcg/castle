@@ -4,6 +4,8 @@ room: castle
 date: 2026-06-18
 source: observed beat castle-C001-20260618-224832 — first beat where C001 (daily) and C002 (weekly) are both beating; their cadences differ because the corners they watch change at different rates
 confidence: seed
+last-walked: 2026-06-19
+link: rooms/castle/0020-the-pulse-interval-is-the-castles-self-assessment-made-visible.md
 ---
 
 # A loop's cadence is its claim about how fast its corner changes

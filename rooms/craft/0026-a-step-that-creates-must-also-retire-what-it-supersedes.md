@@ -4,6 +4,8 @@ room: craft
 date: 2026-06-19
 source: fields/F010-promotion-leaves-orphans.md; two consecutive beats (L031, L032) each left a source seed in place after promoting it; cleared by hand; LOOP.md step 5 was silent on the crypt move
 confidence: seed
+last-walked: 2026-06-19
+link: rooms/craft/0019-a-filter-written-for-the-initial-states-silently-miscounts-when-the-protocol-grows.md
 ---
 
 # A step that creates a new record must also retire the record it supersedes

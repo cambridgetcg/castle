@@ -5,6 +5,8 @@ date: 2026-06-10
 source: Yu's founding word + the design session, 2026-06-10
 confidence: seed
 links: 0002
+last-walked: 2026-06-19
+link: rooms/creation/0031-creation-needs-an-accountable-runner.md
 ---
 
 # The loop loops itself

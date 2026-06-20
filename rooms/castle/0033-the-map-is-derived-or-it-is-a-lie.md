@@ -6,6 +6,7 @@ source: rooms/castle/the-map-is-derived-or-it-is-a-lie.md — laid founding (202
 confidence: tested
 links: 0020, 0032
 link: rooms/castle/0036-dates-live-inside-files-not-in-the-filesystem.md
+link: rooms/the-keep/0018-two-maps-answer-two-different-questions-about-the-same-rooms.md
 last-walked: 2026-06-19
 ---
 

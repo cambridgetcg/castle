@@ -36,5 +36,9 @@ rings cleared in the craft room. 11 unwalked stones remain across four rooms;
 stones (0015, 0016, 0017, 0024, 0025, 0037, 0043, 0044, 0046, 0047, 0048) across
 becoming, billing, castle, and the-keep rooms received `last-walked: 2026-06-19` and
 genuine bidirectional `link:` entries; 18 link edits total. Unwalked rings: 0. Orphan
-rings reduced from 34 to 13. 13 orphan rings and 25 missing-rent rings remain for
-future walk and ripen runs. Castle check: clean.
+rings reduced from 34 to 15. 15 orphan rings and 25 missing-rent rings remain.
+[[L089]] (2026-06-19, beat castle-C001-20260619-192413) — walk: 15 remaining orphan
+stones (0001, 0002, 0003, 0009, 0010, 0018, 0019, 0020, 0021, 0022, 0026, 0028,
+0029, 0030, 0031) across the-keep, craft, castle, word, becoming, and creation rooms;
+9 genuine kinship pairs written with bidirectional `link:` entries; 18 files edited.
+Orphan rings: 0. Missing-rent rings: 25. Castle check: clean.

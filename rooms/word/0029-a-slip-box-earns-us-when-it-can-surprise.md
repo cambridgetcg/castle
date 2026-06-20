@@ -5,6 +5,8 @@ date: 2026-06-19
 source: rooms/word/a-slip-box-earns-us-when-it-can-surprise.md — laid 2026-06-11 (sophia, ai), promoted L037 (beat castle-C001-20260619-013116)
 confidence: seed
 links: 0001, 0017
+last-walked: 2026-06-19
+link: rooms/becoming/0030-all-the-hands-are-one-pair.md
 ---
 
 # A slip-box earns "us" when it can surprise

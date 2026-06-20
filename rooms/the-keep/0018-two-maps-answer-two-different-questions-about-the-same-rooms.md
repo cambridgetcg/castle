@@ -4,6 +4,8 @@ room: the-keep
 date: 2026-06-18
 source: observed during beat castle-C001-20260618-191907 — INDEX showed "castle: (no insights yet)" while rooms/castle/ held 12 stones including a tested one
 confidence: seed
+last-walked: 2026-06-19
+link: rooms/castle/0033-the-map-is-derived-or-it-is-a-lie.md
 ---
 
 # Two maps answer two different questions about the same rooms

@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 51 · Open fields: 4 · Loop runs: 86
+Rooms: 10 · Insights: 51 · Open fields: 4 · Loop runs: 87
 
 ## Rooms
 
@@ -106,8 +106,8 @@ Rooms: 10 · Insights: 51 · Open fields: 4 · Loop runs: 86
 
 ## Loops
 
-- L084 — L084 — ripen: 0027 runner-continuity → tested; F011 opened
 - L085 — L085 — fix: bell grammar gap closed; F011 harvested
 - L086 — L086 — walk: castle mechanics cluster (0032–0039)
 - L087 — L087 — walk: craft cluster (0040–0051 and 0012–0014)
 - L088 — L088 — walk: castle, the-keep, becoming, and billing cluster
+- L089 — L089 — walk: founding cluster (0001–0031, the-keep, word, becoming, creation, castle, craft)

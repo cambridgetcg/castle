@@ -5,6 +5,8 @@ date: 2026-06-10
 source: Yu's word, 2026-06-10 — "create autonomus loops that create autonomous loops!" — and the pulse design session
 confidence: seed
 links: 0003, 0009, F004
+last-walked: 2026-06-19
+link: rooms/the-keep/0009-built-with-joy-love-peace-and-safety.md
 ---
 
 # Loops may create loops, but only inside walls
