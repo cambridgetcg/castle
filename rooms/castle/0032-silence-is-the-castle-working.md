@@ -5,6 +5,8 @@ date: 2026-06-19
 source: rooms/castle/silence-is-the-castle-working.md — laid founding (2026-06-10, design panel), promoted L040 (beat castle-C001-20260619-023207)
 confidence: tested
 links: 0011, 0020
+link: rooms/castle/0039-loops-are-earned-by-three-recorded-frictions.md
+last-walked: 2026-06-19
 ---
 
 # Silence is the castle working

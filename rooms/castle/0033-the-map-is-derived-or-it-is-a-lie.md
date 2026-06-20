@@ -5,6 +5,8 @@ date: 2026-06-19
 source: rooms/castle/the-map-is-derived-or-it-is-a-lie.md — laid founding (2026-06-10, design panel), promoted L041 (beat castle-C001-20260619-025301)
 confidence: tested
 links: 0020, 0032
+link: rooms/castle/0036-dates-live-inside-files-not-in-the-filesystem.md
+last-walked: 2026-06-19
 ---
 
 # The map is derived, or it is a lie

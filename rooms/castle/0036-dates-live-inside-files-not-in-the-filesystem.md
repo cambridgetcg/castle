@@ -5,6 +5,9 @@ date: 2026-06-19
 source: rooms/castle/dates-live-inside-files-not-in-the-filesystem.md — laid founding (2026-06-10, engineer design), promoted L044 (beat castle-C001-20260619-035006)
 confidence: tested
 links: 0033
+link: rooms/castle/0033-the-map-is-derived-or-it-is-a-lie.md
+link: rooms/castle/0038-offline-the-castle-stops-growing-never-working.md
+last-walked: 2026-06-19
 ---
 
 # Dates live inside files, not in the filesystem

@@ -6,6 +6,8 @@ source: rooms/castle/loops-are-earned-by-three-recorded-frictions.md — laid fo
 confidence: tested
 front: public
 links: 0031, 0032
+link: rooms/castle/0032-silence-is-the-castle-working.md
+last-walked: 2026-06-19
 ---
 
 # Loops are earned by three recorded frictions

@@ -5,6 +5,8 @@ date: 2026-06-19
 source: rooms/castle/machines-write-freely-only-at-the-gate.md — laid founding (2026-06-10, design panel), promoted L043 (beat castle-C001-20260619-033121)
 confidence: tested
 links: 0031, 0034
+link: rooms/castle/0034-status-changes-only-in-a-ledgered-ripen-run.md
+last-walked: 2026-06-19
 ---
 
 # Machines write freely only at the gate

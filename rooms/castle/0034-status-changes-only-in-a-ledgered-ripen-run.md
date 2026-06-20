@@ -5,6 +5,8 @@ date: 2026-06-19
 source: rooms/castle/status-changes-only-in-a-ledgered-ripen-run.md — laid founding (2026-06-10, design panel), promoted L042 (beat castle-C001-20260619-031132)
 confidence: tested
 links: 0031, 0033
+link: rooms/castle/0035-machines-write-freely-only-at-the-gate.md
+last-walked: 2026-06-19
 ---
 
 # Status changes only in a ledgered ripen run

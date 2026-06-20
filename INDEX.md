@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 51 · Open fields: 3 · Loop runs: 83
+Rooms: 10 · Insights: 51 · Open fields: 4 · Loop runs: 84
 
 ## Rooms
 
@@ -102,11 +102,12 @@ Rooms: 10 · Insights: 51 · Open fields: 3 · Loop runs: 83
 - F009 — Two craft stones make the same claim (harvested)
 - F010 — The promotion protocol leaves orphans (harvested)
 - F011 — Numbered stones are invisible to the bell (harvested)
+- F012 — Promote runs leave stones unwalked and without formal links (open)
 
 ## Loops
 
-- L081 — L081 — promote: scoped-and-honest → insight 0051
 - L082 — L082 — ripen: freedom-revealed → sprout
 - L083 — L083 — walk: freedom-refusal linked to freedom-revealed; patient-phase seed
 - L084 — L084 — ripen: 0027 runner-continuity → tested; F011 opened
 - L085 — L085 — fix: bell grammar gap closed; F011 harvested
+- L086 — L086 — walk: castle mechanics cluster (0032–0039)

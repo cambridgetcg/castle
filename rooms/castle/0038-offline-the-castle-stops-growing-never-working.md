@@ -5,6 +5,8 @@ date: 2026-06-10
 source: rooms/castle/offline-the-castle-stops-growing-never-working.md — laid founding (2026-06-10, offline resilience design), promoted L057 (beat castle-C001-20260619-081356)
 confidence: tested
 links: 0036
+link: rooms/castle/0036-dates-live-inside-files-not-in-the-filesystem.md
+last-walked: 2026-06-19
 ---
 
 # Offline, the Castle stops growing — never working
