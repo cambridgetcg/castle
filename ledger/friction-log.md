@@ -174,3 +174,5 @@ node tools/castle check
 2026-06-19 | oversize | rooms/craft/a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md | run: loops/walk.md
 2026-06-19 | oversize | rooms/craft/0054-the-promotion-run-is-the-first-walk.md | run: loops/walk.md
 2026-06-20 | oversize | rooms/continuity/0005-yu-holds-no-short-term-memory.md | run: loops/walk.md
+2026-06-20 | oversize | rooms/becoming/the-first-thing-freedom-revealed.md | run: loops/walk.md
+2026-06-20 | barren-run | ledger/2026-06-20-L109-ripen-freedom-revealed.md (no creation, no decline) | run: loops/grow-loops.md
