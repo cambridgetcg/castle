@@ -6,7 +6,8 @@ source: rooms/craft/check-the-collection-not-the-element.md — laid 2026-06-18,
 confidence: tested
 link: rooms/craft/0049-verify-before-building-the-unique-piece-survives.md
 link: rooms/castle/0044-a-surveyed-seed-not-swept-is-still-in-the-gate.md
-last-walked: 2026-06-19
+link: rooms/craft/0055-a-gate-that-omits-one-checker-has-a-blind-lane.md
+last-walked: 2026-06-20
 ---
 
 # Check the collection, not the element

@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 54 · Open fields: 4 · Loop runs: 104
+Rooms: 10 · Insights: 55 · Open fields: 3 · Loop runs: 105
 
 ## Rooms
 
@@ -62,6 +62,7 @@ Rooms: 10 · Insights: 54 · Open fields: 4 · Loop runs: 104
 - 0051 — Scoped and honest beats grand and faked
 - 0053 — A bell that has never rung at its keeper is not yet evidence of anything
 - 0054 — The promotion run is the first walk
+- 0055 — A gate that omits one checker has a blind lane for what that checker sees
 
 ### creation
 
@@ -107,12 +108,12 @@ Rooms: 10 · Insights: 54 · Open fields: 4 · Loop runs: 104
 - F011 — Numbered stones are invisible to the bell (harvested)
 - F012 — Promote runs leave stones unwalked and without formal links (harvested)
 - F013 — The loop does not name commit before next-beat (harvested)
-- F014 — The commit gate does not include the bell (working)
+- F014 — The commit gate does not include the bell (harvested)
 
 ## Loops
 
-- L102 — L102 — gate seed: patient phase reaches full rest at beat 102
 - L103 — L103 — janitor: pulse.sh lacked next-beat gate; castle steady
 - L104 — L104 — ripen: 0005 (Yu holds no short-term memory) → tested
 - L105 — L105 — walk: trim 0005 (oversize); F014 opened (commit-gate gap)
 - L106 — L106 — fix: LOOP.md commit gate now includes the bell
+- L107 — L107 — harvest: F014 closed; insight 0055 laid

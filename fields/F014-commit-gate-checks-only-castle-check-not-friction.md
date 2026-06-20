@@ -1,6 +1,6 @@
 ---
 id: F014
-state: working
+state: harvested
 opened: 2026-06-20
 ---
 
@@ -14,3 +14,4 @@ opened: 2026-06-20
 
 **Work so far:** L105 (2026-06-20) — field opened; 0005 trimmed this same beat as the immediate repair; root cause named here.
 [[L106]] (2026-06-20, beat castle-C001-20260620-015012) — fix: LOOP.md step 7 extended to name both `tools/castle check && sh tools/friction.sh` as the pre-commit gate; charter C001 bounds updated to match. Runs that introduce oversize, orphan, or front-drift rings must fix them before committing; pre-existing rings are named in notes: and left for a dedicated run. Root cause closed.
+[[L107]] (2026-06-20, beat castle-C001-20260620-020942) — harvest: insight 0055 laid (rooms/craft/0055-a-gate-that-omits-one-checker-has-a-blind-lane.md). F014 harvested.

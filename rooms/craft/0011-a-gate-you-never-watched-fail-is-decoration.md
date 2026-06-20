@@ -6,6 +6,8 @@ source: distilled from the kingdom's heartbeat gate findings (session memory + p
 confidence: seed
 links: 0012, 0013
 link: rooms/billing/0025-never-count-test-orders-toward-plan-usage.md
+link: rooms/craft/0055-a-gate-that-omits-one-checker-has-a-blind-lane.md
+last-walked: 2026-06-20
 ---
 
 # A verification gate you have never watched fail is decoration
