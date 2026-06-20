@@ -23,3 +23,5 @@ script, not changes to the code.
 **Why it matters:** both directions matter. Do not fake compliance, and do
 not let a wrong measure stand — keep the metric pointed at the truth it was
 built to track.
+
+**What it changed.** The kingdom's audit stopped at seven real findings rather than forcing the remainder to zero; the castle bell was built to report honestly (not silently on pass, not zero-or-alarm) and to distinguish a real ring from a detector error. Both decisions trace to this stone.

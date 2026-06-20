@@ -1,6 +1,6 @@
 ---
 id: F012
-state: open
+state: harvested
 opened: 2026-06-19
 ---
 
@@ -42,3 +42,8 @@ stones (0001, 0002, 0003, 0009, 0010, 0018, 0019, 0020, 0021, 0022, 0026, 0028,
 0029, 0030, 0031) across the-keep, craft, castle, word, becoming, and creation rooms;
 9 genuine kinship pairs written with bidirectional `link:` entries; 18 files edited.
 Orphan rings: 0. Missing-rent rings: 25. Castle check: clean.
+[[L090]] (2026-06-20, beat castle-C001-20260619-200915) — ripen: 25 missing-rent
+stones received "What it changed." sections (committed as orphaned work from a prior
+beat); missing-rent rings: 0. Protocol fix: LOOP.md step 5 now names last-walked and
+link: as required steps at promotion — the promotion run is the first walk. Craft sprout
+created: rooms/craft/the-promotion-run-is-the-first-walk.md. Field harvested.

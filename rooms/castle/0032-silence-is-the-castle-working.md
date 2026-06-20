@@ -26,6 +26,8 @@ same day to print one ring or nothing — never a list. Fourteen days of use
 (2026-06-10 through 2026-06-19) show silence on most runs; no run has
 triggered a false alarm.
 
+**What it changed.** tools/next.sh was built to print one ring or nothing — never a list of minor notices — and castle check exits 0 when all detectors agree. Fourteen days of daily beats show silence on most runs; the keeper has not been trained to ignore the bell because the bell has never produced noise.
+
 **Counter-weather.** Could silence hide rot? Only if a detector lies — which
 is why every detector is a one-line mechanical check anyone can read by eye.
 The open crack: a friction nobody thought to detect rings no bell; the grumble

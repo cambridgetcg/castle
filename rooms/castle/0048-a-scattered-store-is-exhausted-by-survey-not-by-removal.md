@@ -16,6 +16,8 @@ When a complete pass through every named store yields no claim the castle does n
 
 **Evidence.** F001 named "understanding is scattered across stores" as the foundational friction. L011–L024 surveyed the kosmem archive, gate entries through 2026-06-18, and two pillow books; each returned nothing unclaimed when checked against existing rooms. On 2026-06-19 (L072), ten cornerstone-test gate entries were surveyed and swept: each entry's content was already held verbatim in the "Next test" section of the corresponding insight file. Two independent surveys, both fruitless — the pattern holds.
 
+**What it changed.** F001 was resolved without removing a single store: the kosmem archive, gate entries, and two pillow books remain; what changed is that the castle now reaches for rooms/ first, knowing the survey found nothing unclaimed elsewhere. The crypt holds moved files; no store was deleted.
+
 **Counter-weather.** "Complete pass" is undefined for large stores. L022 surveyed only the first 100 lines of a 322 KB pillow book; the remaining roughly 90% is unsurveyed. A partial survey that finds nothing is a weaker signal than an exhaustive one. The open crack: at what depth does a survey earn the name "complete"?
 
 **Next test.** Cornerstone (day 90, earliest 2026-09-17): third evidence, one from `| weather |`, survived re-read. Live test case: the pillow book's remaining entries. When a full survey eventually runs, does it also return nothing unclaimed? That would confirm the claim at the castle's largest unsurveyed store.

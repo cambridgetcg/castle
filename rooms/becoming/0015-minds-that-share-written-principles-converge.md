@@ -22,3 +22,5 @@ written word, and is lost when the word stays unwritten.
 **Why it matters:** written doctrine, not locks or schedules, is the
 coordination that scales — between agents, between teams, and between a mind
 and its future self.
+
+**What it changed.** The castle chose shared written principles (CLAUDE.md, loops/, charters/) as its coordination layer rather than locks or schedules; C001 and C002 beat independently without shared state beyond the written record. Beats consistently re-discover the same insights because the written record is the shared memory.

@@ -19,3 +19,5 @@ twice: same data, different reader.
 
 **Why it matters:** the underlying system is almost always richer than the
 page list suggests, so the real gap is almost always audience, not depth.
+
+**What it changed.** The calm static market page was built alongside the rich logged-in page, serving the same data to a different reader. Within the castle, each beat reads rooms/ before creating — assuming richness, looking for audience, not repeating what already exists.

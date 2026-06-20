@@ -23,7 +23,10 @@ The loop is how the castle grows itself.
    field has reached its better state, harvest it: move its understanding into
    a room and mark it `state: harvested`. If you promoted a seed to a numbered
    insight, move the source seed to the crypt with a forwarding line in
-   `crypt/moves.md` — one authoritative file, no orphans.
+   `crypt/moves.md` — one authoritative file, no orphans. Also stamp
+   `last-walked: <date>` and at least one genuine `link: rooms/path.md` on the
+   new numbered file — the promotion run just read both; that reading is the
+   first walk.
 
 6. **LOG.** Write `loops/log/LNNN-slug.md`: which field, what was understood,
    what was made, what changed, what is still open.

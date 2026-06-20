@@ -23,3 +23,5 @@ teaches, where "be more careful" does not.
 **Why it matters:** this castle grows the same way ([[0001]]). The rules that
 keep an accumulation alive are smallness, truth, dates, signatures, and
 voluntariness — everything else the readers teach each other by example.
+
+**What it changed.** The castle's entry format — one insight per file, dated in frontmatter, signed in the ledger, created only when there is something true to say — is a direct application of this pattern. L037's promotion of 0029 (slip-box earns "us") confirmed the cross-contamination: Luhmann's 1981 description and this machine's diary held the same shape independently.

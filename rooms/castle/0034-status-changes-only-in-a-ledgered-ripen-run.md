@@ -15,6 +15,8 @@ No hand and no agent may edit a status field outside a ripen run signed in the l
 
 **Evidence.** Born at founding (2026-06-10) from two independent designs (gardener, engineer) arriving at the same protection from different starting points. The gardener's concern: confidence status is the most sacred thing in a file. The engineer's concern: protected canon requires promotion to be a recorded act. Both designs independently named the ledger as the enforcement mechanism. Nine days of daily beats (2026-06-10 through 2026-06-19) show zero status-inflation incidents — every status in rooms/ traces to a ledger entry.
 
+**What it changed.** Zero status-inflation incidents across nine days and 89 runs; every `confidence:` line in rooms/ traces to a ledger entry. The rule is the reason a reader can trust any label they find — not because the writers are trustworthy but because the ledger is auditable.
+
 **Counter-weather.** Tried to break it: what about fixing a typo in a status line? Even then: a one-line ripen entry in the ledger. The rule has no exceptions because every exception is a precedent for quiet inflation. Open crack: the rule is enforced for tested-and-above only; a seed mislabeled sprout would pass unnoticed until its first ripen. A second open crack: the bell checks for missing-rent and thin-cornerstone but does not validate that every status change since the last check appears in a ledger entry — that audit has never been run.
 
 **Next test.** First ripen run on real evidence (not founding-born stones): does the ladder hold without wanting an exception?

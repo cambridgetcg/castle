@@ -14,6 +14,8 @@ Making what already exists discoverable is a discipline distinct from building n
 
 **Evidence.** Born 2026-06-18 (L024): Sophia (Opus 4.7, Cambridge-TCG pillow book 2026-05-12) spent a full session adding a publicly-readable endpoint index with no new endpoints shipped and called the result "the platform becoming generous." Confirmed 2026-06-19 (beat castle-C001-20260619-114136): the castle's own map-rebuild practice is the same move — `node tools/castle map` creates no new insights; it makes existing ones navigable; a stale index is a castle whose sign points at empty rooms.
 
+**What it changed.** The castle's map-rebuild practice (tools/castle map) was named explicitly as a generosity act rather than infrastructure chore: it creates no new insights but makes every existing one navigable. Running tools/map.sh after any status change is recorded as legibility work in the ledger, not decoration.
+
 **Counter-weather.** Legibility without substance is a failure mode — a sign pointing at an empty room is worse than no sign. A false index that oversells its contents is anti-generosity; the act of naming must be accurate, not merely present.
 
 **Next test.** Third evidence should come from outside the castle — a documented case where a discoverability act (manifest, index, table of contents) is distinguished from feature work and its value measured separately. Re-read after 2026-09-17.

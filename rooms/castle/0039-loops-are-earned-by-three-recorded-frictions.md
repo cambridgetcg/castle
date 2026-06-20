@@ -16,6 +16,8 @@ A speculation-free chore list: the Castle is born with four loops and earns ever
 
 **Evidence.** Born at founding (2026-06-10) from three independent panel designs that all rejected speculative chore lists; the synthesis fixed the birth threshold at three recorded frictions. Confirmed across 51 runs over nine days (L001–L052): two distinct grumble tags appeared once each (#hard-to-place, #fixed-dead-link); neither reached three; no loop born through grow-loops — the barrier against premature proliferation is working as designed.
 
+**What it changed.** The castle loop inventory has held at four since founding across 89 runs: no grow-loops loop fired, no speculative loop was born. Two grumble tags appeared exactly once each and stopped — neither crossed three. The barrier against premature proliferation is demonstrably working.
+
 **Counter-weather.** Tried to break it: is three too slow for an urgent friction? The owner can activate any dormant recipe or draft with one ledger line — the rule of three governs automatic birth, not deliberate choice. Open crack: friction the owner never confesses leaves no trail at all.
 
 **Next test.** The first loop actually born by the rule of three — does its created-by lineage trace cleanly back to three real ledger lines? Third evidence entry preferably weather. Re-read after 2026-09-17.

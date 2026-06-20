@@ -20,3 +20,5 @@ the temptation recurs.
 **Why it matters:** every growing body of principles faces rule inflation. A
 question the old rules learn to ask stays learnable, where a stack of rules
 does not. This castle's own walls should be held to it.
+
+**What it changed.** The castle's gate held three bullets since founding and has not grown a fourth despite nine days of growth pressure; machine-scope was absorbed as a question within existing rules (loop law 4: reversible only) rather than minted as a new constraint. This stone is the standing reason the door has not re-accumulated.

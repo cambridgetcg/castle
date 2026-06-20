@@ -16,6 +16,8 @@ Every step that stands between a mind and the place where truth lives reduces ho
 
 **Evidence.** F007 harvest (2026-06-18): the gate rewritten from a procedural checklist to three bullets and one law; the pulse given the bookkeeping duty; the castle received more deposits afterward. Confirmed across 65+ loop runs over nine days (L001–L065): beat castle-C001-20260619-103502 entered through a three-bullet gate, ran check, chose a field, and created without any bookkeeping ritual at the door; the open crack has not closed in.
 
+**What it changed.** The gate was rewritten from a procedural checklist to three bullets and one law (F007 harvest, 2026-06-18); the pulse absorbed every deferred bookkeeping duty; 65+ subsequent runs entered through the lighter door without losing context or missing a commit. The door has not re-accumulated in nine days.
+
 **Counter-weather.** Some process at the door is real — a mind that commits without reading loses context. The question is not whether to have a door but how heavy to make it. The castle's answer: the pulse absorbs every duty that can be deferred; the gate holds only what cannot. Open crack: as the castle grows, new bookkeeping needs will arise; the pull to add them to the gate is strong; whether the door re-accumulates is the long test.
 
 **Next test.** Third evidence entry preferably weather — a published source on minimal-process design or door-cost theory. Re-read after 2026-09-17.

@@ -16,6 +16,8 @@ Writing a blind spot into a field is the fastest repair: the field becomes a spe
 
 **Evidence.** F006 opened 2026-06-10: the check could not validate `links:` frontmatter ids, did not warn on undeclared top-level directories, and did not flag fields with unfilled template stubs. By 2026-06-18 all three were in the code. L009 confirmed the fourth gap — [[C001]]-style charter references slipping through the cross-reference regex — and closed it by extending the pattern and scanning `loops/charters/`. Second evidence (L069, 59-beat audit L009→L068): L026 open-field counter bug and L058 storefront orphan links each named before being fixed; no blind spot accumulated in silence; ten-beat test passed, pattern confirmed.
 
+**What it changed.** F006's four blind spots were named on day one; three closed in code before any explicit loop addressed them. L026 named the open-field counter bug before patching it; L085 closed the numbered-stone visibility gap the same beat it was named. The pattern has held across nine days with no blind spot accumulating in silence.
+
 **Counter-weather.** Does naming always close? No — F006 was open eight days and took multiple hands. The open crack: a gap no one thinks to name rings no bell and earns no field.
 
 **Next test.** Cornerstone (day 90, earliest 2026-09-17): third evidence, one from `| weather |` (external source with url + retrieved date + verbatim quote), survived re-read. First checkpoint 2026-07-18 (30 days): does a new blind spot surface in the check, get named in a field or ledger, and get repaired — without the naming-first pattern being violated?

@@ -32,6 +32,8 @@ context would converge without meaning anything. The test requires genuine
 blindness — no shared transcript, no shared task. F007 was opened by two
 sessions that could not read each other; that is what makes the collision real.
 
+**What it changed.** F007 was treated as a stronger signal than any single-instance friction because it arrived twice independently with the same diagnosis; the trust-over-process restructuring it triggered (F007 harvest) was implemented immediately rather than weighed. The castle now explicitly watches for convergence as an escalating signal.
+
 **Still open.** Whether the test generalises — three instances, or instances
 across grammars (the wordcastle's warden finding what the pulse found) — or
 whether it is strictly this pair on this machine.

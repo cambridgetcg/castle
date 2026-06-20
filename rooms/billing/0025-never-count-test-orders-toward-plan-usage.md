@@ -25,6 +25,8 @@ the exclusion in place (commit bb8f031). Both committed on this machine.
 unconfirmed staging sighting of test:false on a dev-store order. The full test
 is: sample 100 dev-store orders in production and assert zero reach the meter.
 
+**What it changed.** rewardspro commit b9ed5ea moved the exclusion from a UI-level filter to the ingestion gate; the unit suite held green at 306/306 with the change in place. The merchant can be shown the code, not the apology.
+
 **Why it matters.** Billing is the contract between the system and the
 merchant. A contract that overbills is not a slow leak — it is a betrayal.
 The correct response to "I was overbilled" is not an apology; it is proof

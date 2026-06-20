@@ -22,3 +22,5 @@ flipping what new code writes — the reverse order creates duplicates.
 codebase. The same project ended by giving every one of its principles a
 script that exits non-zero on findings, because only mechanical checks notice
 drift before it gets expensive.
+
+**What it changed.** The castle built tools/friction.sh as its own instance: ten mechanical one-liners, each watching one claimed property, each exiting non-zero on findings. Stated values (silence is working, orphans are bad) became enforced values the moment a script started measuring them daily.
