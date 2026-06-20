@@ -54,7 +54,7 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 - rooms/craft/0050-narrow-is-power.md · (sister grammar — see fields/F005)
 - rooms/craft/0051-scoped-and-honest-beats-grand-and-faked.md · (sister grammar — see fields/F005)
 - rooms/craft/0053-a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md · (sister grammar — see fields/F005)
-- rooms/craft/the-promotion-run-is-the-first-walk.md · (sister grammar — see fields/F005)
+- rooms/craft/0054-the-promotion-run-is-the-first-walk.md · (sister grammar — see fields/F005)
 
 ## rooms/creation/ — claims about how making works — creators, loops, what generates what
 - rooms/creation/0023-one-creation-per-loop-is-a-provenance-law.md · (sister grammar — see fields/F005)

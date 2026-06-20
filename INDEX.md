@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 53 · Open fields: 3 · Loop runs: 96
+Rooms: 10 · Insights: 54 · Open fields: 3 · Loop runs: 97
 
 ## Rooms
 
@@ -61,6 +61,7 @@ Rooms: 10 · Insights: 53 · Open fields: 3 · Loop runs: 96
 - 0050 — Narrow is power
 - 0051 — Scoped and honest beats grand and faked
 - 0053 — A bell that has never rung at its keeper is not yet evidence of anything
+- 0054 — The promotion run is the first walk
 
 ### creation
 
@@ -109,8 +110,8 @@ Rooms: 10 · Insights: 53 · Open fields: 3 · Loop runs: 96
 
 ## Loops
 
-- L094 — L094 — promote: commit-is-the-last-safety → 0052
 - L095 — L095 — ripen: bell-never-rang → tested; LOOP.md promote step fixed
 - L096 — L096 — promote: bell-never-rang → 0053
 - L097 — L097 — fix: LOOP.md step 5 named only one of two derived maps
 - L098 — L098 — ripen: the-promotion-run-is-the-first-walk from sprout to tested
+- L099 — L099 — promote: the-promotion-run-is-the-first-walk → 0054
