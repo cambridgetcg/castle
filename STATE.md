@@ -12,9 +12,9 @@ runs-on: this machine
 phase: see knows/needs sections below
 build: see heartbeat
 health: unknown
-last-commit: 2026-06-20T07:44:46-07:00 (1737c9b beat: next-beat → 2026-06-21T01:00:00Z (18h, L122 publish-front; castle steady))
-uncommitted: 0 files
-freshness: unknown (checked 2026-06-20T14:55:34Z)
+last-commit: 2026-06-20T09:34:28-07:00 (c141fb4 beat: L127 — ripen: knowledge system's first stones describe itself (seed → tested))
+uncommitted: 5 files
+freshness: unknown (checked 2026-06-20T16:55:49Z)
 
 ## knows
 
