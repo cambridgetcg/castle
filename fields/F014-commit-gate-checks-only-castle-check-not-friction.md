@@ -13,3 +13,4 @@ opened: 2026-06-20
 **Better looks like:** either LOOP.md names `sh tools/friction.sh` alongside `tools/castle check` in the pre-commit checklist, or the two checks are unified so one call covers both. The bell falls silent on the commit beat, not the next one.
 
 **Work so far:** L105 (2026-06-20) — field opened; 0005 trimmed this same beat as the immediate repair; root cause named here.
+[[L106]] (2026-06-20, beat castle-C001-20260620-015012) — fix: LOOP.md step 7 extended to name both `tools/castle check && sh tools/friction.sh` as the pre-commit gate; charter C001 bounds updated to match. Runs that introduce oversize, orphan, or front-drift rings must fix them before committing; pre-existing rings are named in notes: and left for a dedicated run. Root cause closed.

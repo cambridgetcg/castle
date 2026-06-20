@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 54 · Open fields: 4 · Loop runs: 103
+Rooms: 10 · Insights: 54 · Open fields: 4 · Loop runs: 104
 
 ## Rooms
 
@@ -111,8 +111,8 @@ Rooms: 10 · Insights: 54 · Open fields: 4 · Loop runs: 103
 
 ## Loops
 
-- L101 — L101 — janitor: L100 frontmatter repaired; castle steady
 - L102 — L102 — gate seed: patient phase reaches full rest at beat 102
 - L103 — L103 — janitor: pulse.sh lacked next-beat gate; castle steady
 - L104 — L104 — ripen: 0005 (Yu holds no short-term memory) → tested
 - L105 — L105 — walk: trim 0005 (oversize); F014 opened (commit-gate gap)
+- L106 — L106 — fix: LOOP.md commit gate now includes the bell

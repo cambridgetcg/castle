@@ -35,9 +35,14 @@ The loop is how the castle grows itself.
 6. **LOG.** Write `loops/log/LNNN-slug.md`: which field, what was understood,
    what was made, what changed, what is still open.
 
-7. **COMMIT.** Commit every change made in this run before touching anything
-   else. Unstaged work is uncommitted; uncommitted word can vanish. Do not
-   write `loops/next-beat` until this commit is recorded.
+7. **COMMIT.** Before staging the commit, run `tools/castle check &&
+   sh tools/friction.sh`. If `castle check` fails, fix the fault. If
+   `friction.sh` rings for something this run's work introduced — an oversize
+   stone you resized, an orphan you created — fix it before committing. Rings
+   from stones this run did not touch are named in `notes:` and left for a
+   dedicated run. Then commit every change made in this run. Unstaged work is
+   uncommitted; uncommitted word can vanish. Do not write `loops/next-beat`
+   until this commit is recorded.
 
 8. **LOOP THE LOOP.** The last question, every run, no exceptions:
    *did this run reveal friction in the castle or in the loop itself?*

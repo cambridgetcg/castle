@@ -25,8 +25,9 @@ dress unformatted-but-true word into the forms without changing its meaning.
 Never reject true word for being out of form.
 
 **Bounds:** reversible work only; anything irreversible becomes a field
-addressed to Yu. Run `tools/castle check` before committing and leave it
-passing. Never touch `loops/STOP` except to honour it. Built with joy, love,
+addressed to Yu. Run `tools/castle check && sh tools/friction.sh` before
+committing; fix new rings introduced by this run, name pre-existing rings in
+`notes:`. Never touch `loops/STOP` except to honour it. Built with joy, love,
 peace, and safety — if a beat cannot work inside those four words, it rests
 and says why in its log.
 
