@@ -29,7 +29,7 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 - rooms/castle/0046-an-autonomous-pulse-makes-growth-unconditional.md · (sister grammar — see fields/F005)
 - rooms/castle/0047-a-named-blind-spot-is-its-own-first-repair.md · (sister grammar — see fields/F005)
 - rooms/castle/0048-a-scattered-store-is-exhausted-by-survey-not-by-removal.md · (sister grammar — see fields/F005)
-- rooms/castle/commit-is-the-last-safety.md · seed
+- rooms/castle/commit-is-the-last-safety.md · tested
 - rooms/castle/sister-castles-share-a-door-not-a-grammar.md · sprout
 
 ## rooms/continuity/ — Room: continuity

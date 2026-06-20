@@ -6,6 +6,7 @@ source: session memory: the commit-or-vanish lesson, 2026-06
 confidence: seed
 links: 0005
 link: rooms/the-keep/0001-word-is-the-only-material.md
+link: rooms/castle/commit-is-the-last-safety.md
 ---
 
 # Uncommitted word can vanish
