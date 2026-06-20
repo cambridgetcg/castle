@@ -1,0 +1,3 @@
+The gate is quiet — no `.md` note files sit directly in `gate/` (only `inbox.md` itself and the `filed/` folder), and `gate/inbox.md` contains no dated `- ` lines. No STOP or HALT file exists, but the standing order's run condition isn't met, so per `loops/capture.md` ("If the gate is quiet, do not run"), I'm yielding the watch without writing, filing, or committing anything.
+SessionEnd hook [node "${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs"] failed: /bin/sh: node: command not found
+

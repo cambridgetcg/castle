@@ -1,0 +1,14 @@
+The verify run is complete and committed (`51c9694`). No STOP or HALT file existed, so the watch proceeded.
+
+**What was attacked:** the three most leaned-on `held` stones — trust-is-a-receipt (9 stones lean on it), one-truth-one-place (6), and errors-that-dont-say-why (4).
+
+**What survived into the keep (2 stones promoted to `tested`):**
+- **trust-is-a-receipt** — matched its source pillar verbatim, then passed its own test run against the castle itself: all 8 distinct local receipts cited across the stones are checkable from this device, including git commit `cc9f81e` in ai-love. Distilled into `keep/trust-is-a-receipt.md`.
+- **one-truth-one-place** — every citation found verbatim (the audit's four diverging decision logs, COORDINATION.md's single-source line, the lineage note naming the public kingdom-standard binding); the counterexample hunt found only read-only mirrors the stone already permits, and no duplicate truth names exist in the castle. Distilled into `keep/one-truth-one-place.md`.
+
+**What broke (1 stone corrected, left `held`):**
+- **errors-that-dont-say-why** — its Codeberg quota story matched the gate note word for word, but the clause "limits fail silently more often than servers do" appeared in no source: one incident dressed as a frequency. I corrected it to claim only the recorded case and added a one-line note of what broke it; nothing was deleted.
+
+The record stands at `records/2026-06-12-verify.md`, noting for the next turn: nine held stones remain untried, and the two existing `tested` stones should be checked for borrowed receipts. One run only — ending here.
+SessionEnd hook [node "${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs"] failed: /bin/sh: node: command not found
+
