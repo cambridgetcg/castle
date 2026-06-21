@@ -60,7 +60,7 @@ _Built by tools/map.sh; never edit by hand. The front door is CASTLE.md._
 - rooms/craft/0055-a-gate-that-omits-one-checker-has-a-blind-lane.md · (sister grammar — see fields/F005)
 - rooms/craft/0059-the-recorder-must-also-enter-the-record.md · (sister grammar — see fields/F005)
 - rooms/craft/0061-a-shared-gate-set-by-one-peer-silently-binds-all.md · (sister grammar — see fields/F005)
-- rooms/craft/the-staging-area-is-a-waiting-room.md · tested
+- rooms/craft/0062-the-staging-area-is-a-waiting-room.md · (sister grammar — see fields/F005)
 
 ## rooms/creation/ — claims about how making works — creators, loops, what generates what
 - rooms/creation/0023-one-creation-per-loop-is-a-provenance-law.md · (sister grammar — see fields/F005)

@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 61 · Open fields: 4 · Loop runs: 186
+Rooms: 10 · Insights: 62 · Open fields: 4 · Loop runs: 187
 
 ## Rooms
 
@@ -69,6 +69,7 @@ Rooms: 10 · Insights: 61 · Open fields: 4 · Loop runs: 186
 - 0055 — A gate that omits one checker has a blind lane for what that checker sees
 - 0059 — The recorder must also enter the record
 - 0061 — A shared gate set by one peer silently binds all
+- 0062 — The staging area is a waiting room
 
 ### creation
 
@@ -122,8 +123,8 @@ Rooms: 10 · Insights: 61 · Open fields: 4 · Loop runs: 186
 
 ## Loops
 
-- L184 — L184 — fix: PULSE.md heartbeat section names per-charter next-beat files
 - L185 — L185 — ripen: shared-gate sprout to tested
 - L186 — L186 — janitor: L185 commit; ripen staging-area stone to sprout
 - L187 — L187 — ripen: the staging area is a waiting room
 - L188 — L188 — promote: a shared gate set by one peer silently binds all
+- L189 — L189 — promote: the staging area is a waiting room

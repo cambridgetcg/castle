@@ -2,7 +2,7 @@
 sweep-after: 2026-09-21
 ---
 
-cornerstone test — rooms/craft/the-staging-area-is-a-waiting-room.md
+cornerstone test — rooms/craft/0062-the-staging-area-is-a-waiting-room.md
 
 Re-read after 2026-09-21. Claim: the staging area is a waiting room between intent
 and record; a staged but uncommitted change outlasts its beat and arrives in the
