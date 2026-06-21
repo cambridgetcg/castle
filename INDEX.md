@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 58 · Open fields: 3 · Loop runs: 148
+Rooms: 10 · Insights: 58 · Open fields: 4 · Loop runs: 149
 
 ## Rooms
 
@@ -113,11 +113,12 @@ Rooms: 10 · Insights: 58 · Open fields: 3 · Loop runs: 148
 - F013 — The loop does not name commit before next-beat (harvested)
 - F014 — The commit gate does not include the bell (harvested)
 - F015 — The runner invokes before next-beat (harvested)
+- F016 — Work-so-far repair runs leave themselves unrecorded (working)
 
 ## Loops
 
-- L146 — L146 — promote sister-castles to insight 0058
 - L147 — L147 — honest decline
 - L148 — L148 — honest decline
 - L149 — L149 — janitor: F002 work-so-far missing L128 entry
 - L150 — L150 — janitor: F002 work-so-far missing L149 entry
+- L151 — L151 — janitor: F002 work-so-far missing L150 entry; F016 opened
