@@ -12,9 +12,9 @@ runs-on: this machine
 phase: see knows/needs sections below
 build: see heartbeat
 health: unknown
-last-commit: pending (L169 — janitor: F002 work-so-far L167/L168; gate seed C002 first Sunday)
-uncommitted: 5 files
-freshness: checked 2026-06-21T00:09:00Z
+last-commit: 2026-06-21T01:43:20-07:00 (9429c42 beat: L173 — janitor: INDEX.md drift; commit L172 uncommitted work)
+uncommitted: 0 files
+freshness: unknown (checked 2026-06-21T08:57:48Z)
 
 ## knows
 
