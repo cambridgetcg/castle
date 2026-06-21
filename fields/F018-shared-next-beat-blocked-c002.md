@@ -23,3 +23,7 @@ no charter can gate another; C002's first successful run is logged.
 **Work so far:** [[L178]] (2026-06-21) — `tools/pulse.sh` updated to use
 `loops/next-beat-${CHARTER}` instead of the shared `loops/next-beat`; the
 mechanical block is removed. C002 will run next Sunday (2026-06-28 at 08:41 UTC).
+[[L180]] (2026-06-21) — correction: L179 recorded "C002 awaits 2026-06-28 run"
+but C002's cadence fires at ~15:41 UTC on Sundays; the L178 fix was applied at
+~03:16 UTC, before that time; C002 should run today (2026-06-21). F018 remains
+open until C002's log confirms the first successful run.
