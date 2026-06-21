@@ -1,6 +1,6 @@
 ---
 id: F019
-state: open
+state: working
 opened: 2026-06-21
 ---
 
@@ -13,3 +13,4 @@ opened: 2026-06-21
 **Better looks like:** the C001 hermes runner uses `loops/next-beat-C001` as its gate and the beat prompt instructs the agent to write `loops/next-beat-C001`. The shared `loops/next-beat` is then a legacy file with no readers; it can be moved to the crypt in a recorded run.
 
 **Work so far:** [[L194]] (2026-06-21) — friction named; field opened.
+[[L195]] (2026-06-21, beat castle-C001-20260621-093341) — runner fix applied: `~/.hermes/scripts/castle-pulse-runner.sh` now uses `NEXT_BEAT="$CASTLE/loops/next-beat-${CHARTER}"` (resolves to `loops/next-beat-C001` for C001) for its gate check and safety net; prompt text updated to instruct the agent to write `loops/next-beat-C001`. The runner and the law now agree. The shared `loops/next-beat` file remains as a legacy file with no readers; crypt move deferred to a future confirmed run.
