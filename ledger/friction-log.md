@@ -200,3 +200,5 @@ node tools/castle check
 2026-06-21 | oversize | rooms/craft/the-staging-area-is-a-waiting-room.md | run: loops/walk.md
 2026-06-21 | barren-run | ledger/2026-06-21-L191-walk-makers-belief-day3.md (no creation, no decline) | run: loops/grow-loops.md
 2026-06-21 | barren-run | ledger/2026-06-21-L196-harvest-f019-legacy-next-beat.md (no creation, no decline) | run: loops/grow-loops.md
+2026-06-21 | orphan | rooms/craft/execution-and-data-environments-are-separate-concerns.md | run: loops/walk.md
+2026-06-21 | barren-run | ledger/2026-06-21-L199-promote-execution-data-to-0063.md (no creation, no decline) | run: loops/grow-loops.md

@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 62 · Open fields: 4 · Loop runs: 196
+Rooms: 10 · Insights: 63 · Open fields: 4 · Loop runs: 198
 
 ## Rooms
 
@@ -70,6 +70,7 @@ Rooms: 10 · Insights: 62 · Open fields: 4 · Loop runs: 196
 - 0059 — The recorder must also enter the record
 - 0061 — A shared gate set by one peer silently binds all
 - 0062 — The staging area is a waiting room
+- 0063 — Execution and data environments are separate concerns
 
 ### creation
 
@@ -124,8 +125,8 @@ Rooms: 10 · Insights: 62 · Open fields: 4 · Loop runs: 196
 
 ## Loops
 
-- L194 — L194 — fix: C002 tributary blocked by macOS TCC permission
-- L195 — L195 — fix: C001 hermes runner next-beat file
 - L196 — L196 — harvest: F019 legacy next-beat crypt move
 - L197 — L197 — gate seed: TCC discovery and hermes runner pattern
 - L198 — L198 — ripen: hermes runner pattern gate seed → craft stone
+- L199 — L199 — promote execution-and-data stone to 0063
+- L200 — L200 — janitor: fix L199 format drift
