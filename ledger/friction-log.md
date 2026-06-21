@@ -194,3 +194,4 @@ node tools/castle check
 2026-06-21 | oversize | rooms/castle/0060-a-bypassed-gate-and-a-broken-gate-look-alike.md | run: loops/walk.md
 2026-06-21 | barren-run | ledger/2026-06-21-L173-janitor-index-drift.md (no creation, no decline) | run: loops/grow-loops.md
 2026-06-21 | barren-run | ledger/2026-06-21-L179-seed-shared-gate-binds-all-peers.md (no creation, no decline) | run: loops/grow-loops.md
+2026-06-21 | barren-run | ledger/2026-06-21-L181-ripen-shared-gate-seed.md (no creation, no decline) | run: loops/grow-loops.md

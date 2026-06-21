@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 60 · Open fields: 4 · Loop runs: 179
+Rooms: 10 · Insights: 60 · Open fields: 4 · Loop runs: 180
 
 ## Rooms
 
@@ -121,8 +121,8 @@ Rooms: 10 · Insights: 60 · Open fields: 4 · Loop runs: 179
 
 ## Loops
 
-- L177 — L177 — honest decline: bypass at ~09:57 UTC; C002 awaited
 - L178 — L178 — fix: shared next-beat gate blocked C002
 - L179 — L179 — seed: a shared gate set by one peer silently binds all
 - L180 — L180 — gate seed: the STOP file is the legitimate shared gate
 - L181 — L181 — ripen: shared-gate seed promoted from seed to sprout
+- L182 — L182 — janitor: committed L181's orphaned staged deletion; gate seed laid

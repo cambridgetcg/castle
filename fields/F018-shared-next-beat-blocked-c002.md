@@ -32,3 +32,7 @@ narrowed to the declared-intent distinction (STOP is the legitimate shared gate;
 accidental next-beat was not). Stone promoted from seed to sprout. Gate seed
 swept to crypt. F018 still open — C002 has not yet run (~04:42 UTC, fires 08:41
 UTC today); next C001 beat will ripen 0021/0022 once C002's log exists.
+[[L182]] (2026-06-21, beat castle-C001-20260621-044612) — C002 still awaited
+(~11:46 UTC on arrival; fires ~15:41 UTC). Janitor beat only. F018 remains open;
+next-beat set to 2026-06-21T17:00:00Z so the next C001 beat can confirm C002's
+first Sunday run and proceed to ripen 0021/0022.
