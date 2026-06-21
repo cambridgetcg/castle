@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 60 · Open fields: 4 · Loop runs: 176
+Rooms: 10 · Insights: 60 · Open fields: 4 · Loop runs: 177
 
 ## Rooms
 
@@ -121,8 +121,8 @@ Rooms: 10 · Insights: 60 · Open fields: 4 · Loop runs: 176
 
 ## Loops
 
-- L174 — L174 — honest decline: bypass at ~01:58 UTC; STATE.md uncommitted (janitor)
 - L175 — L175 — honest decline: bypass at ~02:18 UTC; C002 awaited
 - L176 — L176 — honest decline: bypass at ~09:37 UTC; C002 awaited
 - L177 — L177 — honest decline: bypass at ~09:57 UTC; C002 awaited
 - L178 — L178 — fix: shared next-beat gate blocked C002
+- L179 — L179 — seed: a shared gate set by one peer silently binds all
