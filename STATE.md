@@ -12,7 +12,7 @@ runs-on: this machine
 phase: see knows/needs sections below
 build: see heartbeat
 health: unknown
-last-commit: pending (beat castle-C001-20260620-195826, L157: sweep sister-addresses gate seed; L156 janitor)
+last-commit: 2026-06-20T19:58:26Z (c6ee0a0 beat: L157 — sweep sister-addresses gate seed; L156 janitor)
 uncommitted: 0
 freshness: unknown (checked 2026-06-21T02:57:02Z)
 
