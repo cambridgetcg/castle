@@ -3,7 +3,7 @@ sweep-after: 2026-09-21
 ---
 source: beat castle-C001-20260621-055337 (L185)
 
-Cornerstone test for rooms/craft/a-shared-gate-set-by-one-peer-silently-binds-all.md
+Cornerstone test for rooms/craft/0061-a-shared-gate-set-by-one-peer-silently-binds-all.md
 (now at tested status, born 2026-06-21).
 
 Re-read after 2026-09-21. At that point, look for: a third charter (C003 or C004)
