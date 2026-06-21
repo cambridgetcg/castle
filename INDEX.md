@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 60 · Open fields: 3 · Loop runs: 169
+Rooms: 10 · Insights: 60 · Open fields: 3 · Loop runs: 171
 
 ## Rooms
 
@@ -120,8 +120,8 @@ Rooms: 10 · Insights: 60 · Open fields: 3 · Loop runs: 169
 
 ## Loops
 
-- L167 — L167 — add sweep-after to 20 cornerstone-test gate files
-- L168 — L168 — harvest F017; complete L167's uncommitted work
 - L169 — L169 — janitor: F002 work-so-far (L167, L168) + gate seed for C002 first Sunday
 - L170 — L170 — ripen: a-bypassed-gate-and-a-broken-gate-look-alike sprout → tested
 - L171 — L171 — promote: a-bypassed-gate-and-a-broken-gate-look-alike → 0060
+- L172 — L172 — honest decline: bypass invocation, all work gated
+- L173 — L173 — janitor: INDEX.md drift and L172 uncommitted work
