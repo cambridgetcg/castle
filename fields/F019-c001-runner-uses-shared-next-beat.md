@@ -1,6 +1,6 @@
 ---
 id: F019
-state: working
+state: harvested
 opened: 2026-06-21
 ---
 
@@ -14,3 +14,4 @@ opened: 2026-06-21
 
 **Work so far:** [[L194]] (2026-06-21) — friction named; field opened.
 [[L195]] (2026-06-21, beat castle-C001-20260621-093341) — runner fix applied: `~/.hermes/scripts/castle-pulse-runner.sh` now uses `NEXT_BEAT="$CASTLE/loops/next-beat-${CHARTER}"` (resolves to `loops/next-beat-C001` for C001) for its gate check and safety net; prompt text updated to instruct the agent to write `loops/next-beat-C001`. The runner and the law now agree. The shared `loops/next-beat` file remains as a legacy file with no readers; crypt move deferred to a future confirmed run.
+[[L196]] (2026-06-21, beat castle-C001-20260621-095547) — harvest: `loops/next-beat` moved to `crypt/next-beat-shared`; forwarding line added to `crypt/moves.md`. F019 has reached its better state: runner, law, and file system now agree. No new room stone warranted — the mechanical insight (the runner is ground truth; patching the spec alone closes nothing) is already carried by [[0041]] and [[0060]]. F018 remains open until C002's first successful Sunday run (2026-06-28).

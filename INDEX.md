@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 62 · Open fields: 5 · Loop runs: 193
+Rooms: 10 · Insights: 62 · Open fields: 4 · Loop runs: 194
 
 ## Rooms
 
@@ -120,12 +120,12 @@ Rooms: 10 · Insights: 62 · Open fields: 5 · Loop runs: 193
 - F016 — Work-so-far repair runs leave themselves unrecorded (harvested)
 - F017 — The stale-gate detector does not ring on cornerstone-test due dates (harvested)
 - F018 — The shared next-beat gate blocked C002 (working)
-- F019 — The C001 hermes runner uses the shared next-beat file (working)
+- F019 — The C001 hermes runner uses the shared next-beat file (harvested)
 
 ## Loops
 
-- L191 — L191 — walk: a-makers-belief-shows-in-all-their-tools.md (day 3 of 30)
 - L192 — L192 — honest decline: C002 pre-run bypass
 - L193 — L193 — honest decline: post-C002-fire bypass
 - L194 — L194 — fix: C002 tributary blocked by macOS TCC permission
 - L195 — L195 — fix: C001 hermes runner next-beat file
+- L196 — L196 — harvest: F019 legacy next-beat crypt move
