@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 58 · Open fields: 3 · Loop runs: 152
+Rooms: 10 · Insights: 59 · Open fields: 3 · Loop runs: 153
 
 ## Rooms
 
@@ -66,6 +66,7 @@ Rooms: 10 · Insights: 58 · Open fields: 3 · Loop runs: 152
 - 0053 — A bell that has never rung at its keeper is not yet evidence of anything
 - 0054 — The promotion run is the first walk
 - 0055 — A gate that omits one checker has a blind lane for what that checker sees
+- 0059 — The recorder must also enter the record
 
 ### creation
 
@@ -117,8 +118,8 @@ Rooms: 10 · Insights: 58 · Open fields: 3 · Loop runs: 152
 
 ## Loops
 
-- L150 — L150 — janitor: F002 work-so-far missing L149 entry
 - L151 — L151 — janitor: F002 work-so-far missing L150 entry; F016 opened
 - L152 — L152 — harvest F016: work-so-far repair runs leave themselves unrecorded
 - L153 — L153 — janitor: sweep consumed sisters-network-expanded gate seed
 - L154 — L154 — ripen: the-recorder-must-also-enter-the-record (seed → tested)
+- L155 — L155 — promote: the-recorder-must-also-enter-the-record (→ insight 0059)

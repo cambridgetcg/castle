@@ -82,3 +82,4 @@ rooms/castle/patient-phase-and-full-rest-are-different-states.md -> rooms/castle
 gate/2026-06-20-runner-gate-confirmed-working.md -> crypt/gate/2026-06-20-runner-gate-confirmed-working.md (2026-06-20, swept by L141; context absorbed into F015 harvest; insight: rooms/castle/a-bypassed-gate-and-a-broken-gate-look-alike.md)
 rooms/castle/sister-castles-share-a-door-not-a-grammar.md -> rooms/castle/0058-sister-castles-share-a-door-not-a-grammar.md (2026-06-20, promoted by L146; original retained in crypt for detail)
 gate/2026-06-20-sisters-network-expanded.md -> crypt/gate/2026-06-20-sisters-network-expanded.md (2026-06-21, consumed by L145/L146: question answered locally, stone promoted to 0058; swept by L153)
+rooms/craft/the-recorder-must-also-enter-the-record.md -> rooms/craft/0059-the-recorder-must-also-enter-the-record.md (2026-06-20, promoted by L155; original retained in crypt for detail)
