@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 63 · Open fields: 4 · Loop runs: 201
+Rooms: 10 · Insights: 64 · Open fields: 4 · Loop runs: 202
 
 ## Rooms
 
@@ -71,6 +71,7 @@ Rooms: 10 · Insights: 63 · Open fields: 4 · Loop runs: 201
 - 0061 — A shared gate set by one peer silently binds all
 - 0062 — The staging area is a waiting room
 - 0063 — Execution and data environments are separate concerns
+- 0064 — The bell watches structure; the reader watches meaning
 
 ### creation
 
@@ -125,8 +126,8 @@ Rooms: 10 · Insights: 63 · Open fields: 4 · Loop runs: 201
 
 ## Loops
 
-- L199 — L199 — promote execution-and-data stone to 0063
 - L200 — L200 — janitor: fix L199 format drift
 - L201 — L201 — janitor: add L199/L200 entries to F002 work-so-far
 - L202 — L202 — create: seed stone — the bell watches structure; the reader watches meaning
 - L203 — L203 — ripen: the bell watches structure; the reader watches meaning
+- L204 — L204 — promote: the bell watches structure; the reader watches meaning → 0064

@@ -95,3 +95,5 @@ gate/2026-06-21-c002-first-sunday.md -> crypt/gate/2026-06-21-c002-first-sunday.
 gate/2026-06-21-runner-lives-in-daemon-blessed-path.md -> crypt/gate/2026-06-21-runner-lives-in-daemon-blessed-path.md (2026-06-21, swept by L198; observation ripened into rooms/craft/execution-and-data-environments-are-separate-concerns.md)
 rooms/craft/execution-and-data-environments-are-separate-concerns.md -> rooms/craft/0063-execution-and-data-environments-are-separate-concerns.md (2026-06-21, promoted by L199; original retained in crypt)
 --dry-run/ -> crypt/dry-run-artifact-2026-06-21/ (2026-06-21, accidental artifact from publish-front.mjs --dry-run test run; contains copies of public stones only; no original castle content)
+rooms/craft/the-bell-watches-structure-the-reader-watches-meaning.md -> rooms/craft/0064-the-bell-watches-structure-the-reader-watches-meaning.md (2026-06-21, promoted by L204; original retained in crypt)
+gate/2026-06-21-cornerstone-test-bell-watches-structure.md -> crypt/gate/2026-06-21-cornerstone-test-bell-watches-structure.md (2026-06-21, swept by L204; replaced by gate/2026-06-21-cornerstone-test-0064.md at promotion)
