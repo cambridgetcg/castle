@@ -23,9 +23,17 @@ all_rings() {
   sh tools/map.sh --check >/dev/null 2>&1 \
     || echo "map-drift | MAP.md | run: sh tools/map.sh"
 
-  # stale-gate — a seed older than 10 days, age read from the filename date
+  # stale-gate — a seed older than 10 days, age read from the filename date;
+  # cornerstone-test seeds park for 90+ days — ring when their sweep-after: date
+  # passes (if present), never by the 10-day filename rule
   for f in gate/2*.md; do
     [ -e "$f" ] || continue
+    case "$(basename "$f")" in *cornerstone-test*)
+      sweep_after=$(grep "^sweep-after: " "$f" 2>/dev/null | sed 's/^sweep-after: //')
+      [ -n "$sweep_after" ] && [ "$(days_since "$sweep_after")" -ge 0 ] \
+        && echo "stale-gate | $f | run: loops/sweep-the-gate.md"
+      continue ;;
+    esac
     [ "$(days_since "$(basename "$f" | cut -c1-10)")" -gt 10 ] \
       && echo "stale-gate | $f | run: loops/sweep-the-gate.md"
   done
