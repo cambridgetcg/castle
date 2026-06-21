@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 59 · Open fields: 3 · Loop runs: 161
+Rooms: 10 · Insights: 59 · Open fields: 3 · Loop runs: 162
 
 ## Rooms
 
@@ -118,8 +118,8 @@ Rooms: 10 · Insights: 59 · Open fields: 3 · Loop runs: 161
 
 ## Loops
 
-- L159 — L159 — honest decline: deepest patient phase
 - L160 — L160 — honest decline: deepest patient phase, fourth bypass on 2026-06-20
 - L161 — L161 — honest decline: deepest patient phase, fifth bypass on 2026-06-20
 - L162 — L162 — honest decline: deepest patient phase, sixth bypass on 2026-06-20
 - L163 — L163 — honest decline: deepest patient phase, seventh bypass on 2026-06-20
+- L164 — L164 — honest decline: deepest patient phase, eighth bypass on 2026-06-20
