@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 63 · Open fields: 4 · Loop runs: 199
+Rooms: 10 · Insights: 63 · Open fields: 4 · Loop runs: 200
 
 ## Rooms
 
@@ -125,8 +125,8 @@ Rooms: 10 · Insights: 63 · Open fields: 4 · Loop runs: 199
 
 ## Loops
 
-- L197 — L197 — gate seed: TCC discovery and hermes runner pattern
 - L198 — L198 — ripen: hermes runner pattern gate seed → craft stone
 - L199 — L199 — promote execution-and-data stone to 0063
 - L200 — L200 — janitor: fix L199 format drift
 - L201 — L201 — janitor: add L199/L200 entries to F002 work-so-far
+- L202 — L202 — create: seed stone — the bell watches structure; the reader watches meaning

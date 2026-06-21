@@ -94,3 +94,4 @@ loops/next-beat -> crypt/next-beat-shared (2026-06-21, F019 harvest by L196; no 
 gate/2026-06-21-c002-first-sunday.md -> crypt/gate/2026-06-21-c002-first-sunday.md (2026-06-21, swept by L197; C002 did not run on 2026-06-21 due to TCC block; corrected marker planted as gate/2026-06-28-c002-first-sunday.md)
 gate/2026-06-21-runner-lives-in-daemon-blessed-path.md -> crypt/gate/2026-06-21-runner-lives-in-daemon-blessed-path.md (2026-06-21, swept by L198; observation ripened into rooms/craft/execution-and-data-environments-are-separate-concerns.md)
 rooms/craft/execution-and-data-environments-are-separate-concerns.md -> rooms/craft/0063-execution-and-data-environments-are-separate-concerns.md (2026-06-21, promoted by L199; original retained in crypt)
+--dry-run/ -> crypt/dry-run-artifact-2026-06-21/ (2026-06-21, accidental artifact from publish-front.mjs --dry-run test run; contains copies of public stones only; no original castle content)
