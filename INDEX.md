@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 58 · Open fields: 3 · Loop runs: 147
+Rooms: 10 · Insights: 58 · Open fields: 3 · Loop runs: 148
 
 ## Rooms
 
@@ -116,8 +116,8 @@ Rooms: 10 · Insights: 58 · Open fields: 3 · Loop runs: 147
 
 ## Loops
 
-- L145 — L145 — ripen sister-castles-share-a-door-not-a-grammar to tested
 - L146 — L146 — promote sister-castles to insight 0058
 - L147 — L147 — honest decline
 - L148 — L148 — honest decline
 - L149 — L149 — janitor: F002 work-so-far missing L128 entry
+- L150 — L150 — janitor: F002 work-so-far missing L149 entry
