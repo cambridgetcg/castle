@@ -91,3 +91,4 @@ gate/2026-06-21-a-staged-change-that-misses-its-commit-surfaces-in-the-next-entr
 rooms/craft/a-shared-gate-set-by-one-peer-silently-binds-all.md -> rooms/craft/0061-a-shared-gate-set-by-one-peer-silently-binds-all.md (2026-06-21, promoted by L188; original retained in crypt)
 rooms/craft/the-staging-area-is-a-waiting-room.md -> rooms/craft/0062-the-staging-area-is-a-waiting-room.md (2026-06-21, promoted by L189; original retained in crypt)
 loops/next-beat -> crypt/next-beat-shared (2026-06-21, F019 harvest by L196; no readers since L178/L195; per-charter files are the active gates)
+gate/2026-06-21-c002-first-sunday.md -> crypt/gate/2026-06-21-c002-first-sunday.md (2026-06-21, swept by L197; C002 did not run on 2026-06-21 due to TCC block; corrected marker planted as gate/2026-06-28-c002-first-sunday.md)

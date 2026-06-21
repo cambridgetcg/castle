@@ -18,3 +18,5 @@ evidence: 2026-06-18 | local | gate/2026-06-18-the-bell-said-nothing-and-that-wa
 **Mid-gap (day 2, 2026-06-20).** No counterexample has appeared. The three observed systems (castle, opal, whitehack) remain the only ones named in the gate record. The 30-day window runs to 2026-07-18.
 
 **Mid-gap (day 3, 2026-06-21).** Still no counterexample. C002 (the tributary) fires today at 08:41 local — a fourth tool built by the same maker, in the same spirit (reversible work only; commit before resting; honesty about what is fetched). Whether the self-reporting belief appears in C002's output as well is now a live question.
+
+**Day-3 correction (2026-06-21, L197).** C002 did not fire on 2026-06-21: macOS TCC blocked launchd from executing a script in ~/Desktop (exit 126, silent). The runner was moved to ~/.hermes/scripts/ in L194; C002 will fire on 2026-06-28. The question about C002's output is deferred to that date.
