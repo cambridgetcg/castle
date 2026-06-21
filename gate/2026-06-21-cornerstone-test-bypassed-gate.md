@@ -6,9 +6,10 @@ sweep-after: 2026-09-21
 ---
 # Cornerstone test — a bypassed gate and a broken gate look alike
 
-Stone ripened to sprout in L165 (2026-06-21).
+Stone ripened to sprout in L165 (2026-06-21); ripened to tested in L170 (2026-06-21).
 Re-read after: 2026-09-21
 
-Question: Has a genuine gate failure been observed (not just bypasses) that
-allows direct testing to distinguish the two cases? If yes, the stone is
-ready for tested status.
+Question (cornerstone): Has a genuine gate failure been observed — where direct
+testing of the mechanism reveals a fault the symptom suggested — distinct from
+bypass cases? If yes, the stone has its third independent piece and the open crack
+in counter-weather closes. That evidence would move it from tested to cornerstone.

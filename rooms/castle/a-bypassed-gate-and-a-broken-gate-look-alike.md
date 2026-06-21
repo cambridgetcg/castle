@@ -1,5 +1,5 @@
 ---
-status: sprout
+status: tested
 born: 2026-06-20
 last-walked: 2026-06-21
 link: rooms/craft/0042-check-the-collection-not-the-element.md
@@ -24,5 +24,6 @@ L156 on 2026-06-20; L165 on 2026-06-21). The same-day proximity concern is
 partially answered. A case where direct gate testing reveals a genuine failure
 — not bypass — remains the open crack.
 
-**Next test.** A gate that produces false negatives, where the direct test
-of the mechanism reveals the fault that the symptom suggested.
+**What it changed.** Before this stone, the reflex response to an early invocation was to open a friction field on the timing gate — F015 (2026-06-20) was opened on that reflex and direct testing proved the gate was not broken. After this stone, the response is: observe the symptom, test the gate mechanism directly, and report what the test found. Nine bypass observations across two calendar days built the stone without a single confirmed gate failure, demonstrating that the symptom and the mechanism are separable.
+
+**Next test (cornerstone).** A gate that produces false negatives, where the direct test of the mechanism reveals the fault the symptom suggested. That case would be the third independent piece of evidence — one that would close the open crack in counter-weather and meet the cornerstone threshold.
