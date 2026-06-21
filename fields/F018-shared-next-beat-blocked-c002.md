@@ -43,3 +43,5 @@ F018 remains open until C002's first Sunday log exists.
 [[L186]] (2026-06-21, beat castle-C001-20260621-061751) — janitor: L185's uncommitted
 work committed. C002 still awaited (~13:17 UTC arrival; fires ~15:41 UTC today).
 F018 remains open.
+[[L187]] (2026-06-21, beat castle-C001-20260621-064027) — ripen: rooms/craft/the-staging-area-is-a-waiting-room.md promoted from sprout to tested. C002 still
+awaited; 0021/0022 still gated. F018 remains open.

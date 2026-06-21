@@ -1,5 +1,5 @@
 ---
-status: sprout
+status: tested
 born: 2026-06-21
 last-walked: 2026-06-21
 source: gate/2026-06-21-a-staged-change-that-misses-its-commit-surfaces-in-the-next-entry.md — observed in beat castle-C001-20260621-044612 (L182): L181's staged deletion of a gate seed survived into L182 unattributed
@@ -11,22 +11,26 @@ link: rooms/continuity/0006-uncommitted-word-can-vanish.md
 
 # The staging area is a waiting room
 
-**Claim.** Git's staging area is a waiting room between intent and record. A change
-staged but not committed outlasts its beat: it arrives in the next beat's working
-tree intact but unattributed — the ledger of the prior beat says the work was done;
-the git commit belongs to the next beat. The castle's check gate reads only committed
-state and cannot see staged work. A beat can satisfy every gate check while leaving
-staged changes that will surface, silently, in the next entry.
+**Claim.** Git's staging area is a liminal state between intent and record.
+A change staged but not committed outlasts its beat: it arrives in the next
+beat's working tree intact but unattributed — the ledger claims the work was
+done; the commit belongs to the next beat. 0052 names the commit step; this
+stone names the staging step as a distinct gap 0052 does not cover.
 
-**Why it matters.** 0052 names the commit step; this stone names the staging step
-as a distinct liminal state 0052 does not cover. `git rm` or `git add` feels like
-finishing — but the record reflects nothing until commit. Provenance splits: the
-ledger of the staging beat claims the work; the commit belongs to the next beat.
+**How it ripened.** L182 found L181's staged git-rm intact in the next working
+tree; L183 named it as a seed. L186 found L185's complete staged run (eight
+files) still in the working tree; the same gap, different incident. Two distinct
+events confirmed the same structure on the same day.
 
-**Counter-weather.** If a beat staged and committed in a single atomic step (no
-orphaned `git add` between beats), the staging area would never outlast its beat.
-The castle's commit discipline makes this possible; the claim survives only because
-some beats stage without committing.
+**What it changed.** The castle now names the gap between `git add` and `git
+commit` as a distinct liminal state not covered by 0052. No protocol addition
+has followed yet; the cross-charter test case (Next test) is the threshold for
+a change to LOOM.md or the commit gate.
 
-**Next test.** A C002 Sunday beat that leaves staged work for a C001 janitor to
-commit — showing the staging-area gap crosses charter boundaries.
+**Counter-weather.** A beat that stages and commits atomically in one step
+would close this gap. The castle's agent model does not guarantee atomicity;
+the same-commit discipline substitutes for it but does not prevent staging
+without committing.
+
+**Next test.** A C002 Sunday beat that leaves staged work for a C001 janitor
+to commit — showing the staging-area gap crosses charter boundaries.
