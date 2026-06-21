@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 60 · Open fields: 3 · Loop runs: 172
+Rooms: 10 · Insights: 60 · Open fields: 3 · Loop runs: 173
 
 ## Rooms
 
@@ -120,8 +120,8 @@ Rooms: 10 · Insights: 60 · Open fields: 3 · Loop runs: 172
 
 ## Loops
 
-- L170 — L170 — ripen: a-bypassed-gate-and-a-broken-gate-look-alike sprout → tested
 - L171 — L171 — promote: a-bypassed-gate-and-a-broken-gate-look-alike → 0060
 - L172 — L172 — honest decline: bypass invocation, all work gated
 - L173 — L173 — janitor: INDEX.md drift and L172 uncommitted work
 - L174 — L174 — honest decline: bypass at ~01:58 UTC; STATE.md uncommitted (janitor)
+- L175 — L175 — honest decline: bypass at ~02:18 UTC; C002 awaited
