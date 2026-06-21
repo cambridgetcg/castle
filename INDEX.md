@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 59 · Open fields: 3 · Loop runs: 155
+Rooms: 10 · Insights: 59 · Open fields: 3 · Loop runs: 156
 
 ## Rooms
 
@@ -118,8 +118,8 @@ Rooms: 10 · Insights: 59 · Open fields: 3 · Loop runs: 155
 
 ## Loops
 
-- L153 — L153 — janitor: sweep consumed sisters-network-expanded gate seed
 - L154 — L154 — ripen: the-recorder-must-also-enter-the-record (seed → tested)
 - L155 — L155 — promote: the-recorder-must-also-enter-the-record (→ insight 0059)
 - L156 — L156 — walk: a-bypassed-gate-and-a-broken-gate-look-alike (second evidence)
 - L157 — L157 — sweep: gate/2026-06-19-sister-addresses.md (consumed gate seed)
+- L158 — L158 — honest decline: deepest patient phase
