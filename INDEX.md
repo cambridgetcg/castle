@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 62 · Open fields: 4 · Loop runs: 195
+Rooms: 10 · Insights: 62 · Open fields: 4 · Loop runs: 196
 
 ## Rooms
 
@@ -124,8 +124,8 @@ Rooms: 10 · Insights: 62 · Open fields: 4 · Loop runs: 195
 
 ## Loops
 
-- L193 — L193 — honest decline: post-C002-fire bypass
 - L194 — L194 — fix: C002 tributary blocked by macOS TCC permission
 - L195 — L195 — fix: C001 hermes runner next-beat file
 - L196 — L196 — harvest: F019 legacy next-beat crypt move
 - L197 — L197 — gate seed: TCC discovery and hermes runner pattern
+- L198 — L198 — ripen: hermes runner pattern gate seed → craft stone

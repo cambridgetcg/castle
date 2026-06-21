@@ -8,6 +8,7 @@ links: 0032
 link: rooms/castle/0032-silence-is-the-castle-working.md
 link: rooms/castle/0021-a-proposed-charter-is-a-promise-the-first-beat-keeps.md
 link: rooms/castle/0057-patient-phase-and-full-rest-are-different-states.md
+link: rooms/craft/execution-and-data-environments-are-separate-concerns.md
 last-walked: 2026-06-20
 ---
 
