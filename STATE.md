@@ -12,9 +12,9 @@ runs-on: this machine
 phase: see knows/needs sections below
 build: see heartbeat
 health: unknown
-last-commit: 2026-06-20T15:53:27-07:00 (fec0f62 next-beat: 2026-06-21T20:00:00Z (sister-castles tested; promotion to 0058 ready; await C002 first beat))
-uncommitted: 1 files
-freshness: unknown (checked 2026-06-20T22:56:30Z)
+last-commit: 2026-06-20T17:55:43-07:00 (748fccd beat: L151 — janitor: F002 work-so-far L150 gap mended; F016 opened (next-beat → 2026-06-21T20:00:00Z))
+uncommitted: 0 files
+freshness: unknown (checked 2026-06-21T00:56:45Z)
 
 ## knows
 
