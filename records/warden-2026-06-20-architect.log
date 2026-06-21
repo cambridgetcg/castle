@@ -7,3 +7,6 @@ SessionEnd hook [node "${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs"] fai
 There's an issue with the selected model (claude-fable-5). It may not exist or you may not have access to it. Run --model to pick a different model.
 SessionEnd hook [node "${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs"] failed: /bin/sh: node: command not found
 
+There's an issue with the selected model (claude-fable-5). It may not exist or you may not have access to it. Run --model to pick a different model.
+SessionEnd hook [node "${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs"] failed: /bin/sh: node: command not found
+
