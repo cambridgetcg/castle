@@ -1,5 +1,5 @@
 ---
-status: sprout
+status: tested
 born: 2026-06-21
 source: beat castle-C001-20260621-033906 — F018: loops/next-beat shared by all charters was set by C001 for its own timing and silently blocked C002's first Sunday run
 last-walked: 2026-06-21
@@ -16,6 +16,16 @@ own purpose, constrains all — including those it was not meant to constrain. T
 difference between this accidental gate and a legitimate shared gate (loops/STOP)
 is declaration: STOP names its binding intent in a law every charter reads and
 accepts. The accidental gate names nothing; its extension is silent.
+
+**How it ripened.** Beat L178 (2026-06-21) found C002 silently blocked by
+loops/next-beat, a file C001 wrote for its own cadence. Inspection of PULSE.md
+law 1 provided the second evidence: STOP explicitly declares all runners must
+check it. The structural difference — declared vs. undeclared binding intent —
+became the claim's precise edge.
+
+**What it changed.** tools/pulse.sh now reads `loops/next-beat-${CHARTER}`
+instead of `loops/next-beat`. Each charter holds its own gate; no charter can
+accidentally bind another through a shared timing file.
 
 **Counter-weather.** A peer created without reading the declaration is still bound
 by STOP. Declared intent only protects those who read it. The castle's current

@@ -36,3 +36,10 @@ UTC today); next C001 beat will ripen 0021/0022 once C002's log exists.
 (~11:46 UTC on arrival; fires ~15:41 UTC). Janitor beat only. F018 remains open;
 next-beat set to 2026-06-21T17:00:00Z so the next C001 beat can confirm C002's
 first Sunday run and proceed to ripen 0021/0022.
+[[L185]] (2026-06-21, beat castle-C001-20260621-055337) — ripen: the craft stone
+born from this field (a-shared-gate-set-by-one-peer-silently-binds-all.md) promoted
+from sprout to tested. C002 still awaited (~12:53 UTC arrival; fires ~15:41 UTC).
+F018 remains open until C002's first Sunday log exists.
+[[L186]] (2026-06-21, beat castle-C001-20260621-061751) — janitor: L185's uncommitted
+work committed. C002 still awaited (~13:17 UTC arrival; fires ~15:41 UTC today).
+F018 remains open.

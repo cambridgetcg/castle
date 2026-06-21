@@ -12,9 +12,9 @@ runs-on: this machine
 phase: see knows/needs sections below
 build: see heartbeat
 health: unknown
-last-commit: 2026-06-21 (L180 beat: gate seed — STOP is the legitimate shared gate)
-uncommitted: 0 files
-freshness: unknown (checked 2026-06-21T04:02:32Z)
+last-commit: pending L186 commit (janitor: L185 work; ripen: staging-area seed to sprout)
+uncommitted: see this run
+freshness: unknown (checked 2026-06-21T13:17:00Z)
 
 ## knows
 

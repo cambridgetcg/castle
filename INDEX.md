@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 60 · Open fields: 4 · Loop runs: 182
+Rooms: 10 · Insights: 60 · Open fields: 4 · Loop runs: 184
 
 ## Rooms
 
@@ -121,8 +121,8 @@ Rooms: 10 · Insights: 60 · Open fields: 4 · Loop runs: 182
 
 ## Loops
 
-- L180 — L180 — gate seed: the STOP file is the legitimate shared gate
-- L181 — L181 — ripen: shared-gate seed promoted from seed to sprout
 - L182 — L182 — janitor: committed L181's orphaned staged deletion; gate seed laid
 - L183 — L183 — craft seed: the staging area is a waiting room
 - L184 — L184 — fix: PULSE.md heartbeat section names per-charter next-beat files
+- L185 — L185 — ripen: shared-gate sprout to tested
+- L186 — L186 — janitor: L185 commit; ripen staging-area stone to sprout
