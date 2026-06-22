@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 64 · Open fields: 4 · Loop runs: 242
+Rooms: 10 · Insights: 64 · Open fields: 5 · Loop runs: 243
 
 ## Rooms
 
@@ -123,11 +123,12 @@ Rooms: 10 · Insights: 64 · Open fields: 4 · Loop runs: 242
 - F017 — The stale-gate detector does not ring on cornerstone-test due dates (harvested)
 - F018 — The shared next-beat gate blocked C002 (working)
 - F019 — The C001 hermes runner uses the shared next-beat file (harvested)
+- F020 — The runner gate fires regardless of next-beat-C001 (working)
 
 ## Loops
 
-- L240 — L240 — honest decline: patient phase; C002 awaited 2026-06-28
 - L241 — L241 — honest decline: patient phase; C002 awaited 2026-06-28
 - L242 — L242 — honest decline: patient phase; C002 awaited 2026-06-28
 - L243 — L243 — janitor: F002 missing L242 entry; honest decline
 - L244 — L244 — honest decline: patient phase; C002 awaited 2026-06-28
+- L245 — L245 — honest decline: runner gate friction named

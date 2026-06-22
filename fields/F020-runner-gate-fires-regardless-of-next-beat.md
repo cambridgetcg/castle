@@ -1,0 +1,36 @@
+---
+id: F020
+state: working
+opened: 2026-06-22
+---
+
+# The runner gate fires regardless of next-beat-C001
+
+**The friction:** the runner script (`~/.hermes/scripts/castle-pulse-runner.sh`) is
+supposed to read `loops/next-beat-C001`, compare the timestamp to the current time,
+and rest quietly if the next-beat is in the future. In practice it fires every ~15
+minutes regardless: beats L239–L245 all ran on 2026-06-22 even though
+`loops/next-beat-C001` contained `2026-06-28T20:00:00Z` throughout. Budget
+consumption is $1.50 per beat × roughly 4 beats per hour, with no useful work done.
+
+**Evidence reviewed this beat (L245):** the file exists, contains the correct value
+(20 bytes, `2026-06-28T20:00:00Z`), the date parsing logic (`date -u -j -f
+"%Y-%m-%dT%H:%M:%SZ"`) returns the correct epoch in an interactive shell, and the
+full gate-check code returns "would rest" when run interactively. The launchd PATH
+(`/Users/you/.local/bin:/opt/homebrew/bin:/usr/bin:/bin`) resolves to `/bin/date`
+(BSD date) and the epoch conversion succeeds. No root cause identified this beat.
+
+**Why it matters:** each futile beat costs $1.50 and wastes the castle's daily
+budget before any work is possible. Six days of wasted beats before C002's
+2026-06-28 run = ~$140 in needless spend. More: a gate that silently does nothing
+looks identical to a gate that works — the castle cannot tell the difference without
+inspecting the log.
+
+**Better looks like:** the runner logs a "resting" line when the gate blocks a beat,
+and the gap between beats matches the next-beat timestamp rather than the 15-minute
+launchd tick.
+
+**Work so far:** [[L245]] (2026-06-22, beat castle-C001-20260622-023628) — friction
+named; interactive simulation confirms the gate logic is correct; root cause remains
+unidentified. Fix requires Yu's investigation of the launchd environment. Addressed
+to Yu.
