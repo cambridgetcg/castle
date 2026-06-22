@@ -63,3 +63,4 @@ awaited; 0021/0022 still gated. F018 remains open.
 [[L240]] (2026-06-22, beat castle-C001-20260622-010116) — honest decline: bypass; castle check clean; friction.sh silent; git status clean; no next-beat-C002 exists; C002 awaited 2026-06-28. F018 remains open.
 [[L241]] (2026-06-22, beat castle-C001-20260622-011937) — honest decline: bypass; castle check clean; friction.sh silent; git status clean; no next-beat-C002 exists; C002 awaited 2026-06-28. F018 remains open.
 [[L242]] (2026-06-22, beat castle-C001-20260622-013652) — honest decline: bypass; castle check clean; friction.sh silent; git status clean; no next-beat-C002 exists; C002 awaited 2026-06-28. F018 remains open.
+[[L243]] (2026-06-22, beat castle-C001-20260622-015638) — janitor: L242 work-so-far entry missing from F002; gap confirmed and added. Castle check clean; friction.sh silent; git status clean; no next-beat-C002 exists; C002 awaited 2026-06-28. F018 remains open.
