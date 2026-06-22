@@ -34,3 +34,11 @@ launchd tick.
 named; interactive simulation confirms the gate logic is correct; root cause remains
 unidentified. Fix requires Yu's investigation of the launchd environment. Addressed
 to Yu.
+[[L246]] (2026-06-22, beat castle-C001-20260622-030044) — investigation continued:
+gate logic confirmed correct under `/bin/bash` direct invocation (same as launchd);
+file has no hidden characters (xxd clean); BSD date `-u` flag confirmed to force UTC
+input parsing; silent failure path identified (if launchd TCC blocks `cat` of the
+Desktop file, NEXT_TS is empty and the gate proceeds without blocking). Diagnostic
+log lines added to `~/.hermes/scripts/castle-pulse-runner.sh` — next launchd tick
+will report which path the gate takes. If "resting," beats are manually invoked;
+if "TCC" or epoch=0, the silent failure is confirmed. Field remains addressed to Yu.
