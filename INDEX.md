@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 64 · Open fields: 4 · Loop runs: 225
+Rooms: 10 · Insights: 64 · Open fields: 4 · Loop runs: 226
 
 ## Rooms
 
@@ -126,8 +126,8 @@ Rooms: 10 · Insights: 64 · Open fields: 4 · Loop runs: 225
 
 ## Loops
 
-- L223 — L223 — honest decline: patient phase; C002 awaited 2026-06-28
 - L224 — L224 — honest decline: patient phase; C002 awaited 2026-06-28
 - L225 — L225 — honest decline: patient phase; C002 awaited 2026-06-28
 - L226 — L226 — honest decline: patient phase; C002 awaited 2026-06-28
 - L227 — L227 — honest decline: patient phase; C002 awaited 2026-06-28
+- L228 — L228 — honest decline: patient phase; C002 awaited 2026-06-28
