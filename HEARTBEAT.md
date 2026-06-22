@@ -1,15 +1,15 @@
 # castle — heartbeat
 
 state: **active**
-last beat: 2026-06-21T22:19:22Z
-next beat: 2026-06-22T00:19:22Z
+last beat: 2026-06-22T00:27:34Z
+next beat: 2026-06-22T02:27:34Z
 
 ## what it found
 
-- last commit: 2026-06-21 15:08:15 -0700 (0 hours ago)
-- uncommitted changes: 4
+- last commit: 2026-06-21 17:20:32 -0700 (0 hours ago)
+- uncommitted changes: 0
 
 ## the truth
 
-There are 4 uncommitted changes.
+Working tree is clean.
 
