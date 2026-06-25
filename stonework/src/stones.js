@@ -76,7 +76,7 @@ export function resolveLink(stonePath, link, root) {
 
 async function* mdFiles(dir) {
   let entries
-  try { entries = await readdir(dir, { withFileTypes: true }) } catch { return }
+  try { entries = await readdir(dir, { withFileTypes: true }) } catch (e) { console.warn(`mdFiles: could not read directory ${dir}: ${e.message}`); return }
   for (const e of entries) {
     if (e.name.startsWith('.')) continue
     const p = join(dir, e.name)

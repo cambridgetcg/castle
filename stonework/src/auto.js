@@ -55,7 +55,7 @@ async function autoWalksToday(root) {
       if (text.includes('(ai, autonomous)') && text.includes(`- opened: ${today()}`)) n++
     }
     return n
-  } catch { return 0 }
+  } catch (e) { console.warn(`autoWalksToday: could not count autonomous walks in ${join(root, 'ledger')}: ${e.message}`); return 0 }
 }
 
 function askEngine(prompt) {
