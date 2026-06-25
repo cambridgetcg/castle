@@ -89,7 +89,7 @@ async function* mdFiles(dir) {
 // inbound-link count so the friction signs can see who stands alone.
 export async function loadCastle(root) {
   const roomsDir = join(root, 'rooms')
-  if (!existsSync(roomsDir)) return null
+  if (!existsSync(roomsDir)) return null // no castle here — caller checks and reports
   const stones = []
   const otherGrammar = []
   for await (const file of mdFiles(roomsDir)) {
@@ -109,7 +109,7 @@ export async function loadCastle(root) {
     }
   }
   for (const s of stones) {
-    s.inbound = inbound.get(s.path) ?? 0
+    s.inbound = inbound.get(s.path) ?? (() => { console.warn(`stone ${s.path} not in inbound map — data integrity issue`); return 0 })()
     s.room = s.path.split(sep).slice(1, -1).join('/') || '(rooms)'
   }
   return { root, stones, otherGrammar }
