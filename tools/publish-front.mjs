@@ -82,7 +82,8 @@ function doorplate(roomDir) {
       notHere: (lines[1] || '').replace(/^Not here: */, ''),
       nearest: (lines[2] || '').replace(/^Nearest rooms: */, ''),
     }
-  } catch {
+  } catch (e) {
+    console.warn(`publish-front: could not read ROOM.md in ${roomDir}: ${e.message}`)
     return null
   }
 }
