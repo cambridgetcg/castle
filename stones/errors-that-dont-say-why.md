@@ -1,7 +1,7 @@
 ---
 name: errors that don't say why
 born: 2026-06-10
-confidence: held
+confidence: tested
 quarried-from:
   - gate/filed/2026-06-10-codeberg-quota.md
 links:

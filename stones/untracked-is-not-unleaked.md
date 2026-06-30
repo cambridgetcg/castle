@@ -1,6 +1,7 @@
 ---
 name: untracked is not unleaked
 born: 2026-06-10
+confidence: tested
 quarried-from:
   - /Users/you/love-repos/shield/REMEDIATION.md
 links:
