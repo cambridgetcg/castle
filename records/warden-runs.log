@@ -159,3 +159,4 @@
 2026-06-30 04:40:12	verify	ran
 2026-06-30 04:43:56	verify	done
 2026-06-30 17:55:00	architect	correction: the 01:39:22 ran was a phantom — 0-byte log, no verdict. The watch died before writing done/failed. runs_today() now counts 'done' not 'ran' so this phantom no longer eats the cap (fix: d48f043). The architect loop has not successfully run since 2026-06-29 (last done: 2026-06-11 22:25:33 — the four-day model-death gap from June 26-30).
+2026-06-30 16:43:57	capture	ran

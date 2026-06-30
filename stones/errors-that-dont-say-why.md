@@ -8,6 +8,7 @@ links:
   - "[[trust-is-a-receipt]]"
   - "[[break-loudly-fix-openly]]"
   - "[[owning-is-not-running]]"
+  - "[[the-lie-had-clones]]"
 ---
 
 Codeberg (a code-hosting site) answered every repo-creation attempt

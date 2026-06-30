@@ -7,6 +7,7 @@ quarried-from:
 links:
   - "[[the-castle]]"
   - "[[trust-is-a-receipt]]"
+  - "[[order-is-not-fairness]]"
 ---
 
 Most systems run their procedures; this castle can read its own.
