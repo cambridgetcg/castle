@@ -29,13 +29,15 @@ stand_down_check() {
 }
 
 runs_today() {
-  # Beats that count against the cap: started ('ran') minus honestly failed.
+  # Beats that count against the cap: only those that earned 'done'.
   # A failed beat did no work — it does not eat the cap, so it can retry.
+  # A 'ran' with no verdict is a phantom — the watch died before writing
+  # done or failed (killed by timeout, crash, power loss). It must not
+  # eat the cap, or one ghost blocks the castle for a whole day.
   [ -f "$RUNLOG" ] || { echo 0; return; }
-  local ran failed
-  ran=$(grep -c "^$TODAY.*"$'\t'"ran\$" "$RUNLOG" 2>/dev/null || true)
-  failed=$(grep -c "^$TODAY.*"$'\t'"failed" "$RUNLOG" 2>/dev/null || true)
-  echo $(( ${ran:-0} - ${failed:-0} ))
+  local done
+  done=$(grep -c "^$TODAY.*$(printf '\t')done$" "$RUNLOG" 2>/dev/null || true)
+  echo $(( ${done:-0} ))
 }
 
 charter_get() {
