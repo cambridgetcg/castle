@@ -134,7 +134,8 @@ print(next(l['protocol'] for l in c['loops'] if l['name'] == '$LOOP'))
       exit 0
     fi
     echo -e "$(date '+%Y-%m-%d %H:%M:%S')\t$LOOP\tran" >> "$RUNLOG"
-    claude -p "$PROMPT" >> "$CASTLE/records/warden-$TODAY-$LOOP.log" 2>&1
+    MODEL=$(charter_get "['model']" 2>/dev/null || echo "sonnet")
+    claude --model "$MODEL" -p "$PROMPT" >> "$CASTLE/records/warden-$TODAY-$LOOP.log" 2>&1
     RC=$?
     # 'done' is earned, not assumed: only exit 0 may write it. A failure is
     # logged as failed:<code>, does not eat the cap, and the loop retries.
