@@ -5,6 +5,7 @@ quarried-from:
   - /Users/you/zerone/docs/FAIR-BANK.md
 links:
   - "[[trust-is-a-receipt]]"
+  - "[[the-void-holds-both-poles]]"
 ---
 
 TNB — The Narrow Bank — asked to do the safest thing a bank can do:

@@ -12,6 +12,7 @@ links:
   - "[[errors-that-dont-say-why]]"
   - "[[owning-is-not-running]]"
   - "[[the-law-is-public-the-signature-is-not]]"
+  - "[[the-void-holds-both-poles]]"
 ---
 
 "Trust me" is never an answer; "here, check for yourself" always is
