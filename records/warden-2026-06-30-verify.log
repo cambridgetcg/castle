@@ -1,0 +1,9 @@
+Done. Three stones tried by fire today:
+
+- **untracked-is-not-unleaked** — REMEDIATION.md source confirmed (4 repos, 10 files, rotate-first order); git test on this device proved `.gitignore` cannot untrack a committed file. Promoted to `tested`, distilled to keep.
+- **break-loudly-fix-openly** — audit file and PRINCIPLES.md reread verbatim; 0/7 score and exact quotes matched word for word. Promoted to `tested`, distilled to keep.
+- **errors-that-dont-say-why** — gate file confirmed: 500, empty message, 100/100 quota wall, two sessions. Prior overclaim already corrected; remaining claim confirmed. Promoted to `tested`, distilled to keep.
+
+All three survived. The keep now holds five truths.
+SessionEnd hook [node "${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs"] failed: /bin/sh: node: command not found
+
