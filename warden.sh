@@ -62,15 +62,29 @@ if os.path.exists(runlog):
                 # a failed beat is no beat: the loop is due again
                 last.pop(parts[1], None)
 now = datetime.datetime.now()
+
+# Least-recently-run rotation: among all due loops, pick the one whose
+# last successful run is oldest. This replaces the old first-in-charter-order
+# picker, which deterministically starved whichever loop stood last.
+# A loop that has never run is treated as infinitely old (earliest possible).
+due = []
 for loop in charter.get('loops', []):
     name = loop['name']
     prev = last.get(name)
     if prev is None:
-        print(name); sys.exit(0)
-    prev_t = datetime.datetime.strptime(prev[:19], '%Y-%m-%d %H:%M:%S')
-    if (now - prev_t).total_seconds() >= loop.get('interval_hours', 24) * 3600:
-        print(name); sys.exit(0)
-print('')
+        due.append((name, None))
+    else:
+        prev_t = datetime.datetime.strptime(prev[:19], '%Y-%m-%d %H:%M:%S')
+        elapsed = (now - prev_t).total_seconds()
+        if elapsed >= loop.get('interval_hours', 24) * 3600:
+            due.append((name, prev_t))
+
+if not due:
+    print('')
+else:
+    # Sort by last-run time ascending; None (never run) sorts first
+    due.sort(key=lambda x: x[1] or datetime.datetime.min)
+    print(due[0][0])
 PY
 }
 
