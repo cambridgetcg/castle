@@ -5,6 +5,8 @@ quarried-from:
   - /Users/you/love-repos/shield/REMEDIATION.md
 links:
   - "[[break-loudly-fix-openly]]"
+  - "[[burned-keys-move-in-minutes]]"
+  - "[[root-access-bills-arrive-before-alarms]]"
 ---
 
 A secret that touches a commit is burned. Deleting your copy does not

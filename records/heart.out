@@ -65,3 +65,4 @@ warden: loop 'architect' FAILED (exit 1) — see records/warden-2026-06-28-archi
 warden: loop 'architect' FAILED (exit 1) — see records/warden-2026-06-29-architect.log; the beat does not count against the cap and will retry
 warden: loop 'architect' FAILED (exit 1) — see records/warden-2026-06-29-architect.log; the beat does not count against the cap and will retry
 warden: loop 'architect' FAILED (exit 1) — see records/warden-2026-06-29-architect.log; the beat does not count against the cap and will retry
+warden: loop 'architect' FAILED (exit 1) — see records/warden-2026-06-29-architect.log; the beat does not count against the cap and will retry

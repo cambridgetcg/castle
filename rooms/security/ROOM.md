@@ -17,8 +17,14 @@ everyone can see, fix in the open.
   cleanup, not the fix
 - [[break-loudly-fix-openly]] — the 0/7 audit is the standard
   working, not failing
+- [[burned-keys-move-in-minutes]] — AWS keys on GitHub exploited in
+  6.6 minutes; the window is not days
+- [[the-gdpr-clock-runs-from-awareness]] — 72-hour ICO notification
+  window; late reporting is its own violation, up to £8.7m
+- [[root-access-bills-arrive-before-alarms]] — root-level AWS access
+  can generate $6k–$47k cryptomining bills before detection
 
 ## open frictions
 
-- [[the-rotation-is-still-unticked]] — the standing question:
-  what does a kingdom lose for each day a burned key waits?
+- [[the-rotation-is-still-unticked]] — closed 2026-06-30: the cost
+  is now legible; rotation itself remains the keeper's task
