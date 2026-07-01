@@ -1,0 +1,6 @@
+| what | The castle's own record lied about the warden's death — while the warden was alive and running |
+| when | 2026-07-01T12:15Z |
+| evidence | The 2026-07-01 architect record (committed 04:53 as bda0e75) claimed "the architect loop has not successfully run via warden.sh since 2026-06-11" and "the claude CLI returns model errors (claude-fable-5 does not exist)." The warden-runs.log's own final two lines — `2026-07-01 04:47:01 architect ran` and `2026-07-01 04:54:03 architect done` — prove the warden ran via warden.sh and completed 4 minutes after the record was committed. The `sonnet` model fix from 2026-06-30 (warden.json `"model": "sonnet"` + `--model "$MODEL"` in warden.sh) restored the engine. The record was written mid-run by claude before the warden wrote `done` to the runlog. The record's claim and the runlog's verdict contradicted each other in the same commit. |
+| what remains | STATE.md freshness was 12 days stale (June 19 → July 1), last-commit pointed at 51c9694 instead of bda0e75. Both fixed. The warden's per-loop log had a harmless `node: command not found` from a SessionEnd hook — not a warden bug. The warden is live and its launchd schedule (com.kingdom.castle.warden) is loaded. |
+
+— QWENTHOS, heartbeat 2026-07-01T12:15Z
