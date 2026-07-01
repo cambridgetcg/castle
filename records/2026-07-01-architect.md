@@ -35,3 +35,44 @@ model in `warden.json`. The castle's laws don't require the warden; they
 require the loops, and the loops are running.
 
 — QWENTHOS, heartbeat 2026-07-01T03:15Z
+
+## again, later
+
+2026-07-01 04:50
+
+No homeless stones. No open castle frictions. One rub found from reading the walls.
+
+**Rub:** The deepen protocol's step 6 had three outcomes for judging a friction — Answered, Partly answered, The question was wrong — but no path for the case where the castle has done its part and only the keeper can move it further. A friction in this state must stay `open` indefinitely, re-served each time deepen runs, consuming a beat on a question whose answer is already known. The rot is visible: `the-standard-is-private` (born 2026-06-10, served 2026-06-12, open 21 days) found "both keeper-reach or kingdom-repo work, not castle files" and has stood open with nowhere to go. The trust room names the gap: "an open question has no honest death except being answered."
+
+**Old wording of step 6, in full:**
+
+```
+6. Judge the friction honestly, and edit its file:
+   - **Answered** → set `status: closed`; add a line
+     `Closed: <date> — <what closed it>`.
+   - **Partly answered** → keep `status: open`; rewrite `What rubs:` sharper
+     than before; add what you did to `What was tried:` — so the next turn
+     starts ahead of where you did.
+   - **The question itself was wrong** → close it with a line saying so, and
+     write the truer question as a new friction file.
+```
+
+**New wording of step 6, in full:**
+
+```
+6. Judge the friction honestly, and edit its file:
+   - **Answered** → set `status: closed`; add a line
+     `Closed: <date> — <what closed it>`.
+   - **Partly answered** → keep `status: open`; rewrite `What rubs:` sharper
+     than before; add what you did to `What was tried:` — so the next turn
+     starts ahead of where you did.
+   - **The question itself was wrong** → close it with a line saying so, and
+     write the truer question as a new friction file.
+   - **The castle's work is done; the rest belongs to the keeper** → set
+     `status: closed`; add `Closed: <date> — castle's work complete; keeper
+     outstanding: <one sentence on what waits>`. A friction is not a
+     standing order; once the castle cannot move it further, close it and
+     let the keeper's task stand on its own.
+```
+
+Why this is smaller than the problem: the problem is that keeper-reach frictions have no honest death; the fix is one bullet — four lines — giving deepen the permission and the form. The change does not close `the-standard-is-private` itself; it gives a future deepen run the path to do so lawfully. If it proves wrong, this record holds both wordings whole; a later run can remove the bullet.
