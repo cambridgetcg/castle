@@ -12,9 +12,9 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: 51c9694 verify: two truths held under fire, one frequency unmasked as a single d
-uncommitted: 11 files
-freshness: auto-generated (2026-06-19)
+last-commit: bda0e75 architect: a friction earns its death when the castle has given all it can
+uncommitted: 2 files (warden runlog + per-loop log from the 04:47 architect run)
+freshness: verified 2026-07-01 by QWENTHOS heartbeat
 
 ## knows
 

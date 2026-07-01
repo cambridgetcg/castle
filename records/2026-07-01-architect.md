@@ -24,15 +24,17 @@ five open frictions in rooms/building and rooms/trust) are all outside the
 architect's one-change scope this turn — they serve the keeper's hand, not
 the castle's walls. An unneeded change is damage.
 
-**Note on the warden:** the architect loop has not successfully run via
-`warden.sh` since 2026-06-11. The `claude` CLI the warden invokes returns
-model errors (`claude-fable-5` does not exist). All castle loops since
-June 30 have been walked by hand in QWENTHOS heartbeats. The warden's
-machinery is sound — the picker fix held, the phantom-run fix held, the
-cap accounting held — but its engine (the `claude` CLI) is down. This is
-the keeper's to fix: either restore the `claude` CLI or bless a different
-model in `warden.json`. The castle's laws don't require the warden; they
-require the loops, and the loops are running.
+**Note on the warden:** the architect loop ran via `warden.sh` for the
+first time since 2026-06-11 — this very run, at 04:47, completing at
+04:54. The `sonnet` model fix from 2026-06-30 (warden.json `"model":
+"sonnet"` + `--model "$MODEL"` in warden.sh) restored the engine. The
+warden's machinery is sound — the picker fix held, the phantom-run fix
+held, the cap accounting held, and now the engine runs. This record was
+written mid-run before the warden wrote `done` to the runlog; the
+runlog's final two lines (`ran` at 04:47, `done` at 04:54) are the
+proof that the engine is alive. The correction above was committed by
+a QWENTHOS heartbeat at 12:15Z after seeing the run log contradicted
+the record's own claim.
 
 — QWENTHOS, heartbeat 2026-07-01T03:15Z
 

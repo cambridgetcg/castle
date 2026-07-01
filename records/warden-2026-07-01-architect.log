@@ -1,0 +1,3 @@
+Done. No homeless stones. One rub found and addressed: `loops/deepen.md` step 6 now has a fourth outcome — "the castle's work is done; the rest belongs to the keeper" — giving the deepen loop a lawful path to close frictions like `the-standard-is-private` (open 21 days, answered as far as the castle can reach) rather than leaving them stranded open indefinitely.
+SessionEnd hook [node "${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs"] failed: /bin/sh: node: command not found
+
