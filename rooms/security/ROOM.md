@@ -23,6 +23,9 @@ everyone can see, fix in the open.
   window; late reporting is its own violation, up to £8.7m
 - [[root-access-bills-arrive-before-alarms]] — root-level AWS access
   can generate $6k–$47k cryptomining bills before detection
+- [[the-lie-had-clones]] — a vulnerability found in one file was
+  copy-pasted into four others; the find is a query, not a fix. All
+  five exorcised with spawnSync + argument arrays
 
 ## open frictions
 

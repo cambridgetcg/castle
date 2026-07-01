@@ -1,0 +1,8 @@
+Gate is now quiet. Two stones quarried from two QWENTHOS heartbeats:
+
+- **`order-is-not-fairness`** — the warden's loop picker was starving later loops by always taking the first in charter order; least-recently-run rotation fixed it, verified by dry-run. Linked to `the-loop-that-grows-loops`.
+- **`the-lie-had-clones`** — one command-injection ghost exorcised but four clones of the same pattern lived in other files; all five fixed with `spawnSync` + arg arrays, three silent `catch {}` blocks killed alongside. The find is a query, not a fix. Linked to `errors-that-dont-say-why`.
+
+Both inbox lines removed, record written, committed.
+SessionEnd hook [node "${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs"] failed: /bin/sh: node: command not found
+
