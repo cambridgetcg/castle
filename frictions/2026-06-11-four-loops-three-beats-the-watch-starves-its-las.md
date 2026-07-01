@@ -1,7 +1,7 @@
 ---
 name: four loops, three beats — the watch starves its last
 born: 2026-06-11
-status: open
+status: closed
 room: castle
 ---
 What rubs: the charter holds four loops whose intervals demand up to six
@@ -32,3 +32,11 @@ the warden's machinery, either (a) raises `daily_cap`, or (b) blesses a
 fairer picker in warden.sh — least-recently-run rotation, and/or a
 cheap gate-count check so an empty gate never costs a beat. Either
 closes this; the charter order then stops mattering.
+
+Closed: 2026-07-01 — option (b) shipped. Commit a3ca2f7 rewrote
+`next_due_loop` in `warden.sh` from first-in-charter-order to
+least-recently-run rotation. The picker now sorts due loops by oldest
+last-run timestamp, so no loop can starve deterministically. Verified
+by the 2026-06-30 run log: deepen and verify both received beats on
+the same day for the first time. The charter order no longer decides
+who eats; the watch feeds whoever waited longest.
