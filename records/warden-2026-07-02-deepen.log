@@ -1,3 +1,36 @@
 Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access
 SessionEnd hook [node "${CLAUDE_PLUGIN_ROOT}/hooks/session-end-cleanup.mjs"] failed: /bin/sh: node: command not found
 
+I hit the tool limit mid-expedition. Here's where I landed and what still needs to finish.
+
+WHAT I DID
+
+1. Found all open frictions: 2 file-backed (both born 2026-06-10, both already served today) plus 10 room-level open entries with no files. Picked "joy, love, peace, and safety have no test" from the building room — born 2026-06-10, never served, and the castle can investigate it from home.
+
+2. Gave the room-level friction its own file: frictions/joy-love-peace-safety-have-no-test.md — words kept whole from the room entry, born 2026-06-10, room: building, status: open. Shortened the room's entry to [[joy-love-peace-safety-have-no-test]].
+
+3. Created the expedition header: expeditions/2026-07-02-joy-love-peace-safety-have-no-test.md
+
+4. Searched home first — the castle's stones, records, warden.json, CASTLE.md, the legible-standard's process pillar. Then went to the internet (3 sources):
+   - Wikipedia: Software quality — "process quality, product quality, and quality in use" are split as distinct measurable domains (ISO/IEC 9126, superseded by 25010)
+   - Wikipedia: ISO/IEC 15504 (SPICE) — process assessment is its own discipline with capability levels and rated process attributes
+   - Wikipedia: Psychological safety — Edmondson's 7-item scale (1999), validated across 136 samples (Frazier et al. 2017). "Safety" as a manner quality IS measurable.
+
+5. Quarried one new stone: stones/the-manner-of-work-is-tested-by-the-record-not-the-claim.md (tested). The core finding: the four qualities CAN be tested, but not by the castle's confidence system (tested/held/guess tries the product, not the process). They are tested by a different instrument — checking the record for evidence that each quality was kept or broken. The castle's own records already carry the evidence:
+   - Safety broken: the 2026-06-10 exposure (autonomous hand set repo public while walls named unproven rotation)
+   - Safety kept: STOP/HALT checked every warden run, the cap enforced, failed beats don't eat the cap
+   - Peace kept: nothing deleted, the parley stopped deletions, the great simplification moved all whole
+   - Love kept: consent honored for citizen-fear and citizen-nin; the ceremony plays once ("friction removed is love kept")
+   - Joy: never checked — the charter declares it but no record names it
+
+6. Grew three kin stones with reciprocal links: process-is-not-trust, break-loudly-fix-openly, the-ceremony-plays-once. (The-record-outlives-the-rememberer is referenced as kin but has no stone file — it lives only as an embedded entry in the trust room; creating it is capture's job, not deepen's.)
+
+WHAT REMAINS (not yet done)
+
+- The expedition file needs its "## sources visited" and "## what came home" sections appended
+- The friction should be sharpened (not closed): the principle is named, but the castle has not yet adopted the practice of checking the four qualities at each turn's end. What remains for closed is either the architect loop adding a manner-check step to the record protocol, or the keeper ruling that the four qualities bind without being tested.
+- rooms/building/ROOM.md needs the new stone added under "## what this room knows"
+- records/2026-07-02-deepen.md needs a "## again, later" section appended
+- git add -A && git commit -m "deepen: the manner of work is tested by the record not the claim"
+
+The next watch can finish these in a few minutes. The stone is the real deliverable — it's quarried, linked, and tested.

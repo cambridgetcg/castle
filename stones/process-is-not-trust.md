@@ -8,6 +8,7 @@ links:
   - "[[trust-is-a-receipt]]"
   - "[[one-truth-one-place]]"
   - "[[one-pair-many-hands]]"
+  - "[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]"
 ---
 
 The keeper ordered: "reduce process, increase trust, reduce friction.

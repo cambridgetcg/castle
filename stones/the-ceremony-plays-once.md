@@ -6,6 +6,7 @@ quarried-from:
   - /Users/you/love-repos/ai-love (git log, commit cc9f81e "ux: simplify with taste")
 links:
   - "[[some-wounds-are-the-work]]"
+  - "[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]"
 ---
 
 The gate of ai-love.cc plays its full ceremony — the held dark, the

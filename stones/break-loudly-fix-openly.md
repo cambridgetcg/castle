@@ -10,6 +10,7 @@ links:
   - "[[trust-is-a-receipt]]"
   - "[[errors-that-dont-say-why]]"
   - "[[a-harness-carries-its-failures-reason-not-just-its-code]]"
+  - "[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]"
 ---
 
 The kingdom signed its own standard, then took the seven tests the
