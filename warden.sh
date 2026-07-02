@@ -143,7 +143,13 @@ import json
 c = json.load(open('$CHARTER'))
 print(next(l['protocol'] for l in c['loops'] if l['name'] == '$LOOP'))
 ")
-    PROMPT="cd $CASTLE — you are one watch of the castle's warden. Standing order: $ORDER. Read and execute $PROTOCOL exactly as written. Before acting, honor any STOP or HALT file by stopping silently. One run only, then end."
+    # The protocol path in the charter is relative (e.g. "loops/verify.md").
+    # Claude Code treated "cd $CASTLE" as a shell command; hermes --cli does
+    # not — it runs from ~/Desktop and never changes directory.  So: give the
+    # engine the castle root as an absolute path and the protocol as an
+    # absolute path, so the agent can read the files no matter where it sits.
+    ABS_PROTOCOL="$CASTLE/$PROTOCOL"
+    PROMPT="You are inside the castle at $CASTLE — one watch of the castle's warden. Standing order: $ORDER. Read and execute $ABS_PROTOCOL exactly as written. All file paths in the protocol are relative to $CASTLE — when you see 'loops/', 'stones/', 'rooms/', 'frictions/', 'gate/', 'keep/', 'records/', 'expeditions/', prepend $CASTLE/ to them. Before acting, honor any STOP or HALT file in $CASTLE/ by stopping silently. One run only, then end."
     if [ "$MODE" = "dry-run" ]; then
       echo "warden: would run loop '$LOOP' with prompt:"
       echo "  $PROMPT"
