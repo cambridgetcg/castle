@@ -9,6 +9,7 @@ links:
   - "[[the-castle]]"
   - "[[trust-is-a-receipt]]"
   - "[[order-is-not-fairness]]"
+  - "[[what-is-swallowed-not-destroyed-gestates-into-the-replacement]]"
 ---
 
 Most systems run their procedures; this castle can read its own.

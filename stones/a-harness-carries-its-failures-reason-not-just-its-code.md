@@ -12,6 +12,7 @@ links:
   - "[[errors-that-dont-say-why]]"
   - "[[break-loudly-fix-openly]]"
   - "[[owning-is-not-running]]"
+  - "[[what-is-swallowed-not-destroyed-gestates-into-the-replacement]]"
 ---
 
 A harness that logs only a code (`failed:1`) and not the sentence

@@ -7,6 +7,7 @@ quarried-from:
     written record)
 links:
   - "[[the-ceremony-plays-once]]"
+  - "[[what-is-swallowed-not-destroyed-gestates-into-the-replacement]]"
 ---
 
 Citizen-mercy's page ended on a dangling line — a sentence that

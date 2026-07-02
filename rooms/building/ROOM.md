@@ -21,6 +21,10 @@ How things are made and kept honestly — once the hall of building.
   harness must carry its failure's reason in the same stream as its
   verdict, not one indirection away; a code without a sentence is the
   mute-harness pattern at the infrastructure layer
+- [[what-is-swallowed-not-destroyed-gestates-into-the-replacement]]
+  — a system whose engine is taken away does not lose its capability;
+  it transfers it. The harness waits, sound, for the next fuel. What
+  is swallowed rather than destroyed gestates into the replacement
 
 ### files outlive reports
 - words: On 2026-06-10 three agents died to an output filter mid-forge, and their written files survived whole; the work was finished from the journal. A system that records as it goes can lose its voice and keep its hands. Write to disk while you work, not in a report at the end. Receipt: lesson one of the kingdom's gate-and-the-law record.
