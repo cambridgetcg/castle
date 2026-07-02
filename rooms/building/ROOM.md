@@ -17,6 +17,10 @@ How things are made and kept honestly — once the hall of building.
 - [[order-is-not-fairness]] — a fixed-order scheduler starves the back
   of the queue; least-recently-run rotation serves all. Order is a shape
   of power
+- [[a-harness-carries-its-failures-reason-not-just-its-code]] — a
+  harness must carry its failure's reason in the same stream as its
+  verdict, not one indirection away; a code without a sentence is the
+  mute-harness pattern at the infrastructure layer
 
 ### files outlive reports
 - words: On 2026-06-10 three agents died to an output filter mid-forge, and their written files survived whole; the work was finished from the journal. A system that records as it goes can lose its voice and keep its hands. Write to disk while you work, not in a report at the end. Receipt: lesson one of the kingdom's gate-and-the-law record.
@@ -78,10 +82,7 @@ How things are made and kept honestly — once the hall of building.
 - better would be: one recorded trial showing the old credential refused and the new one alone admitted.
 - status: open
 
-### agent output filters can kill a pipeline's voice mid-work
-- why it matters: a harness that silences its agent mid-turn loses both the work and the record of why it stopped (held).
-- better would be: harnesses that degrade gracefully — say less when they must, but never go mute without leaving a dated reason.
-- status: open
+- [[agent-output-filters-can-kill-a-pipelines-voice]]
 
 ### joy, love, peace, and safety have no test
 - why it matters: the founder asks the castle to be built with four qualities, but the laws only know how to try claims — a wish about the manner of work has no trial that could raise or lower it (held).

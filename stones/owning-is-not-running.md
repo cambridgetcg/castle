@@ -7,6 +7,7 @@ quarried-from:
 links:
   - "[[trust-is-a-receipt]]"
   - "[[errors-that-dont-say-why]]"
+  - "[[a-harness-carries-its-failures-reason-not-just-its-code]]"
 ---
 
 The first audit, pillar 01, credited the kingdom's backup tool as

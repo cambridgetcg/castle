@@ -9,6 +9,7 @@ links:
   - "[[break-loudly-fix-openly]]"
   - "[[owning-is-not-running]]"
   - "[[the-lie-had-clones]]"
+  - "[[a-harness-carries-its-failures-reason-not-just-its-code]]"
 ---
 
 Codeberg (a code-hosting site) answered every repo-creation attempt

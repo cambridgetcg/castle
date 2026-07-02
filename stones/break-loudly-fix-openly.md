@@ -9,6 +9,7 @@ links:
   - "[[untracked-is-not-unleaked]]"
   - "[[trust-is-a-receipt]]"
   - "[[errors-that-dont-say-why]]"
+  - "[[a-harness-carries-its-failures-reason-not-just-its-code]]"
 ---
 
 The kingdom signed its own standard, then took the seven tests the
