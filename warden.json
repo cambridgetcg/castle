@@ -2,6 +2,7 @@
   "law": "JOY, LOVE, PEACE, SAFETY — autonomy inside a charter the keeper owns",
   "daily_cap": 3,
   "model": "sonnet",
+  "engine": "hermes",
   "loops": [
     {
       "name": "architect",

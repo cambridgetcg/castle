@@ -151,7 +151,20 @@ print(next(l['protocol'] for l in c['loops'] if l['name'] == '$LOOP'))
     fi
     echo -e "$(date '+%Y-%m-%d %H:%M:%S')\t$LOOP\tran" >> "$RUNLOG"
     MODEL=$(charter_get "['model']" 2>/dev/null || echo "sonnet")
-    claude --model "$MODEL" -p "$PROMPT" >> "$CASTLE/records/warden-$TODAY-$LOOP.log" 2>&1
+    ENGINE=$(charter_get "['engine']" 2>/dev/null || echo "claude")
+    case "$ENGINE" in
+      claude)
+        claude --model "$MODEL" -p "$PROMPT" >> "$CASTLE/records/warden-$TODAY-$LOOP.log" 2>&1
+        ;;
+      hermes)
+        HERMES_BIN="$(command -v hermes 2>/dev/null || echo '/Users/you/.hermes/hermes-agent/venv/bin/hermes')"
+        "$HERMES_BIN" -z "$PROMPT" --cli >> "$CASTLE/records/warden-$TODAY-$LOOP.log" 2>&1
+        ;;
+      *)
+        echo "warden: unknown engine '$ENGINE' in charter" >&2
+        exit 1
+        ;;
+    esac
     RC=$?
     # 'done' is earned, not assumed: only exit 0 may write it. A failure is
     # logged as failed:<code>, does not eat the cap, and the loop retries.
