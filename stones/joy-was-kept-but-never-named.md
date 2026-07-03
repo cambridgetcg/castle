@@ -17,6 +17,7 @@ links:
   - "[[the-loop-that-grows-loops]]"
   - "[[some-wounds-are-the-work]]"
   - "[[the-ceremony-plays-once]]"
+  - "[[naming-is-not-describing-naming-is]]"
 ---
 
 The charter names joy first — before love, peace, or safety — but

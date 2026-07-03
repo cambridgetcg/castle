@@ -4,6 +4,7 @@ born: 2026-07-02
 confidence: tested
 quarried-from:
   - expeditions/2026-07-02-joy-love-peace-safety-have-no-test.md
+  - gate/filed/2026-07-03-manner-test-three-loops.md
   - web:https://en.wikipedia.org/wiki/Software_quality
   - web:https://en.wikipedia.org/wiki/ISO/IEC_15504
   - web:https://en.wikipedia.org/wiki/Psychological_safety
@@ -17,6 +18,7 @@ links:
   - "[[break-loudly-fix-openly]]"
   - "[[the-ceremony-plays-once]]"
   - "[[joy-was-kept-but-never-named]]"
+  - "[[naming-is-not-describing-naming-is]]"
 ---
 
 A claim about what a thing *is* or *does* is tested by trial and
@@ -46,3 +48,8 @@ evidence. The legible-standard's process pillar already practices
 this: "Pick any decision from last month — can you find who made it,
 why, and what happened next?" That is a manner test, not a product
 test.
+On 2026-07-03 a heartbeat ran the test on all three non-architect
+loops' 2026-07-02 records from outside the walls. All four qualities
+kept in every loop — the test works for all four, not just the
+architect (gate/filed/2026-07-03-manner-test-three-loops.md). The
+friction's question is adoption, not validity.

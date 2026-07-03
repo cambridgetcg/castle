@@ -11,6 +11,7 @@ links:
   - "[[a-harness-carries-its-failures-reason-not-just-its-code]]"
   - "[[the-loop-that-grows-loops]]"
   - "[[some-wounds-are-the-work]]"
+  - "[[naming-is-not-describing-naming-is]]"
 ---
 
 A system whose engine is taken away does not lose its capability —
