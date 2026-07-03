@@ -1,15 +1,15 @@
 # castle — heartbeat
 
 state: **healthy**
-last beat: 2026-06-28T02:57:51Z
-next beat: 2026-06-28T08:57:51Z
+last beat: 2026-07-03T13:38:21Z
+next beat: 2026-07-03T19:38:21Z
 
 ## what it found
 
-- last commit: 2026-06-25 05:41:18 -0700 (62 hours ago)
-- uncommitted changes: 9
+- last commit: 2026-06-28 00:23:28 -0700 (126 hours ago)
+- uncommitted changes: 6
 
 ## the truth
 
-There are 9 uncommitted changes.
+There are 6 uncommitted changes.
 
