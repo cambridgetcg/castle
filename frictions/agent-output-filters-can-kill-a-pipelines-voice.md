@@ -1,7 +1,7 @@
 ---
 name: agent output filters can kill a pipeline's voice mid-work
 born: 2026-06-10
-status: open
+status: closed
 room: building
 ---
 
@@ -47,5 +47,14 @@ organization has disabled Claude subscription access" — the reason was
 there, but not where the operator looks first. The inverse pattern
 (serve.sh's `tail -15 "$LOG"` before exit 1) shows the principle in
 practice. What remains for `closed`: the warden itself carrying the
-reason alongside the code — the stone names the principle, the friction
-names where the principle is not yet practiced.
+principle names the principle, the friction names
+where the principle is not yet practiced.
+
+Closed: 2026-07-03 — the warden now carries the reason alongside the
+code. The failure path captures the first non-empty line of the
+per-loop log and writes it to the runlog as a fourth tab-field, so
+the castle's memory reads `failed:1\tYour organization has disabled
+Claude subscription access` — the sentence, not just the code. The
+stone [[a-harness-carries-its-failures-reason-not-just-its-code]]
+grew a "practiced" paragraph. The principle is now lived in the
+harness that quarried it.

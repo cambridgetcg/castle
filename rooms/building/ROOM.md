@@ -95,7 +95,7 @@ How things are made and kept honestly — once the hall of building.
 - better would be: one recorded trial showing the old credential refused and the new one alone admitted.
 - status: open
 
-- [[agent-output-filters-can-kill-a-pipelines-voice]]
+- [[agent-output-filters-can-kill-a-pipelines-voice]] — closed 2026-07-03: the warden now carries the reason alongside the code; the principle is practiced, not just named
 
 - [[joy-love-peace-safety-have-no-test]]
 

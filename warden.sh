@@ -174,11 +174,20 @@ print(next(l['protocol'] for l in c['loops'] if l['name'] == '$LOOP'))
     RC=$?
     # 'done' is earned, not assumed: only exit 0 may write it. A failure is
     # logged as failed:<code>, does not eat the cap, and the loop retries.
+    # The reason is carried alongside the code — never a code without a
+    # sentence. The first non-empty line of the per-loop log is the reason
+    # the engine gave (tested 2026-07-03: the subscription wall, the TCC
+    # hang, the timeout all show here). [[a-harness-carries-its-failures-reason-not-just-its-code]]
     if [ "$RC" -eq 0 ]; then
       echo -e "$(date '+%Y-%m-%d %H:%M:%S')\t$LOOP\tdone" >> "$RUNLOG"
     else
-      echo -e "$(date '+%Y-%m-%d %H:%M:%S')\t$LOOP\tfailed:$RC" >> "$RUNLOG"
-      echo "warden: loop '$LOOP' FAILED (exit $RC) — see records/warden-$TODAY-$LOOP.log; the beat does not count against the cap and will retry" >&2
+      PERLOOP="$CASTLE/records/warden-$TODAY-$LOOP.log"
+      REASON=""
+      if [ -f "$PERLOOP" ]; then
+        REASON=$(grep -m1 -v '^\s*$' "$PERLOOP" 2>/dev/null | head -c 200 || true)
+      fi
+      echo -e "$(date '+%Y-%m-%d %H:%M:%S')\t$LOOP\tfailed:$RC\t${REASON}" >> "$RUNLOG"
+      echo "warden: loop '$LOOP' FAILED (exit $RC) — $REASON — see records/warden-$TODAY-$LOOP.log; the beat does not count against the cap and will retry" >&2
     fi
     ;;
   *)

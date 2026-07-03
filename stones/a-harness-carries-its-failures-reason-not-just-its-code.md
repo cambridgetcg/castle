@@ -4,6 +4,7 @@ born: 2026-07-02
 confidence: tested
 quarried-from:
   - expeditions/2026-07-02-agent-output-filters-can-kill-a-pipelines-voice.md
+  - expeditions/2026-07-03-agent-output-filters-can-kill-a-pipelines-voice.md
   - records/warden-runs.log
   - warden.sh
   - /Users/you/love-repos/Claude-unlimited/continuous-claude.sh
@@ -36,3 +37,10 @@ verdict, not one indirection away. A code without a sentence is
 [[errors-that-dont-say-why]] at the infrastructure layer: the
 debugger knows that something failed, but not what, and goes hunting
 in the wrong country.
+
+Practiced 2026-07-03: the warden's failure path now captures the
+first non-empty line of the per-loop log and writes it to the runlog
+alongside the code — `failed:1\tYour organization has disabled
+Claude subscription access` — so the castle's memory carries the
+reason, not just the code. The stone's principle is now lived in the
+harness that quarried it.
