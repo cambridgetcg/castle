@@ -75,7 +75,11 @@ Write a one-paragraph record in `records/<date>-architect.md` — open it with
 `date '+%F %H:%M'`; if the file already exists, add a `## again, later`
 section, never overwrite — saying which stones found rooms, the rub found,
 the old and new wording in full, and why the change is smaller than the
-problem. One change per turn. Then commit in house style:
+problem. One change per turn. Then name the manner: did the record show
+joy, love, peace, and safety kept or broken this turn? Cite the evidence
+in one line — the test from
+[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]. Then commit
+in house style:
 
     git add -A
     git commit -m "architect: <brief poetic clause, e.g. a new room for old questions>"

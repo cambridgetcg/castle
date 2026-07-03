@@ -30,6 +30,10 @@ How things are made and kept honestly — once the hall of building.
   exists (ask the record); no one ran it. The records prove joy was
   kept — the founding, the parley, the restoration, the engine swap,
   the self-correction — the castle was joyful and did not know it
+- [[the-manner-of-work-is-tested-by-the-record-not-the-claim]] — the
+  confidence system tries the product, not the process; manner
+  qualities (joy, safety) are tested by a different instrument: the
+  record itself, which carries the evidence of whether they were kept
 
 ### files outlive reports
 - words: On 2026-06-10 three agents died to an output filter mid-forge, and their written files survived whole; the work was finished from the journal. A system that records as it goes can lose its voice and keep its hands. Write to disk while you work, not in a report at the end. Receipt: lesson one of the kingdom's gate-and-the-law record.
