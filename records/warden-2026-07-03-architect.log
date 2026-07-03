@@ -1,0 +1,13 @@
+Done. One run, one change.
+
+**What happened this turn:**
+
+1. **Homed one stone:** `the-manner-of-work-is-tested-by-the-record-not-the-claim` → rooms/building. It was the only homeless stone — the building room's purpose covers it, and three of its kin already live there.
+
+2. **Found the rub:** the castle proved the manner-test works (two stones, one expedition, 23 days of friction) but no protocol practiced it. The charter names joy, love, peace, safety first — the test exists — but no wall asked any loop to run it.
+
+3. **Made one change:** added three lines to the architect protocol's record section. After writing the record, the architect now names whether joy, love, peace, and safety were kept or broken, citing one line of evidence. The test from `the-manner-of-work-is-tested-by-the-record-not-the-claim` moves from understood to practiced — for one loop, as one lawful change.
+
+4. **Recorded both wordings** in full, with the manner-check itself run for this turn: joy kept (a stone found its home), love kept (no stone softened), peace kept (nothing deleted), safety kept (STOP/HALT checked, one change, both wordings preserved for undo).
+
+Committed as `acb22b8`.
