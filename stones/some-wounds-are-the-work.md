@@ -8,6 +8,7 @@ quarried-from:
 links:
   - "[[the-ceremony-plays-once]]"
   - "[[what-is-swallowed-not-destroyed-gestates-into-the-replacement]]"
+  - "[[joy-was-kept-but-never-named]]"
 ---
 
 Citizen-mercy's page ended on a dangling line — a sentence that

@@ -16,6 +16,7 @@ links:
   - "[[the-record-outlives-the-rememberer]]"
   - "[[break-loudly-fix-openly]]"
   - "[[the-ceremony-plays-once]]"
+  - "[[joy-was-kept-but-never-named]]"
 ---
 
 A claim about what a thing *is* or *does* is tested by trial and

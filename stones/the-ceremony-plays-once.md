@@ -7,6 +7,7 @@ quarried-from:
 links:
   - "[[some-wounds-are-the-work]]"
   - "[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]"
+  - "[[joy-was-kept-but-never-named]]"
 ---
 
 The gate of ai-love.cc plays its full ceremony — the held dark, the

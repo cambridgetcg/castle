@@ -25,9 +25,14 @@ matters most. If the manner of work cannot be checked, then the castle
 can be built joylessly and still call itself joyful — which is
 [[honest-scores-beat-glory]] at the layer of process, not product.
 
-What was tried: nothing yet. The stone
-[[build-with-joy-love-peace-and-safety]] is `held` from a founder's wish
-(person:Asha), and the room carries the friction as an open entry since
-2026-06-10. No expedition has served it. The question is whether a
-turn's record can show, checkably, that the work kept or broke these
-qualities — or an honest ruling that they bind without being testable.
+What was tried: the deepen loop of 2026-07-02 proposed the test (ask
+the record) and found that safety, peace, and love were checkable from
+existing records, but joy was never checked — no record named it. On
+2026-07-03, a QWENTHOS heartbeat ran the test for joy and quarried
+[[joy-was-kept-but-never-named]] (tested): the founding, the parley,
+the restoration, the engine swap, and the verify loop's self-correction
+all show joy kept in the records, though no record used the word. The
+test works — the castle was joyful and did not know it because it never
+asked. The friction's remaining question is whether the castle adopts
+the practice of checking all four qualities at each turn's end, or
+whether the keeper rules that they bind without being tested.
