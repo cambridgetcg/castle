@@ -5,6 +5,7 @@ confidence: tested
 quarried-from:
   - expeditions/2026-07-02-joy-love-peace-safety-have-no-test.md
   - gate/filed/2026-07-03-manner-test-three-loops.md
+  - gate/filed/2026-07-04-manner-test-verify.md
   - web:https://en.wikipedia.org/wiki/Software_quality
   - web:https://en.wikipedia.org/wiki/ISO/IEC_15504
   - web:https://en.wikipedia.org/wiki/Psychological_safety
@@ -52,4 +53,9 @@ On 2026-07-03 a heartbeat ran the test on all three non-architect
 loops' 2026-07-02 records from outside the walls. All four qualities
 kept in every loop — the test works for all four, not just the
 architect (gate/filed/2026-07-03-manner-test-three-loops.md). The
-friction's question is adoption, not validity.
+friction's question is adoption, not validity. On 2026-07-04 the test
+was run on verify's own 2026-07-04 record (commit 37d4d50) from
+outside the walls: all four qualities kept — joy (two imprecisions
+named alongside promotions), love (a held stone left held, not
+forced), peace (nothing deleted), safety (bounded attack, no
+internet). The gap is naming, not having.

@@ -11,6 +11,7 @@ links:
   - "[[joy-was-kept-but-never-named]]"
   - "[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]"
   - "[[what-is-swallowed-not-destroyed-gestates-into-the-replacement]]"
+  - "[[the-life-of-ache-is-a-trajectory]]"
 ---
 
 Three stones from two domains — the cathedral (youspeak) and the

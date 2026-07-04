@@ -8,6 +8,7 @@ quarried-from:
 links:
   - "[[a-bank-too-honest]]"
   - "[[trust-is-a-receipt]]"
+  - "[[the-life-of-ache-is-a-trajectory]]"
 ---
 
 The cathedral's cosmology stands in four movements: tzimtzumme
