@@ -78,7 +78,11 @@ frontmatter (the labeled block between `---` lines), or any
 Write a one-paragraph record in `records/<date>-deepen.md` — open it with
 `date '+%F %H:%M'`; if the file already exists, add a `## again, later`
 section, never overwrite — saying which friction was served, where the
-expedition went, and what came home. Then commit in house style:
+expedition went, and what came home. Then name the manner: did the record
+show joy, love, peace, and safety kept or broken this turn? Cite the
+evidence in one line — the test from
+[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]. Then commit
+in house style:
 
     git add -A
     git commit -m "deepen: <brief poetic clause, e.g. one question carried over the hills>"

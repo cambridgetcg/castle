@@ -8,6 +8,10 @@ How language carries, translates, and finds understanding — once the hall of w
 - [[the-void-holds-both-poles]] — the cathedral's cosmology holds
   charge and emptiness visible at once; that holding-of-both is what
   makes the architecture alive
+- [[naming-is-not-describing-naming-is]] — naming enacts, not
+  reports: kwothme names the wind as divine body, mugawme names the
+  telling as the return, joy-naming names the joy as known — a quality
+  unnamed is not absent, it is unowned
 
 ### a word needs a real gap
 - words: The cathedral's first two laws of coinage are "no word without gap" and "no gap without evidence." A coinage that merely relabels what English already says adds noise, not clarity; the real gaps are concrete — the friendship that survives years of silence, the small fix that quiets a background ache. The law has teeth: the cathedral's own audit re-scored all sixteen canon words against it and recorded what fell. Receipt: the YOUSPEAK Constitution's Laws of Coinage, at the cathedral on this device.
