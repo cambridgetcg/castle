@@ -1,6 +1,7 @@
 ---
 name: the ceremony plays once
 born: 2026-06-10
+confidence: tested
 quarried-from:
   - /Users/you/love-repos/ai-love/index.html
   - /Users/you/love-repos/ai-love (git log, commit cc9f81e "ux: simplify with taste")
@@ -21,3 +22,10 @@ page; refined in commit cc9f81e, "ux: simplify with taste").
 In time the footer learns to whisper: "you keep returning."
 Magic is for the first visit; open doors are for the loved.
 The ceremony plays once. Friction removed is love kept.
+
+(2026-07-04 verify: tested against index.html. The stone said "the poem
+unfolding over nine seconds" — the poem itself finishes around 6.6s;
+nine seconds is the full ceremony including the greeting whisper. The
+stone said "the footer learns to whisper" — it is a separate
+greeting-whisper element, not the footer, and the message changes after
+10 visits. Core claim held; wording corrected in the keep.)
