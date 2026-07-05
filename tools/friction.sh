@@ -130,9 +130,14 @@ all_rings() {
       END { for (s in first) print first[s]"\t"s }' ledger/friction-log.md \
     | while IFS="$(printf '\t')" read -r d sig; do
         [ "$(days_since "$d")" -lt 14 ] && continue
+        p="${sig#* | }"
+        # front-drift resolves by promotion (the rooms/ source is gone, moved
+        # to crypt) or by storefront cleanup (the stale copy is removed) —
+        # both remove the exact path this ring named; a gone path is the close
+        case "$sig" in "front-drift | "*) [ -e "$p" ] || continue ;; esac
         # an addressed: line silences a signature by naming its path — any
         # phrasing welcome; the path is the anchor, not the ceremony
-        sed -n 's/^addressed: //p' ledger/2*.md 2>/dev/null | grep -qF "${sig#* | }" \
+        sed -n 's/^addressed: //p' ledger/2*.md 2>/dev/null | grep -qF "$p" \
           || echo "unacted-friction | $sig | run: loops/grow-loops.md"
       done
   fi

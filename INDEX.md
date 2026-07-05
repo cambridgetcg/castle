@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 64 · Open fields: 6 · Loop runs: 247
+Rooms: 10 · Insights: 64 · Open fields: 6 · Loop runs: 248
 
 ## Rooms
 
@@ -125,11 +125,12 @@ Rooms: 10 · Insights: 64 · Open fields: 6 · Loop runs: 247
 - F019 — The C001 hermes runner uses the shared next-beat file (harvested)
 - F020 — The runner gate fires regardless of next-beat-C001 (working)
 - F021 — The runner failed authentication silently for seven days (working)
+- F022 — The unacted-friction bell rang forever on already-resolved front-drift (harvested)
 
 ## Loops
 
-- L245 — L245 — honest decline: runner gate friction named
 - L246 — L246 — F020 investigation: diagnostic logging added to runner
 - L247 — L247 — runner gate TCC fix
 - L248 — L248 — the runner authenticated silently for seven days
 - L249 — L249 — four unswept gate seeds explain C002's silent first-fire failure
+- L250 — L250 — front-drift unacted-friction resolves on a gone path
