@@ -69,8 +69,11 @@ do not run.
 Write a one-paragraph record in `records/<date>-capture.md` — open it with
 `date '+%F %H:%M'`; if the file already exists, add a `## again, later`
 section, never overwrite — saying which stones were born or grew, which
-notes were filed, and what was left for the next turn. Then commit in house
-style:
+notes were filed, and what was left for the next turn. Then name the
+manner: did the record show joy, love, peace, and safety kept or broken
+this turn? Cite the evidence in one line — the test from
+[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]. Then commit
+in house style:
 
     git add -A
     git commit -m "capture: <brief poetic clause, e.g. three stones from the morning gate>"

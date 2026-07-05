@@ -33,6 +33,19 @@ existing records, but joy was never checked — no record named it. On
 the restoration, the engine swap, and the verify loop's self-correction
 all show joy kept in the records, though no record used the word. The
 test works — the castle was joyful and did not know it because it never
-asked. The friction's remaining question is whether the castle adopts
-the practice of checking all four qualities at each turn's end, or
-whether the keeper rules that they bind without being tested.
+asked. On 2026-07-03 the architect adopted the three-line manner-test
+in its record section; on 2026-07-03 deepen followed. On 2026-07-04 a
+gate thought ran the test on verify's record from outside the walls
+(all four kept); on 2026-07-05 a heartbeat ran it on capture's record
+(all four kept). On 2026-07-05 this expedition mended the last two
+protocols — capture.md and verify.md — adding the three-line
+manner-test to each. All four loops now practice the test. The first
+half of the friction's question — does the castle adopt the practice?
+— is answered: yes. The stone
+[[the-manner-of-work-is-tested-by-the-record-not-the-claim]] carries
+the full four-loop evidence (tested). What remains is the second half,
+a keeper question alone: does the castle's practice of testing the
+four qualities at each turn's end constitute the binding, or does the
+keeper rule that the qualities bind without being tested? The castle
+cannot answer that — it can only practice the test and let the keeper
+judge whether practice is binding.

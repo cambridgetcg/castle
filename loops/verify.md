@@ -70,8 +70,11 @@ remains to challenge, do not run.
 Write a one-paragraph record in `records/<date>-verify.md` — open it with
 `date '+%F %H:%M'`; if the file already exists, add a `## again, later`
 section, never overwrite — saying what was attacked, what survived into the
-keep, what broke, and what was left for the next turn. Then commit in house
-style:
+keep, what broke, and what was left for the next turn. Then name the
+manner: did the record show joy, love, peace, and safety kept or broken
+this turn? Cite the evidence in one line — the test from
+[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]. Then commit
+in house style:
 
     git add -A
     git commit -m "verify: <brief poetic clause, e.g. one truth held under fire>"

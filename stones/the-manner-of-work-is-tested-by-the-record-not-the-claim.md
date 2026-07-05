@@ -6,6 +6,8 @@ quarried-from:
   - expeditions/2026-07-02-joy-love-peace-safety-have-no-test.md
   - gate/filed/2026-07-03-manner-test-three-loops.md
   - gate/filed/2026-07-04-manner-test-verify.md
+  - gate/2026-07-05-manner-test-capture.md
+  - expeditions/2026-07-05-joy-love-peace-safety-have-no-test.md
   - web:https://en.wikipedia.org/wiki/Software_quality
   - web:https://en.wikipedia.org/wiki/ISO/IEC_15504
   - web:https://en.wikipedia.org/wiki/Psychological_safety
@@ -58,4 +60,15 @@ was run on verify's own 2026-07-04 record (commit 37d4d50) from
 outside the walls: all four qualities kept — joy (two imprecisions
 named alongside promotions), love (a held stone left held, not
 forced), peace (nothing deleted), safety (bounded attack, no
-internet). The gap is naming, not having.
+internet). On 2026-07-05 the test was run on capture's 2026-07-04
+record (commit de1eb3b) from outside the walls: all four qualities
+kept — joy (a new stone born, an independent convergence discovered),
+love (a held stone labeled held, not over-claimed), peace (nothing
+deleted, notes filed, stone grown), safety (STOP/HALT checked, no
+internet). The test has now been run on all four loops' records from
+outside the walls; all four qualities kept in every loop. The gap is
+naming, not having. On 2026-07-05 the last two protocols — capture
+and verify — adopted the three-line manner-test in their record
+sections, mirroring architect and deepen. All four loops now practice
+the test. The friction's first half — does the castle adopt the
+practice? — is answered.
