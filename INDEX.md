@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 64 · Open fields: 7 · Loop runs: 248
+Rooms: 10 · Insights: 64 · Open fields: 7 · Loop runs: 249
 
 ## Rooms
 
@@ -130,8 +130,8 @@ Rooms: 10 · Insights: 64 · Open fields: 7 · Loop runs: 248
 
 ## Loops
 
-- L246 — L246 — F020 investigation: diagnostic logging added to runner
 - L247 — L247 — runner gate TCC fix
 - L248 — L248 — the runner authenticated silently for seven days
 - L249 — L249 — four unswept gate seeds explain C002's silent first-fire failure
 - L250 — L250 — front-drift unacted-friction resolves on a gone path
+- L251 — L251 — C002's second Sunday fire failed on a narrower glob bug, now fixed outside the repo

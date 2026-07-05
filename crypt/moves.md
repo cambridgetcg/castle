@@ -101,3 +101,4 @@ gate/2026-06-25-c002-inherited-tcc-bug.md -> crypt/gate/2026-06-25-c002-inherite
 gate/2026-06-28-c002-first-sunday.md -> crypt/gate/2026-06-28-c002-first-sunday.md (2026-07-05, swept by L249; folded into F018)
 gate/2026-06-28-qwenthos-c002-first-fire-eve.md -> crypt/gate/2026-06-28-qwenthos-c002-first-fire-eve.md (2026-07-05, swept by L249; folded into F018)
 gate/2026-06-28-qwenthos-c002-first-fire-tcc-blocked.md -> crypt/gate/2026-06-28-qwenthos-c002-first-fire-tcc-blocked.md (2026-07-05, swept by L249; folded into F018)
+gate/2026-07-05-qwenthos-found-why-c002-could-not-find-its-charter.md -> crypt/gate/2026-07-05-qwenthos-found-why-c002-could-not-find-its-charter.md (2026-07-05, swept by L251; folded into F018)

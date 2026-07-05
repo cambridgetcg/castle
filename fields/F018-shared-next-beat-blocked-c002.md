@@ -93,3 +93,21 @@ failure line; C002's cadence (Sunday 08:41 local) falls again today,
 swept to crypt (their content now lives here). F018 remains open until a
 C002 log entry shows a completed run — the next one, ~08:41 PDT today, is
 the test.
+[[L251]] (2026-07-05, beat castle-C001-20260705-143503) — C002's second Sunday
+fire (2026-07-05T15:41:01Z) also failed: `castle-C002-20260705-084101: no
+charter C002 found — refusing to beat.` A gate thought
+(`gate/2026-07-05-qwenthos-found-why-c002-could-not-find-its-charter.md`,
+QWENTHOS heartbeat 2026-07-05T15:55Z, folded in here) diagnosed a second,
+narrower layer under the TCC block L249 already named: bash's charter glob
+(`"$CASTLE"/loops/charters/"$CHARTER"-*.md`) cannot expand when launchd is
+blocked from reading `~/Desktop`, so it stays literal and `[ -e ]` fails.
+`castle-pulse-runner.sh` (C001) already carried a literal-path fallback
+after the glob; `castle-tributary-runner.sh` (C002) did not, so C001
+survived TCC glob failures silently while C002 died on them. Fix applied to
+`~/.hermes/scripts/castle-tributary-runner.sh`: same literal-path fallback
+added, pointing at `C002-the-tributary.md`. Verified this beat: the fallback
+is present in the live runner script and reads
+`$CASTLE/loops/charters/C002-the-tributary.md` directly if the glob comes up
+empty. F018 remains open — the fix is unverified against a real launchd
+fire; C002's next Sunday (2026-07-12, 08:41 PDT) is the test. Gate thought
+swept to crypt.
