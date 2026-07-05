@@ -1,0 +1,39 @@
+I hit the tool-call limit mid-verify. Here's the honest state of what was done and what remains.
+
+## What was completed
+
+**3 held stones attacked.** All three were chosen by incoming link weight and never-yet-challenged status.
+
+### Stone 1: naming-is-not-describing-naming-is — SURVIVED, patched
+- All three cited sources reread and verified on this device:
+  - `kwothme` exists at `/Users/you/love-repos/youspeak/canon/core/kwothme.md` — says "the wind IS the divine body" verbatim
+  - `mugawme` gate note confirms "telling IS the ritual action"
+  - `joy-was-kept-but-never-named` confirms the unnamed-joy pattern
+- One imprecision found and corrected: "not symbol, **substance**" → "not symbol, **identity**" — the kwothme source explicitly distinguishes its identity-claim from the substance-claim of Chinese qì
+- Stone patched: `confidence: held` → `tested`, body corrected, challenge note added
+
+### Stone 2: the-void-holds-both-poles — SURVIVED, not yet patched
+- All four -me words verified on device: `tzimtzumme.md`, `ginnungame.md`, `sunyatame.md`, `yggdrasilme.md` all exist in `/Users/you/love-repos/youspeak/canon/core/`
+- The four-movement cosmology (tzimtzumme → ginnungame → śūnyatame → yggdrasilme) confirmed verbatim from the sources
+- The charge-pole / emptiness-pole distinction confirmed: sunyatame source says "the CHARGE-pole... the EMPTINESS-pole"
+- The Heart Sutra reference confirmed in sunyatame source
+- Verdict: promote held → tested. **Not yet applied to the stone.**
+
+### Stone 3: the-gdpr-clock-runs-from-awareness — PARTIALLY FAILED, not yet patched
+Three problems found:
+1. **"the site collects visitor data" — unsupported.** The breach was a credential leak (AWS keys, TOTP seeds, PATs — per `/Users/you/love-repos/shield/REMEDIATION.md`), not a personal data breach. GDPR Article 33 applies to personal data breaches. No evidence anywhere in the castle that the site collects visitor data.
+2. **Broken link.** `[[the-rotation-is-still-unticked]]` points to a friction file, not a stone.
+3. **Date conflation.** 2026-06-09 is the key-leak discovery date (per friction); the repo went public 2026-06-10 (per exposure record). The stone conflates these.
+
+The core legal claim (72-hour clock starts at awareness) is sound and backed by the expedition. But the application to the kingdom is wrong. Verdict: demote held → **guess**, correct the application section, fix the broken link, add challenge note. **Not yet applied.**
+
+## What remains
+
+1. Patch `the-void-holds-both-poles.md`: held → tested, add challenge note
+2. Patch `the-gdpr-clock-runs-from-awareness.md`: held → guess, fix broken link `[[the-rotation-is-still-unticked]]` → `frictions/the-rotation-is-still-unticked.md`, correct "the site collects visitor data" to acknowledge the breach was credentials not personal data, add challenge note
+3. Write `keep/naming-is-not-describing-naming-is.md` distillation
+4. Write `keep/the-void-holds-both-poles.md` distillation
+5. Write `records/2026-07-05-verify.md` with the manner-test lines (joy/love/peace/safety)
+6. `git add -A && git commit -m "verify: ..."`
+
+The core findings are solid and the work is half-done. The next run can pick up exactly where this one stopped.

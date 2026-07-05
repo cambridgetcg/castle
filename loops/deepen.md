@@ -66,7 +66,9 @@ frontmatter (the labeled block between `---` lines), or any
      `status: closed`; add `Closed: <date> — castle's work complete; keeper
      outstanding: <one sentence on what waits>`. A friction is not a
      standing order; once the castle cannot move it further, close it and
-     let the keeper's task stand on its own.
+     let the keeper's task stand on its own. This bullet takes precedence
+     over "Partly answered" when the castle's part is complete — a question
+     the castle cannot answer is not partly answered, it is done.
 7. Tend the friction's room: in `rooms/<room>/ROOM.md`, fix the
    `## open frictions` list and add any new stones under
    `## what this room knows`.

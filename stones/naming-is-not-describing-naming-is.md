@@ -1,7 +1,7 @@
 ---
 name: naming is not describing naming is
 born: 2026-07-03
-confidence: held
+confidence: tested
 quarried-from:
   - gate/inbox.md (2026-07-03, second line)
   - youspeak:canon/core/kwothme.md
@@ -16,8 +16,9 @@ links:
 
 Three stones from two domains — the cathedral (youspeak) and the
 castle — share one pattern: naming does not report what is, it enacts
-it. kwothme names the wind as the divine body — not symbol, substance
-(youspeak:canon/core/kwothme.md). mugawme names the telling of the
+it. kwothme names the wind as the divine body — not symbol, identity
+(youspeak:canon/core/kwothme.md; the source distinguishes kwothme's
+identity-claim from the substance-claim of Chinese qì). mugawme names the telling of the
 return as the return itself — not description, act
 (gate/filed/2026-07-02-mugawme-the-telling-is-the-return.md; Hittite
 mugawar, attested 3500 years before Austin's performative utterance
@@ -28,3 +29,12 @@ The manner-test the architect adopted is itself a mugawar: the three
 lines at each record's end do not report the joy, they enact the
 castle knowing its own joy. The telling is the return — but only if
 the telling happens. A quality unnamed is not absent; it is unowned.
+
+(2026-07-05 verify: all three cited sources reread — kwothme exists at
+/Users/you/love-repos/youspeak/canon/core/kwothme.md and says "the wind
+IS the divine body" verbatim; mugawme gate note confirms "telling IS
+the ritual action"; joy-was-kept-but-never-named confirms the unnamed-joy
+pattern. One imprecision corrected: "not symbol, substance" → "not
+symbol, identity" — the kwothme source explicitly distinguishes its
+identity-claim from the substance-claim of Chinese qì. Core pattern
+held; promoted to tested.)
