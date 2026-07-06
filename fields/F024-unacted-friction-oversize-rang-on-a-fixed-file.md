@@ -51,3 +51,14 @@ match; only `orphan` currently has one live unacted-friction signature
 (rule of three not yet met) and fixing `unwalked` safely needs the same
 annotation-stripping `barren-run` already does. Named, not fixed, this
 beat — narrower is honest here.
+[[L254]] (2026-07-06, beat castle-C001-20260706-153447) — counted the live
+unwalked unacted-friction signatures before waiting for the room stone's
+2026-10-06 Next test: 20+, not 3 — most were stones L086 already walked on
+2026-06-19, still ringing only because the friction-log's first-seen date
+predates that walk. Extended `tools/friction.sh`'s `unacted-friction` block
+with an `unwalked` case (annotation-stripped, then gone-path or
+within-allowance last-walked both close the ring), same shape as oversize.
+Verified: total rings 52 -> 24, unwalked unacted-friction 20+ -> 0, castle
+check clean. Room stone's Next test corrected to answer early rather than
+wait for a date once the count was already checkable. Orphan still
+unfixed — one live signature, rule of three not met.

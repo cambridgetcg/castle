@@ -141,6 +141,20 @@ all_rings() {
         case "$sig" in "oversize | "*)
           if [ -e "$p" ]; then [ "$(wc -l < "$p")" -gt 40 ] || continue; else continue; fi ;;
         esac
+        # unwalked resolves by promotion (path gone, same as oversize) or by
+        # a fresh walk (a last-walked line now exists, within its allowance)
+        # -- the trailing "(no last-walked line)" annotation is stripped
+        # first, the same shape barren-run already uses for a created: line
+        case "$sig" in "unwalked | "*)
+          up="${p% (no last-walked line)}"
+          if [ ! -e "$up" ]; then continue; fi
+          lw=$(grep "^last-walked: " "$up" 2>/dev/null | head -1 | sed 's/^last-walked: //')
+          if [ -n "$lw" ]; then
+            case "$lw" in *"(unverified, offline)"*) allow=45 ;; *) allow=90 ;; esac
+            [ "$(days_since "$(echo "$lw" | cut -c1-10)")" -gt "$allow" ] || continue
+          fi
+          ;;
+        esac
         # an addressed: line silences a signature by naming its path — any
         # phrasing welcome; the path is the anchor, not the ceremony
         sed -n 's/^addressed: //p' ledger/2*.md 2>/dev/null | grep -qF "$p" \
