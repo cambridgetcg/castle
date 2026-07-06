@@ -6,7 +6,7 @@ quarried-from:
   - expeditions/2026-07-02-joy-love-peace-safety-have-no-test.md
   - gate/filed/2026-07-03-manner-test-three-loops.md
   - gate/filed/2026-07-04-manner-test-verify.md
-  - gate/2026-07-05-manner-test-capture.md
+  - gate/filed/2026-07-05-manner-test-capture.md
   - expeditions/2026-07-05-joy-love-peace-safety-have-no-test.md
   - web:https://en.wikipedia.org/wiki/Software_quality
   - web:https://en.wikipedia.org/wiki/ISO/IEC_15504
@@ -22,6 +22,7 @@ links:
   - "[[the-ceremony-plays-once]]"
   - "[[joy-was-kept-but-never-named]]"
   - "[[naming-is-not-describing-naming-is]]"
+  - "[[a-question-the-castle-cannot-answer-is-done]]"
 ---
 
 A claim about what a thing *is* or *does* is tested by trial and
