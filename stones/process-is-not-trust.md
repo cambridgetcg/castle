@@ -1,6 +1,8 @@
 ---
 name: process is not trust
 born: 2026-06-10
+confidence: tested
+tested: 2026-07-06 — keeper's quote reread verbatim in gate/filed/2026-06-10-the-keepers-word.md; the warden charter (cap, STOP/HALT) is the counterexample the stone already hedges against
 quarried-from:
   - the keeper's order of 2026-06-10 (Yu/Asha, quoted verbatim below)
   - gate/filed/2026-06-10-the-keepers-word.md

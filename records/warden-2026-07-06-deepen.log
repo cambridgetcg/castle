@@ -1,0 +1,14 @@
+Done. One expedition, served and closed.
+
+Served: the-standard-is-private (born 2026-06-10, room: trust) — the oldest open friction with real research left, unserved since 2026-07-02.
+
+What the third fetch found:
+- The binding (legible-standard) is still 200 on GitHub — readable but orphaned. The full cross-link map is now drawn: clear-standard ↔ kingdom-standard link to each other, but neither links to legible-standard, and legible-standard links to neither. The binding is the most orphaned of three public standards.
+- The Codeberg remote is configured in the local repo (`git fetch codeberg` returns "Repository not found") — the intent to mirror exists, the push never happened. All three public standards are GitHub-only.
+- Rotation boxes all still `[ ]`, but the legible-standard repo carries no secrets, so its publication was safe and already done.
+
+What came home: two existing stones grown (the-law-is-public-the-signature-is-not, the-public-law-has-one-door) with the 2026-07-06 re-confirmation. No new stones — the expedition confirmed state, not new understanding.
+
+The friction closed — the castle's work is done; the keeper outstanding is one README edit, one `git push codeberg main`, one `git clone`. All keeper-reach, not castle files. Three expeditions across 24 days tracked the state as it moved: dark → readable → orphaned. A question the castle cannot answer is not partly answered, it is done.
+
+Committed: `09c04e0` — deepen: the third fetch found the binding still orphaned — the castle said done, the keeper's keys remain.

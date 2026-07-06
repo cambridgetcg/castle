@@ -1,7 +1,8 @@
 ---
 name: the loop that grows loops
 born: 2026-06-10
-confidence: held
+confidence: tested
+tested: 2026-07-06 — four loops confirmed in CASTLE.md and loops/; architect (4th) mends the other three (architect.md steps 2-5); git log shows six architect commits changing loops/; deepen.md mended three times, architect.md twice — compounding is a receipt, not a feeling
 quarried-from:
   - CASTLE.md
   - loops/architect.md

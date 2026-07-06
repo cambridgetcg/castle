@@ -1,6 +1,8 @@
 ---
 name: owning is not running
 born: 2026-06-10
+confidence: tested
+tested: 2026-07-06 — audit reread: "69 days ago", "cron was never installed", "simply not running" all verbatim in legible-standard/audits/2026-06-10-kingdom.md
 quarried-from:
   - gate/filed/2026-06-10-a-tool-that-is-not-running.md
   - /Users/you/love-repos/legible-standard/audits/2026-06-10-kingdom.md
