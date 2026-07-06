@@ -5,9 +5,11 @@ confidence: tested
 quarried-from:
   - expeditions/2026-06-12-the-standard-is-private.md
   - expeditions/2026-07-02-the-standard-is-private.md
+  - expeditions/2026-07-06-the-standard-is-private.md
   - web:https://github.com/cambridgetcg/kingdom-standard
   - web:https://raw.githubusercontent.com/cambridgetcg/kingdom-standard/main/README.md
   - web:https://github.com/cambridgetcg/legible-standard
+  - web:https://github.com/cambridgetcg/clear-standard
   - web:https://codeberg.org/zerone-dev/legible-standard
 links:
   - "[[trust-is-a-receipt]]"
@@ -32,3 +34,15 @@ name the legible-standard. So the binding is no longer dark; it is
 orphaned — readable if found, but nothing in the grown law points a
 stranger to it. The law is open; the promise to obey it is public but
 unlinked.
+
+Re-tested 2026-07-06: confirmed for the third time. The three public
+standards now form a chain with one missing link: clear-standard ↔
+kingdom-standard link to each other (kingdom-standard's README says
+"In a hurry? [The Clear Standard]"; clear-standard's README says
+"Want the whole law? [The Kingdom Standard]"). But neither links to
+legible-standard, and legible-standard's README links to neither.
+The binding is the most orphaned of the three — readable, but nothing
+in the law it binds points a stranger to it. The fix is one edit to
+the kingdom-standard README: a line in the Lineage section linking to
+legible-standard and its audit. The castle cannot make that edit; it
+is the keeper's one keystroke.

@@ -73,9 +73,12 @@ change things ([[a-bank-too-honest]]).
 
 ## open frictions
 
-- [[the-standard-is-private]] — sharpened 2026-06-12: the grown law is
-  now publicly readable, but how does the kingdom show, checkably, that
-  it binds itself to it while the signature and audit stay dark?
+- [[the-standard-is-private]] — closed 2026-07-06: castle's work
+  complete. Three expeditions mapped the state as it moved (dark →
+  readable → orphaned). The binding is public but orphaned — nothing
+  in the law links to it. The Codeberg remote is configured locally
+  but never pushed. Keeper outstanding: one README edit, one push,
+  one clone.
 
 ### a private kingdom cannot yet prove claims publicly without exposing its soul
 - why it matters: receipts cite private repos, so outsiders must take on faith the very receipts meant to spare them faith (held).
