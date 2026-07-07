@@ -8,6 +8,7 @@ front: public
 links: 0033
 link: rooms/craft/0041-the-log-records-the-check-reports.md
 last-walked: 2026-06-19
+evidence: 2026-06-26 | local | QWENTHOS heartbeat, gate/2026-06-26-scanner-lying-about-accuracy.md — the exposed-config scanner (CS#2) labeled 27 false-positive "embedded credentials" findings "high confidence" on the true-love repo (JSX key={i} props, test assertions, protocol comments); the checker's confidence label was itself the lie. Fixed by anchoring the credential pattern and adding context filters; 20/20 test cases pass, real detection unchanged.
 ---
 
 # A lying artifact is its own top finding

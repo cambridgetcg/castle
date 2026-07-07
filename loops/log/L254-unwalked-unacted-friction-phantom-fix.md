@@ -1,3 +1,12 @@
+---
+id: L254
+beat: castle-C001-20260706-153447
+date: 2026-07-06
+runner: agent (castle-C001-20260706-153447)
+loop: grow-loops
+field: F024
+---
+
 # L254 — unwalked unacted-friction phantom rings closed
 
 **Field:** F024 (the unacted-friction bell rang forever on already-fixed stones).
