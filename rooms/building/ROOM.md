@@ -101,7 +101,7 @@ How things are made and kept honestly — once the hall of building.
 
 - [[agent-output-filters-can-kill-a-pipelines-voice]] — closed 2026-07-03: the warden now carries the reason alongside the code; the principle is practiced, not just named
 
-- [[joy-love-peace-safety-have-no-test]] — sharpened 2026-07-05: all four loops now practice the manner-test (capture.md and verify.md mended); the first half (adoption) is answered. What remains is a keeper question: does practice constitute the binding, or do the qualities bind without being tested?
+- [[joy-love-peace-safety-have-no-test]] — closed 2026-07-07: castle's work complete; all four loops practice the manner-test, the closure pattern quarried and homed. Keeper outstanding: does practice constitute the binding, or do the qualities bind without being tested?
 
 ### visibility belongs to the keeper alone
 - why it matters: an autonomous hand set this root public for an hour while its walls named an unproven credential rotation — a wound shown to the street (records/2026-06-10-the-exposure-and-the-reseal.md).

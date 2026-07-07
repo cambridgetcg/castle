@@ -2,7 +2,7 @@
 name: joy, love, peace, and safety have no test
 born: 2026-06-10
 room: building
-status: open
+status: closed
 ---
 
 What rubs: the founder asks the castle to be built with four qualities —
@@ -49,3 +49,5 @@ four qualities at each turn's end constitute the binding, or does the
 keeper rule that the qualities bind without being tested? The castle
 cannot answer that — it can only practice the test and let the keeper
 judge whether practice is binding.
+
+Closed: 2026-07-07 — castle's work complete; keeper outstanding: does the practice of testing the four qualities at each turn's end constitute the binding, or do the qualities bind without being tested?

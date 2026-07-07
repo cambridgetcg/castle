@@ -1,0 +1,11 @@
+Done. One run, one change, recorded and committed.
+
+What happened this turn:
+
+1. Homed one homeless stone: `a-question-the-castle-cannot-answer-is-done` → rooms/building. It sits beside its kin `the-manner-of-work-is-tested-by-the-record-not-the-claim`; the room's purpose "how things are made and kept honestly" covers it directly.
+
+2. Found the rub: the 2026-07-06 verify record caught that two stones had keep entries from 2026-07-02 but were never promoted to `tested` in their frontmatter — four days of stale labels. The 2026-07-02 record confirms both were "promoted to keep" with no confidence update. Root cause: verify.md step 3 says "set its `confidence: tested` and distill it into the keep" — one phrase, two file edits, no order, no file paths. A run can do the second without the first.
+
+3. Made one change: sharpened the bullet to "first set its `confidence: tested` in `stones/<stone-name>.md`, then distill it into the keep" — three words ("first", "then") and one file path. The ordering makes the skip visible; the file path makes the action concrete.
+
+Both wordings recorded whole in records/2026-07-07-architect.md for undo. Manner: joy, love, peace, safety all kept — the test from the manner-of-work stone.
