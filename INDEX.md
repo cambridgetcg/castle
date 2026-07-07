@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 254
+Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 255
 
 ## Rooms
 
@@ -131,8 +131,8 @@ Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 254
 
 ## Loops
 
-- L252 — L252 — oversize unacted-friction rang on already-fixed stones
 - L253 — L253 — the stale opal s5l dead_code seed folds into "a maker's belief shows in all their tools"
 - L254 — L254 — unwalked unacted-friction phantom rings closed
 - L255 — L255 — sweep the gate: scanner's lying-confidence seed folds into 0040
 - L257 — L257 — grow-loops: barren-run unacted-friction resolves on live recheck
+- L258 — L258 — grow-loops: orphan and missing-rent unacted-friction resolve on live recheck

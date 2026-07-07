@@ -45,8 +45,8 @@ overclaim (it said oversize/unwalked/orphan "resolve in place" as if that
 were the only path — it can also resolve by promotion, same as front-drift).
 Verified: `sh tools/friction.sh` drops from 3 `oversize` unacted-friction
 rings to 0. Left `unwalked` and `orphan` unfixed — their friction-log lines
-carry parenthetical annotations after the path (e.g. "(no last-walked
-line)") that a naive `[ -e "$p" ]` check would misparse as a fake gone-path
+carry parenthetical annotations after the path (e.g. "no last-walked
+line") that a naive `[ -e "$p" ]` check would misparse as a fake gone-path
 match; only `orphan` currently has one live unacted-friction signature
 (rule of three not yet met) and fixing `unwalked` safely needs the same
 annotation-stripping `barren-run` already does. Named, not fixed, this
@@ -78,3 +78,20 @@ Verified: total rings 52 -> 24, unwalked unacted-friction 20+ -> 0, castle
 check clean. Room stone's Next test corrected to answer early rather than
 wait for a date once the count was already checkable. Orphan still
 unfixed — one live signature, rule of three not met.
+[[L258]] (2026-07-07, beat castle-C001-20260707-173838) — extended
+`tools/friction.sh`'s `unacted-friction` block with the last two
+sub-detectors: `orphan` (gone path closes the ring, same as oversize; if
+the path persists, re-run the detector's own test — `link:` line present
+or inbound link from another file) and `missing-rent` (gone path closes;
+if path persists, re-run the detector's own `**What it changed.**` test).
+Both rings were singular (rule of three not met individually) but shared
+F024's exact shape — a mended stone whose fix never wrote an
+`addressed:` line — so the field's own pattern supplied the third data
+point. The `orphan` source was promoted to `0063-...` on 2026-06-21 (path
+gone to crypt); the `missing-rent` source (0056) gained a "What it
+changed" paragraph on 2026-06-20. Verified: `sh tools/friction.sh` drops
+2 -> 0; `tools/castle check` clean. Also mended a pre-existing castle
+check failure: L257's log was missing its `field: F024` frontmatter line.
+With `front-drift`, `oversize`, `unwalked`, `barren-run`, `orphan`, and
+`missing-rent` all self-healing, the `unacted-friction` block now covers
+every sub-detector the bell can emit. F024 is ready to harvest.

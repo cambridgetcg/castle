@@ -177,6 +177,22 @@ all_rings() {
           esac
           ;;
         esac
+        # orphan resolves by promotion (path gone, moved to crypt) or by
+        # the stone gaining a link: line or an inbound link — re-run the
+        # detector's own test on the live file (if it still exists)
+        case "$sig" in "orphan | "*)
+          if [ ! -e "$p" ]; then continue; fi
+          grep -q "^link: ." "$p" 2>/dev/null && continue
+          grep -rq "^link: $p" rooms/ 2>/dev/null && continue
+          ;;
+        esac
+        # missing-rent resolves by promotion (path gone) or by the stone
+        # gaining a "What it changed" paragraph — re-run the detector's test
+        case "$sig" in "missing-rent | "*)
+          if [ ! -e "$p" ]; then continue; fi
+          grep -q '^\*\*What it changed\.\*\* ..*' "$p" 2>/dev/null && continue
+          ;;
+        esac
         # an addressed: line silences a signature by naming its path — any
         # phrasing welcome; the path is the anchor, not the ceremony
         sed -n 's/^addressed: //p' ledger/2*.md 2>/dev/null | grep -qF "$p" \

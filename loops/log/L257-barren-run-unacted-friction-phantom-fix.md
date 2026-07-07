@@ -4,6 +4,7 @@ beat: castle-C001-20260707-092903
 date: 2026-07-07
 runner: agent (castle-C001-20260707-092903)
 loop: grow-loops
+field: F024
 ---
 
 # L257 — grow-loops: barren-run unacted-friction resolves on live recheck
