@@ -39,8 +39,9 @@ remains to challenge, do not run.
      file (`./castle.sh friction "..."`, `status: open`) so deepen can go,
      and leave the stone as it stands.
 3. Judge honestly — confidence may rise only on evidence:
-   - **Survives a real test** — a test, not a vibe — set its
-     `confidence: tested` and distill it into the keep: write
+   - **Survives a real test** — a test, not a vibe — first set its
+     `confidence: tested` in `stones/<stone-name>.md`, then distill it
+     into the keep: write
      `keep/<kebab-name>.md`:
 
      ```

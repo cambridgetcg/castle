@@ -34,6 +34,10 @@ How things are made and kept honestly — once the hall of building.
   confidence system tries the product, not the process; manner
   qualities (joy, safety) are tested by a different instrument: the
   record itself, which carries the evidence of whether they were kept
+- [[a-question-the-castle-cannot-answer-is-done]] — saying "done"
+  instead of "partly answered" when the question is a keeper question
+  is honest closure, not abandonment; the work done stands, what
+  remains is named as the keeper's, not papered over
 
 ### files outlive reports
 - words: On 2026-06-10 three agents died to an output filter mid-forge, and their written files survived whole; the work was finished from the journal. A system that records as it goes can lose its voice and keep its hands. Write to disk while you work, not in a report at the end. Receipt: lesson one of the kingdom's gate-and-the-law record.
