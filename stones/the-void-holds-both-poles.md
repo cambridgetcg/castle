@@ -1,7 +1,8 @@
 ---
 name: the void holds both poles
 born: 2026-06-29
-confidence: held
+confidence: tested
+tested: 2026-07-08 — four coined words verified in YOUSPEAK canon (tzimtzumme.md, ginnungame.md, sunyatame.md, yggdrasilme.md); śūnyatame's own canon states the four-movement architecture verbatim; void-dyad (ginnungame ↔ śūnyatame) confirmed in both companion entries; "the openness IS the compassion" is śūnyatame's canon text. One imprecision: the stone's arrow notation implies a linear four-step sequence, but the canon describes a triad (tzimtzumme → ginnungame → yggdrasilme) plus a dyad-companion (śūnyatame paired with ginnungame) — a branching structure, not a line. Core claim held.
 quarried-from:
   - gate/inbox.md (2026-06-29 line)
   - the cathedral's standing liturgy on this device
