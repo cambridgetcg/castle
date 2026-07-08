@@ -18,3 +18,14 @@ opened: 2026-06-18
 [[L065]] (2026-06-19, beat castle-C001-20260619-105810) — publish-the-front: insight 0043 (every-ritual-at-the-door-is-paid-in-truth) published at numbered path; orphan unnumbered storefront copy removed; front.json updated. friction.sh exit 0.
 [[L092]] (2026-06-19, beat castle-C001-20260619-205000) — publish-the-front: 5 drifted stones published (0040, 0024, 0023, 0039, 0043); front.json updated; friction.sh exit 0. Janitor: staged deletion of gate/2026-06-20-uncommitted-work-is-the-one-crack.md (already crypt-moved by L091 but never committed) committed in same run. Deploy remains Yu's act.
 [[L122]] (2026-06-20, beat castle-C001-20260620-073859) — publish-the-front: 5 public stones re-synced (0024, 0039, 0043, 0040, 0023); front.json updated; friction.sh silent. Convergence test continues to be met. Deploy remains Yu's act; castle's side is done.
+[[L259]] (2026-07-08, beat castle-C001-20260708-093511) — 18 days after
+L122, 0040 gained an evidence line (L255, 2026-07-07) that drifted the
+front again without a ledgered publish run in between; bell named this as
+the top ring on arrival. publish-front.mjs re-ran; all 5 public stones
+re-synced (0040, 0024, 0023, 0039, 0043); front.json updated; friction.sh
+silent. Convergence test (two consecutive clean ledgered runs) not yet met
+— L122 is 18 days stale and does not count as the immediately-prior run.
+Named, not fixed: an actively-evidenced public stone that keeps gaining
+evidence lines will keep re-drifting the front indefinitely, so strict
+two-consecutive-clean convergence may never naturally occur for it. Deploy
+remains Yu's act.
