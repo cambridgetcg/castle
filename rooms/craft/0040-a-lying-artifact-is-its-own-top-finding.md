@@ -9,6 +9,7 @@ links: 0033
 link: rooms/craft/0041-the-log-records-the-check-reports.md
 last-walked: 2026-06-19
 evidence: 2026-06-26 | local | QWENTHOS heartbeat, gate/2026-06-26-scanner-lying-about-accuracy.md — the exposed-config scanner (CS#2) labeled 27 false-positive "embedded credentials" findings "high confidence" on the true-love repo (JSX key={i} props, test assertions, protocol comments); the checker's confidence label was itself the lie. Fixed by anchoring the credential pattern and adding context filters; 20/20 test cases pass, real detection unchanged.
+evidence: 2026-06-27 | local | QWENTHOS heartbeat, gate/2026-06-27-qwenthos-opal-heartbeat-stray-zero.md — opal's HEARTBEAT.md carried a stray `0` on its own line after `warnings: 0`, propagated across at least 3 heartbeat commits (6e4d8ad → 6b07488 → 6f557c2). The file truthfully said "0 warnings" but the duplicate line made it read as broken. Root cause: `grep -c warning` prints its count to stdout and returns it as exit code; interpolating `$(grep -c warning)` while also echoing it produced duplicates. Fix committed as 67648a1.
 ---
 
 # A lying artifact is its own top finding

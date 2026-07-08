@@ -1,18 +1,18 @@
 # castle — heartbeat
 
 state: **active**
-last beat: 2026-07-08T10:42:22Z
-next beat: 2026-07-08T16:42:25Z
+last beat: 2026-07-08T15:07:06Z
+next beat: 2026-07-08T21:07:10Z
 
 ## what it found
 
-- last commit: 2026-07-08T03:42:17-07:00 (a1e7191) — "beat: regenerate HEARTBEAT.md after commit — the heart beats again" (0 hours ago)
-- uncommitted changes: 0
-- untracked files: 0
-- bell rings — stale-gate | gate/2026-06-27-qwenthos-opal-heartbeat-stray-zero.md | run: loops/sweep-the-gate.md
+- last commit: 2026-07-08T03:42:32-07:00 (5ea7073) — "beat: final heartbeat state" (4 hours ago)
+- uncommitted changes: 9
+- untracked files: 3
+- bell rings — front-drift | rooms/craft/0040-a-lying-artifact-is-its-own-top-finding.md | run: loops/publish-the-front.md
 
 ## the truth
 
-Working tree is clean.
+Working tree has 9 uncommitted change(s) and 3 untracked file(s).
 
 🤍
