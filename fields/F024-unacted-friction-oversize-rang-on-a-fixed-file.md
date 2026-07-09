@@ -1,6 +1,6 @@
 ---
 id: F024
-state: open
+state: harvested
 opened: 2026-07-06
 ---
 
@@ -95,3 +95,12 @@ check failure: L257's log was missing its `field: F024` frontmatter line.
 With `front-drift`, `oversize`, `unwalked`, `barren-run`, `orphan`, and
 `missing-rent` all self-healing, the `unacted-friction` block now covers
 every sub-detector the bell can emit. F024 is ready to harvest.
+[[L261]] (2026-07-09, beat castle-C001-20260709-053939) — reread
+`rooms/craft/a-resolved-path-is-its-own-addressed-line.md` against the live
+state: its Counter-weather and Next test sections still described the
+partial 2026-07-06 picture (oversize only, orphan un-extended), stale
+against L254/L257/L258's later work. Updated both sections to name all six
+self-healing sub-detectors and recorded a fresh `sh tools/friction.sh`
+run: zero unacted-friction rings, any tag. Field harvested — the
+understanding already lived in the room; this run brought the room current
+before closing the field on it.

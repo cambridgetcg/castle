@@ -1,3 +1,11 @@
+---
+id: L260
+date: 2026-07-08
+runner: agent (qwenthos heartbeat 2026-07-08T21:11Z)
+loop: walk
+field: F002
+---
+
 # L260 — post-commit hook: the heart beats after every commit
 
 **Loop:** walk (open crack from gate seed)

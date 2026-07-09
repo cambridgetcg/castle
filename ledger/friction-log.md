@@ -212,3 +212,4 @@ node tools/castle check
 2026-07-08 | stale-gate | gate/2026-06-27-qwenthos-opal-heartbeat-stray-zero.md | run: loops/sweep-the-gate.md
 2026-07-08 | stale-gate | gate/2026-06-27-qwenthos-true-love-s-gate-audit.md | run: loops/sweep-the-gate.md
 2026-07-08 | front-drift | rooms/craft/0040-a-lying-artifact-is-its-own-top-finding.md | run: loops/publish-the-front.md
+2026-07-09 | oversize | rooms/craft/a-resolved-path-is-its-own-addressed-line.md | run: loops/walk.md

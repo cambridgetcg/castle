@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 256
+Rooms: 10 · Insights: 64 · Open fields: 7 · Loop runs: 258
 
 ## Rooms
 
@@ -127,12 +127,12 @@ Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 256
 - F021 — The runner failed authentication silently for seven days (working)
 - F022 — The unacted-friction bell rang forever on already-resolved front-drift (harvested)
 - F023 — A second beat completed work without logging it (open)
-- F024 — The unacted-friction bell rang forever on already-fixed oversize stones (open)
+- F024 — The unacted-friction bell rang forever on already-fixed oversize stones (harvested)
 
 ## Loops
 
-- L254 — L254 — unwalked unacted-friction phantom rings closed
-- L255 — L255 — sweep the gate: scanner's lying-confidence seed folds into 0040
 - L257 — L257 — grow-loops: barren-run unacted-friction resolves on live recheck
 - L258 — L258 — grow-loops: orphan and missing-rent unacted-friction resolve on live recheck
 - L259 — L259 — publish-the-front: resync after 0040's evidence grew
+- L260 — L260 — post-commit hook: the heart beats after every commit
+- L261 — L261 — grow-loops: harvest F024, resync its room stone to the live state
