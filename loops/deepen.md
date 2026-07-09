@@ -22,12 +22,13 @@ frontmatter (the labeled block between `---` lines), or any
    entry marked `status: open` under `## open frictions` in
    `rooms/*/ROOM.md` — those entries are frictions too, carried whole
    from the halls, and they count even though no file names them yet.
-   If you pick one of them, first give it the file it is owed:
-   `frictions/<kebab-name>.md`, its words kept whole, `born:` its
-   recorded date, `room:` the room it stands in, `status: open` — then
-   serve the file, and shorten the room's entry to one
-   `[[<kebab-name>]]` line pointing at it, so the truth keeps one home.
-   If nothing anywhere is open, stop.
+   **Before picking any friction to serve, give every room-embedded open
+   friction its file:** write `frictions/<kebab-name>.md`, keep its
+   words whole, set `born:` to its recorded date, `room:` to the room
+   it stands in, and `status: open` — then shorten the room's entry to
+   one `[[<kebab-name>]]` line pointing at it, so the truth keeps one
+   home. Only after all open frictions live in `frictions/` may you
+   pick one to serve. If nothing anywhere is open, stop.
 2. Pick exactly ONE — the oldest (earliest `born:`), unless a younger one
    would clearly unblock far more stones or a whole room; if you take the
    younger, say why in your record.
