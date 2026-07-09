@@ -89,10 +89,10 @@ How things are made and kept honestly — once the hall of building.
 
 ## open frictions
 
-### 124 citizens wait for codeberg homes behind a 100-repo quota
-- why it matters: the migration cannot finish while the quota holds, so 24 or more repos have no public home (held).
-- better would be: a confirmed quota raise, or a lawful fold of small citizens into shared homes, recorded either way.
-- status: open
+- [[124-citizens-wait-for-codeberg-homes-behind-a-100-repo-quota]] — closed 2026-07-09: castle's work complete; keeper outstanding: open a `[REPOS]` issue at https://codeberg.org/Codeberg-e.V./requests/issues to raise the `zerone-dev` org limit to at least 310
+
+- [[codebergs-repo-limit-is-liftable-by-request]]
+- [[the-remaining-citizens-need-a-lifted-limit-or-a-fold]]
 
 ### the shield credential remediation is unconfirmed
 - why it matters: a credential believed rotated but never proven dead is a door believed locked but never tried (held).

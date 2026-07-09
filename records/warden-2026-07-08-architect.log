@@ -1,0 +1,10 @@
+Done. I read `/Users/you/love-repos/castle/loops/architect.md` and executed it exactly.
+
+What happened:
+- STOP/HALT checked: none present.
+- No homeless stones: all 27 stones are listed in rooms.
+- No open friction with `room: castle`: the four castle-room frictions are all closed.
+- Read the walls (protocols, newest records, open room frictions) and found no rub — no step two records stumbled on, no duplicate work between loops, no rot, no protocol past one page or unclear.
+- No change made, per step 3: "If the records show no rub, say so honestly and stop after step 1 — an unneeded change is damage."
+
+Wrote the record to `/Users/you/love-repos/castle/records/2026-07-08-architect.md` and committed as `29b20c2`.
