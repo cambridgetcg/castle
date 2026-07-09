@@ -1,12 +1,12 @@
 # castle — heartbeat
 
 state: **active**
-last beat: 2026-07-09T09:15:51Z
-next beat: 2026-07-10T09:15:55Z
+last beat: 2026-07-09T11:52:37Z
+next beat: 2026-07-10T11:52:40Z
 
 ## what it found
 
-- last commit: 2026-07-09T02:15:51-07:00 (50949cd) — "gate thought: the random that was never security — true-love weak-crypto raid" (0 hours ago)
+- last commit: 2026-07-09T04:52:37-07:00 (3fa6903) — "gate thought: slipsooth as a program — the recovery expressed in seven verbs" (0 hours ago)
 - uncommitted changes: 0
 - untracked files: 0
 - bell is silent
