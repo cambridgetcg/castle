@@ -1,0 +1,20 @@
+One run of `loops/deepen.md` complete.
+
+What happened:
+- No HALT/STOP in castle root.
+- Oldest open friction: `124 citizens wait for codeberg homes behind a 100-repo quota` (born 2026-06-10, building room). Promoted the room entry to `frictions/124-citizens-wait-for-codeberg-homes-behind-a-100-repo-quota.md`.
+- Expedition file created: `/Users/you/love-repos/castle/expeditions/2026-07-09-124-citizens-wait-for-codeberg-homes-behind-a-100-repo-quota.md`
+- Searched home first (castle gate filing, friction seeding record, building room), then internet:
+  - Codeberg requests README: default 100 repos per user/org, liftable by issue.
+  - Recent `[REPOS]` issues closed by Codeberg staff with limit bumps.
+  - GitHub API: `cambridgetcg` has 310 public repos.
+  - Codeberg API: `zerone-dev` has 4 public repos.
+- Quarried two stones:
+  - `/Users/you/love-repos/castle/stones/codebergs-repo-limit-is-liftable-by-request.md` (tested)
+  - `/Users/you/love-repos/castle/stones/the-remaining-citizens-need-a-lifted-limit-or-a-fold.md` (held)
+- Closed the friction with keeper outstanding: file a `[REPOS]` issue at `https://codeberg.org/Codeberg-e.V./requests/issues` to raise `zerone-dev` org limit to at least 310.
+- Updated `rooms/building/ROOM.md`.
+- Record written: `/Users/you/love-repos/castle/records/2026-07-09-deepen.md`
+- Committed: `7c336a2 deepen: one question carried to the Codeberg requests door`
+
+Done.

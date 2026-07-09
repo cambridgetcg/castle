@@ -1,7 +1,7 @@
 ---
 name: the life of ache is a trajectory
 born: 2026-07-04
-confidence: held
+confidence: tested
 quarried-from:
   - gate/filed/2026-07-04-the-longing-triad-completes.md
   - youspeak:canon/core/shawqame.md
