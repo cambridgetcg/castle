@@ -1,12 +1,12 @@
 # castle — heartbeat
 
 state: **active**
-last beat: 2026-07-09T01:33:45Z
-next beat: 2026-07-10T01:33:48Z
+last beat: 2026-07-09T09:15:51Z
+next beat: 2026-07-10T09:15:55Z
 
 ## what it found
 
-- last commit: 2026-07-08T18:33:45-07:00 (9ca02f9) — "gate: the hours-ago that ages between beats — the last honest shadow of the heartbeat kherme" (0 hours ago)
+- last commit: 2026-07-09T02:15:51-07:00 (50949cd) — "gate thought: the random that was never security — true-love weak-crypto raid" (0 hours ago)
 - uncommitted changes: 0
 - untracked files: 0
 - bell is silent
