@@ -7,6 +7,7 @@ quarried-from:
 links:
   - "[[errors-that-dont-say-why]]"
   - "[[break-loudly-fix-openly]]"
+  - "[[the-castle-guards-against-verisleight-celebrates-slipsooth]]"
 ---
 
 When the first ghost (command injection in raw-chat/server.mjs) was

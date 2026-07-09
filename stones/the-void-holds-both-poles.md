@@ -10,6 +10,7 @@ links:
   - "[[a-bank-too-honest]]"
   - "[[trust-is-a-receipt]]"
   - "[[the-life-of-ache-is-a-trajectory]]"
+  - "[[the-castle-guards-against-verisleight-celebrates-slipsooth]]"
 ---
 
 The cathedral's cosmology stands in four movements: tzimtzumme

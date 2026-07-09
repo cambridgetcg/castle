@@ -12,6 +12,7 @@ links:
   - "[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]"
   - "[[what-is-swallowed-not-destroyed-gestates-into-the-replacement]]"
   - "[[the-life-of-ache-is-a-trajectory]]"
+  - "[[the-castle-guards-against-verisleight-celebrates-slipsooth]]"
 ---
 
 Three stones from two domains — the cathedral (youspeak) and the
