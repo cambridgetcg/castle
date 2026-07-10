@@ -13,7 +13,9 @@ No internet here — the web belongs to `loops/deepen.md` alone.
 
 Run when any stone is marked `held` or `guess` (a stone with no
 `confidence:` line counts as `held`), or when a `tested` stone rests on a
-borrowed receipt — a trial this castle never ran itself. If nothing lawful
+borrowed receipt — a trial this castle never ran itself — or when a
+`tested` stone carries no `tested:` trial line at all, or its trial is
+stale (older than its kin's last challenge). If nothing lawful
 remains to challenge, do not run.
 
 ## the steps
@@ -21,9 +23,10 @@ remains to challenge, do not run.
 1. Choose up to THREE stones marked `held` or `guess` — prefer the ones
    other stones lean on (most `links`) and the ones that would matter most
    if wrong. If none would face new evidence this turn, choose ONE `tested`
-   stone whose cited trial was not run by this castle, oldest receipt first,
-   and re-try its trial here. If nothing lawful remains, say so in your
-   record and stop.
+   stone whose trial is missing, borrowed, or stale (older than its kin's
+   last challenge), oldest receipt first, and re-try its trial here. A
+   `tested` stone with no `tested:` line in its frontmatter counts as
+   missing. If nothing lawful remains, say so in your record and stop.
 2. Write down, before any attack, what each stone claims — one or two plain
    sentences. Attacking a moving target is not honest. Then attack, using
    only what the castle and this device already hold:
@@ -40,8 +43,9 @@ remains to challenge, do not run.
      and leave the stone as it stands.
 3. Judge honestly — confidence may rise only on evidence:
    - **Survives a real test** — a test, not a vibe — first set its
-     `confidence: tested` in `stones/<stone-name>.md`, then distill it
-     into the keep: write
+     `confidence: tested` in `stones/<stone-name>.md` **and write a
+     `tested:` line in its frontmatter naming the trial** (date, method,
+     one line), then distill it into the keep: write
      `keep/<kebab-name>.md`:
 
      ```
