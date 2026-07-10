@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 64 · Open fields: 7 · Loop runs: 259
+Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 260
 
 ## Rooms
 
@@ -128,11 +128,12 @@ Rooms: 10 · Insights: 64 · Open fields: 7 · Loop runs: 259
 - F022 — The unacted-friction bell rang forever on already-resolved front-drift (harvested)
 - F023 — A second beat completed work without logging it (open)
 - F024 — The unacted-friction bell rang forever on already-fixed oversize stones (harvested)
+- F025 — The gate is overflowing with unswept QWENTHOS thoughts (open)
 
 ## Loops
 
-- L258 — L258 — grow-loops: orphan and missing-rent unacted-friction resolve on live recheck
 - L259 — L259 — publish-the-front: resync after 0040's evidence grew
 - L260 — L260 — post-commit hook: the heart beats after every commit
 - L261 — L261 — grow-loops: harvest F024, resync its room stone to the live state
 - L262 — L262 — sweep: a sensor writes, an actor commits
+- L263 — L263 — ripen: sensor-writes-actor-commits, second evidence; F025 opened
