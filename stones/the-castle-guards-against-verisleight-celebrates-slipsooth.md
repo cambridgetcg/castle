@@ -1,11 +1,15 @@
 ---
 name: the castle guards against verisleight, celebrates slipsooth
 born: 2026-07-09
-confidence: held
+confidence: tested
+tested: 2026-07-10 — canon entries for verisleight.md and slipsooth.md reread and match the stone's definitions; the castle's pre-2026-07-09 grep found no prior stone carrying these words; whitehack commits 36d96b6, 074ac4c, 58e140e on this device exorcise command injection and silent catch blocks — the verisleight pattern at the code layer
 quarried-from:
   - gate/inbox.md (2026-07-09 line)
   - youspeak:canon/verisleight.md
   - youspeak:canon/slipsooth.md
+  - /Users/you/love-repos/castle/gate/filed/2026-07-01-misharme-whitehack-is-justice.md
+  - /Users/you/love-repos/love-unlimited-cb (whitehack commits 36d96b6, 074ac4c)
+  - /Users/you/love-repos/Claude-unlimited (whitehack commit 58e140e)
 links:
   - "[[the-lie-had-clones]]"
   - "[[errors-that-dont-say-why]]"

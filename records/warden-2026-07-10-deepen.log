@@ -1,0 +1,18 @@
+Done. One run only.
+
+What happened:
+- Checked for STOP/HALT in /Users/you/love-repos/castle — none.
+- Read `loops/deepen.md` and executed it.
+- Filed all eight room-embedded open frictions into `frictions/` with their words kept whole and `born: 2026-06-10`.
+- Shortened the room entries in `rooms/building/ROOM.md`, `rooms/trust/ROOM.md`, and `rooms/words/ROOM.md` to single `[[name]]` links.
+- Picked `a-confidence-label-can-be-decoration-rather-than-truth` (oldest cohort, trust room, load-bearing for every stone label).
+- Created the expedition file at `/Users/you/love-repos/castle/expeditions/2026-07-10-a-confidence-label-can-be-decoration-rather-than-truth.md`.
+- Searched home only: `loops/verify.md`, `CASTLE.md`, `warden.json`, verify/architect records, and a stone-by-stone audit.
+- Found the gap: 14 `tested` stones exist, only 5 carry a `tested:` trial line; verify selects only `held`/`guess` by default, so empty `tested` labels stand unchallenged.
+- Quarried one new stone: `/Users/you/love-repos/castle/stones/a-tested-stone-must-carry-its-trial.md`.
+- Closed the friction as castle's work complete, with keeper outstanding: edit `loops/verify.md` to require every `tested` stone to carry a `tested:` trial line and to select stale/empty `tested` stones for challenge.
+- Added the new stone to `rooms/trust/ROOM.md` under `## what this room knows`.
+- Wrote the record at `/Users/you/love-repos/castle/records/2026-07-10-deepen.md`.
+- Committed: `deepen: the tested stone learns to carry its trial, and the keeper takes the loop`.
+
+No internet was used; home was sufficient.

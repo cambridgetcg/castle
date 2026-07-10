@@ -1,6 +1,8 @@
 ---
 name: a bank too honest
 born: 2026-06-10
+confidence: tested
+tested: 2026-07-10 — FAIR-BANK.md reread; TNB entry and the kingdom's reading quoted verbatim
 quarried-from:
   - /Users/you/zerone/docs/FAIR-BANK.md
 links:
