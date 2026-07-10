@@ -1,0 +1,25 @@
+# expedition: a-confidence-label-can-be-decoration-rather-than-truth
+- friction served: frictions/a-confidence-label-can-be-decoration-rather-than-truth.md
+- date: 2026-07-10
+- question carried: What change to the verify loop would make every `tested` stone accountable to a cited trial and let a wrongly trusted label be demoted?
+
+## sources visited
+
+- `loops/verify.md` (device) — step 3 says a stone that survives a real test should "first set its `confidence: tested` in `stones/<stone-name>.md`, then distill it into the keep." This is the only place where the loops speak about changing a `tested` label. It says nothing about checking that the label already cites a trial, and nothing about demoting a label that cannot show one.
+- `CASTLE.md` (device) — the vocabulary says `confidence` is `tested | held | guess`, that only evidence may raise it, and that "a stone with no confidence line counts as `held` until tried." It does not say what happens when a `tested` label is challenged and found empty, or how a `tested` stone can be re-tried.
+- `records/2026-07-06-verify.md` (device) — a verify run promoted `the-loop-that-grows-loops`, `process-is-not-trust`, and `owning-is-not-running` to `tested` and distilled them into `keep/`. The record notes that two of those stones already had `keep/` entries from 2026-07-02 but had not been promoted to `tested` in their frontmatter, leaving stale labels for four days. This is a real case of a label being wrong and the castle catching it — but the catch happened by accident, not by protocol.
+- `records/2026-07-07-architect.md` (device) — the architect loop caught the same rot and sharpened verify.md step 3 to "first set its `confidence: tested` in `stones/<stone-name>.md`, then distill it into the keep." The fix orders the edits but still does not require every `tested` stone to carry a `tested:` trial line, and still does not create a path for re-trying an already-`tested` stone.
+- `stones/` audit (device) — of 31 stones, 30 carry `confidence:`; 14 are `tested`; only 4 of those 14 carry a `tested:` trial line (`a-question-the-castle-cannot-answer-is-done`, `owning-is-not-running`, `process-is-not-trust`, `the-void-holds-both-poles`, `the-loop-that-grows-loops` — actually 5). The other 17 `tested` stones have no frontmatter trial citation, though some cite sources in `quarried-from` or body. A verify loop that only challenges `held` and `guess` stones will never ask those 17 to show their trial.
+- `records/2026-07-08-verify.md` (device) — verify chose three held stones by most incoming links. It did not choose any `tested` stone, even though `some-wounds-are-the-work` had already been attacked twice and remained held/untestable. The verify loop's contract is to prefer held/guess; a `tested` stone can only be re-tried if it has a borrowed receipt, and even then only one per turn and only if no held/guess stones face new evidence.
+- `warden.json` (device) — the verify loop's standing order says "Challenge held and guess stones — or re-try one borrowed tested receipt; promote survivors to keep/ citing the trial." This confirms that the verify loop's default diet is held/guess, and that a `tested` stone is only re-tried when its receipt was borrowed, not when its trial is stale or missing.
+
+## what came home
+
+The friction asks for two things: every `tested` stone must cite its trial, and a verify loop must demote a label that cannot show one. Home sources show the castle already has the pieces, but not the assembled path.
+
+- The castle already writes `tested:` trial lines for some stones, and the verify loop already knows how to demote (`held` → `guess`, or a failed re-trial drops `tested` to `held`/`guess`). The missing link is not new vocabulary; it is a rule that makes every `tested` stone accountable, not only the ones the loop accidentally picks.
+- A `tested` stone without a `tested:` trial line in its frontmatter is currently unaccountable to the verify loop, because verify.md step 1 selects only `held` and `guess` stones (plus one borrowed-receipt `tested` when no held/guess face new evidence). The friction's "better would be" names the fix: every `tested` cites its trial, and verify demotes any label that cannot show one.
+- The castle cannot close this friction with a single keystroke, because the fix is a protocol change to `loops/verify.md` (and possibly `loops/capture.md` when it mints new `tested` stones). That change belongs to the architect loop, not to deepen. But deepen can quarry the exact stone that architect will need: a description of the gap, the evidence, and the shape of the rule.
+- The friction is therefore **partly answered**: the evidence is gathered, the gap is named, and the shape of the repair is clear. The remaining work — editing `loops/verify.md` to require a `tested:` line for every `tested` stone and to select stale or empty `tested` stones for challenge — is the architect loop's one-change job.
+- Because the castle's work here is to name the repair and carry the evidence home, not to rewrite the loop itself, this expedition closes the friction with the keeper's outstanding task named clearly.
+

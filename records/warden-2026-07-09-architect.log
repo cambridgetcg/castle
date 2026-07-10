@@ -1,0 +1,10 @@
+Run complete.
+
+- **STOP/HALT:** none.
+- **Stone homed:** `the-castle-guards-against-verisleight-celebrates-slipsooth` → `rooms/building/ROOM.md`.
+- **Rub found:** 8 open frictions embedded in `rooms/*/ROOM.md` since 2026-06-10 have no `frictions/` files — rot from `deepen.md` step 1 letting the loop pick filed frictions before filing the wall-embedded ones.
+- **One change:** sharpened `loops/deepen.md` step 1 so filing every room-embedded open friction is mandatory before selecting any to serve. Old and new wordings recorded in full.
+- **Record:** `records/2026-07-09-architect.md`.
+- **Commit:** `architect: a new stone finds its room, and deepen learns to file the walls it reads`.
+
+Manner: joy, love, peace, safety kept — cited by the record, per `[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]`.

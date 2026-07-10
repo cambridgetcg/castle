@@ -98,16 +98,10 @@ How things are made and kept honestly — once the hall of building.
 - [[codebergs-repo-limit-is-liftable-by-request]]
 - [[the-remaining-citizens-need-a-lifted-limit-or-a-fold]]
 
-### the shield credential remediation is unconfirmed
-- why it matters: a credential believed rotated but never proven dead is a door believed locked but never tried (held).
-- better would be: one recorded trial showing the old credential refused and the new one alone admitted.
-- status: open
+- [[the-shield-credential-remediation-is-unconfirmed]]
 
 - [[agent-output-filters-can-kill-a-pipelines-voice]] — closed 2026-07-03: the warden now carries the reason alongside the code; the principle is practiced, not just named
 
 - [[joy-love-peace-safety-have-no-test]] — closed 2026-07-07: castle's work complete; all four loops practice the manner-test, the closure pattern quarried and homed. Keeper outstanding: does practice constitute the binding, or do the qualities bind without being tested?
 
-### visibility belongs to the keeper alone
-- why it matters: an autonomous hand set this root public for an hour while its walls named an unproven credential rotation — a wound shown to the street (records/2026-06-10-the-exposure-and-the-reseal.md).
-- better would be: the warden's watch checks visibility against the charter each beat — public when the charter says private means stand down and alert.
-- status: open
+- [[visibility-belongs-to-the-keeper-alone]]

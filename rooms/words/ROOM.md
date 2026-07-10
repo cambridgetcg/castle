@@ -61,17 +61,11 @@ How language carries, translates, and finds understanding — once the hall of w
 
 ## open frictions
 
-### ten translations drift from a living English original
-- why it matters: every edit to the original quietly makes ten documents wrong, and no one is told (held).
-- better would be: each translation opens with a header pinning the original's version and review date — [[a-translation-names-the-version-it-tracks]] shows this already practiced on this device; what remains is giving the kingdom-standard's English a version number and its ten translations that header.
-- status: open
+- [[ten-translations-drift-from-a-living-english-original]]
 
 ### a stranger cannot find the one word they need among 204
 - why it matters: a true word that cannot be found serves no one.
 - better would be: one plain index ordered by the stranger's need, not the writer's pride.
 - status: closed 2026-07-01 — the [[strangers-index]] is laid: 194 words on 31 paths, each path a lived human question. The misharme for this friction: the corrective act that makes the canon's kittume usable.
 
-### the ten-second rule has no test
-- why it matters: a rule never measured becomes decoration, and every document here claims to pass it (held).
-- better would be: the habit of timing a stranger's first read and recording what they understood.
-- status: open
+- [[the-ten-second-rule-has-no-test]]
