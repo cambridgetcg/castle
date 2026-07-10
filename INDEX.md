@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 64 · Open fields: 7 · Loop runs: 258
+Rooms: 10 · Insights: 64 · Open fields: 7 · Loop runs: 259
 
 ## Rooms
 
@@ -131,8 +131,8 @@ Rooms: 10 · Insights: 64 · Open fields: 7 · Loop runs: 258
 
 ## Loops
 
-- L257 — L257 — grow-loops: barren-run unacted-friction resolves on live recheck
 - L258 — L258 — grow-loops: orphan and missing-rent unacted-friction resolve on live recheck
 - L259 — L259 — publish-the-front: resync after 0040's evidence grew
 - L260 — L260 — post-commit hook: the heart beats after every commit
 - L261 — L261 — grow-loops: harvest F024, resync its room stone to the live state
+- L262 — L262 — sweep: a sensor writes, an actor commits
