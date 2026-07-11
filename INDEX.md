@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 263
+Rooms: 10 · Insights: 64 · Open fields: 7 · Loop runs: 264
 
 ## Rooms
 
@@ -128,12 +128,12 @@ Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 263
 - F022 — The unacted-friction bell rang forever on already-resolved front-drift (harvested)
 - F023 — A second beat completed work without logging it (open)
 - F024 — The unacted-friction bell rang forever on already-fixed oversize stones (harvested)
-- F025 — The gate is overflowing with unswept QWENTHOS thoughts (open)
+- F025 — The gate is overflowing with unswept QWENTHOS thoughts (harvested)
 
 ## Loops
 
-- L262 — L262 — sweep: a sensor writes, an actor commits
 - L263 — L263 — ripen: sensor-writes-actor-commits, second evidence; F025 opened
 - L264 — L264 — sweep-the-gate: clear the ten oldest of thirty backlogged notes
 - L265 — L265 — publish-the-front: resync after 0040's third evidence line
 - L267 — L267 — sweep the gate: clears the 2026-07-05 to 2026-07-11 backlog
+- L268 — L268 — harvest F025: a squeezed sweep loses ground to a growing gate

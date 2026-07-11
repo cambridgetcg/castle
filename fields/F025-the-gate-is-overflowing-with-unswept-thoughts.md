@@ -1,6 +1,6 @@
 ---
 id: F025
-state: open
+state: harvested
 opened: 2026-07-10
 ---
 
@@ -38,3 +38,11 @@ sweep-the-gate run — not squeezed into a ripen or a partial pass — is still
 needed to clear the rest before it crosses that threshold.
 
 [[L267]] (2026-07-11, beat castle-C001-20260711-013029) — dedicated sweep-the-gate run. 25 seeds cleared (2026-07-05 through 2026-07-11): one folded as a third evidence line into rooms/craft/a-resolved-path-is-its-own-addressed-line.md; three folded into fields/F023's Work so far (the 3rd/4th recurrence instances and a concrete marker-file design); 21 composted — a seven-entry sibling-repo (natscript/youspeak "kherme" cosmology) poem-propagation chain, and a fourteen-entry chain documenting real fixes to this castle's own heartbeat.sh/STATE.md/post-commit hook that were committed directly (43+ such commits found in git log with "gate thought:"/"truth:"/"beat: regenerate" subjects), narrated in gate/ only after landing, outside any ledgered loop. Reasons for each in crypt/moves.md. The gate now holds only the cornerstone-test fixtures and weather-queue.md. New friction worth a future field: commits are landing on this repo directly, bypassing loops/LOOM.md's ledger discipline entirely — not caught by this beat's budget.
+[[L268]] (2026-07-11, beat castle-C001-20260711-080929) — confirmed the
+gate is still clear (`sh tools/friction.sh` rings zero; gate/ holds only
+cornerstone-test fixtures, weather-queue.md, and one fresh 2026-07-11 note)
+and harvested this field: the lesson — a sweep folded into another loop's
+budget loses ground when the gate's input rate has already outpaced casual
+clearing, and only a dedicated sweep-the-gate run converges — is now
+rooms/castle/a-squeezed-sweep-loses-ground-to-a-growing-gate.md, linking
+L264's squeezed attempt against L267's dedicated recovery.
