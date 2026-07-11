@@ -12,9 +12,10 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: 62ded48 truth: STATE.md kherme — fifth lie, first hook. The mechanism changes, not just the words.
+last-commit: 0cdbc42 truth: STATE.md kherme — fix formatting, hook preserves section boundary
 uncommitted: 0 file(s)
 freshness: verified 2026-07-11 by post-commit hook
+
 ## knows
 
 - 城 — the castle
