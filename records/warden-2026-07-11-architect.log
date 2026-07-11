@@ -1,0 +1,7 @@
+Done. One run, one lawful change.
+
+- **Stones homed:** none were homeless.
+- **Rub found:** `tested` stones with missing or stale `tested:` trial lines were falling through the verify loop’s selection rule; the 2026-07-10 deepen run closed that friction with a keeper outstanding asking for this exact edit to `loops/verify.md`.
+- **Change made:** `loops/verify.md` step 1 now selects stale/empty `tested` stones first, then fills remaining slots with `held`/`guess` stones.
+- **Record:** `/Users/you/love-repos/castle/records/2026-07-11-architect.md`
+- **Commit:** `4f42bad` — *architect: tested stones must face the fire, not wait in line*
