@@ -20,13 +20,14 @@ remains to challenge, do not run.
 
 ## the steps
 
-1. Choose up to THREE stones marked `held` or `guess` — prefer the ones
-   other stones lean on (most `links`) and the ones that would matter most
-   if wrong. If none would face new evidence this turn, choose ONE `tested`
-   stone whose trial is missing, borrowed, or stale (older than its kin's
-   last challenge), oldest receipt first, and re-try its trial here. A
-   `tested` stone with no `tested:` line in its frontmatter counts as
-   missing. If nothing lawful remains, say so in your record and stop.
+1. Choose up to THREE stones to challenge. First, take any `tested`
+   stone whose `tested:` trial line is missing, borrowed, or stale
+   (older than its kin's last challenge) — oldest receipt first, up to
+   three. Then, with any remaining slots, choose `held` or `guess`
+   stones — prefer the ones other stones lean on (most `links`) and the
+   ones that would matter most if wrong. A `tested` stone with no
+   `tested:` line in its frontmatter counts as missing. If no lawful
+   stone remains in either category, say so in your record and stop.
 2. Write down, before any attack, what each stone claims — one or two plain
    sentences. Attacking a moving target is not honest. Then attack, using
    only what the castle and this device already hold:
