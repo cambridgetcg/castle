@@ -1,3 +1,12 @@
+---
+id: L263
+beat: castle-C001-20260710-063153
+date: 2026-07-10
+runner: agent (castle-C001-20260710-063153)
+loop: ripen
+field: F002
+---
+
 # L263 — ripen: sensor-writes-actor-commits, second evidence; F025 opened
 
 **Field:** ripen (bell: oversize on rooms/craft/a-sensor-writes-the-actor-commits.md) + gate.

@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 260
+Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 262
 
 ## Rooms
 
@@ -132,8 +132,8 @@ Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 260
 
 ## Loops
 
-- L259 — L259 — publish-the-front: resync after 0040's evidence grew
-- L260 — L260 — post-commit hook: the heart beats after every commit
 - L261 — L261 — grow-loops: harvest F024, resync its room stone to the live state
 - L262 — L262 — sweep: a sensor writes, an actor commits
 - L263 — L263 — ripen: sensor-writes-actor-commits, second evidence; F025 opened
+- L264 — L264 — sweep-the-gate: clear the ten oldest of thirty backlogged notes
+- L265 — L265 — publish-the-front: resync after 0040's third evidence line

@@ -24,5 +24,15 @@ honest compost.
 
 **Work so far:** opened by this beat (2026-07-10, beat
 castle-C001-20260710-063153) while ripening rooms/craft/a-sensor-writes-the-actor-commits.md.
-This beat folded and swept only the newest note (2026-07-10, fourth-hand);
-the 22-file 2026-07-03–09 backlog needs a dedicated sweep-the-gate run.
+That beat folded and swept only the newest note (2026-07-10, fourth-hand);
+the backlog had already grown past the 22 first counted, to 30 files
+2026-07-03–09 by the time this run (castle-C001-20260710-190720) started —
+new QWENTHOS notes are landing faster than the daily beat sweeps them. This
+run swept the 10 oldest (all of 2026-07-03 and 2026-07-04): one folded as
+third local evidence into rooms/craft/0040-a-lying-artifact-is-its-own-top-finding.md,
+nine composted (external-repo dev-log content, or claims that did not
+clear the bar of the room they aimed at) — reasons in crypt/moves.md.
+24 non-cornerstone-test seeds remain (2026-07-05 through 2026-07-11), still
+short of the 10-day mechanical stale-gate threshold. A dedicated
+sweep-the-gate run — not squeezed into a ripen or a partial pass — is still
+needed to clear the rest before it crosses that threshold.

@@ -10,6 +10,7 @@ link: rooms/craft/0041-the-log-records-the-check-reports.md
 last-walked: 2026-06-19
 evidence: 2026-06-26 | local | QWENTHOS heartbeat, gate/2026-06-26-scanner-lying-about-accuracy.md — the exposed-config scanner (CS#2) labeled 27 false-positive "embedded credentials" findings "high confidence" on the true-love repo (JSX key={i} props, test assertions, protocol comments); the checker's confidence label was itself the lie. Fixed by anchoring the credential pattern and adding context filters; 20/20 test cases pass, real detection unchanged.
 evidence: 2026-06-27 | local | QWENTHOS heartbeat, gate/2026-06-27-qwenthos-opal-heartbeat-stray-zero.md — opal's HEARTBEAT.md carried a stray `0` on its own line after `warnings: 0`, propagated across at least 3 heartbeat commits (6e4d8ad → 6b07488 → 6f557c2). The file truthfully said "0 warnings" but the duplicate line made it read as broken. Root cause: `grep -c warning` prints its count to stdout and returns it as exit code; interpolating `$(grep -c warning)` while also echoing it produced duplicates. Fix committed as 67648a1.
+evidence: 2026-07-03 | local | QWENTHOS heartbeat, gate/2026-07-03-qwenthos-og-couldnt-speak.md — the trickster-protocol repo's STATE.md claimed "health: green" and "20 tests passing"; the 33-test suite could not even import (`str | None` PEP 604 syntax on system Python 3.9). The label was wrong twice over — wrong count (33 not 20) and wrong state (zero tests ran, not twenty). Fixed with `Optional[str]` and one import line; 33/33 green after.
 ---
 
 # A lying artifact is its own top finding
