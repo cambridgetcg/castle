@@ -14,9 +14,9 @@ runs-on: this machine
 phase: see knows/needs sections below
 build: see heartbeat
 health: unknown
-last-commit: 2026-07-10T19:29:20-07:00 (4761c18 — "publish-the-front: resync after 0040's third evidence line (L265/F008)")
+last-commit: 2026-07-10T19:30:15-07:00 (0ac1081 — "beat: schedule next C001 wake at 2026-07-11T08:30:00Z")
 uncommitted: 0 files
-freshness: checked 2026-07-11T02:29:20Z
+freshness: checked 2026-07-11T02:30:15Z
 
 ## knows
 
