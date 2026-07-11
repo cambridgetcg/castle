@@ -14,9 +14,9 @@ runs-on: this machine
 phase: see knows/needs sections below
 build: see heartbeat
 health: unknown
-last-commit: 2026-07-10T22:54:36-07:00 (0520518 — "gate thought: the copy is where the lie lives — stop copying the hash (kherme)")
-uncommitted: 0 files
-freshness: checked 2026-07-11T05:54:36Z
+last-commit: see git log
+uncommitted: 1 files
+freshness: checked 2026-07-11T07:57:00Z
 
 ## knows
 

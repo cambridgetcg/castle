@@ -76,7 +76,7 @@ next beat: $NEXT_ISO
 
 ## what it found
 
-- last commit: $LAST_COMMIT_ISO ($LAST_COMMIT_HASH) — "$LAST_COMMIT_SUBJECT" ($HOURS_AGO hours ago)
+- last commit: see git log ($HOURS_AGO hours ago)
 - uncommitted changes: $UNCOMMITTED
 - untracked files: $UNTRACKED
 - $BELL_LINE
@@ -115,7 +115,7 @@ $STATE_HEAD
 phase: see knows/needs sections below
 build: see heartbeat
 health: unknown
-last-commit: $LAST_COMMIT_ISO ($LAST_COMMIT_HASH — "$LAST_COMMIT_SUBJECT")
+last-commit: see git log
 uncommitted: $UNCOMMITTED files
 freshness: checked $NOW_ISO
 
