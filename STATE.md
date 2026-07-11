@@ -12,10 +12,9 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: bda0e75 architect: a friction earns its death when the castle has given all it can
-uncommitted: 2 files (warden runlog + per-loop log from the 04:47 architect run)
-freshness: verified 2026-07-01 by QWENTHOS heartbeat
-
+last-commit: 62ded48 truth: STATE.md kherme — fifth lie, first hook. The mechanism changes, not just the words.
+uncommitted: 0 file(s)
+freshness: verified 2026-07-11 by post-commit hook
 ## knows
 
 - 城 — the castle
