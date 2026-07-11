@@ -7,6 +7,7 @@ link: fields/F024-unacted-friction-oversize-rang-on-a-fixed-file.md
 link: rooms/craft/0053-a-bell-that-never-rang-at-its-keeper-is-not-yet-evidence.md
 evidence: 2026-07-05 | local | 10 front-drift signatures rang since founding; all 10 paths already gone from disk (9 via crypt/moves.md, 1 via storefront cleanup); no addressed: line had ever named them
 evidence: 2026-07-06 to 2026-07-07 | local | the same shape confirmed on five more sub-detectors — oversize, barren-run, unwalked, orphan, missing-rent — 40+ combined signatures, all resolved by ordinary loop work that never phrased itself as "addressed"
+evidence: 2026-07-07 | local | gate/2026-07-07-early-count-breaks-the-calendar.md — this stone's own "Next test" (unwalked's rule-of-three) was answered the day after the seed was born, because friction.sh already extends on a live count, not a calendar date; a rule-of-three phrased as a date can be settled early once the count is checkable
 ---
 
 # A resolved path is its own addressed line

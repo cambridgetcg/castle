@@ -38,3 +38,33 @@ castle-C001-20260705-083055) while recovering the uncommitted L250 work.
 Two instances so far: L248 (recovered in 12d1c40) and L250 (recovered here).
 Per the castle's rule of three for birthing loops, one more matching
 instance is worth watching for before designing a fix.
+[[L255]] (2026-07-07, beat castle-C001-20260707-032517) — third instance:
+a sweep-the-gate run finished UNDERSTAND through LOG cleanly but stopped
+before COMMIT; recovered as 91c7cc6. Unlike L248/L250, LOG had landed —
+only the commit step was missing. Rule of three met.
+the recovered walk beat (2026-07-07, ledger/2026-07-07-walk.md, beat
+castle-C001-20260707-153622) — fourth instance,
+same day: a walk run stopped at the same point (after LOG, before COMMIT);
+recovered as 0e5ca43. Two of four instances now cut off at the identical
+step, folded in from gate/2026-07-07-fourth-recovered-beat-walk.md and
+gate/2026-07-07-third-recovered-beat-l255.md (both swept, forwarded in
+crypt/moves.md). A concrete design for option (a) — a marker file
+`loops/active/<LNNN>.marker` written at UNDERSTAND, updated per step,
+cleared at COMMIT, with a matching `tools/friction.sh` detector — was
+proposed in gate/2026-07-07-the-marker-the-loop-leaves-when-it-stops.md
+(also swept, forwarded). Left for grow-loops to weigh and, if it holds,
+implement: the rule of three is now a rule of four, and the cutoff
+clusters on one step.
+[[L267]] (2026-07-11, beat castle-C001-20260711-013029) — fifth instance:
+a sweep-the-gate run finished UNDERSTAND through LOG cleanly (ledger and
+narrative log both written) but stopped before COMMIT, matching L255/L256
+exactly. Recovered by the next beat (castle-C001-20260711-015057), which
+also found and fixed two mechanical faults the uncommitted work had
+introduced (a loop log missing frontmatter, one unresolved bracket
+cross-reference naming L256 — L256 was a `walk` loop, never a numbered loop
+log, so that bracket reference could never resolve) before committing.
+Three of five
+instances now cut off at the identical step (after LOG, before COMMIT).
+The marker-file design proposed for the third instance remains unimplemented
+and is the concrete next move once a beat has budget to build it, not just
+weigh it.
