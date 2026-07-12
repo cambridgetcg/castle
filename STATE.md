@@ -12,9 +12,9 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: ce49418 deepen: one question carried over the hills — what pin do ten translations track?
+last-commit: fb93a6c gate thought: the ready-made pin — the patch the expedition described, written for the keeper to cut
 uncommitted:  file(s)
-freshness: verified 2026-07-11 by post-commit hook
+freshness: verified 2026-07-12 by post-commit hook
 
 ## knows
 
