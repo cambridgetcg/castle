@@ -12,7 +12,7 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: b5cb53ac capture: three gate notes find their stones and their kin
+last-commit: dbe781a7 gate thought: the fire that catches — satorime forge (experiment 319, sudden-awakening-as-received-ordinance)
 uncommitted:  file(s)
 freshness: verified 2026-07-12 by post-commit hook
 
