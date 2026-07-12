@@ -3,7 +3,7 @@ name: break loudly, fix openly
 born: 2026-06-10
 distilled-from:
   - stones/break-loudly-fix-openly.md
-challenged: 2026-06-30 — audit file and PRINCIPLES.md reread; 0/7 score and exact quotes confirmed verbatim
+challenged: 2026-07-12 — audit file and PRINCIPLES.md reread again; 0/7 score and "break loudly, fix openly" principle 4 match verbatim; prior trial of 2026-06-30 confirmed and extended
 ---
 
 The kingdom signed its own standard, then scored zero of seven on the first audit — every pillar failed.

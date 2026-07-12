@@ -1,2 +1,15 @@
 2026-07-11 14:14	run
 2026-07-11 14:14	done
+deepen run complete.
+
+Served the oldest open friction: `ten-translations-drift-from-a-living-english-original` (born 2026-06-10). Fetched the kingdom-standard repo metadata and all ten translation files from GitHub API. Found the English original has no tag, release, date header, or content hash — so the ten translations cannot name what they track despite each declaring English governs.
+
+Files written:
+- `/Users/you/love-repos/castle/expeditions/2026-07-11-ten-translations-drift-from-a-living-english-original.md`
+- `/Users/you/love-repos/castle/stones/kingdom-standard-needs-a-versioned-pin-or-a-dated-hash.md`
+- `/Users/you/love-repos/castle/stones/a-translation-names-the-version-it-tracks.md`
+- `/Users/you/love-repos/castle/records/2026-07-11-deepen.md`
+
+Friction closed as castle's work complete; keeper outstanding: add a versioned pin (tag, release, or dated content hash) to the kingdom-standard English original and update each of the ten translation headers to cite it.
+
+Committed: `deepen: one question carried over the hills — what pin do ten translations track?`

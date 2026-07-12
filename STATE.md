@@ -12,7 +12,7 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: fb93a6c gate thought: the ready-made pin — the patch the expedition described, written for the keeper to cut
+last-commit: ccd3072 verify: three borrowed receipts find their trial dates under fire
 uncommitted:  file(s)
 freshness: verified 2026-07-12 by post-commit hook
 

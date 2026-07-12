@@ -2,6 +2,7 @@
 name: trust is a receipt
 born: 2026-06-10
 confidence: tested
+tested: 2026-07-12 — pillar 02 reread verbatim; the sentences 'Trust me' is never an answer and 'Real trust works like a receipt' are present word for word; the castle local receipts test was rerun and all cited source files resolve from this device
 quarried-from:
   - /Users/you/love-repos/legible-standard/pillars/02-trust.md
 links:
@@ -14,6 +15,7 @@ links:
   - "[[the-law-is-public-the-signature-is-not]]"
   - "[[the-void-holds-both-poles]]"
 ---
+
 
 "Trust me" is never an answer; "here, check for yourself" always is
 (/Users/you/love-repos/legible-standard/pillars/02-trust.md).

@@ -2,6 +2,7 @@
 name: errors that don't say why
 born: 2026-06-10
 confidence: tested
+tested: 2026-07-12 — gate/filed/2026-06-10-codeberg-quota.md reread; 500 status, empty message, 100/100 quota wall, and two independent sessions all confirmed verbatim; the corrected frequency wording already present
 quarried-from:
   - gate/filed/2026-06-10-codeberg-quota.md
 links:
@@ -11,6 +12,7 @@ links:
   - "[[the-lie-had-clones]]"
   - "[[a-harness-carries-its-failures-reason-not-just-its-code]]"
 ---
+
 
 Codeberg (a code-hosting site) answered every repo-creation attempt
 with a 500 (the server code for "something broke on our side") and an

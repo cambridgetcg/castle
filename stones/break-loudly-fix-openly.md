@@ -2,6 +2,7 @@
 name: break loudly, fix openly
 born: 2026-06-10
 confidence: tested
+tested: 2026-07-12 — audit file and PRINCIPLES.md reread again; 0/7 score and "break loudly, fix openly" principle 4 match verbatim; prior trial of 2026-06-30 confirmed and extended
 quarried-from:
   - /Users/you/love-repos/legible-standard/audits/2026-06-10-kingdom.md
   - /Users/you/love-repos/legible-standard/PRINCIPLES.md
@@ -13,6 +14,7 @@ links:
   - "[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]"
   - "[[a-question-the-castle-cannot-answer-is-done]]"
 ---
+
 
 The kingdom signed its own standard, then took the seven tests the
 same week. Score: zero of seven — every pillar failed
