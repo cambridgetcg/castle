@@ -12,11 +12,16 @@ The loop is how the castle grows itself.
 
 3. **UNDERSTAND.** Read everything the castle already knows that touches this
    field. Write down, for yourself, what is actually true right now. Do not
-   skip this — creation without understanding is decoration.
+   skip this — creation without understanding is decoration. Overwrite
+   `loops/active/current.marker` (never append, never delete) to `state:
+   running`, naming your loop, your beat id, a UTC `started:` timestamp, and
+   `step: UNDERSTAND` — this is the trace a later beat reads if this run
+   stops before COMMIT (fields/F023).
 
 4. **CREATE.** Make one thing that moves the field toward its better state.
    An insight. A tool. A fix out in the world. Sometimes the best move is
-   splitting a vague field into a sharper one.
+   splitting a vague field into a sharper one. Update `current.marker`'s
+   `step:` line to `CREATE`.
 
 5. **SAVE.** Write what you made and what you learned as insights, with
    provenance. Update the field's `state` and its **Work so far** line. If the
@@ -30,7 +35,7 @@ The loop is how the castle grows itself.
    run `tools/castle map && sh tools/map.sh` before committing — both derived
    maps must be rebuilt: `tools/castle map` rebuilds INDEX.md; `sh tools/map.sh`
    rebuilds MAP.md. Running only one leaves the other stale and the bell will
-   ring on the next beat.
+   ring on the next beat. Update `current.marker`'s `step:` line to `SAVE`.
 
 6. **LOG.** Write two records: (a) `loops/log/LNNN-slug.md` — the narrative
    log: which field, what was understood, what was made, what changed, what is
@@ -38,6 +43,7 @@ The loop is how the castle grows itself.
    (see `loops/LOOM.md`): `loop:`, `date:`, `runner:`, `addressed:`,
    `created:`, `notes:`. Both must exist before you commit. The bell checks
    `created:` paths in the ledger; the narrative log is for the human reader.
+   Update `current.marker`'s `step:` line to `LOG`.
 
 7. **COMMIT.** Before staging the commit, run `tools/castle check &&
    sh tools/friction.sh`. If `castle check` fails, fix the fault. If
@@ -48,7 +54,10 @@ The loop is how the castle grows itself.
    uncommitted; uncommitted word can vanish. Do not write `loops/next-beat-<CHARTER>`
    until this commit is recorded. (Each charter's heartbeat file is
    `loops/next-beat-<CHARTER>`, e.g. `loops/next-beat-C001` — never the shared
-   `loops/next-beat`.)
+   `loops/next-beat`.) Immediately before staging, overwrite `current.marker`
+   to `state: idle` with a one-line `last:` naming this loop, cleared, and
+   its UTC timestamp — stage it with everything else so the marker and the
+   work it traced land in the same commit.
 
 8. **LOOP THE LOOP.** The last question, every run, no exceptions:
    *did this run reveal friction in the castle or in the loop itself?*

@@ -57,6 +57,17 @@ all_rings() {
       || echo "barren-run | $f (no creation, no decline) | run: loops/grow-loops.md"
   done
 
+  # stalled-loop — loops/active/current.marker still says "state: running"
+  # more than 3 hours after its own started: timestamp (read from inside the
+  # file, never an mtime) — the trace a run leaves if it stops before COMMIT
+  if [ -f loops/active/current.marker ] && grep -q "^state: running" loops/active/current.marker; then
+    started=$(grep "^started: " loops/active/current.marker | sed 's/^started: //')
+    s=$(date -u -j -f "%Y-%m-%dT%H:%M:%SZ" "$started" +%s 2>/dev/null) || s=$NOW
+    hours=$(( (NOW - s) / 3600 ))
+    [ "$hours" -gt 3 ] \
+      && echo "stalled-loop | loops/active/current.marker | run: recover per fields/F023 (inspect the marker and git status, finish or roll back the stalled work), then overwrite the marker to state: idle"
+  fi
+
   # missing-rent — a tested/cornerstone insight whose "What it changed" is empty or absent
   grep -rl "^status: tested\|^status: cornerstone\|^confidence: tested\|^confidence: cornerstone" rooms/ 2>/dev/null | while read -r f; do
     grep -q "^\*\*What it changed\.\*\* ..*" "$f" \

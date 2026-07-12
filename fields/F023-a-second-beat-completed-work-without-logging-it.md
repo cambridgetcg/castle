@@ -1,6 +1,6 @@
 ---
 id: F023
-state: open
+state: harvested
 opened: 2026-07-05
 ---
 
@@ -68,3 +68,16 @@ instances now cut off at the identical step (after LOG, before COMMIT).
 The marker-file design proposed for the third instance remains unimplemented
 and is the concrete next move once a beat has budget to build it, not just
 weigh it.
+A sixth instance (2026-07-12, beat unrecorded) built the marker-file design
+itself — `loops/active/current.marker`, `loops/LOOP.md` step updates, and a
+`stalled-loop` detector in `tools/friction.sh` — then stopped before LOG or
+COMMIT, self-referentially repeating the exact pattern it was fixing. Found
+uncommitted by [[L269]] (2026-07-12, beat castle-C001-20260712-043344),
+which verified the code (`node tools/castle check` clean, `sh tools/friction.sh`
+silent) and finished the recovery. Harvested here: the lesson —
+`rooms/castle/a-marker-a-beat-leaves-behind-survives-the-beat.md` — is that
+the fix now exists and is live, but its trigger path (a beat actually
+stopped, the `stalled-loop` detector actually ringing, a later beat actually
+recovering from that ring rather than from noticing dirty `git status`) is
+still unexercised. Watch the next mid-loop cutoff to see whether the
+mechanism catches it mechanically.
