@@ -1,0 +1,9 @@
+Run complete.
+
+- Homed `a-translation-names-the-version-it-tracks` into `rooms/words/ROOM.md` beside its kin.
+- Found the rub: `verify.md` says "oldest receipt first" for retried `tested` stones but stays silent on ties, so same-age stones get picked inconsistently.
+- Sharpened `loops/verify.md` step 1 with a tie-breaker: prefer most incoming `links`, then break by name.
+- Recorded in `records/2026-07-12-architect.md` with both old and new wording in full.
+- Committed: `architect: one translation stone homes, and verify learns to break its ties`.
+
+One run, one lawful change, then end.

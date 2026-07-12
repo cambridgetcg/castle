@@ -12,8 +12,8 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: 5084e13b architect: one translation stone homes, and verify learns to break its ties
-uncommitted: 0 file(s)
+last-commit: b5cb53ac capture: three gate notes find their stones and their kin
+uncommitted:  file(s)
 freshness: verified 2026-07-12 by post-commit hook
 
 ## knows

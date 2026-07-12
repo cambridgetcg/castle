@@ -9,10 +9,9 @@ quarried-from:
   - web:https://api.github.com/repos/cambridgetcg/kingdom-standard/contents/translations/zh/STANDARD.md
   - device:/Users/you/love-repos/standard/translations/README.md
 links:
-  - "[[ten-translations-drift-from-a-living-english-original]]"
   - "[[kingdom-standard-needs-a-versioned-pin-or-a-dated-hash]]"
-  - "[[one-fact-lives-in-exactly-one-home]]"
-  - "[[translations-track-at-their-own-pace-the-original-governs]]"
+  - "[[an-english-pin-lets-translations-name-which-original-they-track]]"
+  - "[[one-truth-one-place]]"
 ---
 
 A translation that only says "the English governs" still leaves drift undated. A useful translation header names the English version or content pin it tracks and the date it was last reviewed, so the next edit to the original can be matched to the translation that may now lag.

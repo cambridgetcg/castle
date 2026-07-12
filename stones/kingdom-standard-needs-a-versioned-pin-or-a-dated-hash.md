@@ -11,7 +11,8 @@ quarried-from:
 links:
   - "[[ten-translations-drift-from-a-living-english-original]]"
   - "[[a-translation-names-the-version-it-tracks]]"
-  - "[[one-fact-lives-in-exactly-one-home]]"
+  - "[[an-english-pin-lets-translations-name-which-original-they-track]]"
+  - "[[one-truth-one-place]]"
 ---
 
 The kingdom-standard's English original has no version tag, no release, and no embedded date or content hash. The public repo was last pushed 2026-06-19, has zero tags and zero releases, and its README's Languages section only says "Translations track the English at their own pace; the English text governs if they differ." (tested: fetched 2026-07-11).
