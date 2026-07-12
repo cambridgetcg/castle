@@ -1,0 +1,7 @@
+One run done.
+
+Verified `trust-is-a-receipt`, `break-loudly-fix-openly`, and `errors-that-dont-say-why` — all three were `tested` but carried no `tested:` trial line, so they were attacked as borrowed receipts per the standing order. Each source was reread verbatim; each claim held. I added a `tested:` line to each stone, refreshed the matching `keep/` entries with today's challenge date, wrote `records/2026-07-12-verify.md`, and committed in house style:
+
+> `5984318 verify: three borrowed receipts find their trial dates under fire`
+
+No STOP/HALT in the root; no internet used; nothing left for the next turn except the rest of the queue of `tested` stones still missing their trial lines.

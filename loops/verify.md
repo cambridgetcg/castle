@@ -23,7 +23,9 @@ remains to challenge, do not run.
 1. Choose up to THREE stones to challenge. First, take any `tested`
    stone whose `tested:` trial line is missing, borrowed, or stale
    (older than its kin's last challenge) — oldest receipt first, up to
-   three. Then, with any remaining slots, choose `held` or `guess`
+   three. When several `tested` stones share the same age, prefer the
+   ones other stones lean on (most incoming `links`), then break ties by
+   name. Then, with any remaining slots, choose `held` or `guess`
    stones — prefer the ones other stones lean on (most `links`) and the
    ones that would matter most if wrong. A `tested` stone with no
    `tested:` line in its frontmatter counts as missing. If no lawful

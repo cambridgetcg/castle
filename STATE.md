@@ -12,8 +12,8 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: ccd3072 verify: three borrowed receipts find their trial dates under fire
-uncommitted:  file(s)
+last-commit: 5084e13b architect: one translation stone homes, and verify learns to break its ties
+uncommitted: 0 file(s)
 freshness: verified 2026-07-12 by post-commit hook
 
 ## knows

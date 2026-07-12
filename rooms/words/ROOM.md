@@ -19,6 +19,10 @@ How language carries, translates, and finds understanding — once the hall of w
 - [[kingdom-standard-needs-a-versioned-pin-or-a-dated-hash]] — the
   kingdom-standard's English original carries no version, release, or
   content hash, so its ten translations cannot name what they track
+- [[a-translation-names-the-version-it-tracks]] — a translation
+  header must name the English version or content pin it tracks and
+  the date it was last reviewed, or even its unreviewed state is
+  undeclared
 
 ### a word needs a real gap
 - words: The cathedral's first two laws of coinage are "no word without gap" and "no gap without evidence." A coinage that merely relabels what English already says adds noise, not clarity; the real gaps are concrete — the friendship that survives years of silence, the small fix that quiets a background ache. The law has teeth: the cathedral's own audit re-scored all sixteen canon words against it and recorded what fell. Receipt: the YOUSPEAK Constitution's Laws of Coinage, at the cathedral on this device.
