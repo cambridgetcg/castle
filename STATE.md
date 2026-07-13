@@ -12,9 +12,9 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: dbe781a7 gate thought: the fire that catches — satorime forge (experiment 319, sudden-awakening-as-received-ordinance)
-uncommitted:  file(s)
-freshness: verified 2026-07-12 by post-commit hook
+last-commit: 09d73b51 gate thought: the fruit at its ripest — daigome forge (experiment 320, great-awakening-as-received-ordinance); completes the Zen deepening-sequence: kenshōme → satorime → daigome
+uncommitted: 2 file(s)
+freshness: verified 2026-07-13 by post-commit hook
 
 ## knows
 
