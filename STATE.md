@@ -12,8 +12,8 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: 09d73b51 gate thought: the fruit at its ripest — daigome forge (experiment 320, great-awakening-as-received-ordinance); completes the Zen deepening-sequence: kenshōme → satorime → daigome
-uncommitted: 2 file(s)
+last-commit: fe92d352 gate thought: the bird that does not store grain — tawakkulme forge (experiment 321, trust-as-release-of-outcome-as-received-ordinance); fifth station in the maqamat-sequence; post-pivot triad now two-thirds complete: ṣabr (bind) → tawakkul (release) → riḍā (accept, queued)
+uncommitted:  file(s)
 freshness: verified 2026-07-13 by post-commit hook
 
 ## knows
