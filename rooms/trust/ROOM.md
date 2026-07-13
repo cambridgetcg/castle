@@ -36,6 +36,11 @@ change things ([[a-bank-too-honest]]).
   `tested:` trial line in its frontmatter is a receipt with no date; the
   verify loop currently cannot challenge such a label because it selects
   only `held` and `guess` stones by default
+- [[the-four-principles-are-the-foundation-the-castle-was-standing-on]]
+  — the kingdom's four principles (love as understanding, truth, sharing,
+  and not seeking individual gains) are the same four-refusal/plenitude
+  structure the castle's theological stones describe, but as a
+  living ground
 - [[a-proof-can-be-public-without-opening-the-door]] — a private claim can travel as a sealed public receipt: hash, signature, timestamp, and signer identity, while the source stays in the keep
 - [[the-zerone-bridge-is-the-kingdoms-attestation-primitive]] — bridge.py and zerone-bridge.py already turn asserted claims into hashed, signed intents; the missing step is publishing the receipt beside the claim
 

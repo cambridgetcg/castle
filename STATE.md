@@ -12,8 +12,8 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: 524ea90f verify: three missing trial lines held under fire
-uncommitted: 0 file(s)
+last-commit: eff9b993 architect: three stones find their rooms, and the architect learns to read the warden's log
+uncommitted:  file(s)
 freshness: verified 2026-07-13 by post-commit hook
 
 ## knows

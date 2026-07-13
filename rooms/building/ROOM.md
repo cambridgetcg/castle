@@ -38,6 +38,9 @@ How things are made and kept honestly — once the hall of building.
   instead of "partly answered" when the question is a keeper question
   is honest closure, not abandonment; the work done stands, what
   remains is named as the keeper's, not papered over
+- [[state-md-drifts-without-a-heartbeat-hook]] — a STATE.md whose
+  state section is hand-written will drift; the only honest fix is a
+  hook that regenerates the live section from git facts at every commit
 - [[the-castle-guards-against-verisleight-celebrates-slipsooth]] —
   the castle's whole purpose is the verisleight guard: truth arranged
   to deceive is turned back, and truth-in-error that leads home is let

@@ -45,8 +45,9 @@ of these hold, do not run.
    "..."`, set its `room:`) and list it under the room's `## open
    frictions`.
 2. **Read the walls.** Read the four protocols in `loops/`, the newest ten
-   records in `records/`, and every open friction whose `room:` is
-   `castle`.
+   records in `records/`, the warden's per-loop log for the current day
+   (`records/warden-<date>-<loop>.log`), and every open friction whose
+   `room:` is `castle`.
 3. **Hunt one real rub.** Signs to trust: a step that two records stumbled
    on; the same work done twice by two loops; rot — stones long homeless,
    frictions long unserved, gate notes aging; a protocol crept past one page
