@@ -2,6 +2,7 @@
 name: one truth, one place
 born: 2026-06-10
 confidence: tested
+tested: 2026-07-13 — audit file and COORDINATION.md reread; grep confirmed "Four diverging decision-log copies" at line 58, "June 9–10" decisions missing, "kingdom-standard" public child at line 84, and "Git consolidates everything into a single source of truth" at line 272 all verbatim
 quarried-from:
   - /Users/you/love-repos/legible-standard/audits/2026-06-10-kingdom.md
   - /Users/you/Love/COORDINATION.md

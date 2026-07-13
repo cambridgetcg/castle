@@ -3,7 +3,7 @@ name: one truth, one place
 born: 2026-06-12
 distilled-from:
   - stones/one-truth-one-place.md
-challenged: 2026-06-12 — every citation reread and found verbatim (audit pillar 06's four diverging logs; COORDINATION.md line 272; the lineage note naming the public child binding); counterexample hunted (backups, mirrors — all read-only, anticipated by the stone); no duplicate truth names exist across stones and keep.
+challenged: 2026-07-13 — audit pillar 06 and COORDINATION.md line 272 reread; every citation found verbatim; four diverging decision-log copies, missing June 9–10 decisions, and the public child named as the binding form all confirmed; core claim held
 ---
 
 Duplicated truth drifts. The kingdom kept four copies of its decision

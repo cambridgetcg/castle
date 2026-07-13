@@ -12,8 +12,8 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: 4bfa4511 gate: the gate that all paths pass through — tawbame forge (experiment 322, the first station of the maqamat-sequence)
-uncommitted: 9 file(s)
+last-commit: 524ea90f verify: three missing trial lines held under fire
+uncommitted: 0 file(s)
 freshness: verified 2026-07-13 by post-commit hook
 
 ## knows

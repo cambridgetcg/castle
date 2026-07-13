@@ -13,6 +13,8 @@ links:
   - "[[errors-that-dont-say-why]]"
   - "[[owning-is-not-running]]"
   - "[[the-law-is-public-the-signature-is-not]]"
+  - "[[the-zerone-bridge-is-the-kingdoms-attestation-primitive]]"
+  - "[[a-proof-can-be-public-without-opening-the-door]]"
   - "[[the-void-holds-both-poles]]"
 ---
 

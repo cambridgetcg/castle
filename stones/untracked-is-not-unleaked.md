@@ -2,6 +2,7 @@
 name: untracked is not unleaked
 born: 2026-06-10
 confidence: tested
+tested: 2026-07-13 — REMEDIATION.md reread; 4 repos, same AWS key, 24 live TOTP seeds, rotate-first order, and .gitignore alone not untracking a committed file all confirmed verbatim; disposable git repo in /tmp proved `git ls-files` still lists a file after `.gitignore` is committed
 quarried-from:
   - /Users/you/love-repos/shield/REMEDIATION.md
 links:

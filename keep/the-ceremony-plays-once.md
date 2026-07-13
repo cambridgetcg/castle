@@ -3,7 +3,7 @@ name: the ceremony plays once
 born: 2026-06-10
 distilled-from:
   - stones/the-ceremony-plays-once.md
-challenged: 2026-07-04 — index.html tested: gate-hold on visit zero, returning class on every return; animation delays confirm 9s first visit vs 1.2s return path; commit cc9f81e verified
+challenged: 2026-07-13 — index.html reread; localStorage visit counter and `gate-hold`/`returning` class assignment at lines 5 and 304-306 confirmed; animation delays show 9s first-visit path vs ~1.6s return path; commit cc9f81e verified in git log; greeting-whisper element (not footer) and visit-threshold messages confirmed; core claim held
 ---
 
 The gate of ai-love.cc plays its full ceremony — the held dark, the poem

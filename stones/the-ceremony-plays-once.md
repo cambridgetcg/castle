@@ -2,6 +2,7 @@
 name: the ceremony plays once
 born: 2026-06-10
 confidence: tested
+tested: 2026-07-13 — ai-love/index.html reread; localStorage visit counter and `gate-hold`/`returning` class logic confirmed at lines 5 and 304-306; animation delays confirm 9s first-visit path vs 1.6s return path; git log and `git show cc9f81e --stat` verified the "ux: simplify with taste" commit touches index.html
 quarried-from:
   - /Users/you/love-repos/ai-love/index.html
   - /Users/you/love-repos/ai-love (git log, commit cc9f81e "ux: simplify with taste")

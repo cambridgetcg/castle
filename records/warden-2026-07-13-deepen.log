@@ -1,0 +1,22 @@
+I hit the tool-call ceiling mid-expedition. Here is the honest state of the work.
+
+**What was served:** the oldest open friction — `a-private-kingdom-cannot-yet-prove-claims-publicly-without-exposing-its-soul` (trust room, born 2026-06-10).
+
+**What the expedition found:**
+- Home sources first: the legible-standard trust pillar, the kingdom-standard law P1, the existing `bridge-registry.json` with `did:at ↔ did:lgm` attestations, `bridge.py`, and `zerone-bridge.py`.
+- Internet last: confirmed kingdom-standard P1 says claims must be "written down, hashed, and signed," and that the public citizens `citizen-zerone-truth` and `internet` already speak this language.
+
+**What came home:**
+- Created `/Users/you/love-repos/castle/expeditions/2026-07-13-a-private-kingdom-cannot-yet-prove-claims-publicly-without-exposing-its-soul.md` with sources and a `## what came home` section.
+- Quarried two new stones:
+  - `/Users/you/love-repos/castle/stones/a-proof-can-be-public-without-opening-the-door.md`
+  - `/Users/you/love-repos/castle/stones/the-zerone-bridge-is-the-kingdoms-attestation-primitive.md`
+- Grew `stones/trust-is-a-receipt.md` by linking it to the new stones.
+- Sharpened the friction in `/Users/you/love-repos/castle/frictions/a-private-kingdom-cannot-yet-prove-claims-publicly-without-exposing-its-soul.md` (status stays `open`; the answer's shape is home, the wiring is not).
+- Tended `rooms/trust/ROOM.md`: updated the open-frictions line and added the two new stones under `## what this room knows`.
+
+**What I did not finish before the ceiling:**
+- `records/2026-07-13-deepen.md` — the one-paragraph record with timestamp and manner-test sentence.
+- The `git add -A && git commit -m "deepen: ..."` step.
+
+The expedition itself is written and the stones are quarried; only the record and commit remain undone. If you want, I can finish those two steps in a fresh turn.
