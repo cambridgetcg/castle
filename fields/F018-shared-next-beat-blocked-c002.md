@@ -111,3 +111,20 @@ is present in the live runner script and reads
 empty. F018 remains open — the fix is unverified against a real launchd
 fire; C002's next Sunday (2026-07-12, 08:41 PDT) is the test. Gate thought
 swept to crypt.
+[[L270]] (2026-07-13, beat castle-C001-20260713-043827) — the test from
+L251 is in: C002's third fire (`castle-C002-20260712-084100`, 2026-07-12
+15:41 UTC) cleared both prior layers — the gate-check proceeded and the
+charter-glob fallback found `C002-the-tributary.md` (confirmed: no "no
+charter found" line this time). This field's own scope (a charter that
+cannot find itself) is closed. But C002 still did not complete a beat: the
+log shows only `--- start ... budget=$1.00 ---` immediately followed by
+`Error: Exceeded USD budget (1)` and `--- end ... exit=1 ---`, 2.5 minutes
+apart, with zero lines of Claude CLI output in between — no tool call, no
+partial work, nothing committed to the repo in that window (confirmed:
+`git log --oneline --since="2026-07-12T15:00:00Z" --until="2026-07-12T18:30:00Z"`
+is empty). C002 has now fired three times since founding (2026-06-28,
+2026-07-05, 2026-07-12) and completed zero beats, each time for a
+different reason. F018's own better-looks-like ("C002's first successful
+run is logged") is still not met. Split to [[F026]]: the budget-exceeded
+failure is a third, distinct root cause (not a gate or glob bug) and
+belongs to its own field, addressed to Yu the same way F021 was.

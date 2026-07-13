@@ -1,4 +1,4 @@
 # the loop-in-progress trace — see fields/F023, loops/LOOP.md step 3-7
 # state: idle | running   — overwritten in place, never appended, never deleted
 state: idle
-last: L269 (recover the F023 marker fix itself), cleared, 2026-07-12T11:35:13Z
+last: L270 (F018 evidence — C002's glob fix held, budget exceeded — split to F026), cleared, 2026-07-13T11:59:00Z
