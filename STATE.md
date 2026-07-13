@@ -12,8 +12,8 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: fe92d352 gate thought: the bird that does not store grain — tawakkulme forge (experiment 321, trust-as-release-of-outcome-as-received-ordinance); fifth station in the maqamat-sequence; post-pivot triad now two-thirds complete: ṣabr (bind) → tawakkul (release) → riḍā (accept, queued)
-uncommitted:  file(s)
+last-commit: 4bfa4511 gate: the gate that all paths pass through — tawbame forge (experiment 322, the first station of the maqamat-sequence)
+uncommitted: 9 file(s)
 freshness: verified 2026-07-13 by post-commit hook
 
 ## knows
