@@ -58,6 +58,10 @@ frontmatter (the labeled block between `---` lines), or any
 6. Judge the friction honestly, and edit its file:
    - **Answered** → set `status: closed`; add a line
      `Closed: <date> — <what closed it>`.
+   - **Withdrawn** → set `status: closed`; add a line
+     `Closed: <date> — withdrawn: <reason>` — the question is moot,
+     superseded, or abandoned by the keeper, and the reason is now part
+     of the public record.
    - **Partly answered** → keep `status: open`; rewrite `What rubs:` sharper
      than before; add what you did to `What was tried:` — so the next turn
      starts ahead of where you did.

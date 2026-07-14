@@ -2,9 +2,9 @@
 name: an open question has no honest death except being answered
 born: 2026-06-10
 room: trust
-status: open
+status: closed
 ---
 
-What rubs: friction status knows only open, working, and answered, so a question that proves unanswerable or moot must stand open forever and clutter the true list of live work (held).
+What was tried: 2026-07-14 expedition found the castle already had three honest closures in loops/deepen.md (answered, reframed, done) and a tested stone for "done" (a-question-the-castle-cannot-answer-is-done.md). What was missing was the single word `withdrawn` and a required reason line. CASTLE.md and loops/deepen.md were amended; new stone `an-open-question-has-an-honest-death-called-withdrawn` quarried.
 
-Better would be: a recorded way to retire a question — withdrawn, with a dated reason — without deleting it.
+Closed: 2026-07-14 — castle's work complete. Keeper outstanding: decide whether any future moot friction should carry `Closed: <date> — withdrawn: <reason>`.

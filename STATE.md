@@ -12,9 +12,9 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: eff9b993 architect: three stones find their rooms, and the architect learns to read the warden's log
-uncommitted:  file(s)
-freshness: verified 2026-07-13 by post-commit hook
+last-commit: 36ae3204 deepen: one open question learns to die with its reason written down
+uncommitted: 4 file(s)
+freshness: verified 2026-07-14 by post-commit hook
 
 ## knows
 

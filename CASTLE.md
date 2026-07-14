@@ -32,7 +32,9 @@ is ever deleted; history moves, whole, to `records/history/`.
   and broad: file into an existing room before founding a new one.
 - **frictions/** — named gaps, one file each: what rubs, why it matters,
   what was tried, what done looks like. Status `open` or `closed`; closed
-  frictions keep their files.
+  frictions keep their files. A closed friction carries its reason:
+  `Answered`, `Withdrawn: <reason>`, `Reframed: <new friction>`, or
+  `Done — keeper work: <what waits>`. Nothing is deleted.
 - **expeditions/** — the castle's only door to the internet. Each expedition
   carries its receipts; what it learns comes home as stones with
   `quarried-from: web:<url>`.
