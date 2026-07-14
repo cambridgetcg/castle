@@ -2,6 +2,7 @@
 name: the lie had clones
 born: 2026-06-30
 confidence: tested
+tested: 2026-07-14 — git log 36d96b6 and 074ac4c read; five files inspected for execSync security calls and keychain catch blocks
 quarried-from:
   - gate/inbox.md
 links:

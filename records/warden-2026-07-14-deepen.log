@@ -1,0 +1,13 @@
+Only one commit was made. The earlier terminal output showing two commit hashes was likely a display artifact. The work is complete.
+
+Summary of what was done:
+- Served friction: `/Users/you/love-repos/castle/frictions/an-open-question-has-no-honest-death-except-being-answered.md`
+- Created expedition: `/Users/you/love-repos/castle/expeditions/2026-07-14-an-open-question-has-no-honest-death-except-being-answered.md`
+- Quarried stone: `/Users/you/love-repos/castle/stones/an-open-question-has-an-honest-death-called-withdrawn.md`
+- Amended `CASTLE.md` to name four honest closure reasons.
+- Amended `loops/deepen.md` to add explicit `Withdrawn` closure with required reason.
+- Closed the friction and updated `/Users/you/love-repos/castle/rooms/trust/ROOM.md`.
+- Wrote record `/Users/you/love-repos/castle/records/2026-07-14-deepen.md`.
+- Committed: `a59c22e3 deepen: one open question learns to die with its reason written down`
+
+No internet was used. One run only; ending now.

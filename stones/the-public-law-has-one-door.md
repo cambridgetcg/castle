@@ -2,6 +2,7 @@
 name: the public law has one door
 born: 2026-06-12
 confidence: tested
+tested: 2026-07-14 — local check for kingdom-standard/clear-standard clones and legible-standard codeberg remote; expedition 2026-07-06 receipt reread
 quarried-from:
   - expeditions/2026-06-12-the-standard-is-private.md
   - expeditions/2026-07-02-the-standard-is-private.md

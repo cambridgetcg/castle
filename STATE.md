@@ -12,8 +12,8 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: 635d8c34 gate: the ten-second rule gets its first trial — a stranger reads the front door
-uncommitted:  file(s)
+last-commit: 85e01dfb verify: three tested stones finally show their trial
+uncommitted: 0 file(s)
 freshness: verified 2026-07-14 by post-commit hook
 
 ## knows
