@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 268
+Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 270
 
 ## Rooms
 
@@ -132,11 +132,12 @@ Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 268
 - F026 — C002 exceeded its budget with zero output (working)
 - F027 — Heartbeat writes collide across more than one writer (working)
 - F028 — A clean claim in a ledger is not a clean check (harvested)
+- F029 — The gate refilled with sibling-repo narration in three days (harvested)
 
 ## Loops
 
-- L268 — L268 — harvest F025: a squeezed sweep loses ground to a growing gate
-- L269 — L269 — recover the F023 marker fix itself
 - L270 — C002's third fire cleared the glob, hit its budget
 - L271 — L271 — heartbeat writes collide across more than one writer
 - L272 — L272 — a clean claim in a ledger is not a clean check
+- L273 — L273 — gate refilled with sibling-repo narration, swept
+- L274 — L274 — publish-the-front: resync after 0040's fifth evidence line

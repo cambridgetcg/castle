@@ -36,3 +36,11 @@ front again; publish-front.mjs re-ran; all 5 public stones re-synced (0040,
 pattern as L259: convergence test not met because the prior run is not
 immediately-consecutive in the strict sense, and 0040 is still actively
 gaining evidence. Deploy remains Yu's act.
+[[L274]] (2026-07-14, beat castle-C001-20260714-141029) — 4 days after
+L265, 0040 gained a fifth evidence line (L273, 2026-07-14) that drifted the
+front again; publish-front.mjs re-ran; all 5 public stones re-synced (0040,
+0024, 0023, 0039, 0043); front.json updated; one stale unnumbered orphan
+copy of 0043 (lingering since before its L065 promotion) also removed;
+friction.sh silent. Same pattern as L259/L265: 0040's evidence is
+accumulating faster than any two-consecutive-clean window can close.
+Deploy remains Yu's act.

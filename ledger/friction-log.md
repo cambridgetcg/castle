@@ -221,3 +221,4 @@ node tools/castle check
 2026-07-12 | oversize | rooms/castle/a-marker-a-beat-leaves-behind-survives-the-beat.md | run: loops/walk.md
 2026-07-12 | map-drift | MAP.md | run: sh tools/map.sh
 2026-07-14 | front-drift | rooms/craft/0040-a-lying-artifact-is-its-own-top-finding.md | run: loops/publish-the-front.md
+2026-07-14 | map-drift | MAP.md | run: sh tools/map.sh
