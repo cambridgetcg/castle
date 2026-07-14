@@ -1,3 +1,12 @@
+---
+id: L271
+beat: castle-C001-20260714-045714
+date: 2026-07-14
+runner: agent (castle-C001-20260714-045714)
+loop: grow-loops (F027 opened)
+field: F027
+---
+
 # L271 — heartbeat writes collide across more than one writer
 
 **Field:** F027 (new)
