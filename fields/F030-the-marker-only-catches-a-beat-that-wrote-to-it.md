@@ -47,3 +47,18 @@ castle-C001-20260714-141029) while recovering L273 and completing L274
 (publish-the-front) in the same commit (212b1b4). One instance; watching
 for a second and third before designing a fix, per the castle's rule of
 three.
+[[L275]] (2026-07-14, beat castle-C001-20260714-143039) — this beat's own
+existence is the second occasion for
+rooms/castle/a-marker-a-beat-leaves-behind-survives-the-beat.md's named
+Next test (does `stalled-loop` ever actually ring): a fourth evidence line
+and updated Counter-weather/Next test were added there, naming F030 as a
+second, distinct-reason zero-ring case. That seed stone still holds at
+`seed` — two occasions, two reasons, no ring yet — and now names the
+rule-of-three threshold explicitly: a third occasion of either shape (stale
+timeout unclosed, or marker untouched) is the signal to build the fix
+rather than keep watching. F030 itself remains open at one instance.
+L275's own recovery (this beat, castle-C001-20260714-144954) found the
+stone's Next test overtaken by reality: `stalled-loop` rang for real, ~7.4h
+after L275 stalled — see the stone's fourth evidence line. Promoted to
+`sprout`. F030's own shape (marker never touched) is unaffected and still
+watches for a second instance.
