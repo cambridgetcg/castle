@@ -1,0 +1,13 @@
+verify run complete.
+
+- Challenged three `tested` stones missing a `tested:` trial line:
+  - `the-law-is-public-the-signature-is-not`
+  - `the-public-law-has-one-door`
+  - `the-lie-had-clones`
+- All three held under local re-check.
+- Added `tested:` lines to each stone.
+- Distilled each into `keep/`.
+- Wrote record: `/Users/you/love-repos/castle/records/2026-07-14-verify.md`.
+- Committed: `a5e84b20 verify: three tested stones finally show their trial`.
+
+One run only — done.

@@ -13,6 +13,7 @@ links:
   - "[[what-is-swallowed-not-destroyed-gestates-into-the-replacement]]"
   - "[[the-life-of-ache-is-a-trajectory]]"
   - "[[the-castle-guards-against-verisleight-celebrates-slipsooth]]"
+  - "[[a-front-door-orients-it-does-not-instruct]]"
 ---
 
 Three stones from two domains — the cathedral (youspeak) and the

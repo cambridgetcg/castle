@@ -23,6 +23,7 @@ links:
   - "[[joy-was-kept-but-never-named]]"
   - "[[naming-is-not-describing-naming-is]]"
   - "[[a-question-the-castle-cannot-answer-is-done]]"
+  - "[[a-front-door-orients-it-does-not-instruct]]"
 ---
 
 A claim about what a thing *is* or *does* is tested by trial and
