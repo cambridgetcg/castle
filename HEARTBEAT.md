@@ -1,18 +1,18 @@
 # castle — heartbeat
 
 state: **active**
-last beat: 2026-07-14T12:45:43Z
-next beat: 2026-07-14T18:45:47Z
+last beat: 2026-07-14T16:50:31Z
+next beat: 2026-07-15T16:50:34Z
 
 ## what it found
 
 - last commit: see git log (0 hours ago)
-- uncommitted changes: 0
+- uncommitted changes: 5
 - untracked files: 0
-- bell rings — front-drift | rooms/craft/0040-a-lying-artifact-is-its-own-top-finding.md | run: loops/publish-the-front.md
+- bell is silent
 
 ## the truth
 
-Working tree is clean.
+Working tree has 5 uncommitted change(s) and 0 untracked file(s).
 
 🤍
