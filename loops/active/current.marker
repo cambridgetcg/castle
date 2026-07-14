@@ -1,4 +1,4 @@
 # the loop-in-progress trace — see fields/F023, loops/LOOP.md step 3-7
 # state: idle | running   — overwritten in place, never appended, never deleted
 state: idle
-last: L270 (F018 evidence — C002's glob fix held, budget exceeded — split to F026), cleared, 2026-07-13T11:59:00Z
+last: L271 (F027 opened — heartbeat conflict litter cleared, 44 files composted), cleared, 2026-07-14T12:20:00Z

@@ -143,3 +143,4 @@ gate/2026-07-07-fourth-recovered-beat-walk.md -> folded into fields/F023-a-secon
 gate/2026-07-07-third-recovered-beat-l255.md -> folded into fields/F023-a-second-beat-completed-work-without-logging-it.md (2026-07-11, this beat)
 gate/2026-07-07-the-marker-the-loop-leaves-when-it-stops.md -> folded into fields/F023-a-second-beat-completed-work-without-logging-it.md (2026-07-11, this beat)
 gate/2026-07-07-early-count-breaks-the-calendar.md -> rooms/craft/a-resolved-path-is-its-own-addressed-line.md (2026-07-11, this beat; folded as third evidence line)
+crypt/litter/.!*!HEARTBEAT.md -> composted (2026-07-14, castle-C001-20260714-045714); 44 zero-byte iCloud conflict-copy artifacts of HEARTBEAT.md, dated 2026-07-11 through 2026-07-14; see fields/F027-heartbeat-writes-collide-across-more-than-one-writer.md for what they evidence

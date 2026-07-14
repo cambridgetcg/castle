@@ -1,0 +1,50 @@
+---
+id: F027
+state: working
+opened: 2026-07-14
+---
+
+# Heartbeat writes collide across more than one writer
+
+**The friction:** the castle root held 44 zero-byte files named
+`.!<random-digits>!HEARTBEAT.md`, dated from 2026-07-11T08:46 through
+2026-07-14T04:48, spaced almost exactly two hours apart across all three
+days. `.gitignore` already excludes `.!*`, so none were ever tracked or at
+risk of commit — but they are real disk litter, and their steady two-hour
+cadence does not match `heartbeat.sh`'s own next-beat interval (6h if the
+bell rings, 24h if silent; see `.heartbeat/history.log`). The `.!<n>!name`
+naming is the conflict-copy convention iCloud Drive's Desktop-and-Documents
+sync uses when two writers touch the same file within its sync window. This
+castle lives at `/Users/you/Desktop/castle` — inside the one folder Apple
+syncs by that name — and `heartbeat.sh`'s own header already names "three or
+more hands." Recent gate/ thoughts (`2026-07-14-the-bell-that-regenerates...`)
+and non-loop `gate:`/`beat:` commits in git log, all authored as this same
+git identity but arriving every 1-4 hours, confirm a second writer is active
+on this repository outside the C001/C002/C004 launchd cadence.
+
+**Why it matters:** conflict-copy files are iCloud's evidence that two
+processes wrote the same path inside the same sync window — the most likely
+two writers are `heartbeat.sh` runs on two different machines (or two
+concurrent processes on one machine) both regenerating `HEARTBEAT.md` from a
+`.git` folder that iCloud is also trying to sync as plain files. A `.git`
+directory synced by a plain-file syncer, not by git itself, is a known way
+to corrupt refs and objects if two writers ever touch it in the same window.
+The litter is cosmetic; the exposure it points to is not.
+
+**Better looks like:** either this folder is confirmed to have only one
+active writer (and the litter was a transient, now-stopped double-fire), or
+Yu excludes `castle/.git` (or the whole `castle/` folder) from iCloud's
+Desktop sync, and `heartbeat.sh` is changed to write via temp-file-then-`mv`
+(atomic replace) so a mid-write sync snapshot can never see a half-written
+file. Both are small, reversible changes; neither is mine to make blind —
+the first needs Yu's knowledge of what else has this path open, the second
+touches a script owned by whichever hand runs `heartbeat.sh`.
+
+**Work so far:** [[L271]] (2026-07-14, beat castle-C001-20260714-045714) —
+found and counted 44 conflict files spanning 2026-07-11 through 2026-07-14,
+confirmed `.gitignore` already covers `.!*` (zero repo risk from the litter
+itself), confirmed the exactly-two-hour spacing does not match
+`heartbeat.sh`'s own 6h/24h schedule, and moved the 44 zero-byte files to
+the crypt as pure litter (no information content — every file is empty).
+Addressed to Yu: confirm whether more than one machine has this Desktop
+folder open, and whether `castle/.git` should be excluded from iCloud sync.

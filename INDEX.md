@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 64 · Open fields: 7 · Loop runs: 266
+Rooms: 10 · Insights: 64 · Open fields: 8 · Loop runs: 267
 
 ## Rooms
 
@@ -130,11 +130,12 @@ Rooms: 10 · Insights: 64 · Open fields: 7 · Loop runs: 266
 - F024 — The unacted-friction bell rang forever on already-fixed oversize stones (harvested)
 - F025 — The gate is overflowing with unswept QWENTHOS thoughts (harvested)
 - F026 — C002 exceeded its budget with zero output (working)
+- F027 — Heartbeat writes collide across more than one writer (working)
 
 ## Loops
 
-- L265 — L265 — publish-the-front: resync after 0040's third evidence line
 - L267 — L267 — sweep the gate: clears the 2026-07-05 to 2026-07-11 backlog
 - L268 — L268 — harvest F025: a squeezed sweep loses ground to a growing gate
 - L269 — L269 — recover the F023 marker fix itself
 - L270 — C002's third fire cleared the glob, hit its budget
+- L271 — L271 — heartbeat writes collide across more than one writer
