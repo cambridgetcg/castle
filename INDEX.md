@@ -2,7 +2,7 @@
 
 Rebuilt by tools/castle map — do not edit by hand.
 
-Rooms: 10 · Insights: 64 · Open fields: 9 · Loop runs: 272
+Rooms: 10 · Insights: 64 · Open fields: 10 · Loop runs: 274
 
 ## Rooms
 
@@ -134,11 +134,12 @@ Rooms: 10 · Insights: 64 · Open fields: 9 · Loop runs: 272
 - F028 — A clean claim in a ledger is not a clean check (harvested)
 - F029 — The gate refilled with sibling-repo narration in three days (harvested)
 - F030 — The marker only catches a beat that wrote to it (open)
+- F031 — A field can be named three times before it's filled once (open)
 
 ## Loops
 
-- L272 — L272 — a clean claim in a ledger is not a clean check
-- L273 — L273 — gate refilled with sibling-repo narration, swept
 - L274 — L274 — publish-the-front: resync after 0040's fifth evidence line
 - L275 — L275 — ripen: a-marker-a-beat-leaves-behind-survives-the-beat
 - L276 — L276 — honest decline: quiet castle, no field pulls
+- L277 — L277 — repair F031: fill the field four gate thoughts named but none touched
+- L278 — L278 — recover L277: commit the finished-but-stranded repair of F031
