@@ -14,7 +14,7 @@ build: see repo
 health: green
 last-commit: see git log
 uncommitted: 0 file(s)
-freshness: fixed 2026-07-15 by qwenthos heartbeat
+freshness: verified 2026-07-15 by post-commit hook
 
 ## knows
 
