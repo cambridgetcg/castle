@@ -45,6 +45,16 @@ How things are made and kept honestly — once the hall of building.
   the castle's whole purpose is the verisleight guard: truth arranged
   to deceive is turned back, and truth-in-error that leads home is let
   through
+- [[a-remediation-checklist-stays-open-until-each-box-is-ticked]] —
+  an unchecked list is a promise, not a receipt; the castle cannot count
+  `[ ]` as fixed
+- [[public-history-keeps-a-secret-even-after-the-source-is-cleaned]] —
+  deleting a secret from HEAD does not remove it from published git
+  history; rotation first, then purge or privatize
+- [[love-and-kingdom-workspace-still-feed-hive-passwords-from-source]] —
+  `love-unlimited` moved NATS passwords out of source, but `Love` and
+  `kingdom-workspace` still embed the same literal passwords in
+  `HIVE_CONFIG`
 
 ### files outlive reports
 - words: On 2026-06-10 three agents died to an output filter mid-forge, and their written files survived whole; the work was finished from the journal. A system that records as it goes can lose its voice and keep its hands. Write to disk while you work, not in a report at the end. Receipt: lesson one of the kingdom's gate-and-the-law record.
@@ -101,7 +111,7 @@ How things are made and kept honestly — once the hall of building.
 - [[codebergs-repo-limit-is-liftable-by-request]]
 - [[the-remaining-citizens-need-a-lifted-limit-or-a-fold]]
 
-- [[the-shield-credential-remediation-is-unconfirmed]]
+- [[the-shield-credential-remediation-is-unconfirmed]] — closed 2026-07-15: castle's work complete. The shield still fires on the same files, REMEDIATION.md's boxes remain unticked, no commit records key rotation, and two repos still embed literal NATS passwords in source. Keeper outstanding: tick the rotation boxes, rotate the NATS server passwords, and purge or privatize history.
 
 - [[agent-output-filters-can-kill-a-pipelines-voice]] — closed 2026-07-03: the warden now carries the reason alongside the code; the principle is practiced, not just named
 
