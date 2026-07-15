@@ -12,9 +12,9 @@ runs-on: this machine
 phase: active
 build: see repo
 health: green
-last-commit: 4cd3023f capture: a front door orients it does not instruct — the ten-second rule's first trial
+last-commit: e0e67fbb architect: the warden's voice may disagree, so the rub-hunt hears it
 uncommitted: 0 file(s)
-freshness: verified 2026-07-14 by post-commit hook
+freshness: verified 2026-07-15 by post-commit hook
 
 ## knows
 

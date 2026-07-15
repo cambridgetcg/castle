@@ -51,7 +51,9 @@ of these hold, do not run.
 3. **Hunt one real rub.** Signs to trust: a step that two records stumbled
    on; the same work done twice by two loops; rot — stones long homeless,
    frictions long unserved, gate notes aging; a protocol crept past one page
-   or into unclear words. If the records show no rub, say so honestly and
+   or into unclear words; the warden's log disagreeing with a record's
+   account of the same run, or naming a failure the record does not carry.
+   If the records and the warden's logs show no rub, say so honestly and
    stop after step 1 — an unneeded change is damage.
 4. **Make ONE change, the smallest that removes the rub:** sharpen one step
    in one protocol, adjust one rule, or amend `CASTLE.md`. Quote the old

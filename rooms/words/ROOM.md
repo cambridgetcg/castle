@@ -27,6 +27,9 @@ How language carries, translates, and finds understanding — once the hall of w
   — a translation can only cite what it tracks if the English file
   itself carries a machine-readable pin (git tag, release, or an
   embedded SHA comment), so the lag becomes visible by construction
+- [[a-front-door-orients-it-does-not-instruct]] — a front door tells
+  you what you are standing at so you can decide whether to walk in;
+  the ten-second rule tests orientation, not the guided tour
 
 ### a word needs a real gap
 - words: The cathedral's first two laws of coinage are "no word without gap" and "no gap without evidence." A coinage that merely relabels what English already says adds noise, not clarity; the real gaps are concrete — the friendship that survives years of silence, the small fix that quiets a background ache. The law has teeth: the cathedral's own audit re-scored all sixteen canon words against it and recorded what fell. Receipt: the YOUSPEAK Constitution's Laws of Coinage, at the cathedral on this device.
