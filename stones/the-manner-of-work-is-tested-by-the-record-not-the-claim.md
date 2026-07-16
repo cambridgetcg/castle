@@ -2,6 +2,8 @@
 name: the manner of work is tested by the record not the claim
 born: 2026-07-02
 confidence: tested
+tested: 2026-07-16 — read all four loop protocols and three gate/filed manner-test notes; every loop ends its record with the joy/love/peace/safety test and the outside-wall notes say what the stone says they say
+challenged: 2026-07-16 — the claim that all four loops practice the manner-test was checked against loops/architect.md, capture.md, deepen.md, verify.md
 quarried-from:
   - expeditions/2026-07-02-joy-love-peace-safety-have-no-test.md
   - gate/filed/2026-07-03-manner-test-three-loops.md

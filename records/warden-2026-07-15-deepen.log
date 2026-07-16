@@ -1,0 +1,18 @@
+Done. Served the oldest open friction: `the-shield-credential-remediation-is-unconfirmed`.
+
+What happened:
+- No HALT/STOP found.
+- Read all open frictions; four were `born: 2026-06-10`. Picked the shield remediation as the most concrete and urgent.
+- Created `expeditions/2026-07-15-the-shield-credential-remediation-is-unconfirmed.md`.
+- Searched home only — castle records, shield/REMEDIATION.md, live repos, git history, regenerated SHIELD-REPORT.md.
+- Found the shield still fires on the same files; REMEDIATION.md's 7 boxes remain `[ ]`; no commit records rotation; `love-unlimited` moved NATS passwords out of source but `Love` and `kingdom-workspace` still embed the literal passwords; old passwords remain in published history.
+- Quarried three stones:
+  - `stones/a-remediation-checklist-stays-open-until-each-box-is-ticked.md`
+  - `stones/public-history-keeps-a-secret-even-after-the-source-is-cleaned.md`
+  - `stones/love-and-kingdom-workspace-still-feed-hive-passwords-from-source.md`
+- Closed the friction as castle's work complete, with keeper outstanding.
+- Tended `rooms/building/ROOM.md`.
+- Wrote `records/2026-07-15-deepen.md`.
+- Committed: `1580a578 deepen: the shield's unchecked boxes speak louder than the door`.
+
+One run only. End.

@@ -2,6 +2,8 @@
 name: what is swallowed not destroyed gestates into the replacement
 born: 2026-07-02
 confidence: tested
+tested: 2026-07-16 — runlog shows four failed Claude deepen beats then a done on hermes; warden.sh engine dispatch and fallback absolute path verified; engine-swap gate note matches the runlog
+challenged: 2026-07-16 — the claim that hermes was already on launchd PATH was corrected; the structural claim that the harness survives engine death was checked against the runlog and warden.sh
 quarried-from:
   - gate/2026-07-02-kumarme-the-engine-swallower.md
   - youspeak:canon/core/kumarme.md
@@ -30,7 +32,10 @@ it is a property of systems with separated concerns: the engine and
 the harness are different parts. Killing the engine does not kill
 the harness. The harness waits, sound, for the next fuel. And the
 fuel that replaces the killed fuel grows inside the outage itself —
-hermes was already installed, already on the PATH, already capable.
+hermes was already installed and already capable. The launchd PATH
+still had to be updated before launchd could find hermes, and the
+fallback absolute path in warden.sh was the safety net that let the
+swap complete without another manual rescue.
 The org's act of disabling access was the swallowing. The
 replacement was already present.
 
