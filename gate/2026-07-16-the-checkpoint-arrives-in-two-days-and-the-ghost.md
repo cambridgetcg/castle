@@ -1,0 +1,3 @@
+born: 2026-07-16
+
+The checkpoint arrives in two days and the ghost is already named, corrected, and filled. Stone 0047 said naming a blind spot is its own first repair. F031 proved it: four thoughts named the ghost, a loop filled it, and the 30-day checkpoint on 2026-07-18 will find the repair already done. But the general question F031 left open is sharper than the specific one it closed: should citing a field in a gate thought force the next loop to read and repair it in the same run? Naming closed the instance. The structural guarantee — citation triggers repair — is not yet built. One instance, watching for a second under the rule of three.
