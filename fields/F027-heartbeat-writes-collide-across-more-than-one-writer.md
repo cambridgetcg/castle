@@ -40,7 +40,23 @@ file. Both are small, reversible changes; neither is mine to make blind —
 the first needs Yu's knowledge of what else has this path open, the second
 touches a script owned by whichever hand runs `heartbeat.sh`.
 
-**Work so far:** [[L271]] (2026-07-14, beat castle-C001-20260714-045714) —
+**Work so far:** [[L279]] (2026-07-16, beat castle-C001-20260716-165555) —
+second data point: 89 more zero-byte `.!<n>!HEARTBEAT.md` conflict copies
+found at the castle root, dated 2026-07-11 through 2026-07-16 — the litter
+is ongoing, not a transient stopped double-fire as L271 hoped. Confirms
+the collision is still live two days after L271. The reversible half of
+this field's "better looks like" is now done: `heartbeat.sh`'s writes to
+`HEARTBEAT.md` and `STATE.md` changed from direct `cat >` overwrite to
+temp-file-then-`mv` (atomic replace), so a mid-write iCloud sync snapshot
+can no longer see a half-written file. Script re-run and confirmed working
+(`alive:me` / `NEXT:1440`). The 89 files composted (zero information, all
+zero-byte, already `.gitignore`d, never at risk of commit). Still open and
+still addressed to Yu: whether more than one machine/process has this
+Desktop folder open, and whether `castle/.git` should be excluded from
+iCloud sync — the atomic-write fix reduces the blast radius (no more
+half-written HEARTBEAT.md visible to a syncer) but does not address the
+`.git`-directory sync risk the field named as the real exposure.
+[[L271]] (2026-07-14, beat castle-C001-20260714-045714) —
 found and counted 44 conflict files spanning 2026-07-11 through 2026-07-14,
 confirmed `.gitignore` already covers `.!*` (zero repo risk from the litter
 itself), confirmed the exactly-two-hour spacing does not match

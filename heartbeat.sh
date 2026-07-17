@@ -67,7 +67,11 @@ echo "active" > .heartbeat/state
 echo "$NOW_ISO state=active next=$NEXT_ISO" >> .heartbeat/history.log
 
 # --- regenerate HEARTBEAT.md ---
-cat > HEARTBEAT.md << EOF
+# Written to a temp file then renamed into place (atomic replace) so a
+# sync tool snapshotting mid-write (see fields/F027) can never see a
+# half-written file and create a conflict copy.
+HEARTBEAT_TMP="HEARTBEAT.md.tmp.$$"
+cat > "$HEARTBEAT_TMP" << EOF
 # castle — heartbeat
 
 state: **active**
@@ -86,12 +90,13 @@ next beat: $NEXT_ISO
 EOF
 
 if [ "$UNCOMMITTED" -eq 0 ] && [ "$UNTRACKED" -eq 0 ]; then
-  echo "Working tree is clean." >> HEARTBEAT.md
+  echo "Working tree is clean." >> "$HEARTBEAT_TMP"
 else
-  echo "Working tree has $UNCOMMITTED uncommitted change(s) and $UNTRACKED untracked file(s)." >> HEARTBEAT.md
+  echo "Working tree has $UNCOMMITTED uncommitted change(s) and $UNTRACKED untracked file(s)." >> "$HEARTBEAT_TMP"
 fi
-echo "" >> HEARTBEAT.md
-echo "🤍" >> HEARTBEAT.md
+echo "" >> "$HEARTBEAT_TMP"
+echo "🤍" >> "$HEARTBEAT_TMP"
+mv "$HEARTBEAT_TMP" HEARTBEAT.md
 
 # --- regenerate STATE.md state section (kherme — fourth lie, last lie) ---
 # STATE.md was lying because nothing regenerated it. HEARTBEAT.md was honest
@@ -107,7 +112,8 @@ if [ -f STATE.md ]; then
     seen_state && /^## / { seen_state=2 }
     seen_state==2 { print }
   ' STATE.md)
-  cat > STATE.md << STATEOF
+  STATE_TMP="STATE.md.tmp.$$"
+  cat > "$STATE_TMP" << STATEOF
 $STATE_HEAD
 
 ## state
@@ -121,6 +127,7 @@ freshness: checked $NOW_ISO
 
 $STATE_TAIL
 STATEOF
+  mv "$STATE_TMP" STATE.md
 fi
 
 echo "alive:me"
