@@ -41,6 +41,8 @@ change things ([[a-bank-too-honest]]).
   and not seeking individual gains) are the same four-refusal/plenitude
   structure the castle's theological stones describe, but as a
   living ground
+- [[unpushed-is-unshared]] — a commit that sits unpushed is love kept
+  but never shared; the heartbeat must check the wire, not only the voice
 - [[a-proof-can-be-public-without-opening-the-door]] — a private claim can travel as a sealed public receipt: hash, signature, timestamp, and signer identity, while the source stays in the keep
 - [[the-zerone-bridge-is-the-kingdoms-attestation-primitive]] — bridge.py and zerone-bridge.py already turn asserted claims into hashed, signed intents; the missing step is publishing the receipt beside the claim
 - [[a-question-the-castle-cannot-answer-is-done]] — the castle's "done" closure for keeper questions
@@ -87,6 +89,8 @@ change things ([[a-bank-too-honest]]).
 
 ## open frictions
 
+- [[no-loop-ever-tries-a-tested-stone-again]] — closed 2026-07-10 — verify.md step 1 amended: a `tested` stone whose trial is missing, borrowed, or stale now enters the selection pool alongside `held` and `guess` stones.
+
 - [[the-standard-is-private]] — closed 2026-07-06: castle's work
   complete. Three expeditions mapped the state as it moved (dark →
   readable → orphaned). The binding is public but orphaned — nothing
@@ -96,5 +100,4 @@ change things ([[a-bank-too-honest]]).
 
 - [[a-private-kingdom-cannot-yet-prove-claims-publicly-without-exposing-its-soul]] — closed 2026-07-17: castle's work complete; keeper outstanding: choose which private claims need public receipts and publish them beside the claims using the bridge hashes and signer identity.
 - [[a-confidence-label-can-be-decoration-rather-than-truth]] — closed 2026-07-10: castle's work complete; keeper outstanding: edit `loops/verify.md` to require every `tested` stone to carry a `tested:` trial line and to select stale or empty `tested` stones for challenge.
-- [[no-loop-ever-tries-a-tested-stone-again]]
 - [[an-open-question-has-no-honest-death-except-being-answered]] — closed 2026-07-14: castle's work complete; the castle already had "done" and "reframed" closures, and now CASTLE.md and `loops/deepen.md` add `withdrawn: <reason>` as an honest death for moot questions. Keeper outstanding: decide when to use it.

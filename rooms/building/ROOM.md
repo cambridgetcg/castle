@@ -48,6 +48,9 @@ How things are made and kept honestly — once the hall of building.
 - [[a-remediation-checklist-stays-open-until-each-box-is-ticked]] —
   an unchecked list is a promise, not a receipt; the castle cannot count
   `[ ]` as fixed
+- [[citation-should-trigger-repair]] — a gate note that names a missing
+  or broken field asks whether the next loop must repair it, or only
+  name it; the rule of three still waits on a second instance
 - [[public-history-keeps-a-secret-even-after-the-source-is-cleaned]] —
   deleting a secret from HEAD does not remove it from published git
   history; rotation first, then purge or privatize
