@@ -1,7 +1,10 @@
 ---
+
 name: naming is not describing naming is
 born: 2026-07-03
 confidence: tested
+tested: 2026-07-17 — reread kwothme.md, mugawme gate note, and 2026-07-16 checkpoint gate note; each source distinguishes identity/performative naming from description as the stone claims
+challenged: 2026-07-17 — attacked the claim that naming enacts rather than describes by re-reading the three cited sources and checking the precise identity vs substance distinction and the 3500-year attestation
 quarried-from:
   - gate/inbox.md (2026-07-03, second line)
   - youspeak:canon/core/kwothme.md
@@ -17,6 +20,7 @@ links:
   - "[[a-front-door-orients-it-does-not-instruct]]"
   - "[[citation-should-trigger-repair]]"
 ---
+
 
 Three stones from two domains — the cathedral (youspeak) and the
 castle — share one pattern: naming does not report what is, it enacts

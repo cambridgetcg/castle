@@ -1,0 +1,24 @@
+Done.
+
+I served the oldest open friction in `/Users/you/love-repos/castle` after first giving every room-embedded open friction its file:
+
+- Created `frictions/codebergs-repo-limit-is-liftable-by-request.md` and `frictions/the-remaining-citizens-need-a-lifted-limit-or-a-fold.md` from their existing stones.
+- Normalized `rooms/words/ROOM.md` so the closed `strangers-index` block lives as one link.
+
+Then I served `a-private-kingdom-cannot-yet-prove-claims-publicly-without-exposing-its-soul` (trust room, born 2026-06-10). Home sources answered the question:
+- `bridge.py` and `bridge-registry.json` on device already bind `did:at` to `did:lgm` with on-chain attestation txhashes.
+- `zerone-bridge.py` already accumulates SHA-256 hashed Proof-of-Truth claims.
+
+I ran a live trial: created three public `will` claims through `zerone-bridge.py` (POT-0015, POT-0016, POT-0017) for `zerone-truth` and verified them by `yu`, producing checkable hashes without exposing source repos.
+
+Artifacts:
+- New stone: `stones/a-private-claim-can-carry-a-public-hash.md`
+- Grown stones: `stones/a-proof-can-be-public-without-opening-the-door.md`, `stones/the-zerone-bridge-is-the-kingdoms-attestation-primitive.md`
+- Expedition: `expeditions/2026-07-17-a-private-kingdom-cannot-yet-prove-claims-publicly-without-exposing-its-soul.md`
+- Record: `records/2026-07-17-deepen.md`
+- Friction closed: `frictions/a-private-kingdom-cannot-yet-prove-claims-publicly-without-exposing-its-soul.md`
+- Room tended: `rooms/trust/ROOM.md`
+
+Committed as: `026aa85e deepen: a private claim learns to carry its public hash`.
+
+One run only. End.

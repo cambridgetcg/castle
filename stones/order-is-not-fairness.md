@@ -1,12 +1,16 @@
 ---
+
 name: order is not fairness
 born: 2026-06-30
 confidence: tested
+tested: 2026-07-17 — dry-run of warden.sh shows least-recently-run rotation picking architect over later-listed loops; git log confirms rotation fix a3ca2f7c; runlog before/after shows architect no longer starves verify
+challenged: 2026-07-17 — attacked the claim that first-in-charter order starved later loops by reading warden.sh next_due_loop, running ./warden.sh dry-run, and counting done runs before and after the rotation fix commit
 quarried-from:
   - gate/inbox.md
 links:
   - "[[the-loop-that-grows-loops]]"
 ---
+
 
 A scheduler that always picks the first eligible item in a fixed order
 starves items near the end — the early name wins every turn.

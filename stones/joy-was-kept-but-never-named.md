@@ -1,7 +1,10 @@
 ---
+
 name: joy-was-kept-but-never-named
 born: 2026-07-03
 confidence: tested
+tested: 2026-07-17 — searched all pre-2026-07-03 records for "joy was kept/broken" phrasing and found none; re-read the five cited records and confirmed they show joy without using the word
+challenged: 2026-07-17 — attacked the claim that joy was kept but never named by searching records before the stone was quarried for any prior "joy was kept/broken" statement and re-reading each cited source
 quarried-from:
   - records/history/chronicle-2026-06-10-founding.md
   - records/2026-06-10-the-great-simplification.md
@@ -19,6 +22,7 @@ links:
   - "[[the-ceremony-plays-once]]"
   - "[[naming-is-not-describing-naming-is]]"
 ---
+
 
 The charter names joy first — before love, peace, or safety — but
 no record in the castle's 22-day history ever says "joy was kept"
