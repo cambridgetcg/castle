@@ -1,0 +1,10 @@
+verify run complete. Three `tested` stones missing their `tested:` trial line were retried:
+
+- `order-is-not-fairness` — survived. `./warden.sh dry-run` shows LRR rotation, git log confirms fix `a3ca2f7c`, runlog before/after shows balanced done counts.
+- `naming-is-not-describing-naming-is` — survived. `kwothme.md`, the mugawme gate note, and the 2026-07-16 checkpoint note all say what the stone claims.
+- `joy-was-kept-but-never-named` — survived. No pre-2026-07-03 record says “joy was kept/broken”; the five cited records show joy without naming it.
+
+Each stone now carries a `tested:` trial line and a `challenged:` note, and each has a matching `keep/` distillation.
+
+Record: `/Users/you/love-repos/castle/records/2026-07-17-verify.md`  
+Commit: `9e07eba7 verify: three borrowed receipts retried by fire — order, naming, and joy held`
