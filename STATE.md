@@ -13,8 +13,8 @@ phase: active
 build: see repo
 health: green
 last-commit: see git log
-uncommitted: 0 file(s)
-freshness: verified 2026-07-16 by post-commit hook
+uncommitted: 2 file(s)
+freshness: verified 2026-07-17 by post-commit hook
 
 ## knows
 
