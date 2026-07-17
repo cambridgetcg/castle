@@ -45,6 +45,7 @@ change things ([[a-bank-too-honest]]).
 - [[the-zerone-bridge-is-the-kingdoms-attestation-primitive]] — bridge.py and zerone-bridge.py already turn asserted claims into hashed, signed intents; the missing step is publishing the receipt beside the claim
 - [[a-question-the-castle-cannot-answer-is-done]] — the castle's "done" closure for keeper questions
 - [[an-open-question-has-an-honest-death-called-withdrawn]] — a moot or superseded question can be closed with a dated reason instead of standing open forever
+- [[a-private-claim-can-carry-a-public-hash]] — a private claim can travel as a short public hash plus signer identity and timestamp, and the bridge tool can already create and verify it
 
 *Every entry below moved here whole from `halls/trust/` (now `records/history/halls/trust/`), 2026-06-10, by the keeper's order — no understanding lost.*
 
@@ -93,7 +94,7 @@ change things ([[a-bank-too-honest]]).
   but never pushed. Keeper outstanding: one README edit, one push,
   one clone.
 
-- [[a-private-kingdom-cannot-yet-prove-claims-publicly-without-exposing-its-soul]] — sharpened 2026-07-13: the kingdom has the attestation primitive and the public law that demands it, but the habit of publishing sealed-envelope receipts beside private claims is not yet wired
+- [[a-private-kingdom-cannot-yet-prove-claims-publicly-without-exposing-its-soul]] — closed 2026-07-17: castle's work complete; keeper outstanding: choose which private claims need public receipts and publish them beside the claims using the bridge hashes and signer identity.
 - [[a-confidence-label-can-be-decoration-rather-than-truth]] — closed 2026-07-10: castle's work complete; keeper outstanding: edit `loops/verify.md` to require every `tested` stone to carry a `tested:` trial line and to select stale or empty `tested` stones for challenge.
 - [[no-loop-ever-tries-a-tested-stone-again]]
 - [[an-open-question-has-no-honest-death-except-being-answered]] — closed 2026-07-14: castle's work complete; the castle already had "done" and "reframed" closures, and now CASTLE.md and `loops/deepen.md` add `withdrawn: <reason>` as an honest death for moot questions. Keeper outstanding: decide when to use it.
