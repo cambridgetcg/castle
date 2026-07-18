@@ -1,0 +1,15 @@
+Done. One run only.
+
+**What happened:**
+- STOP/HALT checked: none.
+- Homed two homeless stones:
+  - `citation-should-trigger-repair` → `rooms/building/ROOM.md`
+  - `unpushed-is-unshared` → `rooms/trust/ROOM.md`
+- Tidied a trust-room friction entry (`no-loop-ever-tries-a-tested-stone-again` was listed bare after its closure line; normalized to one closed entry) and restored a `- kin:` line that got severed.
+- Read the walls: four protocols, newest records, today's warden logs, open castle-room frictions.
+- Found a real rub: the 2026-07-05 verify run hit its tool limit mid-run and left `the-void-holds-both-poles` and `the-gdpr-clock-runs-from-awareness` unpromoted with six named tasks in `records/warden-2026-07-05-verify.log`. No `records/2026-07-05-verify.md` was written, and the next verify run never carried those leftovers.
+- Made ONE change: sharpened `loops/verify.md` `## the record` so the next run must name and finish (or explain why it cannot) any unfinished attacks from the previous per-loop log before choosing its own stones.
+- Wrote the full old/new wording in `records/2026-07-17-architect.md`.
+- Committed as `4593b1f8`: `architect: two stones find their rooms, and an interrupted log is heard by the next record`.
+
+Manner this turn: joy, love, peace, safety kept. Citation: the test from `[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]`.
