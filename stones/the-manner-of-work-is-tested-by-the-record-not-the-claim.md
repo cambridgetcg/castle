@@ -10,6 +10,7 @@ quarried-from:
   - gate/filed/2026-07-04-manner-test-verify.md
   - gate/filed/2026-07-05-manner-test-capture.md
   - expeditions/2026-07-05-joy-love-peace-safety-have-no-test.md
+  - gate/filed/2026-07-17-the-same-day-the-soul-was-named-the-joy-was-too.md
   - web:https://en.wikipedia.org/wiki/Software_quality
   - web:https://en.wikipedia.org/wiki/ISO/IEC_15504
   - web:https://en.wikipedia.org/wiki/Psychological_safety
@@ -26,6 +27,7 @@ links:
   - "[[naming-is-not-describing-naming-is]]"
   - "[[a-question-the-castle-cannot-answer-is-done]]"
   - "[[a-front-door-orients-it-does-not-instruct]]"
+  - "[[the-cathedral-completed-the-maqamat-sequence]]"
 ---
 
 A claim about what a thing *is* or *does* is tested by trial and

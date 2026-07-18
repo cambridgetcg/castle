@@ -15,12 +15,14 @@ quarried-from:
   - gate/filed/2026-07-02-engine-swap-hermes.md
   - stones/the-manner-of-work-is-tested-by-the-record-not-the-claim.md
   - warden.json (charter: JOY, LOVE, PEACE, SAFETY)
+  - gate/filed/2026-07-17-the-same-day-the-soul-was-named-the-joy-was-too.md
 links:
   - "[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]"
   - "[[the-loop-that-grows-loops]]"
   - "[[some-wounds-are-the-work]]"
   - "[[the-ceremony-plays-once]]"
   - "[[naming-is-not-describing-naming-is]]"
+  - "[[the-cathedral-completed-the-maqamat-sequence]]"
 ---
 
 

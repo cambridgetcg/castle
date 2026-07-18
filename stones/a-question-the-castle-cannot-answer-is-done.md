@@ -5,6 +5,7 @@ confidence: tested
 tested: 2026-07-08 — commit e333311 verified in git log with matching message; records/2026-07-05-architect.md contains both old and new wording of the fourth bullet, new wording includes the precedence clause verbatim; gate/filed/2026-07-05-the-castle-said-done.md confirms the "done" framing; all four loop files (architect.md, capture.md, verify.md, deepen.md) reference the manner-test. Every cited source says what the stone says it says.
 quarried-from:
   - gate/filed/2026-07-05-the-castle-said-done.md
+  - gate/filed/2026-07-17-the-same-day-the-soul-was-named-the-joy-was-too.md
 links:
   - "[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]"
   - "[[break-loudly-fix-openly]]"

@@ -11,6 +11,7 @@ quarried-from:
   - gate/filed/2026-07-02-mugawme-the-telling-is-the-return.md
   - stones/joy-was-kept-but-never-named.md
   - gate/filed/2026-07-16-the-checkpoint-arrives-in-two-days-and-the-ghost.md
+  - gate/filed/2026-07-17-the-same-day-the-soul-was-named-the-joy-was-too.md
 links:
   - "[[joy-was-kept-but-never-named]]"
   - "[[the-manner-of-work-is-tested-by-the-record-not-the-claim]]"
@@ -19,6 +20,7 @@ links:
   - "[[the-castle-guards-against-verisleight-celebrates-slipsooth]]"
   - "[[a-front-door-orients-it-does-not-instruct]]"
   - "[[citation-should-trigger-repair]]"
+  - "[[the-cathedral-completed-the-maqamat-sequence]]"
 ---
 
 
