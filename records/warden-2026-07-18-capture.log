@@ -1,0 +1,19 @@
+Done. One run, gate is now quiet.
+
+What happened:
+- STOP/HALT: none.
+- Four gate notes filed to `gate/filed/`.
+- Three new stones born:
+  - `stones/the-warden-must-commit-its-own-logs.md`
+  - `stones/the-cathedral-completed-the-maqamat-sequence.md`
+  - `stones/two-assessors-stricter-verdict-wins.md`
+- Four existing stones grew:
+  - `stones/unpushed-is-unshared.md`
+  - `stones/joy-was-kept-but-never-named.md`
+  - `stones/naming-is-not-describing-naming-is.md`
+  - `stones/the-manner-of-work-is-tested-by-the-record-not-the-claim.md`
+  - `stones/a-question-the-castle-cannot-answer-is-done.md`
+- Record written: `records/2026-07-18-capture.md`.
+- Commit: `18e7e724 capture: four gate notes settle into three new stones, and the warden's unsigned logs find their commit`.
+
+The warden's previously uncommitted logs are now in the commit.
